@@ -1,0 +1,33 @@
+{
+  "draw": true,
+  "max_distance": 10,
+  "render_in_f1": false,
+  "health_bar_scale": 0.8,
+  "height_above": 0.5,
+  "draw_background": false,
+  "background_padding": 2,
+  "background_height": 6,
+  "bar_height": 4,
+  "plate_size": 25,
+  "plate_size_boss": 50,
+  "show_attributes": true,
+  "show_armor": true,
+  "group_armor": true,
+  "color_by_type": false,
+  "hp_text_height": 14,
+  "show_max_hp": false,
+  "show_current_hp": false,
+  "show_percentage": false,
+  "show_on_players": true,
+  "show_on_bosses": true,
+  "show_only_focused": false,
+  "enable_debug_info": false,
+  "blacklist": [
+    "minecraft:armor_stand",
+    "illuminations:firefly"
+  ],
+  "bosses": [
+    "minecraft:wither",
+    "minecraft:ender_dragon"
+  ]
+}

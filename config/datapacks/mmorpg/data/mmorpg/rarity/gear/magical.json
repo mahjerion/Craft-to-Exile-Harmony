@@ -1,0 +1,32 @@
+{
+  "id": "magical",
+  "weight": 2000,
+  "lang_file_string": "mmorpg.rarity.magical",
+  "rank": 1,
+  "loc_name_internal": "Magical",
+  "text_formatting": "BLUE",
+  "affix_chance": 15,
+  "unidentified_chance": 0.0,
+  "stat_req_multi": 0.75,
+  "salvage_lottery_chance": 1.5,
+  "max_affixes": 2,
+  "min_affixes": 1,
+  "max_sockets": 2,
+  "socket_chance": 5.0,
+  "spawn_durability_hit": {
+    "min": 70,
+    "max": 90
+  },
+  "unique_stat_percents": {
+    "min": 20,
+    "max": 100
+  },
+  "affix_stat_percents": {
+    "min": 20,
+    "max": 100
+  },
+  "stat_percents": {
+    "min": 20,
+    "max": 100
+  }
+}

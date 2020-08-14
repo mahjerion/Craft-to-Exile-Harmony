@@ -1,0 +1,12 @@
+{
+  "id": "common",
+  "weight": 1000,
+  "lang_file_string": "mmorpg.rarity.common",
+  "rank": 0,
+  "loc_name_internal": "Common",
+  "text_formatting": "GRAY",
+  "stat_percents": {
+    "min": 20,
+    "max": 75
+  }
+}

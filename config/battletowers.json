@@ -1,0 +1,8 @@
+{
+  "requiredKeys": 10,
+  "requiredItem": "battletowers:boss_key",
+  "bossHP": 250,
+  "bossAttack": 5,
+  "towerSpacing": 32,
+  "towerSeparation": 24
+}

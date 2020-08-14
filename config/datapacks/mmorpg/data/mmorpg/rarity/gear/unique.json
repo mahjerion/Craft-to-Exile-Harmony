@@ -1,0 +1,32 @@
+{
+  "id": "unique",
+  "weight": 0,
+  "lang_file_string": "mmorpg.rarity.unique",
+  "rank": 10,
+  "loc_name_internal": "Unique",
+  "text_formatting": "RED",
+  "affix_chance": 0,
+  "unidentified_chance": 100.0,
+  "stat_req_multi": 1.0,
+  "salvage_lottery_chance": 50.0,
+  "max_affixes": 0,
+  "min_affixes": 0,
+  "max_sockets": 0,
+  "socket_chance": 0.0,
+  "spawn_durability_hit": {
+    "min": 75,
+    "max": 90
+  },
+  "unique_stat_percents": {
+    "min": 0,
+    "max": 100
+  },
+  "affix_stat_percents": {
+    "min": 50,
+    "max": 100
+  },
+  "stat_percents": {
+    "min": 50,
+    "max": 100
+  }
+}

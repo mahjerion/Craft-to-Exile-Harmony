@@ -1,0 +1,18 @@
+{
+  "item_type": "all_res_necklace1",
+  "item_id": "mmorpg:jewelry/necklace/all_res_necklace1",
+  "id": "mmorpg:jewelry/necklace/all_res_necklace1",
+  "rarity": {
+    "min_rarity": 0,
+    "max_rarity": 2
+  },
+  "misc": {
+    "add_to_loot_drops": false,
+    "loot_drop_weight": 1000,
+    "can_be_salvaged": true
+  },
+  "unique": {
+    "chance_to_become_unique": 0.5,
+    "unique_id": ""
+  }
+}

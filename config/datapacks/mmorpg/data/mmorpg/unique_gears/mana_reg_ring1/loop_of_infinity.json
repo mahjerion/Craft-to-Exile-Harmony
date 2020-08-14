@@ -1,0 +1,37 @@
+{
+  "id": "loop_of_infinity",
+  "weight": 1000,
+  "rarity": 1,
+  "tier": 0,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.jewelry.loop_of_infinity",
+  "lang_file_desc_string": "item.mmorpg.uniques.jewelry.loop_of_infinity.desc",
+  "unique_stats": [
+    {
+      "firstMin": 5.0,
+      "firstMax": 10.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "mana",
+      "type": "flat"
+    },
+    {
+      "firstMin": 1.0,
+      "firstMax": 4.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "mana_per_sec",
+      "type": "flat"
+    },
+    {
+      "firstMin": 0.5,
+      "firstMax": 0.75,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "intelligence_flat_stat_req",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "mana_reg_ring1",
+  "item_id": "mmorpg:uniques/jewelry/loop_of_infinity"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "rare",
+  "weight": 250,
+  "lang_file_string": "mmorpg.rarity.rare",
+  "rank": 2,
+  "loc_name_internal": "Rare",
+  "text_formatting": "YELLOW",
+  "stat_percents": {
+    "min": 50,
+    "max": 100
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "tower_shield2",
+  "weight": 500,
+  "rarity": 0,
+  "tier": 0,
+  "registry": "gear_type",
+  "lang_file_string": "mmorpg.gear_type.tower_shield2",
+  "implicit_stats": [],
+  "base_stats": [
+    {
+      "firstMin": 20.0,
+      "firstMax": 80.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "armor",
+      "type": "flat"
+    }
+  ],
+  "level_range": {
+    "start": 0.4,
+    "end": 0.6
+  },
+  "tag_list": {
+    "tags": [
+      "shield",
+      "strength",
+      "plate",
+      "offhand_family",
+      "armor_stat"
+    ]
+  },
+  "stat_req": {
+    "dex_req": 0.0,
+    "int_req": 0.0,
+    "str_req": 0.5
+  },
+  "item_id": "minecraft:shield",
+  "gear_slot": "shield",
+  "weapon_type": "None"
+}

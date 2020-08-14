@@ -1,0 +1,20 @@
+{
+  "id": "cold",
+  "weight": 1000,
+  "rarity": 0,
+  "tier": 0,
+  "registry": "mob_affix",
+  "lang_file_string": "mmorpg.mob_affix.cold",
+  "format": "AQUA",
+  "icon": "§b❉",
+  "stats": [
+    {
+      "firstMin": 1.0,
+      "firstMax": 1.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "physical_to_water",
+      "type": "flat"
+    }
+  ]
+}

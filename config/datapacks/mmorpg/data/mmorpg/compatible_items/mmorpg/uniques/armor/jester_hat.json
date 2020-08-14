@@ -1,0 +1,18 @@
+{
+  "item_type": "cloth_helmet3",
+  "item_id": "mmorpg:uniques/armor/jester_hat",
+  "id": "mmorpg:uniques/armor/jester_hat",
+  "rarity": {
+    "min_rarity": 0,
+    "max_rarity": 2
+  },
+  "misc": {
+    "add_to_loot_drops": false,
+    "loot_drop_weight": 1000,
+    "can_be_salvaged": true
+  },
+  "unique": {
+    "chance_to_become_unique": 100.0,
+    "unique_id": "jester_hat"
+  }
+}

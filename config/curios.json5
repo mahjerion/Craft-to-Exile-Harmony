@@ -1,0 +1,23 @@
+{
+	// List of curios
+	"curios": {
+		"ring": {
+			"hasCosmetic": false,
+			"visible": true,
+			"size": 2,
+			"icon": "curios:item/empty_ring_slot",
+			"override": false,
+			"priority": 160,
+			"locked": false
+		},
+		"necklace": {
+			"hasCosmetic": false,
+			"visible": true,
+			"size": 1,
+			"icon": "curios:item/empty_necklace_slot",
+			"override": false,
+			"priority": 60,
+			"locked": false
+		}
+	}
+}

@@ -1,0 +1,40 @@
+{
+  "id": "plate_helmet1",
+  "weight": 333,
+  "rarity": 0,
+  "tier": 0,
+  "registry": "gear_type",
+  "lang_file_string": "mmorpg.gear_type.plate_helmet1",
+  "implicit_stats": [],
+  "base_stats": [
+    {
+      "firstMin": 15.0,
+      "firstMax": 35.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "armor",
+      "type": "flat"
+    }
+  ],
+  "level_range": {
+    "start": 0.2,
+    "end": 0.4
+  },
+  "tag_list": {
+    "tags": [
+      "armor_family",
+      "strength",
+      "helmet",
+      "plate",
+      "armor_stat"
+    ]
+  },
+  "stat_req": {
+    "dex_req": 0.0,
+    "int_req": 0.0,
+    "str_req": 0.5
+  },
+  "item_id": "mmorpg:armor/plate/helmet/plate_helmet1",
+  "gear_slot": "helmet",
+  "weapon_type": "None"
+}
