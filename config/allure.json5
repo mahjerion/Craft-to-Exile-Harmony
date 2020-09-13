@@ -1,0 +1,24 @@
+{ 
+	"babiesEatTroughEnabled": true,
+	// WARNING! Will break any existing crates
+	"crateEnabled": true,
+	"crateGenerateChance": 0.15000000596046448,
+	"crateRareChance": 0.0010000000474974513,
+	"crateValuableChance": 0.019999999552965164,
+	"crateUncommonChance": 0.20000000298023224,
+	"chorusTPEnabled": true,
+	"cursesEnabled": true,
+	"villagersFollow": true,
+	"spongeReducement": true,
+	"skeletonStrafe": true,
+	"featherFallingFarm": true,
+	"beaconsHealPets": true,
+	"extraDarkForest": true,
+	"extraDarkForestSpawn": 30,
+	"johnnyChance": 3,
+	"gravestonesEnabled": true,
+	"lockGravestones": true,
+	"renderSkulls": true,
+	"renderCrateName": true,
+	"cactusGiveWater": true
+}

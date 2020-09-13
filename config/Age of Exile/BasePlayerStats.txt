@@ -1,0 +1,11 @@
+{
+  "BASE_PLAYER_STATS": {
+    "health_regen": 1.0,
+    "mana": 40.0,
+    "critical_damage": 0.0,
+    "critical_hit": 1.0,
+    "mana_regen": 1.0,
+    "health": 5.0,
+    "magic_shield_regen": 1.0
+  }
+}

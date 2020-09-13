@@ -1,0 +1,22 @@
+{
+	/* 
+	   Should window title be changed?
+	*/
+	"changeTitle": true,
+	/* 
+	   This is what window title will say.
+	   You can add '{version}' to display your minecraft version.
+	*/
+	"windowTitle": "Craft to Exile [Harmony]",
+	/* 
+	   Should window icon be changed?
+	   REMEMBER! You have to provide both 16x16 and 32x32 icon in .png format!
+	*/
+	"changeIcons": true,
+	/* 
+	   Here you may provide names of your icons relative to icons directory in WTC's config folder
+	   REMEMBER! You have to provide both 16x16 and 32x32 icon in .png format!
+	*/
+	"icon16x16": "icon.png",
+	"icon32x32": "icon.png"
+}
