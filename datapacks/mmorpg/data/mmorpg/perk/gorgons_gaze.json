@@ -1,0 +1,11 @@
+{
+  "type": "SPELL",
+  "identifier": "gorgons_gaze",
+  "spell": "gorgons_gaze",
+  "lock_under_adv": "",
+  "stats": [],
+  "spell_mods": [],
+  "icon": "mmorpg:textures/gui/spells/icons/gorgons_gaze.png",
+  "is_entry": false,
+  "lvl_req": 1
+}

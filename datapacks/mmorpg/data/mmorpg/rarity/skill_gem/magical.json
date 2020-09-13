@@ -1,0 +1,13 @@
+{
+  "stat_percents": {
+    "min": 20,
+    "max": 75
+  },
+  "rarity_type": "SKILL_GEM",
+  "rank": 1,
+  "weight": 500,
+  "text_format": "BLUE",
+  "loc_name_id": "mmorpg.rarity.skill_gem.magical",
+  "loc_name": "Magical",
+  "guid": "magical"
+}

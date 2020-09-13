@@ -1,0 +1,22 @@
+{
+  "type": "dankstorage:upgrade",
+  "pattern": [
+    "imi",
+    "m1m",
+    "imi"
+  ],
+  "key": {
+    "i": {
+      "item": "minecraft:emerald_block"
+    },
+    "m": {
+      "item": "mmorpg:currency/crystal_of_truth"
+    },
+    "1": {
+      "item": "dankstorage:dank_3"
+    }
+  },
+  "result": {
+    "item": "dankstorage:dank_4"
+  }
+}

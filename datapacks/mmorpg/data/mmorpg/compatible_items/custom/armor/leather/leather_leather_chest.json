@@ -1,0 +1,17 @@
+{
+  "item_type": "leather_leather_chest",
+  "item_id": "minecraft:leather_chestplate",
+  "id": "minecraft:leather_leather_chest",
+  "rarity": {
+    "min_rarity": 0,
+    "max_rarity": 1
+  },
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": true
+  },
+  "unique": {
+    "chance_to_become_unique": 0.0,
+    "unique_id": ""
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "SPELL",
+  "identifier": "thunder_dash",
+  "spell": "thunder_dash",
+  "lock_under_adv": "",
+  "stats": [],
+  "spell_mods": [],
+  "icon": "mmorpg:textures/gui/spells/icons/thunder_dash.png",
+  "is_entry": false,
+  "lvl_req": 1
+}

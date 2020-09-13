@@ -1,0 +1,75 @@
+{
+  "guid": "azure",
+  "loc_name": "Azure",
+  "weight": 1000,
+  "requirements": {
+    "tag_requirements": [
+      {
+        "included": [
+          "magic_shield_stat"
+        ],
+        "excluded": []
+      }
+    ]
+  },
+  "tags": [],
+  "type": "prefix",
+  "tier_map": {
+    "1": {
+      "mods": [
+        {
+          "first_min": 8.0,
+          "first_max": 12.0,
+          "second_min": 0.0,
+          "second_max": 0.0,
+          "stat": "mana",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 200,
+      "tier": 1
+    },
+    "2": {
+      "mods": [
+        {
+          "first_min": 6.0,
+          "first_max": 8.0,
+          "second_min": 0.0,
+          "second_max": 0.0,
+          "stat": "mana",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 300,
+      "tier": 2
+    },
+    "3": {
+      "mods": [
+        {
+          "first_min": 4.0,
+          "first_max": 6.0,
+          "second_min": 0.0,
+          "second_max": 0.0,
+          "stat": "mana",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 400,
+      "tier": 3
+    },
+    "4": {
+      "mods": [
+        {
+          "first_min": 2.0,
+          "first_max": 4.0,
+          "second_min": 0.0,
+          "second_max": 0.0,
+          "stat": "mana",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 500,
+      "tier": 4
+    }
+  }
+}

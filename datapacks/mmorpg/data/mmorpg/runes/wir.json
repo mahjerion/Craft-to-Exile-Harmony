@@ -1,0 +1,37 @@
+{
+  "on_armor_stats": [
+    {
+      "first_min": 6.0,
+      "first_max": 12.0,
+      "second_min": 0.0,
+      "second_max": 0.0,
+      "stat": "magic_find",
+      "type": "FLAT"
+    }
+  ],
+  "on_jewelry_stats": [
+    {
+      "first_min": 0.1,
+      "first_max": 0.2,
+      "second_min": 0.0,
+      "second_max": 0.0,
+      "stat": "all_attributes",
+      "type": "FLAT"
+    }
+  ],
+  "on_weapons_stats": [
+    {
+      "first_min": 4.0,
+      "first_max": 10.0,
+      "second_min": 0.0,
+      "second_max": 0.0,
+      "stat": "critical_damage",
+      "type": "FLAT"
+    }
+  ],
+  "item_id": "mmorpg:runes/wir",
+  "identifier": "wir",
+  "required_item_level": 0.7,
+  "weight": 200,
+  "effective_level": 0.7
+}

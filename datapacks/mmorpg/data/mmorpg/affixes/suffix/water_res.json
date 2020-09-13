@@ -1,0 +1,91 @@
+{
+  "guid": "water_res",
+  "loc_name": "Of the Yeti",
+  "weight": 4000,
+  "requirements": {
+    "tag_requirements": [
+      {
+        "included": [
+          "jewelry_family",
+          "armor_family",
+          "offhand_family"
+        ],
+        "excluded": []
+      }
+    ]
+  },
+  "tags": [],
+  "type": "suffix",
+  "tier_map": {
+    "1": {
+      "mods": [
+        {
+          "first_min": 25.0,
+          "first_max": 30.0,
+          "second_min": 0.0,
+          "second_max": 0.0,
+          "stat": "water_resist",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 200,
+      "tier": 1
+    },
+    "2": {
+      "mods": [
+        {
+          "first_min": 20.0,
+          "first_max": 25.0,
+          "second_min": 0.0,
+          "second_max": 0.0,
+          "stat": "water_resist",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 300,
+      "tier": 2
+    },
+    "3": {
+      "mods": [
+        {
+          "first_min": 15.0,
+          "first_max": 20.0,
+          "second_min": 0.0,
+          "second_max": 0.0,
+          "stat": "water_resist",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 400,
+      "tier": 3
+    },
+    "4": {
+      "mods": [
+        {
+          "first_min": 13.0,
+          "first_max": 15.0,
+          "second_min": 0.0,
+          "second_max": 0.0,
+          "stat": "water_resist",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 500,
+      "tier": 4
+    },
+    "5": {
+      "mods": [
+        {
+          "first_min": 8.0,
+          "first_max": 13.0,
+          "second_min": 0.0,
+          "second_max": 0.0,
+          "stat": "water_resist",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 600,
+      "tier": 5
+    }
+  }
+}

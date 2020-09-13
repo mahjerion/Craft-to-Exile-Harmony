@@ -1,0 +1,10 @@
+{
+  "identifier": "frostball_cast_speed",
+  "mods": [
+    {
+      "value": -10.0,
+      "spell_stat": "CAST_SPEED"
+    }
+  ],
+  "for_spell": "frostball"
+}

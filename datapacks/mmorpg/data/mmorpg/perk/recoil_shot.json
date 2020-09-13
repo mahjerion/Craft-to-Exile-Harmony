@@ -1,0 +1,11 @@
+{
+  "type": "SPELL",
+  "identifier": "recoil_shot",
+  "spell": "recoil_shot",
+  "lock_under_adv": "",
+  "stats": [],
+  "spell_mods": [],
+  "icon": "mmorpg:textures/gui/spells/icons/recoil_shot.png",
+  "is_entry": false,
+  "lvl_req": 1
+}

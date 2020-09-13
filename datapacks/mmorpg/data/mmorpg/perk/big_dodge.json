@@ -1,0 +1,19 @@
+{
+  "type": "SPECIAL",
+  "identifier": "big_dodge",
+  "spell": "",
+  "lock_under_adv": "",
+  "stats": [
+    {
+      "first": 10.0,
+      "second": 0.0,
+      "stat": "dodge",
+      "type": "LOCAL_INCREASE",
+      "scaleToLevel": false
+    }
+  ],
+  "spell_mods": [],
+  "icon": "mmorpg:textures/gui/stat_icons/dodge.png",
+  "is_entry": false,
+  "lvl_req": 1
+}

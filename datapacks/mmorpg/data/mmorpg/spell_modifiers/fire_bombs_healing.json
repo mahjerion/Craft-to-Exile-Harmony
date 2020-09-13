@@ -1,0 +1,10 @@
+{
+  "identifier": "fire_bombs_healing",
+  "mods": [
+    {
+      "value": 5.0,
+      "spell_stat": "HEALING"
+    }
+  ],
+  "for_spell": "fire_bombs"
+}

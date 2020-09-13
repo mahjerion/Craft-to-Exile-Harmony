@@ -1,0 +1,37 @@
+{
+  "id": "cold_res_ring_low",
+  "weight": 1000,
+  "rarity": 0,
+  "tier": 0,
+  "registry": "gear_type",
+  "lang_file_string": "mmorpg.gear_type.cold_res_ring_low",
+  "implicit_stats": [],
+  "base_stats": [
+    {
+      "firstMin": 7.0,
+      "firstMax": 15.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "water_resist",
+      "type": "flat"
+    }
+  ],
+  "level_range": {
+    "start": 0.0,
+    "end": 0.4
+  },
+  "tag_list": {
+    "tags": [
+      "ring",
+      "jewelry_family"
+    ]
+  },
+  "stat_req": {
+    "dex_req": 0.0,
+    "int_req": 0.0,
+    "str_req": 0.0
+  },
+  "item_id": "mmorpg:jewelry/ring/cold_res_ring_low",
+  "gear_slot": "ring",
+  "weapon_type": "None"
+}

@@ -1,0 +1,10 @@
+{
+  "identifier": "spear_of_judgement_damage",
+  "mods": [
+    {
+      "value": 5.0,
+      "spell_stat": "DAMAGE"
+    }
+  ],
+  "for_spell": "spear_of_judgement"
+}

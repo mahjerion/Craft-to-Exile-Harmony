@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "imi",
+    "msm",
+    "imi"
+  ],
+  "key": {
+    "i": {
+      "item": "minecraft:obsidian"
+    },
+    "m": {
+      "item": "mmorpg:currency/number_reroll"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "dankstorage:5_to_6"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "guid": "of_the_sky",
+  "loc_name": "Of the Sky",
+  "weight": 50,
+  "requirements": {
+    "tag_requirements": [
+      {
+        "included": [
+          "jewelry_family"
+        ],
+        "excluded": []
+      }
+    ]
+  },
+  "tags": [],
+  "type": "suffix",
+  "tier_map": {
+    "1": {
+      "mods": [
+        {
+          "first_min": 0.15,
+          "first_max": 0.25,
+          "second_min": 0.0,
+          "second_max": 0.0,
+          "stat": "all_attributes",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 200,
+      "tier": 1
+    },
+    "2": {
+      "mods": [
+        {
+          "first_min": 0.1,
+          "first_max": 0.15,
+          "second_min": 0.0,
+          "second_max": 0.0,
+          "stat": "all_attributes",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 300,
+      "tier": 2
+    },
+    "3": {
+      "mods": [
+        {
+          "first_min": 0.05,
+          "first_max": 0.1,
+          "second_min": 0.0,
+          "second_max": 0.0,
+          "stat": "all_attributes",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 400,
+      "tier": 3
+    }
+  }
+}

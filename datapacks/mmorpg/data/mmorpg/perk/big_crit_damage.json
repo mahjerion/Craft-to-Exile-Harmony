@@ -1,0 +1,17 @@
+{
+  "type": "SPECIAL",
+  "identifier": "big_crit_damage",
+  "spell": "",
+  "lock_under_adv": "",
+  "stats": [
+    {
+      "first": 2.0,
+      "second": 0.0,
+      "stat": "critical_damage",
+      "type": "FLAT",
+      "scaleToLevel": false
+    }
+  ],
+  "icon": "mmorpg:textures/gui/stat_icons/crit_dmg.png",
+  "is_entry": false
+}

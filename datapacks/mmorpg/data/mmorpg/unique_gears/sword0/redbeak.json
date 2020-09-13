@@ -1,0 +1,45 @@
+{
+  "id": "redbeak",
+  "weight": 1000,
+  "rarity": 1,
+  "tier": 0,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.weapon.redbeak",
+  "lang_file_desc_string": "item.mmorpg.uniques.weapon.redbeak.desc",
+  "unique_stats": [
+    {
+      "firstMin": 40.0,
+      "firstMax": 40.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "physical_weapon_damage",
+      "type": "local_increase"
+    },
+    {
+      "firstMin": 5.0,
+      "firstMax": 5.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "attack_speed",
+      "type": "flat"
+    },
+    {
+      "firstMin": 10.0,
+      "firstMax": 20.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "health",
+      "type": "flat"
+    },
+    {
+      "firstMin": 2.0,
+      "firstMax": 2.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "life_on_hit",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "sword0",
+  "item_id": "mmorpg:weapon/sword/sword0"
+}

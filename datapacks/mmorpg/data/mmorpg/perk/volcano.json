@@ -1,0 +1,11 @@
+{
+  "type": "SPELL",
+  "identifier": "volcano",
+  "spell": "volcano",
+  "lock_under_adv": "",
+  "stats": [],
+  "spell_mods": [],
+  "icon": "mmorpg:textures/gui/spells/icons/volcano.png",
+  "is_entry": false,
+  "lvl_req": 1
+}

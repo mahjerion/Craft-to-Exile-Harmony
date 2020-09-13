@@ -1,0 +1,62 @@
+{
+  "identifier": "gorgons_gaze",
+  "attached": {
+    "on_cast": [
+      {
+        "targets": [],
+        "acts": [
+          {
+            "type": "sound",
+            "map": {
+              "volume": 1.0,
+              "sound": "mmorpg:stone_crack",
+              "pitch": 1.0
+            }
+          }
+        ],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ]
+      },
+      {
+        "targets": [
+          {
+            "type": "in_front",
+            "map": {
+              "en_predicate": "ENEMIES",
+              "distance": 15.0,
+              "width": 3.0
+            }
+          }
+        ],
+        "acts": [
+          {
+            "type": "exile_potion",
+            "map": {
+              "exile_potion_id": "mmorpg:petrify",
+              "potion_action": "GIVE_STACKS",
+              "count": 1.0
+            }
+          }
+        ],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ]
+      }
+    ],
+    "entity_components": {}
+  },
+  "config": {
+    "castingWeapon": "ANY_WEAPON",
+    "mana_cost": 15,
+    "times_to_cast": 1,
+    "cast_time_ticks": 0,
+    "cooldown_ticks": 4000
+  }
+}

@@ -1,0 +1,235 @@
+{
+  "identifier": "flower_of_ice",
+  "attached": {
+    "on_cast": [
+      {
+        "targets": [],
+        "acts": [
+          {
+            "type": "sound",
+            "map": {
+              "volume": 1.0,
+              "sound": "minecraft:entity.snowball.throw",
+              "pitch": 1.0
+            }
+          }
+        ],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ]
+      },
+      {
+        "targets": [],
+        "acts": [
+          {
+            "type": "projectile",
+            "map": {
+              "proj_speed": 0.5,
+              "item": "minecraft:melon_seeds",
+              "entity_name": "projectile",
+              "gravity": true,
+              "proj_count": 1.0,
+              "life_ticks": 60.0,
+              "proj_en": "mmorpg:spell_projectile"
+            }
+          }
+        ],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ]
+      }
+    ],
+    "entity_components": {
+      "projectile": [
+        {
+          "targets": [],
+          "acts": [
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "particle_type": "minecraft:happy_villager",
+                "radius": 0.15,
+                "particle_count": 3.0
+              }
+            }
+          ],
+          "ifs": [
+            {
+              "type": "x_ticks_condition",
+              "map": {
+                "tick_rate": 3.0
+              }
+            }
+          ]
+        },
+        {
+          "targets": [],
+          "acts": [
+            {
+              "type": "summon_block",
+              "map": {
+                "entity_name": "default_entity_name",
+                "life_ticks": 160.0,
+                "block": "minecraft:tube_coral"
+              }
+            }
+          ],
+          "ifs": [
+            {
+              "type": "on_entity_expire",
+              "map": {}
+            }
+          ]
+        }
+      ],
+      "default_entity_name": [
+        {
+          "targets": [],
+          "acts": [
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "particle_type": "mmorpg:bubble",
+                "radius": 2.0,
+                "particle_count": 30.0
+              }
+            }
+          ],
+          "ifs": [
+            {
+              "type": "x_ticks_condition",
+              "map": {
+                "tick_rate": 1.0
+              }
+            }
+          ]
+        },
+        {
+          "targets": [],
+          "acts": [
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "particle_type": "minecraft:bubble_pop",
+                "radius": 2.0,
+                "particle_count": 30.0
+              }
+            }
+          ],
+          "ifs": [
+            {
+              "type": "x_ticks_condition",
+              "map": {
+                "tick_rate": 1.0
+              }
+            }
+          ]
+        },
+        {
+          "targets": [],
+          "acts": [
+            {
+              "type": "sound",
+              "map": {
+                "volume": 1.0,
+                "sound": "minecraft:entity.generic.splash",
+                "pitch": 1.0
+              }
+            }
+          ],
+          "ifs": [
+            {
+              "type": "x_ticks_condition",
+              "map": {
+                "tick_rate": 30.0
+              }
+            }
+          ]
+        },
+        {
+          "targets": [
+            {
+              "type": "aoe",
+              "map": {
+                "selection_type": "RADIUS",
+                "en_predicate": "ALLIES",
+                "radius": 2.0
+              }
+            }
+          ],
+          "acts": [
+            {
+              "type": "restore_magic_shield",
+              "map": {},
+              "calc": {
+                "scaling_values": [],
+                "base_scaling": "SCALING",
+                "attack_scaling": 0.0,
+                "base_val": 3.0
+              }
+            }
+          ],
+          "ifs": [
+            {
+              "type": "x_ticks_condition",
+              "map": {
+                "tick_rate": 30.0
+              }
+            }
+          ]
+        },
+        {
+          "targets": [
+            {
+              "type": "aoe",
+              "map": {
+                "selection_type": "RADIUS",
+                "en_predicate": "ALLIES",
+                "radius": 2.0
+              }
+            }
+          ],
+          "acts": [
+            {
+              "type": "restore_mana",
+              "map": {},
+              "calc": {
+                "scaling_values": [],
+                "base_scaling": "SCALING",
+                "attack_scaling": 0.0,
+                "base_val": 2.0
+              }
+            }
+          ],
+          "ifs": [
+            {
+              "type": "x_ticks_condition",
+              "map": {
+                "tick_rate": 30.0
+              }
+            },
+            {
+              "type": "caster_has_spell_mod",
+              "map": {
+                "spell_mod": "flower_of_ice_mana_restore"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "config": {
+    "castingWeapon": "ANY_WEAPON",
+    "mana_cost": 25,
+    "times_to_cast": 1,
+    "cast_time_ticks": 0,
+    "cooldown_ticks": 1200
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "affixes": {
+    "min_amount": 1,
+    "max_amount": 2,
+    "chance_for_more": 15
+  },
+  "sockets": {
+    "min_amount": 0,
+    "max_amount": 2,
+    "chance_for_more": 15
+  },
+  "default_stat_percents": {
+    "min": 0,
+    "max": 100
+  },
+  "secondaryStatPercents": {
+    "min": 0,
+    "max": 100
+  },
+  "affix_stat_percents": {
+    "min": 0,
+    "max": 100
+  },
+  "unique_stat_percents": {
+    "min": 0,
+    "max": 100
+  },
+  "item_tier_power": 1.25,
+  "item_value_multi": 1.25,
+  "stat_req_multi": 0.75,
+  "unidentified_chance": 0,
+  "spawn_durability_hit": {
+    "min": 60,
+    "max": 80
+  },
+  "rarity_type": "GEAR",
+  "rank": 1,
+  "weight": 2500,
+  "text_format": "BLUE",
+  "loc_name_id": "mmorpg.rarity.gear.magical",
+  "loc_name": "Magical",
+  "guid": "magical"
+}

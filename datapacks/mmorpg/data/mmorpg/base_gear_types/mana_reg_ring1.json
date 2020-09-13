@@ -1,0 +1,37 @@
+{
+  "id": "mana_reg_ring1",
+  "weight": 1000,
+  "rarity": 0,
+  "tier": 0,
+  "registry": "gear_type",
+  "lang_file_string": "mmorpg.gear_type.mana_reg_ring1",
+  "implicit_stats": [],
+  "base_stats": [
+    {
+      "firstMin": 1.0,
+      "firstMax": 2.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "mana_regen",
+      "type": "flat"
+    }
+  ],
+  "level_range": {
+    "start": 0.4,
+    "end": 1.0
+  },
+  "tag_list": {
+    "tags": [
+      "ring",
+      "jewelry_family"
+    ]
+  },
+  "stat_req": {
+    "dex_req": 0.0,
+    "int_req": 0.0,
+    "str_req": 0.0
+  },
+  "item_id": "mmorpg:jewelry/ring/mana_reg_ring1",
+  "gear_slot": "ring",
+  "weapon_type": "None"
+}

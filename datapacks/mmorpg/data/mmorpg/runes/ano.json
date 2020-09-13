@@ -1,0 +1,37 @@
+{
+  "on_armor_stats": [
+    {
+      "first_min": 1.0,
+      "first_max": 4.0,
+      "second_min": 0.0,
+      "second_max": 0.0,
+      "stat": "max_fire_resist",
+      "type": "FLAT"
+    }
+  ],
+  "on_jewelry_stats": [
+    {
+      "first_min": 3.0,
+      "first_max": 8.0,
+      "second_min": 0.0,
+      "second_max": 0.0,
+      "stat": "spell_fire_damage",
+      "type": "FLAT"
+    }
+  ],
+  "on_weapons_stats": [
+    {
+      "first_min": 0.5,
+      "first_max": 1.0,
+      "second_min": 1.0,
+      "second_max": 2.0,
+      "stat": "fire_weapon_damage",
+      "type": "FLAT"
+    }
+  ],
+  "item_id": "mmorpg:runes/ano",
+  "identifier": "ano",
+  "required_item_level": 0.1,
+  "weight": 1000,
+  "effective_level": 0.1
+}

@@ -1,0 +1,37 @@
+{
+  "identifier": "chains_of_honor",
+  "stats": [
+    {
+      "first_min": 10.0,
+      "first_max": 20.0,
+      "second_min": 0.0,
+      "second_max": 0.0,
+      "stat": "elemental_resist",
+      "type": "FLAT"
+    },
+    {
+      "first_min": 10.0,
+      "first_max": 30.0,
+      "second_min": 0.0,
+      "second_max": 0.0,
+      "stat": "increase_healing",
+      "type": "FLAT"
+    },
+    {
+      "first_min": 10.0,
+      "first_max": 40.0,
+      "second_min": 0.0,
+      "second_max": 0.0,
+      "stat": "armor",
+      "type": "LOCAL_INCREASE"
+    }
+  ],
+  "runes_needed": [
+    "wir",
+    "ita",
+    "oru",
+	"har"
+  ],
+  "family": "Armor",
+  "loc_name": "Chains of Honor"
+}

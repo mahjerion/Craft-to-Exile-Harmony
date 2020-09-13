@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    "BCB",
+    " A "
+  ],
+  "key": {  
+	"C": {
+      "item": "minecraft:iron_block"
+    }, 
+	"B": {
+      "item": "mmorpg:gear_mat/ore/ore1"
+    }, 
+	"A": {
+      "item": "minecraft:paper"
+    }
+  },
+  "result": {
+    "item": "craftable_utilities:spawn_teleport"
+  }
+}

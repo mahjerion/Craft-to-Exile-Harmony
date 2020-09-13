@@ -1,0 +1,28 @@
+{
+  "identifier": "dream_of_ice",
+  "stats": [
+    {
+      "first_min": 1.0,
+      "first_max": 2.0,
+      "second_min": 2.0,
+      "second_max": 3.0,
+      "stat": "water_weapon_damage",
+      "type": "FLAT"
+    },
+    {
+      "first_min": 4.0,
+      "first_max": 20.0,
+      "second_min": 0.0,
+      "second_max": 0.0,
+      "stat": "chance_of_frost",
+      "type": "FLAT"
+    }
+  ],
+  "runes_needed": [
+    "toq",
+    "ita",
+    "nos"
+  ],
+  "family": "Weapon",
+  "loc_name": "Dream of Ice"
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "imi",
+    "msm",
+    "imi"
+  ],
+  "key": {
+    "i": {
+      "item": "minecraft:diamond_block"
+    },
+    "m": {
+      "item": "mmorpg:currency/orb_of_discovery"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "dankstorage:4_to_5"
+  }
+}

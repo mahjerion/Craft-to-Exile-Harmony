@@ -1,0 +1,19 @@
+{
+  "type": "STAT",
+  "identifier": "mana_regen",
+  "spell": "",
+  "lock_under_adv": "",
+  "stats": [
+    {
+      "first": 5.0,
+      "second": 0.0,
+      "stat": "mana_regen",
+      "type": "LOCAL_INCREASE",
+      "scaleToLevel": false
+    }
+  ],
+  "spell_mods": [],
+  "icon": "mmorpg:textures/gui/stat_icons/regen/mana_regen.png",
+  "is_entry": false,
+  "lvl_req": 1
+}

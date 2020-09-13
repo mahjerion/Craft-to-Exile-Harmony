@@ -1,0 +1,11 @@
+{
+  "type": "SPELL",
+  "identifier": "trickery",
+  "spell": "trickery",
+  "lock_under_adv": "",
+  "stats": [],
+  "spell_mods": [],
+  "icon": "mmorpg:textures/gui/spells/icons/trickery.png",
+  "is_entry": false,
+  "lvl_req": 1
+}

@@ -1,0 +1,53 @@
+{
+  "id": "stormcharger",
+  "weight": 1000,
+  "rarity": 1,
+  "tier": 0,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.armor.stormcharger",
+  "lang_file_desc_string": "item.mmorpg.uniques.armor.stormcharger.desc",
+  "unique_stats": [
+    {
+      "firstMin": 1.0,
+      "firstMax": 50.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "thunder_resist",
+      "type": "flat"
+    },
+    {
+      "firstMin": 10.0,
+      "firstMax": 10.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "chance_of_static",
+      "type": "flat"
+    },
+    {
+      "firstMin": 15.0,
+      "firstMax": 25.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "static_bonus_damage",
+      "type": "flat"
+    },
+    {
+      "firstMin": 30.0,
+      "firstMax": 30.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "convert_thunder_to_phys",
+      "type": "flat"
+    },
+    {
+      "firstMin": 0.5,
+      "firstMax": 0.75,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "strength_flat_stat_req",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "plate_boots1",
+  "item_id": "mmorpg:armor/plate/boots/plate_boots1"
+}

@@ -1,0 +1,22 @@
+{
+  "type": "dankstorage:upgrade",
+  "pattern": [
+    "imi",
+    "m1m",
+    "imi"
+  ],
+  "key": {
+    "i": {
+      "item": "minecraft:obsidian"
+    },
+    "m": {
+      "item": "mmorpg:currency/number_reroll"
+    },
+    "1": {
+      "item": "dankstorage:dank_5"
+    }
+  },
+  "result": {
+    "item": "dankstorage:dank_6"
+  }
+}

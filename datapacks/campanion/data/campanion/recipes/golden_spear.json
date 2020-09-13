@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  X",
+    " # ",
+	"#  "
+  ],
+  "key": {
+    "#": {
+      "item": "campanion:wooden_rod"
+    },
+    "X": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "campanion:golden_spear"
+  }
+}

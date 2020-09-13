@@ -1,0 +1,53 @@
+{
+  "id": "deerstalker",
+  "weight": 1000,
+  "rarity": 1,
+  "tier": 0,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.armor.deerstalker",
+  "lang_file_desc_string": "item.mmorpg.uniques.armor.deerstalker.desc",
+  "unique_stats": [
+    {
+      "firstMin": 40.0,
+      "firstMax": 60.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "dodge",
+      "type": "local_increase"
+    },
+    {
+      "firstMin": 35.0,
+      "firstMax": 45.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "health",
+      "type": "flat"
+    },
+    {
+      "firstMin": 10.0,
+      "firstMax": 10.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "dexterity",
+      "type": "flat"
+    },
+    {
+      "firstMin": 10.0,
+      "firstMax": 10.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "intelligence",
+      "type": "flat"
+    },
+    {
+      "firstMin": 0.5,
+      "firstMax": 0.75,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "dexterity_flat_stat_req",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "leather_boots1",
+  "item_id": "mmorpg:armor/leather/boots/leather_boots1"
+}

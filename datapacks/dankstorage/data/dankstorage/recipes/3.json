@@ -1,0 +1,22 @@
+{
+  "type": "dankstorage:upgrade",
+  "pattern": [
+    "imi",
+    "m1m",
+    "imi"
+  ],
+  "key": {
+    "i": {
+      "item": "minecraft:gold_block"
+    },
+    "m": {
+      "item": "mmorpg:currency/randomize_affixes"
+    },
+    "1": {
+      "item": "dankstorage:dank_2"
+    }
+  },
+  "result": {
+    "item": "dankstorage:dank_3"
+  }
+}

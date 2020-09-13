@@ -1,0 +1,17 @@
+{
+  "item_type": "leather_golden_pants",
+  "item_id": "minecraft:golden_leggings",
+  "id": "minecraft:leather_golden_pants",
+  "rarity": {
+    "min_rarity": 0,
+    "max_rarity": 2
+  },
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": true
+  },
+  "unique": {
+    "chance_to_become_unique": 0.25,
+    "unique_id": ""
+  }
+}

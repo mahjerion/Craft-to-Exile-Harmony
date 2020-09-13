@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "imi",
+    "msm",
+    "imi"
+  ],
+  "key": {
+    "i": {
+      "item": "minecraft:gold_block"
+    },
+    "m": {
+      "item": "mmorpg:currency/randomize_affixes"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "dankstorage:2_to_3"
+  }
+}

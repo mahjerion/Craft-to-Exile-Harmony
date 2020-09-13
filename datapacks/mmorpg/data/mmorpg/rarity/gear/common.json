@@ -1,0 +1,43 @@
+{
+  "affixes": {
+    "min_amount": 0,
+    "max_amount": 0,
+    "chance_for_more": 0
+  },
+  "sockets": {
+    "min_amount": 0,
+    "max_amount": 4,
+    "chance_for_more": 20
+  },
+  "default_stat_percents": {
+    "min": 0,
+    "max": 100
+  },
+  "secondaryStatPercents": {
+    "min": 0,
+    "max": 100
+  },
+  "affix_stat_percents": {
+    "min": 0,
+    "max": 100
+  },
+  "unique_stat_percents": {
+    "min": 0,
+    "max": 100
+  },
+  "item_tier_power": 1.0,
+  "item_value_multi": 1.0,
+  "stat_req_multi": 0.5,
+  "unidentified_chance": 0,
+  "spawn_durability_hit": {
+    "min": 60,
+    "max": 80
+  },
+  "rarity_type": "GEAR",
+  "rank": 0,
+  "weight": 5000,
+  "text_format": "GRAY",
+  "loc_name_id": "mmorpg.rarity.gear.common",
+  "loc_name": "Common",
+  "guid": "common"
+}

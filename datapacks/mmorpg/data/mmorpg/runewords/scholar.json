@@ -1,0 +1,19 @@
+{
+  "identifier": "scholar",
+  "stats": [
+    {
+      "first_min": 5.0,
+      "first_max": 15.0,
+      "second_min": 0.0,
+      "second_max": 0.0,
+      "stat": "bonus_exp",
+      "type": "FLAT"
+    }
+  ],
+  "runes_needed": [
+    "ita",
+    "mos"
+  ],
+  "family": "Jewelry",
+  "loc_name": "Scholar"
+}

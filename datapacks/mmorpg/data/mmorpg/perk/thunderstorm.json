@@ -1,0 +1,10 @@
+{
+  "type": "SPELL",
+  "identifier": "thunderstorm",
+  "spell": "thunderstorm",
+  "lock_under_adv": "",
+  "stats": [],
+  "icon": "mmorpg:textures/gui/spells/icons/thunderstorm.png",
+  "is_entry": false,
+  "lvl_req": 1
+}

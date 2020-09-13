@@ -1,0 +1,13 @@
+{
+  "type": "SPELL_MOD",
+  "identifier": "heart_of_ice_cooldown",
+  "spell": "",
+  "lock_under_adv": "",
+  "stats": [],
+  "spell_mods": [
+    "heart_of_ice_cooldown"
+  ],
+  "icon": "mmorpg:textures/gui/skill_tree/skill_modifiers/cooldown.png",
+  "is_entry": false,
+  "lvl_req": 1
+}

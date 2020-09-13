@@ -1,0 +1,11 @@
+{
+  "type": "SPELL",
+  "identifier": "lightning_totem",
+  "spell": "lightning_totem",
+  "lock_under_adv": "",
+  "stats": [],
+  "spell_mods": [],
+  "icon": "mmorpg:textures/gui/spells/icons/lightning_totem.png",
+  "is_entry": false,
+  "lvl_req": 1
+}

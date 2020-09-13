@@ -1,0 +1,11 @@
+{
+  "type": "START",
+  "identifier": "start",
+  "spell": "",
+  "lock_under_adv": "",
+  "stats": [],
+  "spell_mods": [],
+  "icon": "",
+  "is_entry": true,
+  "lvl_req": 1
+}

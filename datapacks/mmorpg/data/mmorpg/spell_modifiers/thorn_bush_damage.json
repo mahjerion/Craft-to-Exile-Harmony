@@ -1,0 +1,10 @@
+{
+  "identifier": "thorn_bush_damage",
+  "mods": [
+    {
+      "value": 5.0,
+      "spell_stat": "DAMAGE"
+    }
+  ],
+  "for_spell": "thorn_bush"
+}

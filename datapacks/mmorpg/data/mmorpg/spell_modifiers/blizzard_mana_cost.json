@@ -1,0 +1,10 @@
+{
+  "identifier": "blizzard_mana_cost",
+  "mods": [
+    {
+      "value": -10.0,
+      "spell_stat": "MANA_COST"
+    }
+  ],
+  "for_spell": "blizzard"
+}

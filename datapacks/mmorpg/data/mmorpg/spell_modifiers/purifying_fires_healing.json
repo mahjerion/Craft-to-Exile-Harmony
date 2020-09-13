@@ -1,0 +1,10 @@
+{
+  "identifier": "purifying_fires_healing",
+  "mods": [
+    {
+      "value": 5.0,
+      "spell_stat": "HEALING"
+    }
+  ],
+  "for_spell": "purifying_fires"
+}

@@ -1,0 +1,13 @@
+{
+  "type": "SPELL_MOD",
+  "identifier": "magma_flower_heal",
+  "spell": "",
+  "lock_under_adv": "",
+  "stats": [],
+  "spell_mods": [
+    "magma_flower_heal"
+  ],
+  "icon": "mmorpg:textures/gui/spells/icons/magma_flower.png",
+  "is_entry": false,
+  "lvl_req": 1
+}

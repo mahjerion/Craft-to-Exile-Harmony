@@ -1,0 +1,22 @@
+{
+  "type": "dankstorage:upgrade",
+  "pattern": [
+    "imi",
+    "m1m",
+    "imi"
+  ],
+  "key": {
+    "i": {
+      "item": "minecraft:redstone_block"
+    },
+    "m": {
+      "item": "mmorpg:mat/infused_iron"
+    },
+    "1": {
+      "item": "dankstorage:dank_1"
+    }
+  },
+  "result": {
+    "item": "dankstorage:dank_2"
+  }
+}

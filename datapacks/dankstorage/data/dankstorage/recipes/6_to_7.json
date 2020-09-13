@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "imi",
+    "msm",
+    "imi"
+  ],
+  "key": {
+    "i": {
+      "item": "minecraft:nether_star"
+    },
+    "m": {
+      "item": "mmorpg:currency/reroll_unique_numbers"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "dankstorage:6_to_7"
+  }
+}

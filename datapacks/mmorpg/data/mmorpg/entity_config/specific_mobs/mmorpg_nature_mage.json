@@ -1,0 +1,93 @@
+{
+  "identifier": "mmorpg:nature_mage",
+  "stats": {
+    "stats": [
+      {
+        "mod": {
+          "first_min": 50.0,
+          "first_max": 50.0,
+          "second_min": 0.0,
+          "second_max": 0.0,
+          "stat": "convert_nature_to_phys",
+          "type": "FLAT"
+        },
+        "scaleToLevel": false
+      },
+      {
+        "mod": {
+          "first_min": 10.0,
+          "first_max": 10.0,
+          "second_min": 0.0,
+          "second_max": 0.0,
+          "stat": "extra_mob_drops",
+          "type": "FLAT"
+        },
+        "scaleToLevel": false
+      },
+      {
+        "mod": {
+          "first_min": 50.0,
+          "first_max": 50.0,
+          "second_min": 0.0,
+          "second_max": 0.0,
+          "stat": "nature_resist",
+          "type": "FLAT"
+        },
+        "scaleToLevel": false
+      },
+      {
+        "mod": {
+          "first_min": 10.0,
+          "first_max": 10.0,
+          "second_min": 0.0,
+          "second_max": 0.0,
+          "stat": "extra_mob_drops",
+          "type": "FLAT"
+        },
+        "scaleToLevel": false
+      },
+      {
+        "mod": {
+          "first_min": -25.0,
+          "first_max": -25.0,
+          "second_min": 0.0,
+          "second_max": 0.0,
+          "stat": "thunder_resist",
+          "type": "FLAT"
+        },
+        "scaleToLevel": false
+      },
+      {
+        "mod": {
+          "first_min": 10.0,
+          "first_max": 10.0,
+          "second_min": 0.0,
+          "second_max": 0.0,
+          "stat": "extra_mob_drops",
+          "type": "FLAT"
+        },
+        "scaleToLevel": false
+      },
+      {
+        "mod": {
+          "first_min": 100.0,
+          "first_max": 100.0,
+          "second_min": 0.0,
+          "second_max": 0.0,
+          "stat": "chance_of_poison",
+          "type": "FLAT"
+        },
+        "scaleToLevel": true
+      }
+    ]
+  },
+  "loot_multi": 1.0,
+  "exp_multi": 1.0,
+  "min_rarity": 0,
+  "max_rarity": 4,
+  "min_lvl": 1,
+  "max_lvl": 1000000,
+  "dmg_multi": 1.0,
+  "hp_multi": 1.0,
+  "stat_multi": 1.0
+}

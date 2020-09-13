@@ -1,0 +1,28 @@
+{
+  "identifier": "dawn_light",
+  "stats": [
+    {
+      "first_min": 1.0,
+      "first_max": 2.0,
+      "second_min": 2.0,
+      "second_max": 3.0,
+      "stat": "thunder_weapon_damage",
+      "type": "FLAT"
+    },
+    {
+      "first_min": 4.0,
+      "first_max": 20.0,
+      "second_min": 0.0,
+      "second_max": 0.0,
+      "stat": "chance_of_static",
+      "type": "FLAT"
+    }
+  ],
+  "runes_needed": [
+    "cen",
+    "ita",
+    "nos"
+  ],
+  "family": "Weapon",
+  "loc_name": "Dawn Light"
+}

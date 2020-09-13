@@ -1,0 +1,19 @@
+{
+  "type": "STAT",
+  "identifier": "spell_thunder_damage",
+  "spell": "",
+  "lock_under_adv": "",
+  "stats": [
+    {
+      "first": 3.0,
+      "second": 0.0,
+      "stat": "spell_thunder_damage",
+      "type": "FLAT",
+      "scaleToLevel": false
+    }
+  ],
+  "spell_mods": [],
+  "icon": "mmorpg:textures/gui/stat_icons/spell_dmg/thunder.png",
+  "is_entry": false,
+  "lvl_req": 1
+}

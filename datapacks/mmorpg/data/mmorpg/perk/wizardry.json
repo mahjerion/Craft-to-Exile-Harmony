@@ -1,0 +1,11 @@
+{
+  "type": "SPELL",
+  "identifier": "wizardry",
+  "spell": "wizardry",
+  "lock_under_adv": "",
+  "stats": [],
+  "spell_mods": [],
+  "icon": "mmorpg:textures/gui/spells/icons/wizardry.png",
+  "is_entry": false,
+  "lvl_req": 1
+}

@@ -1,0 +1,17 @@
+{
+  "item_type": "plate_netherite_boots",
+  "item_id": "minecraft:netherite_boots",
+  "id": "minecraft:plate_netherite_boots",
+  "rarity": {
+    "min_rarity": 0,
+    "max_rarity": 1
+  },
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": true
+  },
+  "unique": {
+    "chance_to_become_unique": 0.0,
+    "unique_id": ""
+  }
+}

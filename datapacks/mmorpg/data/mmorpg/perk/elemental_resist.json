@@ -1,0 +1,19 @@
+{
+  "type": "STAT",
+  "identifier": "elemental_resist",
+  "spell": "",
+  "lock_under_adv": "",
+  "stats": [
+    {
+      "first": 4.0,
+      "second": 0.0,
+      "stat": "elemental_resist",
+      "type": "FLAT",
+      "scaleToLevel": false
+    }
+  ],
+  "spell_mods": [],
+  "icon": "mmorpg:textures/gui/stat_icons/ele_res/elemental.png",
+  "is_entry": false,
+  "lvl_req": 1
+}

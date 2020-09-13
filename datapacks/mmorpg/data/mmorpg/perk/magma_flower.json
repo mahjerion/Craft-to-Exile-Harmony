@@ -1,0 +1,11 @@
+{
+  "type": "SPELL",
+  "identifier": "magma_flower",
+  "spell": "magma_flower",
+  "lock_under_adv": "",
+  "stats": [],
+  "spell_mods": [],
+  "icon": "mmorpg:textures/gui/spells/icons/magma_flower.png",
+  "is_entry": false,
+  "lvl_req": 1
+}

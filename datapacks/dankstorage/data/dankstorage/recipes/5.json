@@ -1,0 +1,22 @@
+{
+  "type": "dankstorage:upgrade",
+  "pattern": [
+    "imi",
+    "m1m",
+    "imi"
+  ],
+  "key": {
+    "i": {
+      "item": "minecraft:diamond_block"
+    },
+    "m": {
+      "item": "mmorpg:currency/orb_of_discovery"
+    },
+    "1": {
+      "item": "dankstorage:dank_4"
+    }
+  },
+  "result": {
+    "item": "dankstorage:dank_5"
+  }
+}

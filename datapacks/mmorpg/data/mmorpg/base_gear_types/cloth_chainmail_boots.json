@@ -1,0 +1,40 @@
+{
+  "id": "cloth_chainmail_boots",
+  "weight": 333,
+  "rarity": 0,
+  "tier": 0,
+  "registry": "gear_type",
+  "lang_file_string": "mmorpg.gear_type.cloth_chainmail_boots",
+  "implicit_stats": [],
+  "base_stats": [
+    {
+      "firstMin": 1.0,
+      "firstMax": 2.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "magic_shield",
+      "type": "flat"
+    }
+  ],
+  "level_range": {
+    "start": 0.1,
+    "end": 0.3
+  },
+  "tag_list": {
+    "tags": [
+      "armor_family",
+      "boots",
+      "magic_shield_stat",
+      "cloth",
+      "intelligence"
+    ]
+  },
+  "stat_req": {
+    "dex_req": 0.0,
+    "int_req": 0.5,
+    "str_req": 0.0
+  },
+  "item_id": "minecraft:chainmail_boots",
+  "gear_slot": "boots",
+  "weapon_type": "None"
+}

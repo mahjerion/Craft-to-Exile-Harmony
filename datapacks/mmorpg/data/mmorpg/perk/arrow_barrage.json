@@ -1,0 +1,11 @@
+{
+  "type": "SPELL",
+  "identifier": "arrow_barrage",
+  "spell": "arrow_barrage",
+  "lock_under_adv": "",
+  "stats": [],
+  "spell_mods": [],
+  "icon": "mmorpg:textures/gui/spells/icons/arrow_barrage.png",
+  "is_entry": false,
+  "lvl_req": 1
+}

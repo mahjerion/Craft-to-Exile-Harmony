@@ -1,0 +1,37 @@
+{
+  "on_armor_stats": [
+    {
+      "first_min": 0.1,
+      "first_max": 0.2,
+      "second_min": 0.0,
+      "second_max": 0.0,
+      "stat": "intelligence",
+      "type": "FLAT"
+    }
+  ],
+  "on_jewelry_stats": [
+    {
+      "first_min": 5.0,
+      "first_max": 10.0,
+      "second_min": 0.0,
+      "second_max": 0.0,
+      "stat": "mana_regen",
+      "type": "LOCAL_INCREASE"
+    }
+  ],
+  "on_weapons_stats": [
+    {
+      "first_min": 0.3,
+      "first_max": 1.0,
+      "second_min": 0.0,
+      "second_max": 0.0,
+      "stat": "mana_on_hit",
+      "type": "FLAT"
+    }
+  ],
+  "item_id": "mmorpg:runes/xer",
+  "identifier": "xer",
+  "required_item_level": 0.5,
+  "weight": 1000,
+  "effective_level": 0.5
+}

@@ -1,0 +1,11 @@
+{
+  "type": "SPELL",
+  "identifier": "throw_flames",
+  "spell": "throw_flames",
+  "lock_under_adv": "",
+  "stats": [],
+  "spell_mods": [],
+  "icon": "mmorpg:textures/gui/spells/icons/throw_flames.png",
+  "is_entry": false,
+  "lvl_req": 1
+}

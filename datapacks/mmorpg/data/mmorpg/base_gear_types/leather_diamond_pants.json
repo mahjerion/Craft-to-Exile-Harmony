@@ -1,0 +1,40 @@
+{
+  "id": "leather_diamond_pants",
+  "weight": 333,
+  "rarity": 0,
+  "tier": 0,
+  "registry": "gear_type",
+  "lang_file_string": "mmorpg.gear_type.leather_diamond_pants",
+  "implicit_stats": [],
+  "base_stats": [
+    {
+      "firstMin": 36.0,
+      "firstMax": 64.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "dodge",
+      "type": "flat"
+    }
+  ],
+  "level_range": {
+    "start": 0.3,
+    "end": 0.5
+  },
+  "tag_list": {
+    "tags": [
+      "dexterity",
+      "dodge_stat",
+      "armor_family",
+      "pants",
+      "leather"
+    ]
+  },
+  "stat_req": {
+    "dex_req": 0.5,
+    "int_req": 0.0,
+    "str_req": 0.0
+  },
+  "item_id": "minecraft:diamond_leggings",
+  "gear_slot": "pants",
+  "weapon_type": "None"
+}

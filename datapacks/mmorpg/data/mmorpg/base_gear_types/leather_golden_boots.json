@@ -1,0 +1,40 @@
+{
+  "id": "leather_golden_boots",
+  "weight": 333,
+  "rarity": 0,
+  "tier": 0,
+  "registry": "gear_type",
+  "lang_file_string": "mmorpg.gear_type.leather_golden_boots",
+  "implicit_stats": [],
+  "base_stats": [
+    {
+      "firstMin": 12.0,
+      "firstMax": 36.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "dodge",
+      "type": "flat"
+    }
+  ],
+  "level_range": {
+    "start": 0.0,
+    "end": 1.0
+  },
+  "tag_list": {
+    "tags": [
+      "dexterity",
+      "dodge_stat",
+      "armor_family",
+      "boots",
+      "leather"
+    ]
+  },
+  "stat_req": {
+    "dex_req": 0.5,
+    "int_req": 0.0,
+    "str_req": 0.0
+  },
+  "item_id": "minecraft:golden_boots",
+  "gear_slot": "boots",
+  "weapon_type": "None"
+}

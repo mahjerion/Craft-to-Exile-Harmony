@@ -1,0 +1,29 @@
+{
+  "id": "the_poets_pen",
+  "weight": 1000,
+  "rarity": 1,
+  "tier": 0,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.weapon.the_poets_pen",
+  "lang_file_desc_string": "item.mmorpg.uniques.weapon.the_poets_pen.desc",
+  "unique_stats": [
+    {
+      "firstMin": 60.0,
+      "firstMax": 100.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "physical_weapon_damage",
+      "type": "local_increase"
+    },
+    {
+      "firstMin": 25.0,
+      "firstMax": 25.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "attack_speed",
+      "type": "flat"
+    }	
+  ],
+  "gear_type": "wand3",
+  "item_id": "mmorpg:weapon/wand/wand3"
+}

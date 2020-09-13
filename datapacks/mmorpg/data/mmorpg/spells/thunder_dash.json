@@ -1,0 +1,89 @@
+{
+  "identifier": "thunder_dash",
+  "attached": {
+    "on_cast": [
+      {
+        "targets": [],
+        "acts": [
+          {
+            "type": "sound",
+            "map": {
+              "volume": 1.0,
+              "sound": "mmorpg:dash",
+              "pitch": 1.0
+            }
+          }
+        ],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ]
+      },
+      {
+        "targets": [
+          {
+            "type": "self",
+            "map": {}
+          }
+        ],
+        "acts": [
+          {
+            "type": "push",
+            "map": {
+              "push_way": "FORWARDS",
+              "push_str": 1.5
+            }
+          }
+        ],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ]
+      },
+      {
+        "targets": [
+          {
+            "type": "in_front",
+            "map": {
+              "en_predicate": "ENEMIES",
+              "distance": 3.0,
+              "width": 8.0
+            }
+          }
+        ],
+        "acts": [
+          {
+            "type": "damage",
+            "map": {
+              "element": "Thunder"
+            },
+            "calc": {
+              "scaling_values": [],
+              "base_scaling": "SCALING",
+              "attack_scaling": 0.0,
+              "base_val": 3.0
+            }
+          }
+        ],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ]
+      }
+    ],
+    "entity_components": {}
+  },
+  "config": {
+    "castingWeapon": "MELEE_WEAPON",
+    "mana_cost": 15,
+    "times_to_cast": 1,
+    "cast_time_ticks": 0,
+    "cooldown_ticks": 600
+  }
+}

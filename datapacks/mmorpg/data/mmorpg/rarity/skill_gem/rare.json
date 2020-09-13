@@ -1,0 +1,13 @@
+{
+  "stat_percents": {
+    "min": 50,
+    "max": 100
+  },
+  "rarity_type": "SKILL_GEM",
+  "rank": 2,
+  "weight": 200,
+  "text_format": "YELLOW",
+  "loc_name_id": "mmorpg.rarity.skill_gem.rare",
+  "loc_name": "Rare",
+  "guid": "rare"
+}

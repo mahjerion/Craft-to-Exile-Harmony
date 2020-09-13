@@ -1,0 +1,45 @@
+{
+  "id": "lifesprig",
+  "weight": 1000,
+  "rarity": 1,
+  "tier": 0,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.weapon.lifesprig",
+  "lang_file_desc_string": "item.mmorpg.uniques.weapon.lifesprig.desc",
+  "unique_stats": [
+    {
+      "firstMin": 10.0,
+      "firstMax": 30.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "physical_weapon_damage",
+      "type": "local_increase"
+    },
+    {
+      "firstMin": 10.0,
+      "firstMax": 10.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "cdr",
+      "type": "flat"
+    },
+    {
+      "firstMin": 5.0,
+      "firstMax": 10.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "spell_damage",
+      "type": "flat"
+    },
+    {
+      "firstMin": 5.0,
+      "firstMax": 10.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "health_regen",
+      "type": "flat"
+    }	
+  ],
+  "gear_type": "wand0",
+  "item_id": "mmorpg:weapon/wand/wand0"
+}

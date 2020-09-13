@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    "BCB",
+    " A "
+  ],
+  "key": {  
+	"C": {
+      "item": "minecraft:iron_ingot"
+    }, 
+	"B": {
+      "item": "mmorpg:gear_mat/ore/ore2"
+    }, 
+	"A": {
+      "item": "minecraft:diamond_pickaxe"
+    }
+  },
+  "result": {
+    "item": "craftable_utilities:obsidian_consumer",
+	"count": 6
+  }
+}
