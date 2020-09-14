@@ -7,7 +7,7 @@
   "sockets": {
     "min_amount": 3,
     "max_amount": 5,
-    "chance_for_more": 20
+    "chance_for_more": 35
   },
   "default_stat_percents": {
     "min": 0,

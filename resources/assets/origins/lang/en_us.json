@@ -29,7 +29,28 @@
   "origin.origins.shulk.name": "Shulk",
   "origin.origins.shulk.description": "Related to Shulkers, the bodies of the Shulk are outfitted with a protective shell-like skin.",
 
-  "power.origins.water_breathing.name": "Gills",
+  "origin.origins.champion.name": "Champion",
+  "origin.origins.champion.description": "Champion that which you love. He who fights for nothing dies for nothing.",
+
+  "origin.origins.deadeye.name": "Deadeye",
+  "origin.origins.deadeye.description": "A woman can change the world with a single, well-placed arrow.",
+
+  "origin.origins.elementalist.name": "Elementalist",
+  "origin.origins.elementalist.description": "Feed a storm with savage intent and not even the strongest walls will hold it back.",
+
+  "origin.origins.assassin.name": "Assassin",
+  "origin.origins.assassin.description": "Death is a banquet. It's up to the murderer to write the menu.",
+
+  "origin.origins.guardian.name": "Guardian",
+  "origin.origins.guardian.description": "When bound by faith and respect, the flock will overwhelm the wolf.",
+
+  "origin.origins.berserker.name": "Berserker",
+  "origin.origins.berserker.description": "The savage path is always swift and sure.",
+
+  "origin.origins.ascendant.name": "Ascendant",
+  "origin.origins.ascendant.description": "You are the sculptor, crafting your destiny with the clay of mind, body, and purpose.",
+
+  "power.origins.water_breathing.name": "Water Breathing",
   "power.origins.water_breathing.description": "You can breathe underwater, but not on land.",
 
   "power.origins.aqua_affinity.name": "Aqua Affinity",
@@ -45,7 +66,7 @@
   "power.origins.like_water.description": "When underwater, you do not sink to the ground unless you want to.",
 
   "power.origins.fragile.name": "Fragile",
-  "power.origins.fragile.description": "You have 3 less hearts of health than humans.",
+  "power.origins.fragile.description": "You have 3 less hearts of health.",
 
   "power.origins.webbing.name": "Webbing",
   "power.origins.webbing.description": "When you hit an enemy in melee, they get stuck in cobweb.",
@@ -65,8 +86,8 @@
   "power.origins.burning_wrath.name": "Burning Wrath",
   "power.origins.burning_wrath.description": "When on fire, you deal additional damage with your attacks.",
 
-  "power.origins.hotblooded.name": "Hotblooded",
-  "power.origins.hotblooded.description": "Due to your hot body, venoms burn up, making you immune to poison and hunger status effects.",
+  "power.origins.hotblooded.name": "Poison Immunity",
+  "power.origins.hotblooded.description": "You are immune to poison and hunger status effects.",
 
   "power.origins.water_vulnerability.name": "Hydrophobia",
   "power.origins.water_vulnerability.description": "You receive damage over time while in contact with water.",
@@ -101,8 +122,8 @@
   "power.origins.sprint_jump.name": "Strong Ankles",
   "power.origins.sprint_jump.description": "You are able to jump higher by jumping while sprinting.",
 
-  "power.origins.nine_lives.name": "Nine Lives",
-  "power.origins.nine_lives.description": "You have 1 less heart of health than humans.",
+  "power.origins.nine_lives.name": "Soft",
+  "power.origins.nine_lives.description": "You have 1 less heart of health.",
 
   "power.origins.cat_vision.name": "Nocturnal",
   "power.origins.cat_vision.description": "You can slightly see in the dark when not in water.",
@@ -140,7 +161,7 @@
   "power.origins.extra_reach.name": "Slender Body",
   "power.origins.extra_reach.description": "You can reach blocks and entities further away.",
 
-  "power.origins.shulker_inventory.name": "Hoarder",
+  "power.origins.shulker_inventory.name": "Pouch",
   "power.origins.shulker_inventory.description": "You have access to an additional 9 slots of inventory, which keep the items on death.",
 
   "power.origins.natural_armor.name": "Sturdy Skin",
@@ -158,11 +179,11 @@
   "power.origins.translucent.name": "Translucent",
   "power.origins.translucent.description": "Your skin is translucent.",
 
-  "category.origins": "Origins",
+  "category.origins": "Ascendancy",
   "key.origins.active_power": "Active Power",
-  "key.origins.view_origin": "View Origin",
+  "key.origins.view_origin": "View Ascendancy",
 
-  "item.origins.orb_of_origin": "Orb of Origin",
+  "item.origins.orb_of_origin": "Orb of Ascendancy",
 
   "enchantment.origins.water_protection": "Water Protection",
 
@@ -179,11 +200,12 @@
   "origins.gui.impact.high": "High",
 
   "layer.origins.origin": "Origin",
+  "layer.origins.ascendancy": "Ascendancy",
 
   "death.attack.no_water_for_gills": "%s didn't manage to keep wet.",
   "death.attack.hurt_by_water": "%s took a bath for too long.",
 
-  "commands.origin.origin_not_found": "Unknown origin: %s",
-  "commands.origin.set.success.single": "Set origin of %s to %s.",
-  "commands.origin.set.success.multiple": "Set origin of %s targets to %s."
+  "commands.origin.origin_not_found": "Unknown Ascendancy: %s",
+  "commands.origin.set.success.single": "Set Ascendancy of %s to %s.",
+  "commands.origin.set.success.multiple": "Set Ascendancy of %s targets to %s."
 }
