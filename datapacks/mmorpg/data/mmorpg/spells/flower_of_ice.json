@@ -226,6 +226,7 @@
     }
   },
   "config": {
+    "swing_arm": false,
     "castingWeapon": "ANY_WEAPON",
     "mana_cost": 25,
     "times_to_cast": 1,

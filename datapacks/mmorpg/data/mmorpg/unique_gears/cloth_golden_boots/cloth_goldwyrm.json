@@ -1,0 +1,45 @@
+{
+  "id": "cloth_goldwyrm",
+  "weight": 1000,
+  "rarity": 1,
+  "tier": 0,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.armor.goldwyrm",
+  "lang_file_desc_string": "item.mmorpg.uniques.armor.goldwyrm.desc",
+  "unique_stats": [
+    {
+      "firstMin": 25.0,
+      "firstMax": 25.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "mana_regen",
+      "type": "local_increase"
+    },
+    {
+      "firstMin": 14.0,
+      "firstMax": 20.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "increased_quantity",
+      "type": "flat"
+    },
+    {
+      "firstMin": 30.0,
+      "firstMax": 40.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "fire_resist",
+      "type": "flat"
+    },
+    {
+      "firstMin": 0.25,
+      "firstMax": 0.50,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "intelligence_flat_stat_req",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "cloth_golden_boots",
+  "item_id": "minecraft:golden_boots"
+}

@@ -91,6 +91,7 @@
     "entity_components": {}
   },
   "config": {
+    "swing_arm": true,
     "castingWeapon": "MELEE_WEAPON",
     "mana_cost": 7,
     "times_to_cast": 1,

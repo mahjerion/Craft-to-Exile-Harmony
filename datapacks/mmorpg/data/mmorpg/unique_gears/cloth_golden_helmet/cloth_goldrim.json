@@ -1,0 +1,37 @@
+{
+  "id": "cloth_goldrim",
+  "weight": 1000,
+  "rarity": 1,
+  "tier": 0,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.armor.goldrim",
+  "lang_file_desc_string": "item.mmorpg.uniques.armor.goldrim.desc",
+  "unique_stats": [
+    {
+      "firstMin": 15.0,
+      "firstMax": 30.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "magic_shield",
+      "type": "flat"
+    },
+    {
+      "firstMin": 20.0,
+      "firstMax": 40.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "magic_find",
+      "type": "flat"
+    },
+    {
+      "firstMin": 20.0,
+      "firstMax": 40.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "elemental_resist",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "cloth_golden_helmet",
+  "item_id": "minecraft:golden_helmet"
+}

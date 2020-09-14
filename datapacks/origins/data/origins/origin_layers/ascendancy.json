@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "order": 0,
+  "enabled": true,
+  "origins": [
+    "origins:champion",
+    "origins:deadeye",
+    "origins:elementalist",
+    "origins:assassin",
+    "origins:guardian",
+    "origins:berserker",
+    "origins:ascendant"
+  ]
+}

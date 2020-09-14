@@ -210,6 +210,7 @@
     }
   },
   "config": {
+    "swing_arm": false,
     "castingWeapon": "RANGED",
     "mana_cost": 7,
     "times_to_cast": 1,

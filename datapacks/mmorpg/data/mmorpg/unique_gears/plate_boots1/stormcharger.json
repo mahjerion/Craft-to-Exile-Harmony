@@ -28,7 +28,7 @@
       "firstMax": 25.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
-      "stat": "static_bonus_damage",
+      "stat": "static_bonus_dmg",
       "type": "flat"
     },
     {

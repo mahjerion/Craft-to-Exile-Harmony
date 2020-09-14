@@ -99,6 +99,7 @@
     "entity_components": {}
   },
   "config": {
+    "swing_arm": false,
     "castingWeapon": "MAGE_WEAPON",
     "mana_cost": 15,
     "times_to_cast": 3,

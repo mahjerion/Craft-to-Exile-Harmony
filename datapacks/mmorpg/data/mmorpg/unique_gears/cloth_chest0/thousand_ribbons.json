@@ -1,0 +1,53 @@
+{
+  "id": "thousand_ribbons",
+  "weight": 1000,
+  "rarity": 1,
+  "tier": 0,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.armor.thousand_ribbons",
+  "lang_file_desc_string": "item.mmorpg.uniques.armor.thousand_ribbons.desc",
+  "unique_stats": [
+    {
+      "firstMin": 10.0,
+      "firstMax": 20.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "dodge",
+      "type": "flat"
+    },
+    {
+      "firstMin": 10.0,
+      "firstMax": 20.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "magic_shield",
+      "type": "flat"
+    },
+    {
+      "firstMin": 6.0,
+      "firstMax": 6.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "health",
+      "type": "flat"
+    },
+    {
+      "firstMin": 6.0,
+      "firstMax": 6.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "mana",
+      "type": "flat"
+    },
+    {
+      "firstMin": 5.0,
+      "firstMax": 10.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "elemental_resist",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "cloth_chest0",
+  "item_id": "mmorpg:armor/cloth/chest/cloth_chest0"
+}

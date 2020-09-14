@@ -1,0 +1,11 @@
+{
+	"powers": [
+		"origins-classes:efficient_repairs",
+		"origins-classes:more_stone_break_speed",
+		"origins-classes:more_crop_drops",
+		"origins-classes:more_planks_from_logs"
+	],
+	"icon": "minecraft:player_head",
+	"order": 0,
+	"impact": 0
+}

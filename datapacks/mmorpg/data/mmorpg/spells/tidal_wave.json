@@ -122,6 +122,7 @@
     }
   },
   "config": {
+    "swing_arm": false,
     "castingWeapon": "MELEE_WEAPON",
     "mana_cost": 10,
     "times_to_cast": 1,

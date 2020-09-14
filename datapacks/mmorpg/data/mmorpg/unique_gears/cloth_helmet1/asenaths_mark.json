@@ -1,0 +1,53 @@
+{
+  "id": "asenaths_mark",
+  "weight": 1000,
+  "rarity": 1,
+  "tier": 0,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.armor.asenaths_mark",
+  "lang_file_desc_string": "item.mmorpg.uniques.armor.asenaths_mark.desc",
+  "unique_stats": [
+    {
+      "firstMin": 10.0,
+      "firstMax": 10.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "attack_speed",
+      "type": "flat"
+    },
+    {
+      "firstMin": 10.0,
+      "firstMax": 15.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "faster_cast_rate",
+      "type": "flat"
+    },
+    {
+      "firstMin": 30.0,
+      "firstMax": 50.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "magic_shield",
+      "type": "flat"
+    },
+    {
+      "firstMin": 30.0,
+      "firstMax": 30.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "mana_regen",
+      "type": "local_increase"
+    },
+    {
+      "firstMin": 0.25,
+      "firstMax": 0.5,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "intelligence_flat_stat_req",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "cloth_helmet1",
+  "item_id": "mmorpg:armor/cloth/helmet/cloth_helmet1"
+}

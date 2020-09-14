@@ -1,0 +1,37 @@
+{
+  "id": "plate_skullders_ire",
+  "weight": 1000,
+  "rarity": 1,
+  "tier": 0,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.armor.skullders_ire",
+  "lang_file_desc_string": "item.mmorpg.uniques.armor.skullders_ire.desc",
+  "unique_stats": [
+    {
+      "firstMin": 50.0,
+      "firstMax": 100.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "armor",
+      "type": "local_increase"
+    },
+    {
+      "firstMin": 100.0,
+      "firstMax": 100.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "magic_find",
+      "type": "flat"
+    },
+    {
+      "firstMin": 0.25,
+      "firstMax": 0.50,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "strength_flat_stat_req",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "plate_golden_chest",
+  "item_id": "minecraft:golden_chestplate"
+}

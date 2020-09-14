@@ -1,0 +1,12 @@
+{
+	"powers": [
+		"origins-classes:more_attack_damage",
+		"origins:tailwind",
+		"origins:sprint_jump",
+		"origins:no_shield",
+		"origins:more_exhaustion"
+	],
+	"icon": "mmorpg:weapon/axe/axe4",
+	"order": 3,
+	"impact": 2
+}

@@ -6,37 +6,37 @@
   "registry": "unique_gear",
   "lang_file_string": "item.mmorpg.uniques.jewelry.greed_persist",
   "lang_file_desc_string": "item.mmorpg.uniques.jewelry.greed_persist.desc",
-  "unique_stats": [
+  "unique_stats": 
     {
-      "firstMin": -30.0,
-      "firstMax": 25.0,
+      "firstMin": -40.0,
+      "firstMax": 40.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "health",
+      "type": "flat"
+    },
+    {
+      "firstMin": -40.0,
+      "firstMax": 40.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "increased_quantity",
       "type": "flat"
     },
     {
-      "firstMin": -30.0,
-      "firstMax": 25.0,
+      "firstMin": -40.0,
+      "firstMax": 40.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "magic_find",
       "type": "flat"
     },
     {
-      "firstMin": 5.0,
-      "firstMax": 10.0,
+      "firstMin": -40.0,
+      "firstMax": 40.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "elemental_resist",
-      "type": "flat"
-    },
-    {
-      "firstMin": -10.0,
-      "firstMax": -5.0,
-      "secondMin": 0.0,
-      "secondMax": 0.0,
-      "stat": "health",
       "type": "flat"
     }
   ],

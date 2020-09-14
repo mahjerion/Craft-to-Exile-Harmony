@@ -20,7 +20,7 @@
       "firstMax": 10.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
-      "stat": "defense",
+      "stat": "armor",
       "type": "flat"
     },
     {

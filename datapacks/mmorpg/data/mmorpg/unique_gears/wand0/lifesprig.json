@@ -17,10 +17,18 @@
     },
     {
       "firstMin": 10.0,
-      "firstMax": 10.0,
+      "firstMax": 15.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "cdr",
+      "type": "flat"
+    },
+    {
+      "firstMin": 10.0,
+      "firstMax": 15.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "faster_cast_rate",
       "type": "flat"
     },
     {

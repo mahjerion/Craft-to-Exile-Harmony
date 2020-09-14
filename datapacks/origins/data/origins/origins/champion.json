@@ -1,0 +1,9 @@
+{
+	"powers": [
+		"origins-classes:more_attack_damage",
+		"origins-classes:less_shield_slowdown"
+	],
+	"icon": "mmorpg:armor/plate/helmet/plate_helmet2",
+	"order": 1,
+	"impact": 1
+}

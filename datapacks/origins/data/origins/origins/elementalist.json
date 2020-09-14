@@ -1,0 +1,15 @@
+{
+	"powers": [
+		"origins:burning_wrath",
+		"origins:aqua_affinity",
+		"origins:swim_speed",
+		"origins:hotblooded",
+		"origins:flame_particles",
+		"origins:fragile",
+		"origins:more_kinetic_damage",
+		"origins:more_exhaustion"
+	],
+	"icon": "mmorpg:weapon/wand/wand4",
+	"order": 6,
+	"impact": 3
+}

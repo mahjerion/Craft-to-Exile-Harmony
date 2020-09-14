@@ -1,0 +1,37 @@
+{
+  "id": "sword_gull",
+  "weight": 1000,
+  "rarity": 1,
+  "tier": 0,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.weapon.gull",
+  "lang_file_desc_string": "item.mmorpg.uniques.weapon.gull.desc",
+  "unique_stats": [
+    {
+      "firstMin": 5.0,
+      "firstMax": 15.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "physical_weapon_damage",
+      "type": "local_increase"
+    },
+    {
+      "firstMin": 100.0,
+      "firstMax": 100.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "magic_find",
+      "type": "flat"
+    },
+    {
+      "firstMin": -5.0,
+      "firstMax": -5.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "mana",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "golden_sword",
+  "item_id": "minecraft:golden_sword"
+}
