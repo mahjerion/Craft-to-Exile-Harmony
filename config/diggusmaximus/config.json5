@@ -12,7 +12,7 @@
 	// Automatically pick up drops
 	"autoPickup": true,
 	// Tool required to excavate
-	"requiresTool": false,
+	"requiresTool": true,
 	// Stop before tool breaks
 	"dontBreakTool": true,
 	// Stop excavating when tool breaks
@@ -22,7 +22,7 @@
 	// Should player get exhaustion
 	"playerExhaustion": true,
 	// Multiply exhaustion when excavating
-	"exhaustionMultiplier": 1.0,
+	"exhaustionMultiplier": 1.5,
 	// Other items to be considered tools ie: "minecraft:stick"
 	"tools": []
 }
