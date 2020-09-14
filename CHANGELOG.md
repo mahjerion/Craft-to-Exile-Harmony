@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Updates
 - Modified some VillagerFix values.
-- Made vein meining/tree chopping require the tool (can't just use hand).
+- Made vein mining/tree chopping require the tool (can't just use hand).
 - Temporarily disabled Hardcore Questing Mode mod. It's just too early and they're working on fixes still.
 
 ### Fixes
