@@ -2,7 +2,7 @@
 
 ![Title Image](https://raw.githubusercontent.com/mahjerion/Craft-to-Exile-Dissonance-Server/master/images/title/harmony-title.png)
 
-**Craft to Exile \[Harmony]** is a modpack designed around exploration. Mods in the modpack aim to enhance the players' experience with Age of Exile - a thorough RPG mod dedicated to exploration. This mod draws inspiration from popular action RPGs such as Diablo II and Path of Exile.
+**Craft to Exile \[Harmony]** is a 1.16.X modpack designed around exploration. Mods in the modpack aim to enhance the players' experience with Age of Exile - a thorough RPG mod dedicated to exploration. This mod draws inspiration from popular action RPGs such as Diablo II and Path of Exile.
 
 <p align="center">
   <img width="640" height="160" src="https://raw.githubusercontent.com/mahjerion/Craft-to-Exile-Dissonance-Server/master/images/banner/VS.png">
