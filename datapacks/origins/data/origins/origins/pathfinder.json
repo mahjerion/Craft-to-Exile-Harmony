@@ -1,0 +1,14 @@
+{
+	"powers": [
+		"origins-classes:tamed_animal_boost",
+		"origins-classes:tamed_potion_diffusal",
+		"origins-classes:longer_potions",
+		"origins-classes:better_crafted_food",
+		"origins:tailwind",
+		"origins:vegetarian",
+		"origins:fragile"
+	],
+	"icon": "minecraft:bone",
+	"order": 5,
+	"impact": 2
+}

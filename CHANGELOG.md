@@ -7,17 +7,30 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.2b] - 2020-09-15
+
+### Updates
+- Added the Pathfinder ascendancy! The Pathfinder specializes in potion crafting and the taming of animals, but comes with the downside of being vegetarian and having less health.
+- Added a quest showcasing respawnable pets item.
+
+### Mod Updates
+- Updated Age of Exile.
+- Added Pet Owner.
+- Added Respawnable Pets.
+- Added Project: Save the Pets!
+
 ## [1.0.2] - 2020-09-15
 
 ### Updates
 - Renabled HQM on SP - will continue to monitor and add to server when ready.
+- Added a quest for CE: Foodstuffs.
 - Disabled skipping stones and grappling hook from Campanion.
 
 ### Mod Updates
 - Updated Origins, Age of Exile, Chat Heads.
 - Added Dungeons of Exile.
 - Added Better Weather.
-- Added Get Off My Lawn.
+- Added Get Off My Lawn <-- Claims
 - Added Wild World.
 - Added Common Expansion: Foodstuffs.
 

@@ -1,0 +1,11 @@
+{ 
+	"ENABLE_MOD": true,
+	"ALLOWED_MODS_FOR_SPAWNERS": [ 
+		"minecraft:cave_spider",
+		"minecraft:skeleton",
+		"minecraft:spider",
+		"minecraft:zombie",
+		"minecraft:zombie_villager",
+		"minecraft:husk"
+	]
+}
