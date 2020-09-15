@@ -1,0 +1,21 @@
+Minecraft Meets Path of Exile & Diablo!
+
+Craft to Exile [Harmony] is a 1.16.X modpack on Fabric designed around progression. Mods in Craft to Exile aim to enhance the players' experience with Age of Exile - a thorough ARPG mod.
+
+Featuring:
+- Over 50 quests!
+- Over 50 custom items (uniques, sets, runewords).
+- Thousands of lines of configuration via datapacks.
+- An official server provided by Akliz!
+
+Mods:
+- Age of Exile - turns Minecraft into an ARPG!
+- Origins - introducing ascendancies!
+- Crimson Moon, Trap Expansion, Ward Blocks - invasions galore!
+- The Bumblezone, End: Rebellion, Adventurez.
+- Hardcore Questing Mode - with custom quest log.
+- Oh The Biomes You'll Go, Mo'Structures, Repurposed Structures - for fun world gen.
+- And many more!
+
+Curse Page: https://www.curseforge.com/minecraft/modpacks/crafttoexileharmony
+Discord: https://discord.gg/cJS6ZHs

@@ -1,9 +1,0 @@
-{
-  "powers": [
-    "origins-classes:tamed_animal_boost",
-    "origins-classes:tamed_potion_diffusal"
-  ],
-  "icon": "minecraft:bone",
-  "order": 13,
-  "impact": 0
-}

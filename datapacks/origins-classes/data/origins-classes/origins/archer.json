@@ -1,9 +1,0 @@
-{
-  "powers": [
-    "origins-classes:no_projectile_divergence",
-    "origins-classes:less_bow_slowdown"
-  ],
-  "icon": "minecraft:bow",
-  "order": 11,
-  "impact": 0
-}

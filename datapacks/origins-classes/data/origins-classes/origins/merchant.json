@@ -1,9 +1,0 @@
-{
-  "powers": [
-    "origins-classes:trade_availability",
-    "origins-classes:rare_wandering_loot"
-  ],
-  "icon": "minecraft:emerald",
-  "order": 8,
-  "impact": 0
-}
