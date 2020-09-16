@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#i#",
+    "IOI",
+    "#i#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stone"
+    },
+    "i": {
+      "item": "minecraft:emerald"
+    },
+    "I": {
+      "item": "minecraft:emerald_block"
+    },
+    "O": {
+      "item": "goml:crystal_claim_anchor"
+    }
+  },
+  "result": {
+    "item": "minecraft:air",
+    "count": 1
+  }
+}

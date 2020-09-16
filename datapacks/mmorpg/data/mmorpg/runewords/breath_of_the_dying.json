@@ -1,0 +1,46 @@
+{
+  "identifier": "breath_of_the_dying",
+  "stats": [
+    {
+      "first_min": 160.0,
+      "first_max": 220.0,
+      "second_min": 0.0,
+      "second_max": 0.0,
+      "stat": "physical_weapon_damage",
+      "type": "LOCAL_INCREASE"
+    },
+    {
+      "first_min": 20.0,
+      "first_max": 20.0,
+      "second_min": 0.0,
+      "second_max": 0.0,
+      "stat": "chance_of_poison",
+      "type": "FLAT"
+    },
+    {
+      "first_min": 50.0,
+      "first_max": 75.0,
+      "second_min": 0.0,
+      "second_max": 0.0,
+      "stat": "poison_bonus_dmg",
+      "type": "FLAT"
+    },
+    {
+      "first_min": 45.0,
+      "first_max": 45.0,
+      "second_min": 0.0,
+      "second_max": 0.0,
+      "stat": "attack_speed",
+      "type": "LOCAL_INCREASE"
+    }
+  ],
+  "runes_needed": [
+    "dos",
+    "oru",
+    "wir",
+    "mos",
+	"nos"
+  ],
+  "family": "Weapon",
+  "loc_name": "Breath of the Dying"
+}

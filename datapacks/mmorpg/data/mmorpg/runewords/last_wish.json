@@ -1,0 +1,46 @@
+{
+  "identifier": "last_wish",
+  "stats": [
+    {
+      "first_min": 140.0,
+      "first_max": 190.0,
+      "second_min": 0.0,
+      "second_max": 0.0,
+      "stat": "physical_weapon_damage",
+      "type": "LOCAL_INCREASE"
+    },
+    {
+      "first_min": 15.0,
+      "first_max": 20.0,
+      "second_min": 0.0,
+      "second_max": 0.0,
+      "stat": "lifesteal",
+      "type": "FLAT"
+    },
+    {
+      "first_min": 20.0,
+      "first_max": 20.0,
+      "second_min": 0.0,
+      "second_max": 0.0,
+      "stat": "chance_of_static",
+      "type": "FLAT"
+    },
+    {
+      "first_min": 100.0,
+      "first_max": 100.0,
+      "second_min": 0.0,
+      "second_max": 0.0,
+      "stat": "armor_penetration",
+      "type": "LOCAL_INCREASE"
+    }
+  ],
+  "runes_needed": [
+    "ita",
+    "mos",
+    "har",
+    "cen",
+	"oru"
+  ],
+  "family": "Weapon",
+  "loc_name": "Last Wish"
+}

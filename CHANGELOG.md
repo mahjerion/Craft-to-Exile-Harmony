@@ -7,6 +7,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.3] - 2020-09-16
+
+### Updates
+- Added 5 new runewords: Spirit, Breath of the Dying, Insight, Call to Arms, and Last Wish!
+- Buffed various runewords.
+- Disabled diamond, emerald, and nether start claim blocks.
+- Altered recipe of the first 3 claim blocks and the goggles.
+- Improved the rewards of some quests.
+
+### Mod Updates
+- Updated Age of Exile, Allure, Xaero's.
+- Added Leaf Decay.
+- Added Player Roles [server only] - players can now use /team on servers.
+
+### Fixes
+- Fixed the cobblestone quest to be detection instead of crafting...
+- Golden apples should no longer cause crashes.
+- Duplicating tools should be fixed.
+
 ## [1.0.2b] - 2020-09-15
 
 ### Updates

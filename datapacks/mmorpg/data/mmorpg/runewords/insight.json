@@ -1,0 +1,46 @@
+{
+  "identifier": "insight",
+  "stats": [
+    {
+      "first_min": 100.0,
+      "first_max": 120.0,
+      "second_min": 0.0,
+      "second_max": 0.0,
+      "stat": "physical_weapon_damage",
+      "type": "LOCAL_INCREASE"
+    },
+    {
+      "first_min": 250.0,
+      "first_max": 300.0,
+      "second_min": 0.0,
+      "second_max": 0.0,
+      "stat": "mana_regen",
+      "type": "LOCAL_INCREASE"
+    },
+    {
+      "first_min": 35.0,
+      "first_max": 35.0,
+      "second_min": 0.0,
+      "second_max": 0.0,
+      "stat": "faster_cast_rate",
+      "type": "LOCAL_INCREASE"
+    },
+    {
+      "first_min": 25.0,
+      "first_max": 40.0,
+      "second_min": 0.0,
+      "second_max": 0.0,
+      "stat": "critical_hit",
+      "type": "LOCAL_INCREASE"
+    }
+  ],
+  "runes_needed": [
+    "xer",
+    "ano",
+    "cen",
+    "dos",
+	"toq"
+  ],
+  "family": "Weapon",
+  "loc_name": "Insight"
+}

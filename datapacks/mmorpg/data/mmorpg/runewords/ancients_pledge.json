@@ -3,7 +3,7 @@
   "stats": [
     {
       "first_min": 10.0,
-      "first_max": 15.0,
+      "first_max": 25.0,
       "second_min": 0.0,
       "second_max": 0.0,
       "stat": "fire_resist",
@@ -11,7 +11,7 @@
     },
     {
       "first_min": 10.0,
-      "first_max": 15.0,
+      "first_max": 25.0,
       "second_min": 0.0,
       "second_max": 0.0,
       "stat": "thunder_resist",
@@ -19,7 +19,7 @@
     },
     {
       "first_min": 10.0,
-      "first_max": 15.0,
+      "first_max": 25.0,
       "second_min": 0.0,
       "second_max": 0.0,
       "stat": "water_resist",
@@ -31,6 +31,6 @@
     "cen",
     "toq"
   ],
-  "family": "Shield",
+  "family": "Offhand",
   "loc_name": "Ancient's Pledge"
 }

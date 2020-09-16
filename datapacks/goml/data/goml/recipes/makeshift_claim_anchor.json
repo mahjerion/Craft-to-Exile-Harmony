@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#S#",
+    "SES",
+    "#S#"
+  ],
+  "key": {
+    "#": {
+      "tag": "minecraft:logs"
+    },
+    "S": {
+      "item": "minecraft:stone"
+    },
+    "E": {
+      "item": "mmorpg:mat/magic_essence"
+    }
+  },
+  "result": {
+    "item": "goml:makeshift_claim_anchor"
+  }
+}
