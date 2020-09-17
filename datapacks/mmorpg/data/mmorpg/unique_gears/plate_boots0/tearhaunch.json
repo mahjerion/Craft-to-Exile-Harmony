@@ -32,16 +32,16 @@
       "type": "flat"
     },
     {
-      "firstMin": 5.0,
-      "firstMax": 5.0,
+      "firstMin": 0.05,
+      "firstMax": 0.05,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "dexterity",
       "type": "flat"
     },
     {
-      "firstMin": 5.0,
-      "firstMax": 5.0,
+      "firstMin": 0.05,
+      "firstMax": 0.05,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "strength",

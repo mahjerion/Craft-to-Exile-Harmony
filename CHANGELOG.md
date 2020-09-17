@@ -7,6 +7,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.4] - 2020-09-17
+
+### Updates
+- Changed the rune order of Last Wish to prevent conflict.
+- Changed runes to be more consistent with their stats. Also changed some runes so we don't have like 6 crit runes.
+
+### Mod Updates
+- Updated Age of Exile, VillagerFix.
+- Added YUNG's Better Caves.
+- Added Polymorph.
+
+## Fixes
+- Lag upon player joining should be greatly alleviated.
+
 ## [1.0.3] - 2020-09-16
 
 ### Updates

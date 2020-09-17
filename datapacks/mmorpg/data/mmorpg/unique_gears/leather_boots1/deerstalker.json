@@ -24,16 +24,16 @@
       "type": "flat"
     },
     {
-      "firstMin": 10.0,
-      "firstMax": 10.0,
+      "firstMin": 0.1,
+      "firstMax": 0.1,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "dexterity",
       "type": "flat"
     },
     {
-      "firstMin": 10.0,
-      "firstMax": 10.0,
+      "firstMin": 0.1,
+      "firstMax": 0.1,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "intelligence",

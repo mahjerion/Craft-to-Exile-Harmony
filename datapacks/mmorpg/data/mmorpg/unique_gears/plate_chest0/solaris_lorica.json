@@ -8,8 +8,8 @@
   "lang_file_desc_string": "item.mmorpg.uniques.armor.solaris_lorica.desc",
   "unique_stats": [
     {
-      "firstMin": 5.0,
-      "firstMax": 10.0,
+      "firstMin": 0.05,
+      "firstMax": 0.1,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "strength",

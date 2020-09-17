@@ -1,8 +1,8 @@
 {
   "on_armor_stats": [
     {
-      "first_min": 5.0,
-      "first_max": 20.0,
+      "first_min": 15.0,
+      "first_max": 18.0,
       "second_min": 0.0,
       "second_max": 0.0,
       "stat": "armor",
@@ -11,7 +11,7 @@
   ],
   "on_jewelry_stats": [
     {
-      "first_min": 3.0,
+      "first_min": 6.0,
       "first_max": 8.0,
       "second_min": 0.0,
       "second_max": 0.0,
@@ -21,8 +21,8 @@
   ],
   "on_weapons_stats": [
     {
-      "first_min": 0.5,
-      "first_max": 2.0,
+      "first_min": 3.0,
+      "first_max": 4.0,
       "second_min": 0.0,
       "second_max": 0.0,
       "stat": "life_on_hit",

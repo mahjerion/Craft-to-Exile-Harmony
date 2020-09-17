@@ -32,8 +32,8 @@
       "type": "flat"
     },
     {
-      "firstMin": 5.0,
-      "firstMax": 15.0,
+      "firstMin": 0.05,
+      "firstMax": 0.15,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "strength",

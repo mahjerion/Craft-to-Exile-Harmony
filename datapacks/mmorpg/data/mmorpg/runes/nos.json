@@ -1,8 +1,8 @@
 {
   "on_armor_stats": [
     {
-      "first_min": 5.0,
-      "first_max": 20.0,
+      "first_min": 15.0,
+      "first_max": 18.0,
       "second_min": 0.0,
       "second_max": 0.0,
       "stat": "magic_shield",
@@ -11,21 +11,21 @@
   ],
   "on_jewelry_stats": [
     {
-      "first_min": 1.0,
-      "first_max": 3.0,
+      "first_min": 3.0,
+      "first_max": 5.0,
       "second_min": 0.0,
       "second_max": 0.0,
-      "stat": "physical_weapon_damage",
+      "stat": "increase_healing",
       "type": "FLAT"
     }
   ],
   "on_weapons_stats": [
     {
-      "first_min": 5.0,
-      "first_max": 12.0,
+      "first_min": 8.0,
+      "first_max": 10.0,
       "second_min": 0.0,
       "second_max": 0.0,
-      "stat": "critical_damage",
+      "stat": "spell_damage",
       "type": "FLAT"
     }
   ],

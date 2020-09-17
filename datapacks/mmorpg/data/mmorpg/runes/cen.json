@@ -1,18 +1,18 @@
 {
   "on_armor_stats": [
     {
-      "first_min": 1.0,
-      "first_max": 4.0,
+      "first_min": 20.0,
+      "first_max": 25.0,
       "second_min": 0.0,
       "second_max": 0.0,
-      "stat": "max_thunder_resist",
+      "stat": "thunder_resist",
       "type": "FLAT"
     }
   ],
   "on_jewelry_stats": [
     {
-      "first_min": 3.0,
-      "first_max": 8.0,
+      "first_min": 8.0,
+      "first_max": 10.0,
       "second_min": 0.0,
       "second_max": 0.0,
       "stat": "spell_thunder_damage",
@@ -21,12 +21,12 @@
   ],
   "on_weapons_stats": [
     {
-      "first_min": 0.5,
-      "first_max": 1.0,
-      "second_min": 1.0,
-      "second_max": 2.0,
+      "first_min": 12.0,
+      "first_max": 15.0,
+      "second_min": 0.0,
+      "second_max": 0.0,
       "stat": "thunder_weapon_damage",
-      "type": "FLAT"
+      "type": "LOCAL_INCREASE"
     }
   ],
   "item_id": "mmorpg:runes/cen",

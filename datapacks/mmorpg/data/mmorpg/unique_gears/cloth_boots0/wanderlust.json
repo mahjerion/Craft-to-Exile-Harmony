@@ -8,8 +8,8 @@
   "lang_file_desc_string": "item.mmorpg.uniques.armor.wanderlust.desc",
   "unique_stats": [
     {
-      "firstMin": 3.0,
-      "firstMax": 3.0,
+      "firstMin": 0.3,
+      "firstMax": 0.3,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "dexterity",
