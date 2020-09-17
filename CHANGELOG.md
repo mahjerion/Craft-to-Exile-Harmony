@@ -18,6 +18,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Updates
 - Changed the rune order of Last Wish to prevent conflict.
 - Changed runes to be more consistent with their stats. Also changed some runes so we don't have like 6 crit runes.
+- Fixed some outrageous stat values on uniques/runewords.
 
 ### Mod Updates
 - Updated Age of Exile, VillagerFix.
