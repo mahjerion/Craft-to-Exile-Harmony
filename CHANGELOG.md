@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.4b] - 2020-09-17
+
+### Mod Updates
+- Updated Age of Exile, Oh The Biomes You'll Go.
+- Removed YUNG's Better Caves (it bork).
+
 ## [1.0.4] - 2020-09-17
 
 ### Updates
