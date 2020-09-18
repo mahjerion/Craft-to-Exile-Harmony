@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.5] - 2020-09-18
+
+### Updates
+- New skill tree! Arcane!
+- Iron gear and above are now salvagable.
+
+### Mod Updates
+- Updated Age of Exile.
+
+### Fixes
+- Tooltip bug with Age of Exile should be fixed, and lag should be fixed too.
+
 ## [1.0.4b] - 2020-09-17
 
 ### Mod Updates
