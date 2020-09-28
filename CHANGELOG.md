@@ -28,8 +28,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added RPGz - RPG-style looting.
 - Added Flan - new claim mod. Use a golden hoe on two corners to generate a claim. Type /flan in the claim to open up the menu. You can claim about 10 chunks.
 - Added MyCommands - you can now use /tpa (that's it).
+- Added I Am Very Smart.
 - Removed Get Off My Lawn.
 - Removed Lamb Dynamic Lights.
+- Removed IKWID.
 
 ### Fixes
 - Fixed Crafting More Gear quest detection.
