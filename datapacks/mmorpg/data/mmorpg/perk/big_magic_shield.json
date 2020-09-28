@@ -1,0 +1,19 @@
+{
+  "type": "STAT",
+  "identifier": "big_magic_shield",
+  "spell": "",
+  "lock_under_adv": "",
+  "stats": [
+    {
+      "first": 12.0,
+      "second": 0.0,
+      "stat": "magic_shield",
+      "type": "LOCAL_INCREASE",
+      "scaleToLevel": false
+    }
+  ],
+  "spell_mods": [],
+  "icon": "mmorpg:textures/gui/stat_icons/resource/magic_shield.png",
+  "is_entry": false,
+  "lvl_req": 1
+}

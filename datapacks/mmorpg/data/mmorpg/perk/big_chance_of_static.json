@@ -1,0 +1,19 @@
+{
+  "type": "STAT",
+  "identifier": "big_chance_of_static",
+  "spell": "",
+  "lock_under_adv": "",
+  "stats": [
+    {
+      "first": 10.0,
+      "second": 0.0,
+      "stat": "chance_of_static",
+      "type": "FLAT",
+      "scaleToLevel": false
+    }
+  ],
+  "spell_mods": [],
+  "icon": "mmorpg:textures/gui/stat_icons/ele_atk_dmg/thunder.png",
+  "is_entry": false,
+  "lvl_req": 1
+}

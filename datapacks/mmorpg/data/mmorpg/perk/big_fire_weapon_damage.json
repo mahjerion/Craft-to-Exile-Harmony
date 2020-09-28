@@ -1,0 +1,19 @@
+{
+  "type": "STAT",
+  "identifier": "big_fire_weapon_damage",
+  "spell": "",
+  "lock_under_adv": "",
+  "stats": [
+    {
+      "first": 14.0,
+      "second": 0.0,
+      "stat": "fire_weapon_damage",
+      "type": "LOCAL_INCREASE",
+      "scaleToLevel": false
+    }
+  ],
+  "spell_mods": [],
+  "icon": "mmorpg:textures/gui/stat_icons/ele_atk_dmg/fire.png",
+  "is_entry": false,
+  "lvl_req": 1
+}

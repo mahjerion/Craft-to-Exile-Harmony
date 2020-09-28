@@ -1,0 +1,10 @@
+{
+  "identifier": "arcane_comet_damage",
+  "mods": [
+    {
+      "value": 5.0,
+      "spell_stat": "DAMAGE"
+    }
+  ],
+  "for_spell": "arcane_comet"
+}

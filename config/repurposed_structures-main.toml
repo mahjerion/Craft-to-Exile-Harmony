@@ -53,10 +53,6 @@ addJungleFortressToModdedBiomes = true
 blacklistedFortressBiomes = ""
 silverfishSpawnrateJF = 0.5
 lootChestsJF = true
-[RSMainConfig.shipwrecks]
-addEndShipwreckToModdedBiomes = true
-blacklistedShipwreckBiomes = ""
-endShipwreckSpawnrate = 15
 [RSMainConfig.igloos]
 blacklistedIglooBiomes = ""
 grassyIglooSpawnrate = 20
@@ -181,3 +177,14 @@ netherWellSpawnrate = 350
 snowWellSpawnrate = 350
 mossyStoneWellSpawnrate = 350
 forestWellSpawnrate = 350
+[RSShipwrecksConfig.blacklist]
+blacklistedShipwreckBiomes = ""
+addEndShipwreckToModdedBiomes = true
+addNetherBricksShipwreckToModdedBiomes = true
+addCrimsonShipwreckToModdedBiomes = true
+addWarpedShipwreckToModdedBiomes = true
+[RSShipwrecksConfig.spawnrate]
+endShipwreckSpawnrate = 15
+netherBricksShipwreckSpawnrate = 51
+crimsonShipwreckSpawnrate = 41
+warpedShipwreckSpawnrate = 41

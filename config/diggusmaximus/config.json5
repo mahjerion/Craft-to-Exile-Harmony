@@ -3,6 +3,8 @@
 	"enabled": true,
 	// Activation key
 	"keybinding": "key.keyboard.grave.accent",
+	// Inverts the keybinding activation
+	"invertActivation": true,
 	// Should mine diagonally
 	"mineDiag": true,
 	// Maximum number of blocks to mine

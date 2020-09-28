@@ -1,0 +1,16 @@
+{
+  "id": "beneficial/0",
+  "one_of_a_kind_id": "",
+  "type": "BENEFICIAL",
+  "max_stacks": 1,
+  "mc_stats": [],
+  "stats": [
+    {
+      "first": 10.0,
+      "second": 0.0,
+      "stat": "elemental_resist",
+      "type": "FLAT",
+      "scaleToLevel": false
+    }
+  ]
+}

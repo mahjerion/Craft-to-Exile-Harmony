@@ -1,0 +1,12 @@
+{
+  "type": "SPELL",
+  "identifier": "passive_storm",
+  "spell": "passive_storm",
+  "lock_under_adv": "",
+  "stats": [],
+  "spell_mods": [],
+  "icon": "mmorpg:textures/gui/spells/icons/passive_storm.png",
+  "is_entry": false,
+  "lvl_req": 20,
+  "one_of_a_kind": "passive_spell"
+}

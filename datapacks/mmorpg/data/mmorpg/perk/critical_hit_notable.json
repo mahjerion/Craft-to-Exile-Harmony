@@ -1,0 +1,22 @@
+{
+  "type": "SPECIAL",
+  "identifier": "critical_hit_notable",
+  "spell": "",
+  "lock_under_adv": "",
+  "stats": [
+    {
+      "first": 7.5,
+      "second": 0.0,
+      "stat": "critical_hit",
+      "type": "FLAT",
+      "scaleToLevel": false
+    }
+  ],
+  "spell_mods": [
+    "critical_hit_notable"
+  ],
+  "icon": "mmorpg:textures/gui/stat_icons/game_changers/true_hit.png",
+  "is_entry": false,
+  "lvl_req": 1,
+  "one_of_a_kind": "notable"
+}

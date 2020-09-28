@@ -1,0 +1,19 @@
+{
+  "type": "SPELL",
+  "identifier": "gorgons_gaze",
+  "spell": "gorgons_gaze",
+  "lock_under_adv": "",
+  "icon": "mmorpg:textures/gui/spells/icons/gorgons_gaze.png",
+  "is_entry": false,
+  "lvl_req": 1,
+  "stats": [
+    {
+      "first": 1.0,
+      "second": 0.0,
+      "stat": "unlock_gorgons_gaze",
+      "type": "FLAT",
+      "scaleToLevel": false
+    }
+  ],
+  "spell_mods": []
+}

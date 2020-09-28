@@ -1,0 +1,26 @@
+{
+  "type": "STAT",
+  "identifier": "big_increase_healing_heal_to_dmg",
+  "spell": "",
+  "lock_under_adv": "",
+  "stats": [
+    {
+      "first": 8.0,
+      "second": 0.0,
+      "stat": "increase_healing",
+      "type": "FLAT",
+      "scaleToLevel": false
+    },
+    {
+      "first": 5.0,
+      "second": 0.0,
+      "stat": "heal_to_dmg",
+      "type": "FLAT",
+      "scaleToLevel": false
+    }
+  ],
+  "spell_mods": [],
+  "icon": "mmorpg:textures/gui/spells/icons/healing_aura.png",
+  "is_entry": false,
+  "lvl_req": 1
+}

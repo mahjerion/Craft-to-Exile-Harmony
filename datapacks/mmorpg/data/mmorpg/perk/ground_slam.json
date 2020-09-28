@@ -1,0 +1,11 @@
+{
+  "type": "SPELL",
+  "identifier": "ground_slam",
+  "spell": "ground_slam",
+  "lock_under_adv": "",
+  "stats": [],
+  "spell_mods": [],
+  "icon": "mmorpg:textures/gui/stat_icons/ele_wep_dmg/hammer.png",
+  "is_entry": false,
+  "lvl_req": 1
+}

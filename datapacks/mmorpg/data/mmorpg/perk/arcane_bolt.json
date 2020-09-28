@@ -1,0 +1,19 @@
+{
+  "type": "SPELL",
+  "identifier": "arcane_bolt",
+  "spell": "arcane_bolt",
+  "lock_under_adv": "",
+  "icon": "mmorpg:textures/gui/spells/icons/arcane_bolt.png",
+  "is_entry": false,
+  "lvl_req": 1,
+  "stats": [
+    {
+      "first": 1.0,
+      "second": 0.0,
+      "stat": "unlock_arcane_bolt",
+      "type": "FLAT",
+      "scaleToLevel": false
+    }
+  ],
+  "spell_mods": []
+}

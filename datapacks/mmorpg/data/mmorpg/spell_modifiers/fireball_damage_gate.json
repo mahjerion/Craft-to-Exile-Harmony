@@ -1,0 +1,10 @@
+{
+  "identifier": "fireball_damage_gate",
+  "mods": [
+    {
+      "value": 25.0,
+      "spell_stat": "DAMAGE"
+    }
+  ],
+  "for_spell": "fireball"
+}

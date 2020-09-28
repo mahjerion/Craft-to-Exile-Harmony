@@ -1,0 +1,14 @@
+{
+  "type": "SPELL_MOD",
+  "identifier": "flower_of_ice_mana_restore_gate",
+  "spell": "",
+  "lock_under_adv": "",
+  "stats": [],
+  "spell_mods": [
+    "flower_of_ice_mana_restore"
+  ],
+  "icon": "mmorpg:textures/gui/spells/icons/flower_of_ice.png",
+  "is_entry": false,
+  "lvl_req": 1,
+  "one_of_a_kind": "flower_of_ice"
+}

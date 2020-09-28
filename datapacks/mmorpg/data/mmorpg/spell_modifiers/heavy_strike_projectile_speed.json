@@ -1,0 +1,10 @@
+{
+  "identifier": "heavy_strike_projectile_speed",
+  "mods": [
+    {
+      "value": 15.0,
+      "spell_stat": "PROJECTILE_SPEED"
+    }
+  ],
+  "for_spell": "heavy_strike"
+}

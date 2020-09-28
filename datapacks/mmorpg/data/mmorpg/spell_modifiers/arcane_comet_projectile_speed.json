@@ -1,0 +1,10 @@
+{
+  "identifier": "arcane_comet_projectile_speed",
+  "mods": [
+    {
+      "value": 15.0,
+      "spell_stat": "PROJECTILE_SPEED"
+    }
+  ],
+  "for_spell": "arcane_comet"
+}

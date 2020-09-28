@@ -1,0 +1,13 @@
+{
+  "type": "SPELL_MOD",
+  "identifier": "lightning_totem_damage",
+  "spell": "",
+  "lock_under_adv": "",
+  "stats": [],
+  "spell_mods": [
+    "lightning_totem_damage"
+  ],
+  "icon": "mmorpg:textures/gui/skill_tree/skill_modifiers/damage.png",
+  "is_entry": false,
+  "lvl_req": 1
+}

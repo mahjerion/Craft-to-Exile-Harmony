@@ -1,0 +1,19 @@
+{
+  "type": "STAT",
+  "identifier": "big_dex",
+  "spell": "",
+  "lock_under_adv": "",
+  "stats": [
+    {
+      "first": 3.0,
+      "second": 0.0,
+      "stat": "dexterity",
+      "type": "FLAT",
+      "scaleToLevel": false
+    }
+  ],
+  "spell_mods": [],
+  "icon": "mmorpg:textures/gui/stat_icons/core/dex.png",
+  "is_entry": false,
+  "lvl_req": 1
+}

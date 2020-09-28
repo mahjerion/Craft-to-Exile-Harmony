@@ -1,0 +1,19 @@
+{
+  "type": "STAT",
+  "identifier": "big_nature_penetration",
+  "spell": "",
+  "lock_under_adv": "",
+  "stats": [
+    {
+      "first": 10.0,
+      "second": 0.0,
+      "stat": "nature_penetration",
+      "type": "LOCAL_INCREASE",
+      "scaleToLevel": false
+    }
+  ],
+  "spell_mods": [],
+  "icon": "mmorpg:textures/gui/stat_icons/pene/nature.png",
+  "is_entry": false,
+  "lvl_req": 1
+}

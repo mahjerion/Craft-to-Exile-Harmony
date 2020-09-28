@@ -1,0 +1,11 @@
+{
+  "type": "SPELL",
+  "identifier": "heavy_strike",
+  "spell": "heavy_strike",
+  "lock_under_adv": "",
+  "stats": [],
+  "spell_mods": [],
+  "icon": "mmorpg:textures/gui/stat_icons/wep_dmg/hammer.png",
+  "is_entry": false,
+  "lvl_req": 1
+}

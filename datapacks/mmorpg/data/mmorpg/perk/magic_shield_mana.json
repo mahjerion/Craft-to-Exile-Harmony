@@ -1,0 +1,26 @@
+{
+  "type": "STAT",
+  "identifier": "magic_shield_mana",
+  "spell": "",
+  "lock_under_adv": "",
+  "stats": [
+    {
+      "first": 3.0,
+      "second": 0.0,
+      "stat": "magic_shield",
+      "type": "LOCAL_INCREASE",
+      "scaleToLevel": false
+    },
+	{
+      "first": 4.0,
+      "second": 0.0,
+      "stat": "mana",
+      "type": "LOCAL_INCREASE",
+      "scaleToLevel": false
+    }
+  ],
+  "spell_mods": [],
+  "icon": "mmorpg:textures/gui/stat_icons/resource/hp.png",
+  "is_entry": false,
+  "lvl_req": 1
+}

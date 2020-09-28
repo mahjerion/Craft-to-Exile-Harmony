@@ -1,0 +1,10 @@
+{
+  "identifier": "arrow_storm_projectile_speed",
+  "mods": [
+    {
+      "value": 15.0,
+      "spell_stat": "PROJECTILE_SPEED"
+    }
+  ],
+  "for_spell": "arrow_storm"
+}

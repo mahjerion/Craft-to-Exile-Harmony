@@ -1,0 +1,13 @@
+{
+  "type": "SPELL_MOD",
+  "identifier": "fireball_healing",
+  "spell": "",
+  "lock_under_adv": "",
+  "stats": [],
+  "spell_mods": [
+    "fireball_healing"
+  ],
+  "icon": "mmorpg:textures/gui/skill_tree/skill_modifiers/healing.png",
+  "is_entry": false,
+  "lvl_req": 1
+}

@@ -1,0 +1,10 @@
+{
+  "identifier": "nature_balm_damage",
+  "mods": [
+    {
+      "value": 5.0,
+      "spell_stat": "DAMAGE"
+    }
+  ],
+  "for_spell": "nature_balm"
+}

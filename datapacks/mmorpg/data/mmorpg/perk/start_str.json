@@ -1,0 +1,20 @@
+{
+  "type": "START",
+  "identifier": "start_str",
+  "spell": "",
+  "lock_under_adv": "",
+  "stats": [
+    {
+      "first": 3.0,
+      "second": 0.0,
+      "stat": "strength",
+      "type": "FLAT",
+      "scaleToLevel": false
+    }
+  ],
+  "spell_mods": [],
+  "icon": "mmorpg:textures/gui/stat_icons/core/str.png",
+  "is_entry": true,
+  "lvl_req": 1,
+  "one_of_a_kind": "start"
+}

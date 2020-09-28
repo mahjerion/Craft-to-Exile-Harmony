@@ -1,0 +1,10 @@
+{
+  "identifier": "ground_slam_cooldown",
+  "mods": [
+    {
+      "value": -10.0,
+      "spell_stat": "COOLDOWN"
+    }
+  ],
+  "for_spell": "ground_slam"
+}

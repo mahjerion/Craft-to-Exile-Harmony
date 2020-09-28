@@ -1,0 +1,10 @@
+{
+  "identifier": "tidal_wave_damage",
+  "mods": [
+    {
+      "value": 5.0,
+      "spell_stat": "DAMAGE"
+    }
+  ],
+  "for_spell": "tidal_wave"
+}

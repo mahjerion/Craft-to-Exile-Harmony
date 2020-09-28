@@ -1,0 +1,19 @@
+{
+  "type": "SPELL",
+  "identifier": "poisoned_weapons",
+  "spell": "poisoned_weapons",
+  "lock_under_adv": "",
+  "icon": "mmorpg:textures/gui/spells/icons/poisoned_weapons.png",
+  "is_entry": false,
+  "lvl_req": 1,
+  "stats": [
+    {
+      "first": 1.0,
+      "second": 0.0,
+      "stat": "unlock_poisoned_weapons",
+      "type": "FLAT",
+      "scaleToLevel": false
+    }
+  ],
+  "spell_mods": []
+}

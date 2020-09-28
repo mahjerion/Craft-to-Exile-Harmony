@@ -1,0 +1,13 @@
+{
+  "type": "SPELL_MOD",
+  "identifier": "thorn_bush_damage",
+  "spell": "",
+  "lock_under_adv": "",
+  "stats": [],
+  "spell_mods": [
+    "thorn_bush_damage"
+  ],
+  "icon": "mmorpg:textures/gui/skill_tree/skill_modifiers/damage.png",
+  "is_entry": false,
+  "lvl_req": 1
+}

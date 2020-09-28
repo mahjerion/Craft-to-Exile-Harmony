@@ -1,0 +1,10 @@
+{
+  "identifier": "poison_ball_damage",
+  "mods": [
+    {
+      "value": 5.0,
+      "spell_stat": "DAMAGE"
+    }
+  ],
+  "for_spell": "poison_ball"
+}

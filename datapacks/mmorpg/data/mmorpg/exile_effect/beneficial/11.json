@@ -1,0 +1,23 @@
+{
+  "id": "beneficial/11",
+  "one_of_a_kind_id": "",
+  "type": "BENEFICIAL",
+  "max_stacks": 1,
+  "mc_stats": [],
+  "stats": [
+    {
+      "first": 10.0,
+      "second": 0.0,
+      "stat": "ele_bow_damage",
+      "type": "FLAT",
+      "scaleToLevel": false
+    },
+    {
+      "first": 5.0,
+      "second": 0.0,
+      "stat": "critical_hit",
+      "type": "FLAT",
+      "scaleToLevel": false
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "identifier": "fireball",
+  "attached": {
+    "on_cast": [
+      {
+        "targets": [],
+        "acts": [
+          {
+            "type": "sound",
+            "map": {
+              "volume": 1.0,
+              "sound": "minecraft:item.firecharge.use",
+              "pitch": 1.0
+            }
+          }
+        ],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ]
+      },
+      {
+        "targets": [],
+        "acts": [
+          {
+            "type": "projectile",
+            "map": {
+              "proj_speed": 1.0,
+              "item": "minecraft:fire_charge",
+              "entity_name": "default_entity_name",
+              "gravity": false,
+              "proj_count": 1.0,
+              "life_ticks": 80.0,
+              "proj_en": "mmorpg:spell_projectile"
+            }
+          }
+        ],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ]
+      }
+    ],
+    "entity_components": {
+      "default_entity_name": [
+        {
+          "targets": [],
+          "acts": [
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "particle_type": "minecraft:flame",
+                "radius": 0.15,
+                "particle_count": 3.0
+              }
+            }
+          ],
+          "ifs": [
+            {
+              "type": "x_ticks_condition",
+              "map": {
+                "tick_rate": 3.0
+              }
+            }
+          ]
+        },
+        {
+          "targets": [
+            {
+              "type": "target",
+              "map": {}
+            }
+          ],
+          "acts": [
+            {
+              "type": "damage",
+              "map": {
+                "element": "Fire"
+              },
+              "calc": {
+                "scaling_values": [],
+                "base_scaling": "SCALING",
+                "attack_scaling": 0.0,
+                "base_val": 10.0
+              }
+            }
+          ],
+          "ifs": [
+            {
+              "type": "on_hit",
+              "map": {}
+            }
+          ]
+        },
+        {
+          "targets": [
+            {
+              "type": "target",
+              "map": {}
+            }
+          ],
+          "acts": [
+            {
+              "type": "restore_health",
+              "map": {},
+              "calc": {
+                "scaling_values": [],
+                "base_scaling": "SCALING",
+                "attack_scaling": 0.0,
+                "base_val": 5.0
+              }
+            }
+          ],
+          "ifs": [
+            {
+              "type": "on_hit",
+              "map": {}
+            },
+            {
+              "type": "caster_has_spell_mod",
+              "map": {
+                "spell_mod": "fireball_heal"
+              }
+            }
+          ]
+        },
+        {
+          "targets": [
+            {
+              "type": "target",
+              "map": {}
+            }
+          ],
+          "acts": [
+            {
+              "type": "exile_effect",
+              "map": {},
+              "calc": {
+				"exile_potion_id": "negative/5",
+                "base_scaling": "GIVE_STACKS",
+				"count": 1.0,
+				"potion_dur": 100.0
+              }
+            }
+          ],
+          "ifs": [
+            {
+              "type": "on_hit",
+              "map": {}
+            },
+            {
+              "type": "caster_has_spell_mod",
+              "map": {
+                "spell_mod": "fireball_burn"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "config": {
+    "swing_arm": false,
+    "castingWeapon": "MAGE_WEAPON",
+    "mana_cost": 7,
+    "times_to_cast": 1,
+    "cast_time_ticks": 0,
+    "cooldown_ticks": 20,
+    "is_starter": false,
+    "passive_config": {
+      "is_passive": false,
+      "cast_when_hp_bellow": 0.3
+    }
+  }
+}

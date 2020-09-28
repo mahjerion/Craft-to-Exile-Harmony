@@ -7,6 +7,33 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.0] - 2020-09-28
+
+### Updates
+- New singular skill tree which replaces the existing multiple skill trees. Pick your starting position on the tree. You can now access every element/archetype from any starting position, but it may require some trekking across the skill tree. Currently, each stat is specific to an archetype (melee, spells, ranged). Within each archetype you may have access to different elements. Melee focuses on physical (primary), fire, and nature; spells focuses on arcane + water (primary), thunder, and fire; ranged focuses on physical (primary), nature, and thunder. Divine spells have been spread across the tree. Accessing different "elements" of the tree is possible but gated behind the 15th level.
+- Increased area of effect of all skills by 50%, aura skills by 100%.
+- Increased projectile speed of all spells by 100%.
+- Added new physical damage skills: double strike, cleave, ground slam, flicker strike.
+- You now gain 2 skill points per level instead of 1.
+- Added /tpa since 1. there are no waystones so getting around is already hard enough, and 2. I don't have TelePass either.
+- Added a new unique axe: The Whispering Fire - grants you a new skill "Fire Comet" only obtainable via the item which scales highly with weapon damage.
+- Enigma now grants 'Teleport'.
+- Enabled vein mining by default (no need to hold key down). You just need to use the right tool.
+- Crimson Moons now occur less frequently, and spawn mobs slightly less frequently.
+
+### Mod Updates
+- Updated Age of Exile, Pet Owner, BYG, Diggus Maximus, Patchouli, Roughly Enough Items, Adventurez, Fabric Chunk Pregenerator, Sleep Vote, Xaero's (no more manual backups), Roughly Enough Items, Dank Storage.
+- Added Sodium.
+- Added BackSlot.
+- Added RPGz - RPG-style looting.
+- Added Flan - new claim mod. Use a golden hoe on two corners to generate a claim. Type /flan in the claim to open up the menu. You can claim about 10 chunks.
+- Added MyCommands - you can now use /tpa (that's it).
+- Removed Get Off My Lawn.
+- Removed Lamb Dynamic Lights.
+
+### Fixes
+- Fixed Crafting More Gear quest detection.
+
 ## [1.0.5] - 2020-09-18
 
 ### Updates

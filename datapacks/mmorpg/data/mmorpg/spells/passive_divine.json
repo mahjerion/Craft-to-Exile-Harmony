@@ -1,0 +1,158 @@
+{
+  "identifier": "passive_divine",
+  "attached": {
+    "on_cast": [
+      {
+        "targets": [],
+        "acts": [
+          {
+            "type": "sound",
+            "map": {
+              "volume": 1.0,
+              "sound": "minecraft:entity.illusioner.cast_spell",
+              "pitch": 1.0
+            }
+          }
+        ],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ]
+      },
+      {
+        "targets": [],
+        "acts": [
+          {
+            "type": "particles_in_radius",
+            "map": {
+              "particle_type": "minecraft:cloud",
+              "radius": 2.0,
+              "particle_count": 100.0
+            }
+          }
+        ],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ]
+      },
+      {
+        "targets": [
+          {
+            "type": "self",
+            "map": {}
+          }
+        ],
+        "acts": [
+          {
+            "type": "restore_health",
+            "map": {},
+            "calc": {
+              "scaling_values": [],
+              "base_scaling": "SCALING",
+              "attack_scaling": 0.0,
+              "base_val": 15.0
+            }
+          }
+        ],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ]
+      },
+      {
+        "targets": [
+          {
+            "type": "self",
+            "map": {}
+          }
+        ],
+        "acts": [
+          {
+            "type": "potion",
+            "map": {
+              "potion_action": "GIVE_STACKS",
+              "potion_id": "minecraft:regeneration",
+              "count": 1.0,
+              "potion_dur": 100.0
+            }
+          }
+        ],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ]
+      },
+      {
+        "targets": [
+          {
+            "type": "self",
+            "map": {}
+          }
+        ],
+        "acts": [
+          {
+            "type": "potion",
+            "map": {
+              "potion_action": "REMOVE_STACKS",
+              "potion_id": "minecraft:poison",
+              "count": 1.0
+            }
+          }
+        ],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ]
+      },
+      {
+        "targets": [
+          {
+            "type": "self",
+            "map": {}
+          }
+        ],
+        "acts": [
+          {
+            "type": "potion",
+            "map": {
+              "potion_action": "REMOVE_STACKS",
+              "potion_id": "minecraft:wither",
+              "count": 1.0
+            }
+          }
+        ],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ]
+      }
+    ],
+    "entity_components": {}
+  },
+  "config": {
+    "swing_arm": false,
+    "castingWeapon": "ANY_WEAPON",
+    "mana_cost": 0,
+    "times_to_cast": 1,
+    "cast_time_ticks": 0,
+    "cooldown_ticks": 12000,
+    "is_starter": false,
+    "passive_config": {
+      "is_passive": true,
+      "cast_when_hp_bellow": 0.3
+    }
+  }
+}

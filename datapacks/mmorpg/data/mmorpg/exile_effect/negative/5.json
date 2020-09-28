@@ -1,0 +1,88 @@
+{
+  "id": "negative/5",
+  "one_of_a_kind_id": "",
+  "type": "HARMFUL",
+  "max_stacks": 1,
+  "mc_stats": [],
+  "stats": [],
+  "spell": {
+    "on_cast": [],
+    "entity_components": {
+      "default_entity_name": [
+        {
+          "targets": [
+            {
+              "type": "target",
+              "map": {}
+            }
+          ],
+          "acts": [
+            {
+              "type": "damage",
+              "map": {
+                "dmg_effect_type": "DOT_DMG",
+                "element": "Fire"
+              },
+              "calc": {
+                "scaling_values": [],
+                "base_scaling": "SCALING",
+                "attack_scaling": 0.0,
+                "base_val": 2.0
+              }
+            }
+          ],
+          "ifs": [
+            {
+              "type": "x_ticks_condition",
+              "map": {
+                "tick_rate": 20.0
+              }
+            }
+          ]
+        },
+        {
+          "targets": [],
+          "acts": [
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "particle_type": "minecraft:flame",
+                "radius": 1.0,
+                "particle_count": 10.0
+              }
+            }
+          ],
+          "ifs": [
+            {
+              "type": "x_ticks_condition",
+              "map": {
+                "tick_rate": 20.0
+              }
+            }
+          ]
+        },
+        {
+          "targets": [],
+          "acts": [
+            {
+              "type": "sound",
+              "map": {
+                "volume": 0.5,
+                "sound": "minecraft:block.campfire.crackle",
+                "pitch": 1.0
+              }
+            }
+          ],
+          "ifs": [
+            {
+              "type": "x_ticks_condition",
+              "map": {
+                "tick_rate": 20.0
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

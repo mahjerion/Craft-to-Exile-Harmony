@@ -10,12 +10,11 @@
       "type": "FLAT"
     },
     {
-      "first_min": 1.0,
-      "first_max": 1.0,
-      "second_min": 0.0,
-      "second_max": 0.0,
-      "stat": "slow_immunity",
-      "type": "FLAT"
+      "first": 1.0,
+      "second": 0.0,
+      "stat": "unlock_teleport",
+      "type": "FLAT",
+      "scaleToLevel": false
     },
     {
       "firstMin": 3.0,

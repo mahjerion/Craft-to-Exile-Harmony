@@ -1,0 +1,10 @@
+{
+  "identifier": "blazing_inferno_damage",
+  "mods": [
+    {
+      "value": 5.0,
+      "spell_stat": "DAMAGE"
+    }
+  ],
+  "for_spell": "blazing_inferno"
+}

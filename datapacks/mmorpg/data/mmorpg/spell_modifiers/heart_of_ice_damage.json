@@ -1,0 +1,10 @@
+{
+  "identifier": "heart_of_ice_damage",
+  "mods": [
+    {
+      "value": 5.0,
+      "spell_stat": "DAMAGE"
+    }
+  ],
+  "for_spell": "heart_of_ice"
+}

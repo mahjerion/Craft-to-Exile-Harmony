@@ -1,0 +1,23 @@
+{
+  "id": "beneficial/3",
+  "one_of_a_kind_id": "",
+  "type": "BENEFICIAL",
+  "max_stacks": 1,
+  "mc_stats": [],
+  "stats": [
+    {
+      "first": 20.0,
+      "second": 0.0,
+      "stat": "spell_elemental_damage",
+      "type": "FLAT",
+      "scaleToLevel": false
+    },
+    {
+      "first": 3.0,
+      "second": 0.0,
+      "stat": "mana_regen",
+      "type": "FLAT",
+      "scaleToLevel": false
+    }
+  ]
+}

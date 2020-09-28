@@ -1,0 +1,19 @@
+{
+  "type": "SPELL",
+  "identifier": "arcane_comet",
+  "spell": "arcane_comet",
+  "lock_under_adv": "",
+  "icon": "mmorpg:textures/gui/spells/icons/arcane_comet.png",
+  "is_entry": false,
+  "lvl_req": 1,
+  "stats": [
+    {
+      "first": 1.0,
+      "second": 0.0,
+      "stat": "unlock_arcane_comet",
+      "type": "FLAT",
+      "scaleToLevel": false
+    }
+  ],
+  "spell_mods": []
+}

@@ -1,0 +1,10 @@
+{
+  "identifier": "flower_of_ice_cooldown",
+  "mods": [
+    {
+      "value": -10.0,
+      "spell_stat": "COOLDOWN"
+    }
+  ],
+  "for_spell": "flower_of_ice"
+}

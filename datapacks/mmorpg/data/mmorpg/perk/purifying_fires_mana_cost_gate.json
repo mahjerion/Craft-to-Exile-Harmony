@@ -1,0 +1,14 @@
+{
+  "type": "SPELL_MOD",
+  "identifier": "purifying_fires_mana_cost_gate",
+  "spell": "",
+  "lock_under_adv": "",
+  "stats": [],
+  "spell_mods": [
+    "purifying_fires_mana_cost"
+  ],
+  "icon": "mmorpg:textures/gui/skill_tree/skill_modifiers/mana_cost.png",
+  "is_entry": false,
+  "lvl_req": 1,
+  "one_of_a_kind": "purifying_fires"
+}

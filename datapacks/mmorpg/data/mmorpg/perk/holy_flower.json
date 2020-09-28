@@ -1,0 +1,19 @@
+{
+  "type": "SPELL",
+  "identifier": "holy_flower",
+  "spell": "holy_flower",
+  "lock_under_adv": "",
+  "icon": "mmorpg:textures/gui/spells/icons/holy_flower.png",
+  "is_entry": false,
+  "lvl_req": 1,
+  "stats": [
+    {
+      "first": 1.0,
+      "second": 0.0,
+      "stat": "unlock_holy_flower",
+      "type": "FLAT",
+      "scaleToLevel": false
+    }
+  ],
+  "spell_mods": []
+}

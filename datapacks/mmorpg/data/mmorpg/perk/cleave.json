@@ -1,0 +1,11 @@
+{
+  "type": "SPELL",
+  "identifier": "cleave",
+  "spell": "cleave",
+  "lock_under_adv": "",
+  "stats": [],
+  "spell_mods": [],
+  "icon": "mmorpg:textures/gui/stat_icons/wep_dmg/axe.png",
+  "is_entry": false,
+  "lvl_req": 1
+}

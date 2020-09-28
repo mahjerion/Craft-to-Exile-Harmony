@@ -1,0 +1,12 @@
+{
+  "type": "SPELL",
+  "identifier": "passive_ocean",
+  "spell": "passive_ocean",
+  "lock_under_adv": "",
+  "stats": [],
+  "spell_mods": [],
+  "icon": "mmorpg:textures/gui/spells/icons/passive_ocean.png",
+  "is_entry": false,
+  "lvl_req": 20,
+  "one_of_a_kind": "passive_spell"
+}

@@ -1,0 +1,11 @@
+{
+  "type": "SPELL",
+  "identifier": "flicker_strike",
+  "spell": "flicker_strike",
+  "lock_under_adv": "",
+  "stats": [],
+  "spell_mods": [],
+  "icon": "mmorpg:textures/gui/stat_icons/ele_wep_dmg/sword.png",
+  "is_entry": false,
+  "lvl_req": 1
+}
