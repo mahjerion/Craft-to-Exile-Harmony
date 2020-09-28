@@ -128,7 +128,37 @@
               }
             }
           ],
-          "name": "mmorpg:ore3"
+          "name": "mmorpg:gear_mat/ore/ore3"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2.0,
+                "max": 4.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "mmorpg:gear_mat/leather/leather3"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2.0,
+                "max": 4.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "mmorpg:gear_mat/cloth/cloth3"
         }
       ]
     }

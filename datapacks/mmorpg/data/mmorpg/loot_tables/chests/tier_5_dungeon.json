@@ -182,7 +182,37 @@
               }
             }
           ],
-          "name": "mmorpg:ore4"
+          "name": "mmorpg:gear_mat/ore/ore4"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "mmorpg:gear_mat/leather/leather4"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "mmorpg:gear_mat/cloth/cloth4"
         }
       ]
     }

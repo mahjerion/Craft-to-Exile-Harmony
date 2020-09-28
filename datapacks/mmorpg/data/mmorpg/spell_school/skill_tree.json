@@ -1,7 +1,7 @@
 {
 "text_format": "WHITE",
 "identifier": "skill_tree",
-"icon": "mmorpg:textures/gui/skill_tree/schools/divine.png",
+"icon": "mmorpg:textures/gui/skill_tree/schools/arcane.png",
 "order":0,
 
 "perks": "E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E
@@ -9,7 +9,7 @@
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,blizzard_big_damage,O,,,blizzard_damage,O,blizzard_damage_gate,O,blizzard,O,blizzard_cooldown_gate,O,blizzard_cooldown,,,O,blizzard_frost,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,blizzard_mana_cost,O,,,,,O,,,,,O,blizzard_mana_cost,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,O,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-E,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,wand_damage,O,wand_damage,,,,,,O,,,,,,water_penetration,O,water_penetrraiton,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,E
+E,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,wand_damage,O,wand_damage,,,,,,O,,,,,,water_penetration,O,water_penetration,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,E
 E,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,big_mana,O,mana_regen,,,,O,,,,O,,,,,O,,,,,O,,,,O,,,,increase_healing,O,big_increase_healing,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,E
 E,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,O,,,O,,,big_wand_damage,,,,wand_damage,O,,,,O,,,,O,water_resist,,,,big_water_penetration,,,O,,,O,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,E
 E,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,mana,,,mana_regen,,,O,,,,O,,O,,,O,,,O,,O,,,,O,,,increase_healing,,,heal_to_dmg,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,E
@@ -28,11 +28,11 @@ E,,,,,,,,,,,O,,,,,,int,O,,,fire_weapon_damage,O,all_fire_damage,O,,O,,,,O,,O,,O,
 E,,,,,,,,,,,volcano,,,,,O,,,,,O,,O,,,,spell_fire_damage,,,,tidal_wave,,,,critical_hit,,,,O,,,,,O,,,,,,,,O,,,,,O,,,,cdr,,,,health_mana,,,,spell_thunder_damage,,,,,O,,O,spell_damage,,,O,,,,,,,,,,,,,,,E
 E,,,,,,,,,,,,O,,,,int,,,,,big_all_fire_damage,O,spell_fire_damage,,,,,O,,,,O,,,,O,,O,,,,,O,,,,,,,,,,O,,,,,O,,O,,,,O,,O,,O,,,,,,O,,,,,,int,,,,,faster_cast_rate,O,faster_cast_rate,O,thunder_storm_cast_speed,,,,,,E
 E,,,,,,,,,,,,,O,,O,,,,,,,,,,big_cdr,,,,spell_damage,,,,tidal_wave_physical_gate,,,,spell_damage,,,,health_mana,O,water_resist,O,chance_of_chill,O,big_chance_of_chill,,big_health,O,heart_of_ice_cooldown_gate,O,magic_shield_regen,O,heart_of_ice_magic_shield_gate,,,,magic_shield,,,,health,,,,spell_thunder_damage,,,,critical_damage,O,O,big_spell_damage_crit_hit,O,O,big_crit_hit_gated,,,,O,,,O,,,,,O,,,,,,E
-E,,,,,,,,,,,,,,O,strint,O,health,,,,,fireball_healing,O,,,O,,O,,O,,,,,,O,,O,,,,,O,,O,,,,,,O,,O,,,,,O,,O,,,,,,O,,,,,O,,,O,,,,,,,intdex,O,O,thunder_storm,,,,,thunder_storm_damage,O,thunder_storm_damage,,,,E
-E,,,,,,,O,magma_flower_damage,O,magma_flower_damage,,,,,O,,,O,,,O,,,fireball_heal_gate,,,cdr,,,,int,,,,big_str_gated,,,,O,,,,spell_water_damage,O,water_weapon_damage,,,,,,magic_shield_regen,O,heart_of_ice,,,,O,,,,big_dex_gated,,,,int,,,,,,O,,,O,,,,,,,O,,,O,,,,,O,,,,,,E
-E,,,,,,magma_flower_cooldown,,,,,O,,,str,,,,health,,fireball_healing,,,,O,,,,,,,,O,,O,,O,cdr_notable,,,O,,O,,,,,,flower_of_ice_heal_gate,,,,,,O,,O,,,faster_cast_rate_notable,O,,O,,O,,,,,,,critical_hit,,,big_spell_damage_gated,,,,,,,,dex,,,cdr,O,cdr,O,thunder_storm_cooldown,,,,,,E
+E,,,,,,,,,,,,,,O,strint,O,health,,,,,fireball_damage,O,,,O,,O,,O,,,,,,O,,O,,,,,O,,O,,,,,,O,,O,,,,,O,,O,,,,,,O,,,,,O,,,O,,,,,,,intdex,O,O,thunder_storm,,,,,thunder_storm_damage,O,thunder_storm_damage,,,,E
+E,,,,,,,O,magma_flower_damage,O,magma_flower_damage,,,,,O,,,O,,,O,,,fireball_damage,,,cdr,,,,int,,,,big_str_gated,,,,O,,,,spell_water_damage,O,water_weapon_damage,,,,,,magic_shield_regen,O,heart_of_ice,,,,O,,,,big_dex_gated,,,,int,,,,,,O,,,O,,,,,,,O,,,O,,,,,O,,,,,,E
+E,,,,,,magma_flower_cooldown,,,,,O,,,str,,,,health,,fireball_damage,,,,O,,,,,,,,O,,O,,O,cdr_notable,,,O,,O,,,,,,flower_of_ice_heal_gate,,,,,,O,,O,,,faster_cast_rate_notable,O,,O,,O,,,,,,,critical_hit,,,big_spell_damage_gated,,,,,,,,dex,,,cdr,O,cdr,O,thunder_storm_cooldown,,,,,,E
 E,,,,,,O,,,,O,magma_flower,O,,O,,big_health,O,,,,,,O,fireball,O,,O,int,O,O,,,spell_damage,,,,,,,,mana_regen,,,,,,,O,,,,,,,mana,,,,,,,,magic_shield,,,O,O,int,O,,O,,,,,,,big_faster_cast_rate,O,dodge,O,,O,,,,,,,,,,,,E
-E,,,,,,,magma_flower_healing,O,magma_flower_heal,,,,str,,,,,,,,,fireball_burn,,,,int,,O,,,int,O,,O,O,O,,,,,,O,,,,critical_hit,O,flower_of_ice,O,faster_cast_rate,,,,O,,,,,,,O,O,,O,int,,,,,int,,,,,,cdr,,,,O,,,dex,,,,,,,,,,,,E
+E,,,,,,,magma_flower_healing,O,magma_flower_heal,,,,str,,,,,,,,,fireball_projectile_speed,,,,int,,O,,,int,O,,O,O,O,,,,,,O,,,,critical_hit,O,flower_of_ice,O,faster_cast_rate,,,,O,,,,,,,O,O,,O,int,,,,,int,,,,,,cdr,,,,O,,,dex,,,,,,,,,,,,E
 E,,,,,,,,,,,,O,,,,,,,,big_elemental_resist,,,,,O,,,increase_healing,,,,,,,,,int,O,O,,,,O,O,,O,,O,,O,,O,O,,,,O,O,int,O,,,,,O,,,,,,O,,,,O,,O,,,big_attack_speed,,,,O,,,,,,,,,,,E
 E,,,,,,increase_healing,O,increase_healing,,,,str,O,throw_flames,O,chance_of_burn,,,O,,,,,O,,,,O,,,magic_shield,O,magic_shield,O,magic_shield,O,,,,O,,,,,spell_damage,,,flower_of_ice_mana_restore_gate,,,magic_shield,,,,,O,,,O,,,,,,thunder_spear,O,thunder_spear_damage,,,,,O,,thunder_dash,,,,thunder_dash_cooldown,,,,,,dex,,,thunder_weapon_damage,O,thunder_weapon_damage,O,big_thunder_weapon_damage,,,,E
 E,,,,,O,,,,O,,,O,,,,O,,elemental_resist,,,,fire_resist,O,str,,,O,big_cdr,,,O,,O,,O,,,,,,faster_cast_rate,,,,,O,,,,O,,,,,magic_shield,,,,,spell_damage,O,,,,,,O,,,,,dex,O,,O,,O,,,,,,,O,,O,,,,,,,,,E

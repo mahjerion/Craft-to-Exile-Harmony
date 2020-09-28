@@ -24,11 +24,12 @@
       "type": "flat"
     },
     {
-      "first": 1.0,
-      "second": 0.0,
+      "firstMin": 1.0,
+      "firstMax": 1.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
       "stat": "unlock_fire_comet",
-      "type": "FLAT",
-      "scaleToLevel": false
+      "type": "flat",
     }
   ],
   "gear_type": "axe3",
