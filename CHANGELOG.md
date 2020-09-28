@@ -20,6 +20,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Enigma now grants 'Teleport'.
 - Enabled vein mining by default (no need to hold key down). You just need to use the right tool.
 - Crimson Moons now occur less frequently, and spawn mobs slightly less frequently.
+- [Harmony] now comes packaged with a default world called Wraeclast.
 
 ### Mod Updates
 - Updated Age of Exile, Pet Owner, BYG, Diggus Maximus, Patchouli, Roughly Enough Items, Adventurez, Fabric Chunk Pregenerator, Sleep Vote, Xaero's (no more manual backups), Roughly Enough Items, Dank Storage.
