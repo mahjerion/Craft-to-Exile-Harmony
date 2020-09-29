@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.0c] - 2020-09-29
+
+### Fixes
+- Turned off auto-veinmining. Didn't realize it would work the way it did. Oops! It's still there, just hold the tilde (`) key to while using the correct tool.
+- Fixed non-working Wraeclast save for SP.
+- Fixed skills not being given.
+
 ## [1.1.0b] - 2020-09-28
 
 ### Fixes

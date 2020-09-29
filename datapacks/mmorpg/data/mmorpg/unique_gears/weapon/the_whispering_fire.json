@@ -1,0 +1,37 @@
+{
+  "id": "the_whispering_fire",
+  "weight": 1000,
+  "rarity": 1,
+  "tier": 0,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.weapon.the_whispering_fire",
+  "lang_file_desc_string": "item.mmorpg.uniques.weapon.the_whispering_fire.desc",
+  "unique_stats": [
+    {
+      "firstMin": 100.0,
+      "firstMax": 120.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "physical_weapon_damage",
+      "type": "local_increase"
+    },
+    {
+      "firstMin": 50.0,
+      "firstMax": 50.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "fire_focus",
+      "type": "flat"
+    },
+    {
+      "firstMin": 1.0,
+      "firstMax": 1.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "unlock_fire_comet",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "axe3",
+  "item_id": "mmorpg:weapon/axe/axe3"
+}
