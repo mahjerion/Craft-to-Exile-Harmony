@@ -3,7 +3,15 @@
   "identifier": "cleave",
   "spell": "cleave",
   "lock_under_adv": "",
-  "stats": [],
+  "stats": [
+    {
+      "first": 1.0,
+      "second": 0.0,
+      "stat": "unlock_cleave",
+      "type": "FLAT",
+      "scaleToLevel": false
+    }
+  ],
   "spell_mods": [],
   "icon": "mmorpg:textures/gui/stat_icons/wep_dmg/axe.png",
   "is_entry": false,
