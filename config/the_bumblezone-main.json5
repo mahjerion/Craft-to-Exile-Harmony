@@ -72,7 +72,7 @@
 		   This means you need to deal more damage than the extra health gives
 		   order to actually damage the bee's real health bar.
 		   
-		   For example, Absorpton 1 here makes bees get 4 extra padding of hearts.
+		   For example, Absorption 1 here makes bees get 4 extra padding of health (2 heart icons).
 		   Your attacks need to deal 4 1/2 or more damage to actually be able to
 		   kill the bee. This means using Bane of Arthropod 5 is needed to kill bees
 		   if you set the absorption to a higher value like 2 or 3.
@@ -81,7 +81,7 @@
 		"absorptionBoostLevel": 1,
 		/* 
 		   How strong the bees attacks become.
-		   (5 or higher will instant kill you without armor).
+		   (6 or higher will instant kill you without armor).
 		*/
 		"strengthBoostLevel": 3
 	},

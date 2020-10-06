@@ -1,25 +1,26 @@
 {
   "type": "SPELL_MOD",
-  "identifier": "blizzard_frost",
+  "identifier": "purifying_fires_heal",
   "spell": "",
   "lock_under_adv": "",
   "stats": [
     {
       "first": 1.0,
       "second": 0.0,
-      "stat": "blizzard_frost",
+      "stat": "purifying_fires_heal",
       "type": "FLAT",
       "scaleToLevel": false
     },
     {
-      "first": 25.0,
+      "first": 20.0,
       "second": 0.0,
-      "stat": "blizzard_mana_cost",
+      "stat": "purifying_fires_mana_cost",
       "type": "FLAT",
       "scaleToLevel": false
     }
   ],
-  "icon": "mmorpg:textures/gui/spells/icons/blizzard.png",
+  "icon": "mmorpg:textures/gui/skill_tree/skill_modifiers/healing.png",
   "is_entry": false,
-  "lvl_req": 1
+  "lvl_req": 1,
+  "one_of_a_kind": "purifying_fires"
 }

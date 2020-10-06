@@ -3,9 +3,21 @@
   "identifier": "purifying_fires_cleanse_gate",
   "spell": "",
   "lock_under_adv": "",
-  "stats": [],
-  "spell_mods": [
-    "purifying_fires_cleanse"
+  "stats": [
+    {
+      "first": 1.0,
+      "second": 0.0,
+      "stat": "purifying_fires_cleanse",
+      "type": "FLAT",
+      "scaleToLevel": false
+    },
+    {
+      "first": 20.0,
+      "second": 0.0,
+      "stat": "purifying_fires_mana_cost",
+      "type": "FLAT",
+      "scaleToLevel": false
+    }
   ],
   "icon": "mmorpg:textures/gui/skill_tree/skill_modifiers/healing.png",
   "is_entry": false,

@@ -23,7 +23,7 @@
   "Server": {
     "ALL_PLAYERS_ARE_TEAMED_PVE_MODE": true,
     "LOG_REGISTRY_ENTRIES": false,
-    "GET_STARTER_ITEMS": false,
+    "GET_STARTER_ITEMS": true,
     "ALWAYS_SCALE_MOB_LEVEL_TO_PLAYER": true,
     "REPAIR_FUEL_NEEDED_MULTI": 0.7,
     "REGEN_HUNGER_COST": 5.0,
