@@ -16,9 +16,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Mod Updates
 - Updated REI, Flan, Xaero's, BackSlot, RPGz, Illuminations, Repurposed Structures, The Bumblezone, Inventory Sorter, Age of Exile.
 - Added Fabric Furnaces - adds new tiers of furnaces that can smelt at greater rates.
-- Added Fabric Waystones - new craftable teleportatino device.
+- Added Fabric Waystones - new teleportation devices found in villages! They are also craftable.
 - Added CHAS - craftable horse armor and saddle!
 - Added Wolves With Armor - makes the Pathfinder even better.
+- Added Charm.
+- Added Charmonium.
+- Added YUNG's Better Caves.
+- Removed Project: Save the Pets!
+- Removed MAmbience.
 
 ## [1.1.0c] - 2020-09-29
 
