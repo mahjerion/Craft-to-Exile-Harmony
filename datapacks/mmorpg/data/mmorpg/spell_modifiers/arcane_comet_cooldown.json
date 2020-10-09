@@ -1,0 +1,10 @@
+{
+  "identifier": "arcane_comet_cooldown",
+  "mods": [
+    {
+      "value": -10.0,
+      "spell_stat": "COOLDOWN"
+    }
+  ],
+  "for_spell": "arcane_comet"
+}

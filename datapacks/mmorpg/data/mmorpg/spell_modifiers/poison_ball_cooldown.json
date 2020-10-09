@@ -1,0 +1,10 @@
+{
+  "identifier": "poison_ball_cooldown",
+  "mods": [
+    {
+      "value": -10.0,
+      "spell_stat": "COOLDOWN"
+    }
+  ],
+  "for_spell": "poison_ball"
+}

@@ -1,0 +1,10 @@
+{
+  "identifier": "magma_flower_damage",
+  "mods": [
+    {
+      "value": 5.0,
+      "spell_stat": "DAMAGE"
+    }
+  ],
+  "for_spell": "magma_flower"
+}

@@ -1,0 +1,10 @@
+{
+  "identifier": "healing_aura_mana_cost",
+  "mods": [
+    {
+      "value": -10.0,
+      "spell_stat": "MANA_COST"
+    }
+  ],
+  "for_spell": "healing_aura"
+}

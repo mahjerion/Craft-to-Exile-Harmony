@@ -3,21 +3,9 @@
   "identifier": "blizzard_big_damage",
   "spell": "",
   "lock_under_adv": "",
-  "stats": [
-    {
-      "first": 20.0,
-      "second": 0.0,
-      "stat": "blizzard_damage",
-      "type": "FLAT",
-      "scaleToLevel": false
-    },
-    {
-      "first": 15.0,
-      "second": 0.0,
-      "stat": "blizzard_mana_cost",
-      "type": "FLAT",
-      "scaleToLevel": false
-    }
+  "stats": [],
+  "spell_mods": [
+    "blizzard_big_damage"
   ],
   "icon": "mmorpg:textures/gui/skill_tree/skill_modifiers/damage.png",
   "is_entry": false,

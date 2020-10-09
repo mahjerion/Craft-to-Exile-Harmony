@@ -3,14 +3,9 @@
   "identifier": "fireball_projectile_speed",
   "spell": "",
   "lock_under_adv": "",
-  "stats": [
-    {
-      "first": 15.0,
-      "second": 0.0,
-      "stat": "fireball_projectile_speed",
-      "type": "FLAT",
-      "scaleToLevel": false
-    }
+  "stats": [],
+  "spell_mods": [
+    "fireball_projectile_speed"
   ],
   "icon": "mmorpg:textures/gui/skill_tree/skill_modifiers/projectile_speed.png",
   "is_entry": false,

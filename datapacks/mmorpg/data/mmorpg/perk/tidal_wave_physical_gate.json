@@ -3,21 +3,9 @@
   "identifier": "tidal_wave_physical_gate",
   "spell": "",
   "lock_under_adv": "",
-  "stats": [
-    {
-      "first": 1.0,
-      "second": 0.0,
-      "stat": "tidal_wave_physical",
-      "type": "FLAT",
-      "scaleToLevel": false
-    },
-    {
-      "first": 10.0,
-      "second": 0.0,
-      "stat": "tidal_wave_mana_cost",
-      "type": "FLAT",
-      "scaleToLevel": false
-    }
+  "stats": [],
+  "spell_mods": [
+    "tidal_wave_physical"
   ],
   "icon": "mmorpg:textures/gui/spells/icons/tidal_wave.png",
   "is_entry": false,

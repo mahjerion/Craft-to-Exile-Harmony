@@ -1,0 +1,13 @@
+{
+  "type": "SPELL_MOD",
+  "identifier": "thorn_bush_effect",
+  "spell": "",
+  "lock_under_adv": "",
+  "stats": [],
+  "spell_mods": [
+    "thorn_bush_effect"
+  ],
+  "icon": "mmorpg:textures/gui/spells/icons/thorn_bush.png",
+  "is_entry": false,
+  "lvl_req": 1
+}

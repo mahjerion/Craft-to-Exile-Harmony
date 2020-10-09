@@ -1,0 +1,13 @@
+{
+  "type": "SPELL_MOD",
+  "identifier": "whirlpool_cast_speed",
+  "spell": "",
+  "lock_under_adv": "",
+  "stats": [],
+  "spell_mods": [
+    "whirlpool_cast_speed"
+  ],
+  "icon": "mmorpg:textures/gui/skill_tree/skill_modifiers/cast_speed.png",
+  "is_entry": false,
+  "lvl_req": 1
+}

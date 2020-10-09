@@ -1,0 +1,10 @@
+{
+  "identifier": "flower_of_ice_healing",
+  "mods": [
+    {
+      "value": 5.0,
+      "spell_stat": "HEALING"
+    }
+  ],
+  "for_spell": "flower_of_ice"
+}

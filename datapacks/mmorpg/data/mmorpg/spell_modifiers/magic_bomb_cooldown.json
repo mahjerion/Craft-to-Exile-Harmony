@@ -1,0 +1,10 @@
+{
+  "identifier": "magic_bomb_cooldown",
+  "mods": [
+    {
+      "value": -10.0,
+      "spell_stat": "COOLDOWN"
+    }
+  ],
+  "for_spell": "magic_bomb"
+}

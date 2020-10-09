@@ -12,11 +12,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added new furnaces that are quicker (but not necessarily more efficient).
 - Increased maximum claim size limit by double, and doubled the rate at which you earn additional space.
 - Added some quests to showcase Fabric Waystones and some new repair kits.
+- Charm brings a lot of changes to some vanilla mechanics. Check out their mod page for more information.
 
 ### Mod Updates
-- Updated REI, Flan, Xaero's, BackSlot, RPGz, Illuminations, Repurposed Structures, The Bumblezone, Inventory Sorter, Age of Exile.
+- Updated REI, Flan, Xaero's, BackSlot, RPGz, Illuminations, Repurposed Structures, The Bumblezone, Inventory Sorter, BYG.
 - Added Fabric Furnaces - adds new tiers of furnaces that can smelt at greater rates.
-- Added Fabric Waystones - new teleportation devices found in villages! They are also craftable.
+- Added Fabric Wraith Waystones - new teleportation devices found in villages! They are also craftable.
 - Added CHAS - craftable horse armor and saddle!
 - Added Wolves With Armor - makes the Pathfinder even better.
 - Added Charm.

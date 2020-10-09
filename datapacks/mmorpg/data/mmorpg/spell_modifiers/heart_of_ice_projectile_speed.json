@@ -1,0 +1,10 @@
+{
+  "identifier": "heart_of_ice_projectile_speed",
+  "mods": [
+    {
+      "value": 15.0,
+      "spell_stat": "PROJECTILE_SPEED"
+    }
+  ],
+  "for_spell": "heart_of_ice"
+}

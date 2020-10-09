@@ -1,0 +1,10 @@
+{
+  "identifier": "thunder_storm_cooldown",
+  "mods": [
+    {
+      "value": -10.0,
+      "spell_stat": "COOLDOWN"
+    }
+  ],
+  "for_spell": "thunder_storm"
+}
