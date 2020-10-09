@@ -8,7 +8,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Updates
-- Added a recipe for Orb of Origin on servers since quest log is inaccessible. I am working on updating the quests mod next!
 - Added new furnaces that are quicker (but not necessarily more efficient).
 - Increased maximum claim size limit by double, and doubled the rate at which you earn additional space.
 - Added some quests to showcase Fabric Waystones and some new repair kits.
@@ -17,7 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Mod Updates
 - Updated REI, Flan, Xaero's, BackSlot, RPGz, Illuminations, Repurposed Structures, The Bumblezone, Inventory Sorter, BYG.
 - Added Fabric Furnaces - adds new tiers of furnaces that can smelt at greater rates.
-- Added Fabric Wraith Waystones - new teleportation devices found in villages! They are also craftable.
+- Added Fabric Wraith Waystones - new craftable teleportation devices also found in villages!
 - Added CHAS - craftable horse armor and saddle!
 - Added Wolves With Armor - makes the Pathfinder even better.
 - Added Charm.
