@@ -14,7 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Charm brings a lot of changes to some vanilla mechanics. Check out their mod page for more information.
 
 ### Mod Updates
-- Updated REI, Flan, Xaero's, BackSlot, RPGz, Illuminations, Repurposed Structures, The Bumblezone, Inventory Sorter, BYG.
+- Updated REI, Flan, Xaero's, BackSlot, RPGz, Illuminations, Repurposed Structures, The Bumblezone, Inventory Sorter, BYG, HQM, Disable Custom World Advice.
 - Added Fabric Furnaces - adds new tiers of furnaces that can smelt at greater rates.
 - Added Fabric Wraith Waystones - new craftable teleportation devices also found in villages!
 - Added CHAS - craftable horse armor and saddle!

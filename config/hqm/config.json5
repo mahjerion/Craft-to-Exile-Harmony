@@ -57,9 +57,9 @@
 		},
 	},
 	// Enable this to cause the player to be granted a gift on spawning into the world
-	"SPAWN_BOOK": false,
+	"SPAWN_BOOK": true,
 	// Loose the quest book when you die, if set to false it will stay in your inventory
-	"LOSE_QUEST_BOOK": true,
+	"LOSE_QUEST_BOOK": false,
 	// Allow every single player in a party to claim the reward for a quest. Setting this to false will give the party one set of rewards to share.
 	"MULTI_REWARD": true,
 	// Use this to specify NBT tags that should be ignored when comparing items with NBT subset
@@ -77,17 +77,5 @@
 	"Editing": {
 		// Set to true to automatically enable edit mode when entering worlds in single-player. Has no effect in multiplayer.
 		"USE_EDITOR": false,
-		// Hotkeys used in the book, one entry per line(Format: [key]:[mode]
-		"HOTKEYS": [
-			"68:delete",
-			"78:create",
-			"77:move",
-			"260:create",
-			"82:rename",
-			"261:delete",
-			"32:normal",
-			"83:swap",
-			"83:swap_select",
-		],
 	},
 }
