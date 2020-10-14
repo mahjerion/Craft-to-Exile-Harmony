@@ -16,7 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added Iron Chests, which provides players with an alternative method of storage! Crafting these chests requires the chest of the previous tier and will use essence. Note: copper and silver chests are currently not available.
 - Added new furnaces that are quicker (but not necessarily more efficient).
 - Increased maximum claim size limit by double, and doubled the rate at which you earn additional space.
-- Reworked the tree a bit.
+- Reworked the skill tree a bit.
 - Added some quests to showcase Fabric Waystones and some new repair kits.
 - Charm brings a lot of changes to some vanilla mechanics. Check out their mod page for more information.
 
