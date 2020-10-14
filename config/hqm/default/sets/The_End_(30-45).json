@@ -1,0 +1,212 @@
+{
+  "name": "The End (30-45)",
+  "quests": [
+    {
+      "uuid": "c634f85c-5542-4e92-b294-88af7a781249",
+      "name": "Oh, Man!",
+      "description": "In The End, you will find many creatures - one of which you\u0027re probably familiar with already!",
+      "x": 55,
+      "y": 17,
+      "icon": {
+        "id": "minecraft:ender_pearl",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "description": "Killing Task",
+          "mobs": [
+            {
+              "name": "Enderman",
+              "icon": {
+                "id": "minecraft:ender_pearl",
+                "Count": 1
+              },
+              "mob": "minecraft:enderman",
+              "kills": 1
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "ee5aa080-a916-4de6-aadb-72b37034b76f"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "endreborn:ender_boots",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ee5aa080-a916-4de6-aadb-72b37034b76f",
+      "name": "The End",
+      "description": "Defeat the Ender Dragon and access the islands of the void!",
+      "x": 21,
+      "y": 14,
+      "bigicon": true,
+      "icon": {
+        "id": "minecraft:dragon_head",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "description": "Killing Task",
+          "mobs": [
+            {
+              "name": "Ender Dragon",
+              "icon": {
+                "id": "minecraft:dragon_head",
+                "Count": 1
+              },
+              "mob": "minecraft:ender_dragon",
+              "kills": 1
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:potions/reset_stats_potion",
+          "Count": 1
+        },
+        {
+          "id": "mmorpg:potions/reset_all_perks",
+          "Count": 1
+        },
+        {
+          "id": "mmorpg:mat/rare_magic_essence",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "1fc5e416-0277-4947-b0e4-66aca79bca09",
+      "name": "Rebellion",
+      "description": "End: Rebellion brings new ores and armors to [Harmony]. Try making some gear!",
+      "x": 55,
+      "y": 50,
+      "icon": {
+        "id": "endreborn:tungsten_chestplate",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Crafting Task",
+          "items": [
+            {
+              "item": {
+                "id": "endreborn:end_stone_sword",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "precision": "TAG_NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "endreborn:tungsten_helmet",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "precision": "TAG_NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "c634f85c-5542-4e92-b294-88af7a781249"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "endreborn:endorium_ingot",
+          "Count": 4
+        },
+        {
+          "id": "endreborn:tungsten_ingot",
+          "Count": 16
+        },
+        {
+          "id": "mmorpg:mat/rare_magic_essence",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "02d59d20-55f9-414d-9eee-3452de1a2e49",
+      "name": "Guardians Of The End (Daily)",
+      "description": "In The End, you will find guardians near strongholds.",
+      "x": 86,
+      "y": 17,
+      "icon": {
+        "id": "endreborn:purpur_eye",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "TIME",
+        "days": 0,
+        "hours": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "description": "Killing Task",
+          "mobs": [
+            {
+              "name": "Purpur Guardian",
+              "icon": {
+                "id": "endreborn:purpur_eye",
+                "Count": 1
+              },
+              "mob": "endreborn:endguard",
+              "kills": 5
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "c634f85c-5542-4e92-b294-88af7a781249"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:ender_pearl",
+          "Count": 8
+        },
+        {
+          "id": "mmorpg:mat/rare_magic_essence",
+          "Count": 8
+        },
+        {
+          "id": "mmorpg:potions/add_reset_perk_points",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": [],
+  "description": "The End is a void dimension - conquer your fears and rid the world of the devastating Ender Dragon. Only you can find what lies beyond!"
+}

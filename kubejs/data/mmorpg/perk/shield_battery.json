@@ -1,0 +1,33 @@
+{
+  "type": "SPECIAL",
+  "identifier": "shield_battery",
+  "spell": "",
+  "lock_under_adv": "",
+  "stats": [
+    {
+      "first": -100.0,
+      "second": 0.0,
+      "stat": "magic_shield",
+      "type": "GLOBAL_INCREASE",
+      "scaleToLevel": false
+    },
+	{
+      "first": 20.0,
+      "second": 0.0,
+      "stat": "mana",
+      "type": "LOCAL_INCREASE",
+      "scaleToLevel": false
+    },
+	{
+      "first": 100.0,
+      "second": 0.0,
+      "stat": "mana_regen",
+      "type": "GLOBAL_INCREASE",
+      "scaleToLevel": false
+    }
+  ],
+  "spell_mods": [],
+  "icon": "mmorpg:textures/gui/stat_icons/main/health.png",
+  "is_entry": false,
+  "lvl_req": 1
+}

@@ -1,0 +1,19 @@
+{
+  "type": "STAT",
+  "identifier": "physical_damage_gate",
+  "spell": "",
+  "lock_under_adv": "",
+  "stats": [
+    {
+      "first": 25.0,
+      "second": 0.0,
+      "stat": "physical_weapon_damage",
+      "type": "GLOBAL_INCREASE",
+      "scaleToLevel": false
+    }
+  ],
+  "spell_mods": [],
+  "icon": "mmorpg:textures/gui/stat_icons/weapon/sword_damage.png",
+  "is_entry": false,
+  "one_of_a_kind": "focus"
+}

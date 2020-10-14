@@ -1,0 +1,20 @@
+{
+  "type": "STAT",
+  "identifier": "big_spell_damage_gated",
+  "spell": "",
+  "lock_under_adv": "",
+  "stats": [
+    {
+      "first": 16.0,
+      "second": 0.0,
+      "stat": "spell_damage",
+      "type": "FLAT",
+      "scaleToLevel": false
+    }
+  ],
+  "spell_mods": [],
+  "icon": "mmorpg:textures/gui/stat_icons/main/spell_damage.png",
+  "is_entry": false,
+  "lvl_req": 1,
+  "one_of_a_kind": "crit_spell"
+}

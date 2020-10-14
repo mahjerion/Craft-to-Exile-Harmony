@@ -1,0 +1,43 @@
+{
+  "type": "SPECIAL",
+  "identifier": "acrobatics",
+  "spell": "",
+  "lock_under_adv": "",
+  "stats": [
+    {
+      "first": 1.0,
+      "second": 0.0,
+      "stat": "acrobatics",
+      "type": "FLAT",
+      "scaleToLevel": false
+    },
+    {
+      "first": 30.0,
+      "second": 0.0,
+      "stat": "dodge",
+      "type": "GLOBAL_INCREASE",
+      "scaleToLevel": false
+    },
+	{
+      "first": -50.0,
+      "second": 0.0,
+      "stat": "magic_shield",
+      "type": "GLOBAL_INCREASE",
+      "scaleToLevel": false
+    },
+	{
+      "first": -50.0,
+      "second": 0.0,
+      "stat": "armor",
+      "type": "GLOBAL_INCREASE",
+      "scaleToLevel": false
+    }
+  ],
+  "spell_mods": [
+    "acrobatics"
+  ],
+  "icon": "mmorpg:textures/gui/stat_icons/game_changers/breeze.png",
+  "is_entry": false,
+  "lvl_req": 1,
+  "one_of_a_kind": "keystone"
+}

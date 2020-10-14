@@ -1,0 +1,781 @@
+{
+  "name": "The Nether (15-45)",
+  "quests": [
+    {
+      "uuid": "fe5fa555-e86d-4c23-b65e-8a9b27e443e5",
+      "name": "Soul Removal",
+      "description": "The Soul Reaper is a powerful foe found in the soul sand valley...",
+      "x": 86,
+      "y": 50,
+      "icon": {
+        "id": "minecraft:soul_lantern",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "description": "Killing Task",
+          "mobs": [
+            {
+              "name": "Soul Reaper",
+              "icon": {
+                "id": "minecraft:soul_lantern",
+                "Count": 1
+              },
+              "mob": "adventurez:soul_reaper",
+              "kills": 1
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "89ffecee-1df0-443d-8e20-6d2ea7f7bbda"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:soul_torch",
+          "Count": 4
+        },
+        {
+          "id": "mmorpg:mat/rare_magic_essence",
+          "Count": 16
+        },
+        {
+          "id": "minecraft:bow",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "mmorpg:weapon/sword/sword3",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "mmorpg:weapon/axe/axe3",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "mmorpg:weapon/wand/wand3",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "mmorpg:weapon/wand/scepter3",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "a4ae0d8b-38fd-491e-a801-0d8fe65664bc",
+      "name": "The Wither",
+      "description": "Defeat the Wither!",
+      "x": 114,
+      "y": 15,
+      "bigicon": true,
+      "icon": {
+        "id": "minecraft:wither_rose",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "description": "Killing Task",
+          "mobs": [
+            {
+              "name": "Wither",
+              "icon": {
+                "id": "minecraft:wither_rose",
+                "Count": 1
+              },
+              "mob": "minecraft:wither",
+              "kills": 1
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "80e98aaa-3a29-42e5-9099-c272ea823a2b"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:mat/rare_magic_essence",
+          "Count": 12
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "mmorpg:gear_mat/ore/ore3",
+          "Count": 16
+        },
+        {
+          "id": "mmorpg:gear_mat/leather/leather3",
+          "Count": 16
+        },
+        {
+          "id": "mmorpg:gear_mat/cloth/cloth3",
+          "Count": 16
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f933b3de-9f87-4166-854d-032a45b6e039",
+      "name": "Locked On",
+      "description": "Don\u0027t forget that we\u0027re in 1.16.X! Find targes in The Nether and get a bullseye!",
+      "x": 24,
+      "y": 50,
+      "icon": {
+        "id": "minecraft:target",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Detection Task",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:target",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "6eb0f802-2cf2-4a27-9fac-3271ece9c9cd"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:target",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:redstone_block",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ecb4f28a-eb57-4d95-8ecb-be9ceb49e4c6",
+      "name": "Over 9000!",
+      "description": "Gilded netherite is a very powerful ore that only drops from the Blackstone Golem. Infuse your netherite armor with it! See what happens when you equip a full set of gilded netherite...",
+      "x": 117,
+      "y": 82,
+      "icon": {
+        "id": "adventurez:gilded_netherite_fragment",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Detection Task",
+          "items": [
+            {
+              "item": {
+                "id": "adventurez:gilded_netherite_fragment",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "4fd917cd-ec6b-4d46-b2bd-859af597ed95",
+        "a4ae0d8b-38fd-491e-a801-0d8fe65664bc"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:loot_crate/gem",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "18d211d5-f65c-45e7-9a6b-78304f20836d",
+      "name": "Ghastly Foe (Daily)",
+      "description": "Defeat ghasts which can be found in The Nether!",
+      "x": 188,
+      "y": 18,
+      "icon": {
+        "id": "minecraft:ghast_tear",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "TIME",
+        "days": 1,
+        "hours": 0
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "description": "Killing Task",
+          "mobs": [
+            {
+              "name": "Ghast",
+              "icon": {
+                "id": "minecraft:ghast_tear",
+                "Count": 1
+              },
+              "mob": "minecraft:ghast",
+              "kills": 3
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:ghast_tear",
+          "Count": 3
+        },
+        {
+          "id": "mmorpg:mat/magic_essence",
+          "Count": 12
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "80e98aaa-3a29-42e5-9099-c272ea823a2b",
+      "name": "Piggies!",
+      "description": "Explore biomes and find piglin mobs to defeat!",
+      "x": 86,
+      "y": 18,
+      "icon": {
+        "id": "minecraft:porkchop",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "description": "Killing Task",
+          "mobs": [
+            {
+              "name": "Piglin",
+              "icon": {
+                "id": "minecraft:piglin_spawn_egg",
+                "Count": 1
+              },
+              "mob": "minecraft:piglin",
+              "kills": 5
+            },
+            {
+              "name": "Piglin Beast",
+              "icon": {
+                "id": "adventurez:spawn_piglin_beast",
+                "Count": 1
+              },
+              "mob": "adventurez:piglin_beast",
+              "kills": 1
+            },
+            {
+              "name": "Piglin Brute",
+              "icon": {
+                "id": "minecraft:piglin_brute_spawn_egg",
+                "Count": 1
+              },
+              "mob": "minecraft:piglin_brute",
+              "kills": 1
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "77d4b00f-959c-4316-9b58-00fa1e780d96"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "adventurez:piglin_flag_block",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "mmorpg:identify_tome",
+          "Count": 16
+        },
+        {
+          "id": "craftable_utilities:spawn_teleport",
+          "Count": 4
+        },
+        {
+          "id": "craftable_utilities:death_teleport",
+          "Count": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4a786f08-3ad3-4678-a471-f3c5b2ce7f30",
+      "name": "The Withering Dead",
+      "description": "The Withering Necromancer is a powerful undead foe that is found in The Nether.",
+      "x": 55,
+      "y": 82,
+      "icon": {
+        "id": "adventurez:spawn_necromancer",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "description": "Killing Task",
+          "mobs": [
+            {
+              "name": "Withered Necromance",
+              "icon": {
+                "id": "adventurez:spawn_necromancer",
+                "Count": 1
+              },
+              "mob": "adventurez:necromancer",
+              "kills": 1
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "89ffecee-1df0-443d-8e20-6d2ea7f7bbda"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "craftable_utilities:death_teleport",
+          "Count": 8
+        },
+        {
+          "id": "mmorpg:mat/rare_magic_essence",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4385807c-a937-4854-9803-a11d9bc75a1a",
+      "name": "Piglin Invasion (Daily)",
+      "description": "Defeat various piglins in The Nether!",
+      "x": 250,
+      "y": 18,
+      "icon": {
+        "id": "adventurez:piglin_flag_block",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "TIME",
+        "days": 1,
+        "hours": 0
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "description": "Killing Task",
+          "mobs": [
+            {
+              "name": "Piglin",
+              "icon": {
+                "id": "minecraft:piglin_spawn_egg",
+                "Count": 1
+              },
+              "mob": "minecraft:piglin",
+              "kills": 20
+            },
+            {
+              "name": "Piglin Beast",
+              "icon": {
+                "id": "adventurez:spawn_piglin_beast",
+                "Count": 1
+              },
+              "mob": "adventurez:piglin_beast",
+              "kills": 3
+            },
+            {
+              "name": "Piglin Brute",
+              "icon": {
+                "id": "minecraft:piglin_brute_spawn_egg",
+                "Count": 1
+              },
+              "mob": "minecraft:piglin_brute",
+              "kills": 3
+            },
+            {
+              "name": "Zombified Piglin",
+              "icon": {
+                "id": "minecraft:zombified_piglin_spawn_egg",
+                "Count": 1
+              },
+              "mob": "minecraft:zombified_piglin",
+              "kills": 5
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:netherite_ingot",
+          "Count": 4
+        },
+        {
+          "id": "adventurez:gilded_netherite_fragment",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "5b1db2b0-8434-4125-acc3-765c4efe3066",
+      "name": "Golems (Daily)",
+      "description": "Defeat all the golems and receive great rewards!",
+      "x": 281,
+      "y": 18,
+      "icon": {
+        "id": "adventurez:stone_golem_heart",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "TIME",
+        "days": 1,
+        "hours": 0
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "description": "Killing Task",
+          "mobs": [
+            {
+              "name": "Iron Golem",
+              "icon": {
+                "id": "mmorpg:mat/infused_iron",
+                "Count": 1
+              },
+              "mob": "minecraft:iron_golem",
+              "kills": 1
+            },
+            {
+              "name": "Snow Golem",
+              "icon": {
+                "id": "minecraft:snowball",
+                "Count": 1
+              },
+              "mob": "minecraft:snow_golem",
+              "kills": 1
+            },
+            {
+              "name": "Corrupted Golem",
+              "icon": {
+                "id": "mmorpg:mat/modify_part",
+                "Count": 1
+              },
+              "mob": "mmorpg:boss_golem",
+              "kills": 1
+            },
+            {
+              "name": "Blackstone Golem",
+              "icon": {
+                "id": "adventurez:stone_golem_heart",
+                "Count": 1
+              },
+              "mob": "adventurez:stone_golem",
+              "kills": 1
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:mat/rare_magic_essence",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "mmorpg:loot_crate/rare",
+          "Count": 1
+        },
+        {
+          "id": "mmorpg:loot_crate/rune",
+          "Count": 1
+        },
+        {
+          "id": "mmorpg:loot_crate/gem",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4fd917cd-ec6b-4d46-b2bd-859af597ed95",
+      "name": "Blackstone",
+      "description": "Summon a Blackstone Golem -  a powerful boss mob from Adventurez. Place 4 chiseled polished blackstone holders in a cross shape, 5 blocks away from the center. You can obtain blockstone holders by putting chiseled polished blackstone into a stonecutter. Place gilded blackstone shards into these holders to summon the boss. You can find these shards in Nether bastions, or by bartering with piglins.",
+      "x": 83,
+      "y": 79,
+      "bigicon": true,
+      "icon": {
+        "id": "adventurez:gilded_stone_item",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "description": "Killing Task",
+          "mobs": [
+            {
+              "name": "Blackstone Golem",
+              "icon": {
+                "id": "adventurez:stone_golem_heart",
+                "Count": 1
+              },
+              "mob": "adventurez:stone_golem",
+              "kills": 1
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "fe5fa555-e86d-4c23-b65e-8a9b27e443e5",
+        "4a786f08-3ad3-4678-a471-f3c5b2ce7f30"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:mat/rare_magic_essence",
+          "Count": 32
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "mmorpg:armor/plate/chest/plate_chest3",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "mmorpg:armor/leather/chest/leather_chest3",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "mmorpg:armor/cloth/chest/cloth_chest3",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "77d4b00f-959c-4316-9b58-00fa1e780d96",
+      "name": "Existence Bane",
+      "description": "Defeat wither skeletons! They can be found in fortresses.",
+      "x": 55,
+      "y": 18,
+      "icon": {
+        "id": "minecraft:wither_skeleton_skull",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "description": "Killing Task",
+          "mobs": [
+            {
+              "name": "Wither Skeleton",
+              "icon": {
+                "id": "minecraft:wither_skeleton_skull",
+                "Count": 1
+              },
+              "mob": "minecraft:wither_skeleton",
+              "kills": 10
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "6eb0f802-2cf2-4a27-9fac-3271ece9c9cd"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:wither_skeleton_skull",
+          "Count": 1
+        },
+        {
+          "id": "mmorpg:currency/orb_of_discovery",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6eb0f802-2cf2-4a27-9fac-3271ece9c9cd",
+      "name": "Nether Regions",
+      "description": "Ready to take on The Nether? Craft a portal and check out the zone! It\u0027s recommended that you\u0027re at least level 15.",
+      "x": 24,
+      "y": 18,
+      "icon": {
+        "id": "minecraft:netherrack",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Detection Task",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:netherrack",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:netherite_ingot",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "af0b44be-e0cc-43bb-a4f1-4847b739c6d2",
+      "name": "Fragile Bones (Daily)",
+      "description": "Defeat wither skeletons which can be found in fortresses in The Nether.",
+      "x": 219,
+      "y": 18,
+      "icon": {
+        "id": "minecraft:wither_skeleton_skull",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "TIME",
+        "days": 1,
+        "hours": 0
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "description": "Killing Task",
+          "mobs": [
+            {
+              "name": "Wither Skeleton",
+              "icon": {
+                "id": "minecraft:wither_skeleton_skull",
+                "Count": 1
+              },
+              "mob": "minecraft:wither_skeleton",
+              "kills": 1
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:wither_skeleton_skull",
+          "Count": 1
+        },
+        {
+          "id": "mmorpg:potions/add_reset_perk_points",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "89ffecee-1df0-443d-8e20-6d2ea7f7bbda",
+      "name": "New Ores",
+      "description": "Netherite is a enw ore introduced in 1.16. You can craft powerful netherite tools and equipment by combining netherite with diamond!",
+      "x": 55,
+      "y": 50,
+      "icon": {
+        "id": "minecraft:netherite_ingot",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Detection Task",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:netherite_ingot",
+                "Count": 8
+              },
+              "required": 8
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "6eb0f802-2cf2-4a27-9fac-3271ece9c9cd"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:netherite_sword",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "minecraft:netherite_pickaxe",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "mmorpg:currency/number_reroll",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": [],
+  "description": "Explore the vaste hellish wastelands that is The Nether. See what [Harmony] brings to the table in this dimension!"
+}

@@ -1,0 +1,19 @@
+{
+  "type": "SPELL_MOD",
+  "identifier": "mod_throw_flames_burn",
+  "spell": "",
+  "lock_under_adv": "",
+  "icon": "mmorpg:textures/gui/spells/icons/throw_flames.png",
+  "one_of_a_kind": "throw_flames_mod",
+  "is_entry": false,
+  "lvl_req": 1,
+  "stats": [
+    {
+      "first": 1.0,
+      "second": 0.0,
+      "stat": "mod_throw_flames_burn",
+      "type": "FLAT",
+      "scaleToLevel": false
+    }
+  ]
+}

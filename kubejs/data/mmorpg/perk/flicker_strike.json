@@ -1,0 +1,19 @@
+{
+  "type": "SPELL",
+  "identifier": "flicker_strike",
+  "spell": "flicker_strike",
+  "lock_under_adv": "",
+  "stats": [
+    {
+      "first": 1.0,
+      "second": 0.0,
+      "stat": "unlock_flicker_strike",
+      "type": "FLAT",
+      "scaleToLevel": false
+    }
+  ],
+  "spell_mods": [],
+  "icon": "mmorpg:textures/gui/spells/icons/flicker_strike.png",
+  "is_entry": false,
+  "lvl_req": 1
+}

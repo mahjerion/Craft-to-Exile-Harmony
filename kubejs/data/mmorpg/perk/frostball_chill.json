@@ -1,0 +1,19 @@
+{
+  "type": "SPELL_MOD",
+  "identifier": "frostball_chill",
+  "spell": "",
+  "lock_under_adv": "",
+  "icon": "mmorpg:textures/gui/spells/icons/frostball.png",
+  "one_of_a_kind": "frostball_mod",
+  "is_entry": false,
+  "lvl_req": 1,
+  "stats": [
+    {
+      "first": 1.0,
+      "second": 0.0,
+      "stat": "frostball_chill",
+      "type": "FLAT",
+      "scaleToLevel": false
+    }
+  ]
+}

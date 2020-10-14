@@ -1,0 +1,19 @@
+{
+  "type": "SPELL_MOD",
+  "identifier": "ice_flower_dmg",
+  "spell": "",
+  "lock_under_adv": "",
+  "icon": "mmorpg:textures/gui/spells/icons/flower_of_ice.png",
+  "one_of_a_kind": "flower_of_ice_mod",
+  "is_entry": false,
+  "lvl_req": 1,
+  "stats": [
+    {
+      "first": 1.0,
+      "second": 0.0,
+      "stat": "ice_flower_dmg",
+      "type": "FLAT",
+      "scaleToLevel": false
+    }
+  ]
+}

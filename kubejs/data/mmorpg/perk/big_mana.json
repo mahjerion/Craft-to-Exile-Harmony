@@ -1,0 +1,19 @@
+{
+  "type": "STAT",
+  "identifier": "big_mana",
+  "spell": "",
+  "lock_under_adv": "",
+  "stats": [
+    {
+      "first": 15.0,
+      "second": 0.0,
+      "stat": "mana",
+      "type": "LOCAL_INCREASE",
+      "scaleToLevel": false
+    }
+  ],
+  "spell_mods": [],
+  "icon": "mmorpg:textures/gui/stat_icons/main/mana.png",
+  "is_entry": false,
+  "lvl_req": 1
+}

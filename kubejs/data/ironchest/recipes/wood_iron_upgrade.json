@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"MAM",
+		"MSM",
+		"MMM"
+	],
+	"key": {
+		"A": {
+			"item": "mmorpg:mat/infused_iron"
+		},
+		"M": {
+			"tag": "c:iron_ingots"
+		},
+		"S": {
+			"tag": "minecraft:planks"
+		}
+	},
+	"result": {
+		"item": "ironchest:wood_iron_upgrade"
+	}
+}

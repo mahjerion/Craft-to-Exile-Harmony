@@ -7,23 +7,33 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.2.0] - 2020-10-14
+
 ### Updates
+- HQM quests are now available on multiplayer!
+- HQM quests have been rewritten. You will probably experience a quest reset on your character.
+- No longer need to manually copy/paste your datapacks folder! As a result, I have also removed the prepackaged worlds.
+- Added Iron Chests, which provides players with an alternative method of storage! Crafting these chests requires the chest of the previous tier and will use essence. Note: copper and silver chests are currently not available.
 - Added new furnaces that are quicker (but not necessarily more efficient).
 - Increased maximum claim size limit by double, and doubled the rate at which you earn additional space.
+- Reworked the tree a bit.
 - Added some quests to showcase Fabric Waystones and some new repair kits.
 - Charm brings a lot of changes to some vanilla mechanics. Check out their mod page for more information.
 
 ### Mod Updates
-- Updated REI, Flan, Xaero's, BackSlot, RPGz, Illuminations, Repurposed Structures, The Bumblezone, Inventory Sorter, BYG, HQM, Disable Custom World Advice.
+- Updated Age of Exile, REI, Flan, Xaero's, BackSlot, RPGz, Illuminations, Repurposed Structures, The Bumblezone, Inventory Sorter, BYG, HQM, Disable Custom World Advice.
 - Added Fabric Furnaces - adds new tiers of furnaces that can smelt at greater rates.
 - Added Fabric Wraith Waystones - new craftable teleportation devices also found in villages!
+- Added Iron Chests.
 - Added CHAS - craftable horse armor and saddle!
 - Added Wolves With Armor - makes the Pathfinder even better.
 - Added Charm.
 - Added Charmonium.
+- Added Creeper Spores.
 - Added YUNG's Better Caves.
 - Removed Project: Save the Pets!
 - Removed MAmbience.
+- Removed VillagerFix.
 
 ## [1.1.0c] - 2020-09-29
 

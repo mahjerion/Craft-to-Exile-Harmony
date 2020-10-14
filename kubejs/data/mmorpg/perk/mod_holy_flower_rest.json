@@ -1,0 +1,26 @@
+{
+  "type": "SPELL_MOD",
+  "identifier": "mod_holy_flower_rest",
+  "spell": "",
+  "lock_under_adv": "",
+  "icon": "mmorpg:textures/gui/spells/icons/holy_flower.png",
+  "one_of_a_kind": "holy_flower_mod",
+  "is_entry": false,
+  "lvl_req": 1,
+  "stats": [
+    {
+      "first": 1.0,
+      "second": 0.0,
+      "stat": "mod_holy_flower_rest",
+      "type": "FLAT",
+      "scaleToLevel": false
+    },
+    {
+      "first": 100.0,
+      "second": 0.0,
+      "stat": "extra_holy_flower_resto",
+      "type": "FLAT",
+      "scaleToLevel": false
+    }
+  ]
+}

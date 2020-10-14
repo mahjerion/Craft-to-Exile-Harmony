@@ -1,0 +1,26 @@
+{
+  "type": "SPECIAL",
+  "identifier": "armor_penetration_notable",
+  "spell": "",
+  "lock_under_adv": "",
+  "stats": [
+    {
+      "first": 1.0,
+      "second": 0.0,
+      "stat": "armor_penetration_notable",
+      "type": "FLAT",
+      "scaleToLevel": false
+    },
+    {
+      "first": 15.0,
+      "second": 0.0,
+      "stat": "armor_penetration",
+      "type": "LOCAL_INCREASE",
+      "scaleToLevel": false
+    }
+  ],
+  "icon": "mmorpg:textures/gui/stat_icons/game_changers/reckless_blows.png",
+  "is_entry": false,
+  "lvl_req": 1,
+  "one_of_a_kind": "notable"
+}

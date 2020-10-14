@@ -1,0 +1,359 @@
+{
+  "name": "The Exchange",
+  "quests": [
+    {
+      "uuid": "f4992ee1-a265-4d8f-a54e-3337ed584487",
+      "name": "Rune Loot Crate",
+      "description": "Purchase 1 Rune Loot Crate",
+      "x": 25,
+      "y": 50,
+      "icon": {
+        "id": "mmorpg:loot_crate/rune",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Consume Task",
+          "items": [
+            {
+              "item": {
+                "id": "mmorpg:mat/rare_magic_essence",
+                "Count": 32
+              },
+              "required": 32
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:loot_crate/rune",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "39578fa1-aaf7-49c7-9dda-5829be9e593e",
+      "name": "Unique Item Loot Crate",
+      "description": "Purchase 1 Unique Item Loot Crate",
+      "x": 118,
+      "y": 17,
+      "icon": {
+        "id": "mmorpg:loot_crate/unique",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Consume Task",
+          "items": []
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:loot_crate/unique",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "1b22345c-e711-47fa-80d5-6bd344ac375a",
+      "name": "Enchanted Experience Chest (50)",
+      "description": "Purchase 1 Enchanted Experience Chest (50)",
+      "x": 87,
+      "y": 50,
+      "icon": {
+        "id": "mmorpg:loot_crate/ench_exp_bag",
+        "Count": 1,
+        "tag": {
+          "exp": 50
+        }
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Consume Task",
+          "items": [
+            {
+              "item": {
+                "id": "mmorpg:mat/magic_essence",
+                "Count": 4
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:loot_crate/ench_exp_bag",
+          "Count": 1,
+          "tag": {
+            "exp": 50
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "27c13159-ebba-4948-aed9-5fb0e7f360a8",
+      "name": "Enchanted Experience Chest (100)",
+      "description": "Purchase 1 Enchanted Experience Chest (100)",
+      "x": 118,
+      "y": 50,
+      "icon": {
+        "id": "mmorpg:loot_crate/ench_exp_bag",
+        "Count": 1,
+        "tag": {
+          "exp": 100
+        }
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Consume Task",
+          "items": [
+            {
+              "item": {
+                "id": "mmorpg:mat/magic_essence",
+                "Count": 7
+              },
+              "required": 7
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:loot_crate/ench_exp_bag",
+          "Count": 1,
+          "tag": {
+            "exp": 100
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ff1e4d39-ea2e-4c4f-b6d4-701a49d680d7",
+      "name": "Relic Item Loot Crate",
+      "description": "Purchase 1 Relic Item Loot Crate",
+      "x": 87,
+      "y": 17,
+      "icon": {
+        "id": "mmorpg:loot_crate/relic",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Consume Task",
+          "items": [
+            {
+              "item": {
+                "id": "mmorpg:mat/rare_magic_essence",
+                "Count": 32
+              },
+              "required": 32
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:loot_crate/relic",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e934ad60-4865-41f2-afb6-c892b9cb4497",
+      "name": "Gem Loot Crate",
+      "description": "Purchase 1 Gem Loot Crate",
+      "x": 56,
+      "y": 50,
+      "icon": {
+        "id": "mmorpg:loot_crate/gem",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Consume Task",
+          "items": [
+            {
+              "item": {
+                "id": "mmorpg:mat/rare_magic_essence",
+                "Count": 32
+              },
+              "required": 32
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:loot_crate/gem",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "a5ec5052-1ca6-43f7-8a2a-97584b78d159",
+      "name": "Enchanted Experience Chest (250)",
+      "description": "Purchase 1 Enchanted Experience Chest (250)",
+      "x": 25,
+      "y": 82,
+      "icon": {
+        "id": "mmorpg:loot_crate/ench_exp_bag",
+        "Count": 1,
+        "tag": {
+          "exp": 250
+        }
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Consume Task",
+          "items": [
+            {
+              "item": {
+                "id": "mmorpg:mat/magic_essence",
+                "Count": 16
+              },
+              "required": 16
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:loot_crate/ench_exp_bag",
+          "Count": 1,
+          "tag": {
+            "exp": 250
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ed715f66-e3c2-41d0-bae0-af80d2ebe1f0",
+      "name": "Rare Item Loot Crate",
+      "description": "Purchase 1 Rare Item Loot Crate",
+      "x": 56,
+      "y": 17,
+      "icon": {
+        "id": "mmorpg:loot_crate/rare",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Consume Task",
+          "items": [
+            {
+              "item": {
+                "id": "mmorpg:mat/rare_magic_essence",
+                "Count": 8
+              },
+              "required": 8
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:loot_crate/rare",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c472ea33-77bf-444c-8b6e-c615a7b4b0c2",
+      "name": "Orb of Ascendancy",
+      "description": "Purchase 1 Orb of Ascendancy",
+      "x": 25,
+      "y": 17,
+      "icon": {
+        "id": "origins:orb_of_origin",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Consume Task",
+          "items": [
+            {
+              "item": {
+                "id": "mmorpg:mat/rare_magic_essence",
+                "Count": 32
+              },
+              "required": 32
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "origins:orb_of_origin",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": [],
+  "description": "Here you\u0027ll find it possible to exchange essences for items!"
+}

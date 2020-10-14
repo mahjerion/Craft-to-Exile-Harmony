@@ -1,0 +1,14 @@
+{
+  "ser": "spell_restoration",
+  "data": {
+    "id": "extra_holy_flower_resto",
+    "min": -1000.0,
+    "max": 2.14748365E9,
+    "base": 0.0,
+    "perc": true,
+    "sec_val": false,
+    "ele": "Physical",
+    "scale": "SLOW_SCALING",
+    "spell": "holy_flower"
+  }
+}
