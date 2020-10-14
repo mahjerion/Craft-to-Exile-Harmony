@@ -1,0 +1,26 @@
+{
+  "type": "SPELL_MOD",
+  "identifier": "burning_currents",
+  "spell": "",
+  "lock_under_adv": "",
+  "icon": "mmorpg:textures/gui/spells/icons/tidal_wave.png",
+  "one_of_a_kind": "tidal_wave_mod",
+  "is_entry": false,
+  "lvl_req": 1,
+  "stats": [
+    {
+      "first": 1.0,
+      "second": 0.0,
+      "stat": "burning_currents",
+      "type": "FLAT",
+      "scaleToLevel": false
+    },
+    {
+      "first": 25.0,
+      "second": 0.0,
+      "stat": "tidal_wave_mana_cost",
+      "type": "FLAT",
+      "scaleToLevel": false
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "type": "SPECIAL",
+  "identifier": "vaal_pact",
+  "spell": "",
+  "lock_under_adv": "",
+  "stats": [
+    {
+      "first": 1.0,
+      "second": 0.0,
+      "stat": "vaal_pact",
+      "type": "FLAT",
+      "scaleToLevel": false
+    },
+    {
+      "first": 20.0,
+      "second": 0.0,
+      "stat": "lifesteal",
+      "type": "FLAT",
+      "scaleToLevel": false
+    },
+	{
+      "first": -100.0,
+      "second": 0.0,
+      "stat": "health_regen",
+      "type": "GLOBAL_INCREASE",
+      "scaleToLevel": false
+    }
+  ],
+  "spell_mods": [
+    "vaal_pact"
+  ],
+  "icon": "mmorpg:textures/gui/stat_icons/game_changers/bleed_mastery.png",
+  "is_entry": false,
+  "lvl_req": 1,
+  "one_of_a_kind": "keystone"
+}

@@ -1,0 +1,19 @@
+{
+  "type": "STAT",
+  "identifier": "spell_elemental_damage",
+  "spell": "",
+  "lock_under_adv": "",
+  "stats": [
+    {
+      "first": 4.0,
+      "second": 0.0,
+      "stat": "spell_elemental_damage",
+      "type": "FLAT",
+      "scaleToLevel": false
+    }
+  ],
+  "spell_mods": [],
+  "icon": "mmorpg:textures/gui/stat_icons//elemental/spell_elemental_damage.png",
+  "is_entry": false,
+  "lvl_req": 1
+}

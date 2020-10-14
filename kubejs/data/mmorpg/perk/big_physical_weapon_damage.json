@@ -1,0 +1,19 @@
+{
+  "type": "STAT",
+  "identifier": "big_physical_weapon_damage",
+  "spell": "",
+  "lock_under_adv": "",
+  "stats": [
+    {
+      "first": 18.0,
+      "second": 0.0,
+      "stat": "physical_weapon_damage",
+      "type": "LOCAL_INCREASE",
+      "scaleToLevel": false
+    }
+  ],
+  "spell_mods": [],
+  "icon": "mmorpg:textures/gui/stat_icons/elemental/physical_weapon_damage.png",
+  "is_entry": false,
+  "lvl_req": 1
+}

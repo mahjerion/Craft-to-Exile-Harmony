@@ -1,0 +1,13 @@
+{
+  "ser": "marker",
+  "data": {
+    "id": "mod_tp_fast",
+    "min": -1000.0,
+    "max": 2.14748365E9,
+    "base": 0.0,
+    "perc": false,
+    "sec_val": false,
+    "ele": "Physical",
+    "scale": "SLOW_SCALING"
+  }
+}

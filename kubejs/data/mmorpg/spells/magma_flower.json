@@ -1,0 +1,285 @@
+{
+  "identifier": "magma_flower",
+  "attached": {
+    "on_cast": [
+      {
+        "targets": [],
+        "acts": [
+          {
+            "type": "sound",
+            "map": {
+              "volume": 1.0,
+              "sound": "minecraft:entity.snowball.throw",
+              "pitch": 1.0
+            }
+          }
+        ],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ]
+      },
+      {
+        "targets": [],
+        "acts": [
+          {
+            "type": "projectile",
+            "map": {
+              "proj_speed": 1.0,
+              "item": "minecraft:melon_seeds",
+              "entity_name": "projectile",
+              "gravity": true,
+              "proj_count": 1.0,
+              "life_ticks": 60.0,
+              "proj_en": "mmorpg:spell_projectile"
+            }
+          }
+        ],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ]
+      }
+    ],
+    "entity_components": {
+      "projectile": [
+        {
+          "targets": [],
+          "acts": [
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "particle_type": "minecraft:happy_villager",
+                "radius": 0.15,
+                "particle_count": 3.0
+              }
+            }
+          ],
+          "ifs": [
+            {
+              "type": "x_ticks_condition",
+              "map": {
+                "tick_rate": 3.0
+              }
+            }
+          ]
+        },
+        {
+          "targets": [],
+          "acts": [
+            {
+              "type": "summon_block",
+              "map": {
+                "entity_name": "default_entity_name",
+                "life_ticks": 160.0,
+                "block": "minecraft:fire_coral"
+              }
+            }
+          ],
+          "ifs": [
+            {
+              "type": "on_entity_expire",
+              "map": {}
+            }
+          ]
+        }
+      ],
+      "default_entity_name": [
+        {
+          "targets": [],
+          "acts": [
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "particle_type": "minecraft:flame",
+                "radius": 3.0,
+                "particle_count": 20.0
+              }
+            }
+          ],
+          "ifs": [
+            {
+              "type": "x_ticks_condition",
+              "map": {
+                "tick_rate": 30.0
+              }
+            }
+          ]
+        },
+        {
+          "targets": [],
+          "acts": [
+            {
+              "type": "sound",
+              "map": {
+                "volume": 1.0,
+                "sound": "minecraft:block.fire.extinguish",
+                "pitch": 1.0
+              }
+            }
+          ],
+          "ifs": [
+            {
+              "type": "x_ticks_condition",
+              "map": {
+                "tick_rate": 30.0
+              }
+            }
+          ]
+        },
+        {
+          "targets": [
+            {
+              "type": "aoe",
+              "map": {
+                "selection_type": "RADIUS",
+                "en_predicate": "ENEMIES",
+                "radius": 3.0
+              }
+            }
+          ],
+          "acts": [
+            {
+              "type": "damage",
+              "map": {
+                "element": "Fire"
+              },
+              "calc": {
+                "scaling_values": [],
+                "base_scaling": "SCALING",
+                "attack_scaling": 0.0,
+                "base_val": 3.0
+              }
+            }
+          ],
+          "ifs": [
+            {
+              "type": "x_ticks_condition",
+              "map": {
+                "tick_rate": 30.0
+              }
+            }
+          ]
+        },
+        {
+          "targets": [
+            {
+              "type": "aoe",
+              "map": {
+                "selection_type": "RADIUS",
+                "en_predicate": "ALLIES",
+                "radius": 3.0
+              }
+            }
+          ],
+          "acts": [
+            {
+              "type": "restore_health",
+              "map": {},
+              "calc": {
+                "scaling_values": [],
+                "base_scaling": "SCALING",
+                "attack_scaling": 0.0,
+                "base_val": 2.0
+              }
+            }
+          ],
+          "ifs": [
+            {
+              "type": "x_ticks_condition",
+              "map": {
+                "tick_rate": 30.0
+              }
+            },
+            {
+              "type": "caster_has_stat",
+              "map": {
+                "spell_mod": "mod_magma_flower_burn"
+              }
+            }
+          ]
+        },
+        {
+          "targets": [
+            {
+              "type": "aoe",
+              "map": {
+                "selection_type": "RADIUS",
+                "en_predicate": "ENEMIES",
+                "radius": 3.0
+              }
+            }
+          ],
+          "acts": [
+            {
+              "type": "damage",
+              "map": {
+                "element": "Fire"
+              },
+              "calc": {
+                "scaling_values": [],
+                "base_scaling": "SCALING",
+                "attack_scaling": 0.0,
+                "base_val": 0.1
+              }
+            }
+          ],
+          "ifs": [
+            {
+              "type": "x_ticks_condition",
+              "map": {
+                "tick_rate": 30.0
+              }
+            },
+            {
+              "type": "caster_has_stat",
+              "map": {
+                "spell_mod": "mod_magma_flower_heal"
+              }
+            }
+          ],
+          "per_entity_hit": [
+            {
+              "targets": [
+                {
+                  "type": "self",
+                  "map": {}
+                }
+              ],
+              "acts": [
+                {
+                  "type": "restore_health",
+                  "map": {},
+                  "calc": {
+                    "scaling_values": [],
+                    "base_scaling": "SCALING",
+                    "attack_scaling": 0.0,
+                    "base_val": 1.0
+                  }
+                }
+              ],
+              "ifs": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "config": {
+    "swing_arm": false,
+    "castingWeapon": "ANY_WEAPON",
+    "mana_cost": 25,
+    "times_to_cast": 1,
+    "cast_time_ticks": 0,
+    "cooldown_ticks": 1200,
+    "is_starter": false,
+    "passive_config": {
+      "is_passive": false,
+      "cast_when_hp_bellow": 0.3
+    }
+  }
+}

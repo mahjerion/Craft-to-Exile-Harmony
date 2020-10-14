@@ -1,0 +1,14 @@
+{
+  "ser": "spell_cooldown",
+  "data": {
+    "id": "awaken_mana_cooldown",
+    "min": -1000.0,
+    "max": 2.14748365E9,
+    "base": 0.0,
+    "perc": true,
+    "sec_val": false,
+    "ele": "Physical",
+    "scale": "SLOW_SCALING",
+    "spell": "awaken_mana"
+  }
+}

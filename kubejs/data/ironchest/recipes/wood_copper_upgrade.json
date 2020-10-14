@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"MMM",
+		"MSM",
+		"MMM"
+	],
+	"key": {
+		"M": {
+			"tag": "c:copper_ingots"
+		},
+		"S": {
+			"tag": "minecraft:planks"
+		}
+	},
+	"result": {
+		"item": "minecraft:air"
+	}
+}

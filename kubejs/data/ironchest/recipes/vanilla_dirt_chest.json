@@ -1,0 +1,27 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"DDD",
+		"DCD",
+		"DDD"
+	],
+	"key": {
+		"D": [
+			{
+				"item": "minecraft:dirt"
+			},
+			{
+				"item": "minecraft:coarse_dirt"
+			},
+			{
+				"item": "minecraft:podzol"
+			}
+		],
+		"C": {
+			"item": "minecraft:chest"
+		}
+	},
+	"result": {
+		"item": "ironchest:dirt_chest"
+	}
+}

@@ -1,0 +1,26 @@
+{
+  "type": "STAT",
+  "identifier": "big_thunder_physical_weapon_damage",
+  "spell": "",
+  "lock_under_adv": "",
+  "stats": [
+    {
+      "first": 8.0,
+      "second": 0.0,
+      "stat": "thunder_weapon_damage",
+      "type": "LOCAL_INCREASE",
+      "scaleToLevel": false
+    },
+    {
+      "first": 10.0,
+      "second": 0.0,
+      "stat": "physical_weapon_damage",
+      "type": "LOCAL_INCREASE",
+      "scaleToLevel": false
+    }
+  ],
+  "spell_mods": [],
+  "icon": "mmorpg:textures/gui/stat_icons/elemental/thunder_weapon_damage.png",
+  "is_entry": false,
+  "lvl_req": 1
+}

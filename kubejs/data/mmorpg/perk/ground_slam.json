@@ -1,0 +1,19 @@
+{
+  "type": "SPELL",
+  "identifier": "ground_slam",
+  "spell": "ground_slam",
+  "lock_under_adv": "",
+  "stats": [
+    {
+      "first": 1.0,
+      "second": 0.0,
+      "stat": "unlock_ground_slam",
+      "type": "FLAT",
+      "scaleToLevel": false
+    }
+  ],
+  "spell_mods": [],
+  "icon": "mmorpg:textures/gui/spells/icons/ground_slam.png",
+  "is_entry": false,
+  "lvl_req": 1
+}

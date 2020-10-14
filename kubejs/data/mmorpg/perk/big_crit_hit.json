@@ -1,0 +1,19 @@
+{
+  "type": "STAT",
+  "identifier": "big_crit_hit",
+  "spell": "",
+  "lock_under_adv": "",
+  "stats": [
+    {
+      "first": 3.0,
+      "second": 0.0,
+      "stat": "critical_hit",
+      "type": "FLAT",
+      "scaleToLevel": false
+    }
+  ],
+  "spell_mods": [],
+  "icon": "mmorpg:textures/gui/stat_icons/main/critical_hit.png",
+  "is_entry": false,
+  "lvl_req": 1
+}

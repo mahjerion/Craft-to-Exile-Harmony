@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"MMM",
+		"MSM",
+		"MMM"
+	],
+	"key": {
+		"M": {
+			"tag": "c:silver_ingots"
+		},
+		"S": {
+			"tag": "c:copper_ingots"
+		}
+	},
+	"result": {
+		"item": "ironchest:copper_silver_upgrade"
+	}
+}

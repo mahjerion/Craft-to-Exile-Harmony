@@ -1,0 +1,19 @@
+{
+  "type": "STAT",
+  "identifier": "spell_damage",
+  "spell": "",
+  "lock_under_adv": "",
+  "stats": [
+    {
+      "first": 3.0,
+      "second": 0.0,
+      "stat": "spell_damage",
+      "type": "FLAT",
+      "scaleToLevel": false
+    }
+  ],
+  "spell_mods": [],
+  "icon": "mmorpg:textures/gui/stat_icons/main/spell_damage.png",
+  "is_entry": false,
+  "lvl_req": 1
+}

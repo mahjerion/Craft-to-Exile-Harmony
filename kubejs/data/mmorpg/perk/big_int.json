@@ -1,0 +1,19 @@
+{
+  "type": "STAT",
+  "identifier": "big_int",
+  "spell": "",
+  "lock_under_adv": "",
+  "stats": [
+    {
+      "first": 3.0,
+      "second": 0.0,
+      "stat": "intelligence",
+      "type": "FLAT",
+      "scaleToLevel": false
+    }
+  ],
+  "spell_mods": [],
+  "icon": "mmorpg:textures/gui/stat_icons/core/intelligence.png",
+  "is_entry": false,
+  "lvl_req": 1
+}

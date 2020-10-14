@@ -1,0 +1,19 @@
+{
+  "type": "SPELL",
+  "identifier": "fire_comet",
+  "spell": "fire_comet",
+  "lock_under_adv": "",
+  "icon": "mmorpg:textures/gui/spells/icons/fire_comet.png",
+  "is_entry": false,
+  "lvl_req": 1,
+  "stats": [
+    {
+      "first": 1.0,
+      "second": 0.0,
+      "stat": "unlock_fire_comet",
+      "type": "FLAT",
+      "scaleToLevel": false
+    }
+  ],
+  "spell_mods": []
+}

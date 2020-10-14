@@ -1,0 +1,26 @@
+{
+  "type": "STAT",
+  "identifier": "big_health_magic_shield",
+  "spell": "",
+  "lock_under_adv": "",
+  "stats": [
+    {
+      "first": 8.0,
+      "second": 0.0,
+      "stat": "health",
+      "type": "LOCAL_INCREASE",
+      "scaleToLevel": false
+    },
+	{
+      "first": 8.0,
+      "second": 0.0,
+      "stat": "magic_shield",
+      "type": "LOCAL_INCREASE",
+      "scaleToLevel": false
+    }
+  ],
+  "spell_mods": [],
+  "icon": "mmorpg:textures/gui/stat_icons/main/health.png",
+  "is_entry": false,
+  "lvl_req": 1
+}
