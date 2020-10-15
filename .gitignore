@@ -12,7 +12,7 @@ XaeroWorldMap/
 XaeroWaypoints_BACKUP062020/
 .curseclient
 knownkeys.txt
-options.txt
+/options.txt
 manifest.json
 minecraftinstance.json
 realms_persistence.json
@@ -20,4 +20,8 @@ modlist.html
 usercache.json
 usernamecache.json
 reauth.toml
-servers.dat
+/servers.dat
+/background.png
+/config.json
+natives/
+/patchouli_data.json
