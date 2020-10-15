@@ -23,7 +23,7 @@
   "Server": {
     "ALL_PLAYERS_ARE_TEAMED_PVE_MODE": true,
     "LOG_REGISTRY_ENTRIES": false,
-    "GET_STARTER_ITEMS": true,
+    "GET_STARTER_ITEMS": false,
     "ALWAYS_SCALE_MOB_LEVEL_TO_PLAYER": true,
     "SAVE_GEAR_AND_HOTBAR_ON_DEATH": false,
     "ENABLE_LOOT_ANNOUNCEMENTS": true,

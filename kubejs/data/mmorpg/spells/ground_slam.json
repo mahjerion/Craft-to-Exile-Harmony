@@ -93,7 +93,7 @@
   "config": {
     "swing_arm": true,
     "castingWeapon": "MELEE_WEAPON",
-    "mana_cost": 15,
+    "mana_cost": 12,
     "times_to_cast": 1,
     "cast_time_ticks": 0,
     "cooldown_ticks": 60,

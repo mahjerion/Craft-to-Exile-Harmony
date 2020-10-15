@@ -1,0 +1,19 @@
+{ 
+	"ANTI_MOB_FARM": { 
+		// This is a simple measure that makes mob farming a lot tougher. In essence, it reduces loot drops every time you kill a mob in the same chunk. The loot drops are regenerated to default over time. This means mob farms would get to 0 loot quickly, while normal player killings would not be affected much or at all.
+		"ENABLE_ANTI_MOB_FARM": true,
+		// Decreases loot drops by 2% by default every time a mob is killed
+		"ON_MOB_KILLED_DECREASE_BY": 0.019999999552965164,
+		"ON_MINUTE_PASSED_INCREASE_BY": 0.05000000074505806
+	},
+	"AFFECT_MOB_LOOT_TABLES": true,
+	"AFFECT_AGE_OF_EXILE_LOOT": true,
+	"AFFECT_PEACEFUL_ANIMALS": false,
+	// This stops players cheesing mobs with lava for example. Pretty good way to fight mob farms unless mods have fake player damage traps.
+	"MIN_PLAYER_DMG_TO_GET_LOOT": 0.5,
+	// Every feature is disabled in these dimensions
+	"DIMENSIONS_EXCLUDED": [ 
+],
+	"ENTITIES_EXCLUDED": [ 
+]
+}

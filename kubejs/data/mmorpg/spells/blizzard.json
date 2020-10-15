@@ -131,7 +131,7 @@
   "config": {
     "swing_arm": false,
     "castingWeapon": "MAGE_WEAPON",
-    "mana_cost": 30,
+    "mana_cost": 24,
     "times_to_cast": 1,
     "cast_time_ticks": 120,
     "cooldown_ticks": 2400,

@@ -7,6 +7,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.2.1] - 2020-10-15
+
+### Updates
+- You can no longer spawner farm.
+- Buffed Hunting bow skills.
+- Added a heal effect to Purifying Fires.
+- Reduced mana cost of all spells by about 20%.
+
+### Mod Updates
+- Updated Xaero's.
+- Added Balance of Exile.
+
+### Fixes
+- Fixed sound being disabled upon first installation.
+- You no longer start with Arcane Bolt.
+- You no longer begin with a newbie gear bag - this is given from the first quest.
+
 ## [1.2.0] - 2020-10-14
 
 ### Updates
