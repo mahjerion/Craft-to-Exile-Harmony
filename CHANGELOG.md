@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixes
 - Fixed a unique item error.
+- Fixed summoners being overspawned (I disabled them).
 
 ## [1.2.1] - 2020-10-15
 
