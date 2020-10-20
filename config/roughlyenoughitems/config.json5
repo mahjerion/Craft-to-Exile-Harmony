@@ -131,6 +131,7 @@
 		// Declares whether REI should remove the recipe book.
 		"disableRecipeBook": false,
 		// Declares whether subsets is enabled.
-		"isSubsetsEnabled": false
+		"isSubsetsEnabled": false,
+		"allowInventoryHighlighting": true
 	}
 }

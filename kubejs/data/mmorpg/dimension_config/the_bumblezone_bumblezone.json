@@ -7,6 +7,6 @@
   "unique_gear_drop_multi": 1.0,
   "mob_strength_multi": 1.0,
   "min_lvl": 5,
-  "max_lvl": 45,
+  "max_lvl": 90,
   "scale_to_nearest_player": true
 }

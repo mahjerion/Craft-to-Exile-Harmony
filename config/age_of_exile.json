@@ -39,7 +39,7 @@
     "IGNORED_ENTITIES": [
       "minecraft:bat"
     ],
-    "MAX_LEVEL": 50
+    "MAX_LEVEL": 100
   },
   "ItemSealing": {
     "ENABLE_SEALING_FEATURE": true,
@@ -70,7 +70,7 @@
       "CAN_BE_SALVAGED": false
     },
     "TIER_1": {
-      "MAX_LEVEL": 10,
+      "MAX_LEVEL": 20,
       "POWER_REQ_MIN": 0.15000000596046448,
       "POWER_REQ_MAX": 0.25,
       "MIN_RARITY": 0,
@@ -78,7 +78,7 @@
       "CAN_BE_SALVAGED": false
     },
     "TIER_2": {
-      "MAX_LEVEL": 20,
+      "MAX_LEVEL": 40,
       "POWER_REQ_MIN": 0.25,
       "POWER_REQ_MAX": 0.5,
       "MIN_RARITY": 0,
@@ -86,7 +86,7 @@
       "CAN_BE_SALVAGED": true
     },
     "TIER_3": {
-      "MAX_LEVEL": 30,
+      "MAX_LEVEL": 60,
       "POWER_REQ_MIN": 0.5,
       "POWER_REQ_MAX": 0.800000011920929,
       "MIN_RARITY": 0,
@@ -94,7 +94,7 @@
       "CAN_BE_SALVAGED": true
     },
     "TIER_4": {
-      "MAX_LEVEL": 40,
+      "MAX_LEVEL": 80,
       "POWER_REQ_MIN": 0.800000011920929,
       "POWER_REQ_MAX": 0.8999999761581421,
       "MIN_RARITY": 0,
@@ -102,7 +102,7 @@
       "CAN_BE_SALVAGED": true
     },
     "TIER_5": {
-      "MAX_LEVEL": 50,
+      "MAX_LEVEL": 100,
       "POWER_REQ_MIN": 0.8999999761581421,
       "POWER_REQ_MAX": 1.0,
       "MIN_RARITY": 0,

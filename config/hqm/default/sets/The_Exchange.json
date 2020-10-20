@@ -57,7 +57,22 @@
         {
           "type": "CONSUME",
           "description": "Consume Task",
-          "items": []
+          "items": [
+            {
+              "item": {
+                "id": "mmorpg:mat/rare_magic_essence",
+                "Count": 64
+              },
+              "required": 64
+            },
+            {
+              "item": {
+                "id": "mmorpg:mat/rare_magic_essence",
+                "Count": 64
+              },
+              "required": 64
+            }
+          ]
         }
       ],
       "prerequisites": [],

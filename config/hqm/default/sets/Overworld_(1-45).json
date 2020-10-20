@@ -2,6 +2,46 @@
   "name": "Overworld (1-45)",
   "quests": [
     {
+      "uuid": "35178b05-9dfd-4fee-beab-0c1cf49fcf2a",
+      "name": "I Summon Thee!",
+      "description": "Summoners are powerful creatures that can be found randomly in the Overworld. They usually spawn where a storm is brewing...",
+      "x": 85,
+      "y": 144,
+      "icon": {
+        "id": "adventurez:spawn_summoner",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "description": "Killing Task",
+          "mobs": [
+            {
+              "name": "Summoner",
+              "icon": {
+                "id": "adventurez:spawn_summoner",
+                "Count": 1
+              },
+              "mob": "adventurez:summoner",
+              "kills": 3
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "4aee4ec2-c49c-4157-a96b-f9f6e827c3b1"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:loot_crate/gem",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "75c6970b-2356-463e-8cc9-aa00440042a4",
       "name": "Next Steps",
       "description": "Defeat the Wither to access these daily quests.",
@@ -250,8 +290,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 0,
-        "hours": 7
+        "days": 7,
+        "hours": 0
       },
       "tasks": [
         {
@@ -379,8 +419,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 0,
-        "hours": 1
+        "days": 1,
+        "hours": 0
       },
       "tasks": [
         {
@@ -589,7 +629,7 @@
     {
       "uuid": "de27675e-9006-4d74-874d-6c2417d77562",
       "name": "Just Vanilla",
-      "description": "Like most Minecraft scendarios, one of the first things you do is craft a crafting table.",
+      "description": "Like most Minecraft scendarios, one of the first things you do is craft a crafting table. Upon completing this quest, you will be able to choose from 4 starter weapons!",
       "x": 24,
       "y": 16,
       "icon": {
@@ -614,19 +654,51 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "mmorpg:newbie_gear_bag",
-          "Count": 1
+          "id": "patchouli:guide_book",
+          "Count": 1,
+          "tag": {
+            "patchouli:book": "mmorpg:age_of_exile_guide"
+          }
         },
         {
           "id": "minecraft:apple",
-          "Count": 8
+          "Count": 5
         },
         {
           "id": "minecraft:cooked_porkchop",
-          "Count": 4
+          "Count": 3
         }
       ],
-      "rewardchoice": [],
+      "rewardchoice": [
+        {
+          "id": "mmorpg:weapon/sword/sword0",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "minecraft:bow",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "mmorpg:weapon/wand/wand0",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "mmorpg:weapon/wand/scepter0",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
       "commandrewards": []
     },
     {
@@ -641,8 +713,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 0,
-        "hours": 1
+        "days": 1,
+        "hours": 0
       },
       "tasks": [
         {
@@ -711,8 +783,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 0,
-        "hours": 1
+        "days": 1,
+        "hours": 0
       },
       "tasks": [
         {
@@ -952,8 +1024,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 0,
-        "hours": 1
+        "days": 1,
+        "hours": 0
       },
       "tasks": [
         {
@@ -1063,8 +1135,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 0,
-        "hours": 1
+        "days": 1,
+        "hours": 0
       },
       "tasks": [
         {
@@ -1215,8 +1287,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 0,
-        "hours": 1
+        "days": 1,
+        "hours": 0
       },
       "tasks": [
         {

@@ -64,7 +64,7 @@
             "map": {
               "selection_type": "RADIUS",
               "en_predicate": "ENEMIES",
-              "radius": 3.0
+              "radius": 5.0
             }
           }
         ],

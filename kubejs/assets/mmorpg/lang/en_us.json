@@ -772,6 +772,7 @@
 	"mmorpg.stat.hammer_damage": "Hammer Damage",
 	"mmorpg.stat.heal_effect_on_self": "Heal Effectiveness",
 	"mmorpg.stat.heal_to_dmg": "Heal Power applies to Spell Damage",
+	"mmorpg.stat.str_to_spell_dmg": "Strength applies to Spell Damage",
 	"mmorpg.stat.health": "Health",
 	"mmorpg.stat.health_on_kill": "Health Restored on Kill",
 	"mmorpg.stat.health_per_sec": "Health Per Regen",
@@ -1269,6 +1270,7 @@
 	"mmorpg.unique_gear.the_baron.name": "The Baron",
 	"mmorpg.unique_gear.the_fetid_sprinkler.name": "The Fetid Sprinkler",
 	"mmorpg.unique_gear.the_whispering_fire.name": "The Whispering Fire",
+	"mmorpg.unique_gear.kaoms_heart.name": "Kaom's Heart",
 
 "_comment": " [CATEGORY]: GEAR ITEMS - NAMES",
 
@@ -1499,6 +1501,7 @@
 	"mmorpg.unique_gear.the_baron.desc": "The emperor's trusted surgeons are not the only ones who practice the dark arts.",
 	"mmorpg.unique_gear.the_fetid_sprinkler.desc": "A chilling hush, a scraping sound of things no more entombed in ground.",
 	"mmorpg.unique_gear.the_whispering_fire.desc": "Guard your darkest thoughts well, for they are the cracks through which the Nightmare crawls.",
+	"mmorpg.unique_gear.kaoms_heart.desc": "The warrior who fears will fall.",
 
 "_comment": " [CATEGORY]: UNIQUE ITEMS - DESCRIPTIONS",
 
@@ -1556,6 +1559,7 @@
 	"mmorpg.stat_desc.faster_projectiles": "Makes spell projectiles faster",
 	"mmorpg.stat_desc.heal_effect_on_self": "Affects all heal effects applied to you.",
 	"mmorpg.stat_desc.heal_to_dmg": "Adds your increased healing to your total spell damage.",
+	"mmorpg.stat_desc.str_to_spell_dmg": "Adds your strength to your total spell damage.",
 	"mmorpg.stat_desc.health": "Increases your total hearts amount.",
 	"mmorpg.stat_desc.health_on_kill": "Restore Health Every time you kill a mob",
 	"mmorpg.stat_desc.health_per_sec": "Restore % of your total per regen tick.",

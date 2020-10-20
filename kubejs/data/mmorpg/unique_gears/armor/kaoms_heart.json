@@ -1,0 +1,37 @@
+{
+  "id": "kaoms_heart",
+  "weight": 50,
+  "rarity": 4,
+  "tier": 0,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.armor.kaoms_heart",
+  "lang_file_desc_string": "item.mmorpg.uniques.armor.kaoms_heart.desc",
+  "unique_stats": [
+    {
+      "firstMin": 400.0,
+      "firstMax": 400.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "health",
+      "type": "flat"
+    },
+    {
+      "firstMin": 20.0,
+      "firstMax": 40.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "all_fire_damage",
+      "type": "local_increase"
+    },
+    {
+      "firstMin": 0.6,
+      "firstMax": 0.65,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "strength_flat_stat_req",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "plate_chest0",
+  "item_id": "mmorpg:armor/plate/chest/plate_chest4"
+}

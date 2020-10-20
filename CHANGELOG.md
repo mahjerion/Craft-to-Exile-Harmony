@@ -9,13 +9,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [1.2.2] - 2020-10-XX
 
+### Updates
+- NOTICE: If your Nether and End dimensions were messed up from updates 1.2.0 to 1.2.2, make a new world using the same seed as your world, then copy and past the new level.dat + old_level.dat into your current world to re-enable The Nether and End.
+- Increased max level to 100.
+- Added new unique item: Kaom's Heart.
+- Reworked The Whispering Fire unique to make spell damage scale with strength.
+- Added a new quest in the Overworld.
+
 ### Mod Updates
-- Updated Illuminations, Where Is It.
+- Updated Illuminations, Where Is It, Adventurez, BackSlot, KubeJS, Repurposed Structures, REI, Patchouli.
 - Added Dark Dungeons.
+- Added Gunpowder Teleport - better mod.
+- Added Gravestones.
+- Removed Better Graves.
+- Removed MyCommands.
 
 ### Fixes
 - Fixed a unique item error.
-- Fixed summoners being overspawned (I disabled them).
+- Fixed summoners being overspawned I think.
+- Fixed unique loot box being unobtainable.
 
 ## [1.2.1] - 2020-10-15
 

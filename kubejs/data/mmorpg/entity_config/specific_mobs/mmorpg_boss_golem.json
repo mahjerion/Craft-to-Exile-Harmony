@@ -1,0 +1,15 @@
+{
+  "identifier": "mmorpg:boss_golem",
+  "stats": {
+    "stats": []
+  },
+  "loot_multi": 1.0,
+  "exp_multi": 1.0,
+  "min_rarity": 9,
+  "max_rarity": 9,
+  "min_lvl": 10,
+  "max_lvl": 100,
+  "dmg_multi": 1.0,
+  "hp_multi": 2.0,
+  "stat_multi": 1.0
+}
