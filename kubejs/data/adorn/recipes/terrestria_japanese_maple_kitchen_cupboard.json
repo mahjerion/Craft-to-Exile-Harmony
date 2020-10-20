@@ -1,0 +1,19 @@
+{
+  "type": "crafting_shapeless",
+  "group": "adorn:kitchen_cupboard",
+  "ingredients": [
+    {
+      "tag": "charm:chests/wooden"
+    },
+    {
+      "item": "adorn:terrestria_japanese_maple_kitchen_counter"
+    },
+    {
+      "item": "adorn:terrestria_japanese_maple_kitchen_counter"
+    }
+  ],
+  "result": {
+    "item": "adorn:terrestria_japanese_maple_kitchen_cupboard",
+    "count": 2
+  }
+}

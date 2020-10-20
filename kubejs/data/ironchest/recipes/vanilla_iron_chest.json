@@ -13,7 +13,7 @@
 			"tag": "c:iron_ingots"
 		},
 		"S": {
-			"item": "minecraft:chest"
+			"tag": "charm:chests/wooden"
 		}
 	},
 	"result": {

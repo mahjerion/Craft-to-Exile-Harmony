@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "A",
+    "B"
+  ],
+  "key": {
+    "A": {
+      "tag": "charm:chests/wooden"
+    },
+    "B": {
+      "item": "minecraft:spruce_boat"
+    }
+  },
+  "result": {
+    "item": "allure:spruce_chest_boat"
+  }
+}
