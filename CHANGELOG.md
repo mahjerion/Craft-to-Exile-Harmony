@@ -17,7 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added a new quest in the Overworld.
 
 ### Mod Updates
-- Updated Illuminations, Where Is It, Adventurez, BackSlot, KubeJS, Repurposed Structures, REI, Patchouli.
+- Updated Illuminations, Where Is It, Adventurez, BackSlot, KubeJS, Repurposed Structures, REI.
 - Added Dark Dungeons.
 - Added Gunpowder Teleport - better mod.
 - Added Gravestones.
