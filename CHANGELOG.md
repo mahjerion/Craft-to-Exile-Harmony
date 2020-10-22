@@ -12,6 +12,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Updates
 - Increased area of effect of Heavy Strike, Cleave, and Ground Slam.
 - Increased attack scaling of all physical spells.
+- Removed phasing from the Assassin ascendancy.
+- Removed some downsides from the Elementalist ascendancy.
 
 ### Mod Updates
 - Updated The Bumblezone, Xaero's.

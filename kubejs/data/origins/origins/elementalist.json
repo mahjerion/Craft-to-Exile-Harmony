@@ -6,8 +6,6 @@
 		"origins:hotblooded",
 		"origins:flame_particles",
 		"origins:fragile",
-		"origins:more_kinetic_damage",
-		"origins:more_exhaustion"
 	],
 	"icon": "mmorpg:weapon/wand/wand4",
 	"order": 7,
