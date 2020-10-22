@@ -9,7 +9,7 @@
             "type": "sound",
             "map": {
               "volume": 0.8,
-              "sound": "minecraft:entity.block.anvil.land",
+              "sound": "minecraft:block.anvil.land",
               "pitch": 0.5
             }
           }
@@ -43,7 +43,7 @@
             "map": {
               "en_predicate": "ENEMIES",
               "distance": 2.0,
-              "width": 1.5
+              "width": 2.0
             }
           }
         ],
@@ -56,7 +56,7 @@
             "calc": {
               "scaling_values": [],
               "base_scaling": "SCALING",
-              "attack_scaling": 1.8,
+              "attack_scaling": 2.2,
               "base_val": 1.0
             }
           }

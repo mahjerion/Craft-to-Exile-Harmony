@@ -7,6 +7,32 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.2.3] - 2020-10-22
+
+### Updates
+- Increased area of effect of Heavy Strike, Cleave, and Ground Slam.
+- Increased attack scaling of all physical spells.
+
+### Mod Updates
+- Updated The Bumblezone, Xaero's.
+- Removed Common Expansion: Foodstuffs - lots of related crashes. Will look for alternative food mod.
+- Removed Respawnable Pets - doesn't work when attacking pets is disabled.
+
+### Fixes
+- Fixed a netherite-related crash.
+- Fixed heavy strike not working.
+
+## [1.2.2c] - 2020-10-21
+
+### Updates
+- Reverted back to level cap of 50. It scales better given the current configuration.
+- Reduced EXP gain by 25%.
+- Reduced monster damage by 25%.
+- Increased monster health by 25%.
+
+### Mod Updates
+- Updated Common Expansion: Foodstuffs, Illuminations.
+
 ## [1.2.2] - 2020-10-20
 
 ### Updates

@@ -96,7 +96,7 @@
   },
   "ExtendNetherite": {
     "Description": "Extends the lifetime of netherite-based items before they despawn.",
-    "Enabled": true,
+    "Enabled": false,
     "Extra lifetime": 300
   },
   "ExtractEnchantments": {

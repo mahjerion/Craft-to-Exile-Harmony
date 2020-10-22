@@ -39,7 +39,7 @@
     "IGNORED_ENTITIES": [
       "minecraft:bat"
     ],
-    "MAX_LEVEL": 100
+    "MAX_LEVEL": 50
   },
   "ItemSealing": {
     "ENABLE_SEALING_FEATURE": true,

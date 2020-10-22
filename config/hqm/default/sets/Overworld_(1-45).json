@@ -290,8 +290,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 7,
-        "hours": 0
+        "days": 0,
+        "hours": 7
       },
       "tasks": [
         {
@@ -419,8 +419,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 1,
-        "hours": 0
+        "days": 0,
+        "hours": 1
       },
       "tasks": [
         {
@@ -713,8 +713,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 1,
-        "hours": 0
+        "days": 0,
+        "hours": 1
       },
       "tasks": [
         {
@@ -783,8 +783,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 1,
-        "hours": 0
+        "days": 0,
+        "hours": 1
       },
       "tasks": [
         {
@@ -1024,8 +1024,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 1,
-        "hours": 0
+        "days": 0,
+        "hours": 1
       },
       "tasks": [
         {
@@ -1135,8 +1135,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 1,
-        "hours": 0
+        "days": 0,
+        "hours": 1
       },
       "tasks": [
         {
@@ -1240,11 +1240,11 @@
     {
       "uuid": "03b6069e-a4bd-4f91-9449-59e49409b70d",
       "name": "Make Me A Sandwich!",
-      "description": "Common Expansion: Foodstuffs brings a few new food types to [Harmony]!",
+      "description": "Vanilla style.",
       "x": 85,
       "y": 16,
       "icon": {
-        "id": "ce_foodstuffs:sandwich",
+        "id": "minecraft:bread",
         "Count": 1
       },
       "tasks": [
@@ -1254,10 +1254,9 @@
           "items": [
             {
               "item": {
-                "id": "ce_foodstuffs:sandwich",
+                "id": "minecraft:bread",
                 "Count": 1
-              },
-              "precision": "TAG_NBT_FUZZY"
+              }
             }
           ]
         }
@@ -1287,8 +1286,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 1,
-        "hours": 0
+        "days": 0,
+        "hours": 1
       },
       "tasks": [
         {
@@ -1345,52 +1344,6 @@
         }
       ],
       "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "4dddfc71-2521-4227-8497-ea142c222a3f",
-      "name": "Respawnable Pets",
-      "description": "There are many mods that improve pets and taming in [Harmony]. Pets are unable to be harmed by friendly fire, and can be set to respawn using the Etheric Gem.",
-      "x": 116,
-      "y": 16,
-      "icon": {
-        "id": "respawnablepets:etheric_gem",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "CRAFT",
-          "description": "Crafting Task",
-          "items": [
-            {
-              "item": {
-                "id": "respawnablepets:etheric_gem",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "03b6069e-a4bd-4f91-9449-59e49409b70d"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "ce_foodstuffs:apple_pie",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [
-        {
-          "id": "mmorpg:loot_crate/rune",
-          "Count": 1
-        },
-        {
-          "id": "mmorpg:loot_crate/gem",
-          "Count": 1
-        }
-      ],
       "commandrewards": []
     },
     {
