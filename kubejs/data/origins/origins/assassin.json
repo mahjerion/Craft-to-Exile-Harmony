@@ -3,7 +3,7 @@
 		"origins-classes:sneaky",
 		"origins-classes:stealth",
 		"origins-classes:stealth_descriptor",
-		"origins:fragile"
+		"origins:fragile",
 		"origins:more_exhaustion"
 	],
 	"icon": "mmorpg:weapon/sword/sword2",

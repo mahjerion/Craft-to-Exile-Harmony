@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.2.3b] - 2020-10-22
+
+### Fixes
+- Fixed the Assassin and Elementalist not being available.
+
 ## [1.2.3] - 2020-10-22
 
 ### Updates
