@@ -1,0 +1,29 @@
+{
+  "reward": "minecraft:nether_star",
+  "waves": [
+    {
+      "entities": [
+        "minecraft:zombie"
+      ],
+      "minMobCount": 5,
+      "maxMobCount": 9
+    },
+    {
+      "entities": [
+        "minecraft:zombie",
+        "minecraft:skeleton"
+      ],
+      "minMobCount": 7,
+      "maxMobCount": 11
+    },
+    {
+      "entities": [
+        "minecraft:zombie",
+        "minecraft:skeleton",
+        "minecraft:spider"
+      ],
+      "minMobCount": 7,
+      "maxMobCount": 11
+    }
+  ]
+}

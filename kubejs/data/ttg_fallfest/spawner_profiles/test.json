@@ -1,0 +1,21 @@
+{
+  "reward": "minecraft:nether_star",
+  "loottable": "",
+  "waves": [
+    {
+      "entities": [
+        "minecraft:creeper"
+      ],
+      "minMobCount": 5,
+      "maxMobCount": 9
+    },
+    {
+      "entities": [
+        "minecraft:creeper",
+        "minecraft:zombie"
+      ],
+      "minMobCount": 7,
+      "maxMobCount": 11
+    }
+  ]
+}
