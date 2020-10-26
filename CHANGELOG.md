@@ -7,6 +7,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.2.4] - 2020-10-26
+
+### Updates
+- Added new spawner profiles to some of the commonly occurring dungeons.
+- Turned off automatically being partied on a server. You now must use /team. This was problematic with larger servers where experience would be split so much that no one got anything. /team is enabled by default.
+
+### Mod Updates
+- Updated Cave Biomes, BYG.
+- Downgraded The Bumblezone - was causing issues with Curios slots.
+- Removed Inventory Sorter.
+- Removed Cardinal Components.
+
+### Fixes
+- Fixed Curios slots (rings and necklaces).
+- Fixed a bunch of crashes related to Common Expansion: Foodstuffs.
+- Some of my previous changes were not applies. This has been corrected.
+
 ## [1.2.3b] - 2020-10-22
 
 ### Fixes

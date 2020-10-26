@@ -1,5 +1,5 @@
 {
-  "reward": "minecraft:nether_star",
+  "reward": "mmorpg:loot_crate/rare",
   "loottable": "",
   "waves": [
     {
@@ -16,6 +16,15 @@
       ],
       "minMobCount": 7,
       "maxMobCount": 11
+    },
+    {
+      "entities": [
+        "minecraft:creeper",
+        "minecraft:zombie",
+        "creeperspores:creeperling"
+      ],
+      "minMobCount": 9,
+      "maxMobCount": 13
     }
   ]
 }

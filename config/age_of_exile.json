@@ -21,7 +21,7 @@
     "PLAYER_GUI_TYPE": "Vanilla"
   },
   "Server": {
-    "ALL_PLAYERS_ARE_TEAMED_PVE_MODE": true,
+    "ALL_PLAYERS_ARE_TEAMED_PVE_MODE": false,
     "LOG_REGISTRY_ENTRIES": false,
     "GET_STARTER_ITEMS": false,
     "ALWAYS_SCALE_MOB_LEVEL_TO_PLAYER": true,
@@ -133,27 +133,27 @@
     },
     "SALVAGE_RESULTS": [
       {
-        "price": 500,
+        "price": 400,
         "item_id": "mmorpg:mat/magic_essence",
         "weight": 1000
       },
       {
-        "price": 1000,
+        "price": 800,
         "item_id": "mmorpg:mat/rare_magic_essence",
         "weight": 200
       },
       {
-        "price": 500,
+        "price": 400,
         "item_id": "minecraft:iron_ingot",
         "weight": 50
       },
       {
-        "price": 75,
+        "price": 60,
         "item_id": "minecraft:iron_nugget",
         "weight": 25
       },
       {
-        "price": 100,
+        "price": 80,
         "item_id": "minecraft:gold_nugget",
         "weight": 25
       }

@@ -1,0 +1,49 @@
+{
+  "reward": "mmorpg:loot_crate/gem",
+  "waves": [
+    {
+      "entities": [
+        "mmorpg:nature_zombie"
+      ],
+      "minMobCount": 5,
+      "maxMobCount": 9
+    },
+    {
+      "entities": [
+        "mmorpg:nature_zombie",
+        "mmorpg:nature_skeleton"
+      ],
+      "minMobCount": 7,
+      "maxMobCount": 11
+    },
+    {
+      "entities": [
+        "mmorpg:nature_skeleton",
+        "mmorpg:nature_slime",
+        "mmorpg:nature_spider"
+      ],
+      "minMobCount": 7,
+      "maxMobCount": 11
+    },
+    {
+      "entities": [
+        "mmorpg:nature_skeleton",
+        "mmorpg:nature_slime",
+        "mmorpg:nature_chicken",
+        "mmorpg:nature_mage"
+      ],
+      "minMobCount": 9,
+      "maxMobCount": 13
+    },
+    {
+      "entities": [
+        "mmorpg:nature_skeleton",
+        "mmorpg:nature_mage",
+        "mmorpg:nature_chicken",
+        "mmorpg:healer_mage"
+      ],
+      "minMobCount": 11,
+      "maxMobCount": 15
+    }
+  ]
+}

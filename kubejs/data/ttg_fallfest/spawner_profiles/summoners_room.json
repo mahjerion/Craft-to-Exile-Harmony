@@ -1,0 +1,39 @@
+{
+  "reward": "mmorpg:loot_crate/rune",
+  "waves": [
+    {
+      "entities": [
+        "adventurez:skeleton_vanguard"
+      ],
+      "minMobCount": 3,
+      "maxMobCount": 7
+    },
+    {
+      "entities": [
+        "adventurez:skeleton_vanguard",
+        "minecraft:skeleton"
+      ],
+      "minMobCount": 5,
+      "maxMobCount": 9
+    },
+    {
+      "entities": [
+        "adventurez:skeleton_vanguard",
+        "minecraft:skeleton",
+        "adventurez:summoner"
+      ],
+      "minMobCount": 5,
+      "maxMobCount": 9
+    },
+    {
+      "entities": [
+        "adventurez:skeleton_vanguard",
+        "minecraft:skeleton",
+        "adventurez:summoner",
+        "minecraft:illusioner"
+      ],
+      "minMobCount": 7,
+      "maxMobCount": 11
+    }
+  ]
+}

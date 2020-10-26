@@ -1,5 +1,5 @@
 {
-  "reward": "minecraft:nether_star",
+  "reward": "mmorpg:loot_crate/rare",
   "waves": [
     {
       "entities": [
@@ -24,6 +24,27 @@
       ],
       "minMobCount": 7,
       "maxMobCount": 11
+    },
+    {
+      "entities": [
+        "minecraft:zombie",
+        "minecraft:skeleton",
+        "minecraft:spider",
+        "minecraft:cave_spider"
+      ],
+      "minMobCount": 9,
+      "maxMobCount": 13
+    },
+    {
+      "entities": [
+        "minecraft:zombie",
+        "minecraft:skeleton",
+        "minecraft:spider",
+        "minecraft:cave_spider",
+        "minecraft:illusioner"
+      ],
+      "minMobCount": 9,
+      "maxMobCount": 13
     }
   ]
 }

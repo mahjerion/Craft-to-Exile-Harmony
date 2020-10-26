@@ -1,0 +1,39 @@
+{
+  "reward": "mmorpg:loot_crate/rare",
+  "waves": [
+    {
+      "entities": [
+        "minecraft:piglin"
+      ],
+      "minMobCount": 5,
+      "maxMobCount": 9
+    },
+    {
+      "entities": [
+        "minecraft:piglin",
+        "minecraft:zombified_piglin"
+      ],
+      "minMobCount": 7,
+      "maxMobCount": 11
+    },
+    {
+      "entities": [
+        "minecraft:piglin",
+        "minecraft:zombified_piglin",
+        "minecraft:piglin_brute"
+      ],
+      "minMobCount": 7,
+      "maxMobCount": 11
+    },
+    {
+      "entities": [
+        "minecraft:piglin",
+        "minecraft:zombified_piglin",
+        "minecraft:piglin_brute",
+        "adventurez:piglin_beast"
+      ],
+      "minMobCount": 9,
+      "maxMobCount": 13
+    }
+  ]
+}
