@@ -30,16 +30,24 @@
     "REGEN_HUNGER_COST": 5.0,
     "EXP_LOSS_ON_DEATH": 0.25,
     "LEVEL_DISTANCE_PENALTY_PER_LVL": 0.019999999552965164,
+    "LEVEL_DISTANCE_PENALTY_MAX": 0.949999988079071,
+    "LEVELS_NEEDED_TO_START_LVL_PENALTY": 5,
     "EXTRA_MOB_STATS_PER_LEVEL": 0.009999999776482582,
     "STAT_POINTS_PER_LVL": 1.0,
-    "TALENT_POINTS_PER_LVL": 2.0,
+    "TALENT_POINTS_AT_MAX_LEVEL": 100.0,
     "STARTING_TALENT_POINTS": 2.0,
+    "SPELL_POINTS_AT_MAX_LEVEL": 20.0,
+    "STARTING_SPELL_POINTS": 2.0,
     "VANILLA_MOB_DMG_AS_EXILE_DMG": 0.5,
     "PVP_DMG_MULTI": 1.0,
     "IGNORED_ENTITIES": [
       "minecraft:bat"
     ],
     "MAX_LEVEL": 50
+  },
+  "Favor": {
+    "ENABLE_FAVOR_SYSTEM": true,
+    "FAVOR_GAIN_PER_CHEST_LOOTED": 30.0
   },
   "ItemSealing": {
     "ENABLE_SEALING_FEATURE": true,
@@ -65,98 +73,110 @@
       "MAX_LEVEL": 10,
       "POWER_REQ_MIN": 0.0,
       "POWER_REQ_MAX": 0.15000000596046448,
-      "MIN_RARITY": 0,
-      "MAX_RARITY": 0,
       "CAN_BE_SALVAGED": false
     },
     "TIER_1": {
       "MAX_LEVEL": 20,
       "POWER_REQ_MIN": 0.15000000596046448,
       "POWER_REQ_MAX": 0.25,
-      "MIN_RARITY": 0,
-      "MAX_RARITY": 100,
       "CAN_BE_SALVAGED": false
     },
     "TIER_2": {
       "MAX_LEVEL": 40,
       "POWER_REQ_MIN": 0.25,
       "POWER_REQ_MAX": 0.5,
-      "MIN_RARITY": 0,
-      "MAX_RARITY": 100,
       "CAN_BE_SALVAGED": true
     },
     "TIER_3": {
       "MAX_LEVEL": 60,
       "POWER_REQ_MIN": 0.5,
       "POWER_REQ_MAX": 0.800000011920929,
-      "MIN_RARITY": 0,
-      "MAX_RARITY": 100,
       "CAN_BE_SALVAGED": true
     },
     "TIER_4": {
       "MAX_LEVEL": 80,
       "POWER_REQ_MIN": 0.800000011920929,
       "POWER_REQ_MAX": 0.8999999761581421,
-      "MIN_RARITY": 0,
-      "MAX_RARITY": 100,
       "CAN_BE_SALVAGED": true
     },
     "TIER_5": {
       "MAX_LEVEL": 100,
       "POWER_REQ_MIN": 0.8999999761581421,
       "POWER_REQ_MAX": 1.0,
-      "MIN_RARITY": 0,
-      "MAX_RARITY": 100,
       "CAN_BE_SALVAGED": true
     }
   },
   "statScalings": {
-    "LINEAR_SCALING": {
-      "PERCENT_ADDED_PER_LEVEL": 0.055
+    "NORMAL_STAT_SCALING": {
+      "LEVEL_AND_STAT_GROWTH": [
+        {
+          "min_lvl": 0.0,
+          "max_lvl": 0.2,
+          "stat_growth_min": 1.1,
+          "stat_growth_max": 2.0
+        },
+        {
+          "min_lvl": 0.2,
+          "max_lvl": 0.4,
+          "stat_growth_min": 2.0,
+          "stat_growth_max": 10.0
+        },
+        {
+          "min_lvl": 0.4,
+          "max_lvl": 0.8,
+          "stat_growth_min": 10.0,
+          "stat_growth_max": 40.0
+        },
+        {
+          "min_lvl": 0.8,
+          "max_lvl": 1.0,
+          "stat_growth_min": 40.0,
+          "stat_growth_max": 100.0
+        }
+      ]
     },
-    "SLOW_LINEAR_SCALING": {
-      "PERCENT_ADDED_PER_LEVEL": 0.01
+    "SLOW_STAT_SCALING": {
+      "LEVEL_AND_STAT_GROWTH": [
+        {
+          "min_lvl": 0.0,
+          "max_lvl": 1.0,
+          "stat_growth_min": 1.0,
+          "stat_growth_max": 2.0
+        }
+      ]
+    },
+    "KILLS_NEEDED_PER_LEVEL": {
+      "LEVEL_AND_STAT_GROWTH": [
+        {
+          "min_lvl": 0.0,
+          "max_lvl": 0.2,
+          "stat_growth_min": 2.0,
+          "stat_growth_max": 15.0
+        },
+        {
+          "min_lvl": 0.2,
+          "max_lvl": 0.4,
+          "stat_growth_min": 15.0,
+          "stat_growth_max": 40.0
+        },
+        {
+          "min_lvl": 0.4,
+          "max_lvl": 0.8,
+          "stat_growth_min": 40.0,
+          "stat_growth_max": 100.0
+        },
+        {
+          "min_lvl": 0.8,
+          "max_lvl": 1.0,
+          "stat_growth_min": 100.0,
+          "stat_growth_max": 2500.0
+        }
+      ]
     }
   },
   "foodEffects": {
     "ENABLE_FOOD_EFFECTS": true,
     "ENABLE_AUTO_FOOD_COMPATIBILITY": true,
     "FOOD_IS_ALWAYS_EDIBLE": true
-  },
-  "Salvaging": {
-    "BASE_ITEM_VALUE": 500,
-    "VALUE_ADDED_PER_AFFIX": 100,
-    "VALUE_ADDED_PER_SOCKET": 50,
-    "VALUE_ADDED_PER_FULL_SOCKET": 150,
-    "VALUE_PER_LEVEL_SCALING": {
-      "PERCENT_ADDED_PER_LEVEL": 0.02
-    },
-    "SALVAGE_RESULTS": [
-      {
-        "price": 400,
-        "item_id": "mmorpg:mat/magic_essence",
-        "weight": 1000
-      },
-      {
-        "price": 800,
-        "item_id": "mmorpg:mat/rare_magic_essence",
-        "weight": 200
-      },
-      {
-        "price": 400,
-        "item_id": "minecraft:iron_ingot",
-        "weight": 50
-      },
-      {
-        "price": 60,
-        "item_id": "minecraft:iron_nugget",
-        "weight": 25
-      },
-      {
-        "price": 80,
-        "item_id": "minecraft:gold_nugget",
-        "weight": 25
-      }
-    ]
   }
 }

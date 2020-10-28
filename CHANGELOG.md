@@ -7,11 +7,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Updates
+- Lowered spawn rate of Summoners during a storm.
+
+### Mod Updates
+- Updated Age of Exile, Dungeons of Exile, Repurposed Structures.
+
+### Fixes
+- Disabled the rope bridge from Campanion.
+- Disabled Embur Gel Block - causes crashes.
+
 ## [1.2.4] - 2020-10-26
 
 ### Updates
 - Added new spawner profiles to some of the commonly occurring dungeons.
 - Turned off automatically being partied on a server. You now must use /team. This was problematic with larger servers where experience would be split so much that no one got anything. /team is enabled by default.
+- Made it a little easier to get essence.
 
 ### Mod Updates
 - Updated Cave Biomes, BYG.

@@ -38,10 +38,6 @@
           "Count": 4
         },
         {
-          "id": "mmorpg:mat/rare_magic_essence",
-          "Count": 16
-        },
-        {
           "id": "minecraft:bow",
           "Count": 1,
           "tag": {
@@ -113,12 +109,7 @@
         "80e98aaa-3a29-42e5-9099-c272ea823a2b"
       ],
       "optionlinks": [],
-      "reward": [
-        {
-          "id": "mmorpg:mat/rare_magic_essence",
-          "Count": 12
-        }
-      ],
+      "reward": [],
       "rewardchoice": [
         {
           "id": "mmorpg:gear_mat/ore/ore3",
@@ -226,8 +217,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 1,
-        "hours": 0
+        "days": 0,
+        "hours": 1
       },
       "tasks": [
         {
@@ -252,10 +243,6 @@
         {
           "id": "minecraft:ghast_tear",
           "Count": 3
-        },
-        {
-          "id": "mmorpg:mat/magic_essence",
-          "Count": 12
         }
       ],
       "rewardchoice": [],
@@ -367,10 +354,6 @@
         {
           "id": "craftable_utilities:death_teleport",
           "Count": 8
-        },
-        {
-          "id": "mmorpg:mat/rare_magic_essence",
-          "Count": 8
         }
       ],
       "rewardchoice": [],
@@ -388,8 +371,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 1,
-        "hours": 0
+        "days": 0,
+        "hours": 1
       },
       "tasks": [
         {
@@ -462,8 +445,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 1,
-        "hours": 0
+        "days": 0,
+        "hours": 1
       },
       "tasks": [
         {
@@ -511,12 +494,7 @@
       ],
       "prerequisites": [],
       "optionlinks": [],
-      "reward": [
-        {
-          "id": "mmorpg:mat/rare_magic_essence",
-          "Count": 8
-        }
-      ],
+      "reward": [],
       "rewardchoice": [
         {
           "id": "mmorpg:loot_crate/rare",
@@ -566,12 +544,7 @@
         "4a786f08-3ad3-4678-a471-f3c5b2ce7f30"
       ],
       "optionlinks": [],
-      "reward": [
-        {
-          "id": "mmorpg:mat/rare_magic_essence",
-          "Count": 32
-        }
-      ],
+      "reward": [],
       "rewardchoice": [
         {
           "id": "mmorpg:armor/plate/chest/plate_chest3",
@@ -688,8 +661,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 1,
-        "hours": 0
+        "days": 0,
+        "hours": 1
       },
       "tasks": [
         {

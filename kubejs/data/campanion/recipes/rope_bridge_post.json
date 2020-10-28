@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "L L",
+    "L L"
+  ],
+  "key": {
+    "L": {
+      "item": "minecraft:oak_planks"
+    }
+  },
+  "result": {
+    "item": "minecraft:air",
+    "count": 1
+  }
+}

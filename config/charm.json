@@ -1,7 +1,7 @@
 {
   "AnvilImprovements": {
     "Description": "Removes minimum and maximum XP costs on the anvil. Anvils are also less likely to break.",
-    "Enabled": true,
+    "Enabled": false,
     "Remove Too Expensive": true,
     "Stronger anvils": true
   },

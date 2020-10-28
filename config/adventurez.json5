@@ -7,6 +7,6 @@
 	"piglin_beast_attack_piglin_spawn_chance": 3,
 	"small_stone_golem_spawn_weight": 5,
 	// Chance for spawning when thunder occurs; 1/Value
-	"summoner_thunder_spawn_chance": 4,
+	"summoner_thunder_spawn_chance": 10,
 	"blaze_guardian_spawn_weight": 2
 }

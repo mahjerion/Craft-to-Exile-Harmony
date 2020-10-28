@@ -82,10 +82,6 @@
         {
           "id": "mmorpg:potions/reset_all_perks",
           "Count": 1
-        },
-        {
-          "id": "mmorpg:mat/rare_magic_essence",
-          "Count": 16
         }
       ],
       "rewardchoice": [],
@@ -144,10 +140,6 @@
         {
           "id": "endreborn:tungsten_ingot",
           "Count": 16
-        },
-        {
-          "id": "mmorpg:mat/rare_magic_essence",
-          "Count": 4
         }
       ],
       "rewardchoice": [],
@@ -165,8 +157,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 0,
-        "hours": 1
+        "days": 1,
+        "hours": 0
       },
       "tasks": [
         {
@@ -192,10 +184,6 @@
       "reward": [
         {
           "id": "minecraft:ender_pearl",
-          "Count": 8
-        },
-        {
-          "id": "mmorpg:mat/rare_magic_essence",
           "Count": 8
         },
         {

@@ -290,8 +290,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 0,
-        "hours": 7
+        "days": 7,
+        "hours": 0
       },
       "tasks": [
         {
@@ -419,8 +419,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 0,
-        "hours": 1
+        "days": 1,
+        "hours": 0
       },
       "tasks": [
         {
@@ -615,10 +615,6 @@
           "Count": 16
         },
         {
-          "id": "mmorpg:mat/magic_essence",
-          "Count": 4
-        },
-        {
           "id": "mmorpg:identify_tome",
           "Count": 2
         }
@@ -713,8 +709,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 0,
-        "hours": 1
+        "days": 1,
+        "hours": 0
       },
       "tasks": [
         {
@@ -783,8 +779,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 0,
-        "hours": 1
+        "days": 1,
+        "hours": 0
       },
       "tasks": [
         {
@@ -947,15 +943,7 @@
         {
           "type": "CONSUME",
           "description": "Consume Task",
-          "items": [
-            {
-              "item": {
-                "id": "mmorpg:mat/rare_magic_essence",
-                "Count": 4
-              },
-              "required": 4
-            }
-          ]
+          "items": []
         }
       ],
       "prerequisites": [
@@ -1024,8 +1012,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 0,
-        "hours": 1
+        "days": 1,
+        "hours": 0
       },
       "tasks": [
         {
@@ -1068,10 +1056,6 @@
         {
           "id": "mmorpg:gear_mat/essences/water",
           "Count": 1
-        },
-        {
-          "id": "mmorpg:mat/magic_essence",
-          "Count": 12
         }
       ],
       "rewardchoice": [],
@@ -1114,10 +1098,6 @@
         {
           "id": "minecraft:stone_button",
           "Count": 1
-        },
-        {
-          "id": "mmorpg:mat/rare_magic_essence",
-          "Count": 1
         }
       ],
       "rewardchoice": [],
@@ -1135,8 +1115,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 0,
-        "hours": 1
+        "days": 1,
+        "hours": 0
       },
       "tasks": [
         {
@@ -1265,12 +1245,7 @@
         "776e6acb-8edd-40fc-9b77-2cb07591d60d"
       ],
       "optionlinks": [],
-      "reward": [
-        {
-          "id": "mmorpg:mat/magic_essence",
-          "Count": 8
-        }
-      ],
+      "reward": [],
       "rewardchoice": [],
       "commandrewards": []
     },
@@ -1286,8 +1261,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 0,
-        "hours": 1
+        "days": 1,
+        "hours": 0
       },
       "tasks": [
         {
@@ -1415,8 +1390,16 @@
       "x": 24,
       "y": 48,
       "icon": {
-        "id": "mmorpg:mat/magic_essence",
-        "Count": 1
+        "id": "minecraft:enchanted_book",
+        "Count": 1,
+        "tag": {
+          "StoredEnchantments": [
+            {
+              "lvl": 4,
+              "id": "minecraft:protection"
+            }
+          ]
+        }
       },
       "tasks": [
         {
@@ -1439,12 +1422,7 @@
         "de27675e-9006-4d74-874d-6c2417d77562"
       ],
       "optionlinks": [],
-      "reward": [
-        {
-          "id": "mmorpg:mat/magic_essence",
-          "Count": 4
-        }
-      ],
+      "reward": [],
       "rewardchoice": [],
       "commandrewards": []
     },
@@ -1489,10 +1467,6 @@
           "tag": {
             "Damage": 0
           }
-        },
-        {
-          "id": "mmorpg:mat/magic_essence",
-          "Count": 8
         }
       ],
       "rewardchoice": [],
