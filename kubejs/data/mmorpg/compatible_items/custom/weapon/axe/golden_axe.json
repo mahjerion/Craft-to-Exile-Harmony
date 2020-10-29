@@ -1,0 +1,14 @@
+{
+  "item_type": "golden_axe",
+  "item_id": "minecraft:golden_axe",
+  "id": "minecraft:golden_axe",
+  "rarities": "non_aoe",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": true
+  },
+  "unique": {
+    "chance_to_become_unique": 0.25,
+    "unique_id": ""
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "item_type": "plate_tungsten_boots",
+  "item_id": "endreborn:tungsten_boots",
+  "id": "endreborn:plate_tungsten_boots",
+  "rarities": "non_aoe",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": true
+  },
+  "unique": {
+    "chance_to_become_unique": 0.0,
+    "unique_id": ""
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "affixes": {
+    "min_amount": 1,
+    "max_amount": 2,
+    "chance_for_more": 15
+  },
+  "sockets": {
+    "min_amount": 0,
+    "max_amount": 2,
+    "chance_for_more": 15
+  },
+  "max_worn_at_once": -1,
+  "default_stat_percents": {
+    "min": 0,
+    "max": 100
+  },
+  "affix_stat_percents": {
+    "min": 80,
+    "max": 100
+  },
+  "unique_stat_percents": {
+    "min": 0,
+    "max": 100
+  },
+  "item_tier_power": 1.25,
+  "item_value_multi": 1.25,
+  "stat_req_multi": 0.25,
+  "unidentified_chance": 0,
+  "spawn_durability_hit": {
+    "min": 60,
+    "max": 80
+  },
+  "announce_in_chat": false,
+  "rarity_type": "GEAR",
+  "rank": 1,
+  "weight": 2500,
+  "text_format": "BLUE",
+  "higher_rar": "rare",
+  "guid": "magical"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "plate_tungsten_pants",
+  "weight": 0,
+  "rarity": 0,
+  "tier": 0,
+  "registry": "gear_type",
+  "lang_file_string": "mmorpg.gear_type.plate_tungsten_pants",
+  "implicit_stats": [],
+  "base_stats": [
+    {
+      "firstMin": 16.0,
+      "firstMax": 48.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "armor",
+      "type": "flat"
+    }
+  ],
+  "level_range": {
+    "start": 0.6,
+    "end": 0.8
+  },
+  "tag_list": {
+    "tags": [
+      "armor_family",
+      "pants",
+      "strength",
+      "plate",
+      "armor_stat"
+    ]
+  },
+  "stat_req": {
+    "dex_req": 0.0,
+    "int_req": 0.0,
+    "str_req": 0.5
+  },
+  "item_id": "endreborn:tungsten_leggings",
+  "gear_slot": "pants",
+  "weapon_type": "None",
+  "attack_style": "MELEE"
+}

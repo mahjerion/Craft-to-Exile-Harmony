@@ -1,0 +1,57 @@
+{
+  "id": "netherite_spear",
+  "weight": 0,
+  "rarity": 0,
+  "tier": 0,
+  "registry": "gear_type",
+  "lang_file_string": "mmorpg.gear_type.netherite_spear",
+  "implicit_stats": [],
+  "base_stats": [
+    {
+      "firstMin": 3.0,
+      "firstMax": 6.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "armor_penetration",
+      "type": "flat"
+    },
+    {
+      "firstMin": 1.0,
+      "firstMax": 2.0,
+      "secondMin": 3.0,
+      "secondMax": 8.0,
+      "stat": "physical_weapon_damage",
+      "type": "flat"
+    },
+    {
+      "firstMin": 3.0,
+      "firstMax": 12.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "critical_hit",
+      "type": "flat"
+    }
+  ],
+  "level_range": {
+    "start": 0.7,
+    "end": 1.0
+  },
+  "tag_list": {
+    "tags": [
+      "warrior_casting_weapon",
+      "strength",
+      "weapon_family",
+      "melee_weapon",
+      "spear"
+    ]
+  },
+  "stat_req": {
+    "dex_req": 0.0,
+    "int_req": 0.0,
+    "str_req": 0.5
+  },
+  "item_id": "campanion:netherite_spear",
+  "gear_slot": "spear",
+  "weapon_type": "Spear",
+  "attack_style": "MELEE"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "cloth_netherite_chest",
+  "weight": 0,
+  "rarity": 0,
+  "tier": 0,
+  "registry": "gear_type",
+  "lang_file_string": "mmorpg.gear_type.cloth_netherite_chest",
+  "implicit_stats": [],
+  "base_stats": [
+    {
+      "firstMin": 3.0,
+      "firstMax": 7.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "magic_shield",
+      "type": "flat"
+    }
+  ],
+  "level_range": {
+    "start": 0.4,
+    "end": 0.6
+  },
+  "tag_list": {
+    "tags": [
+      "chest",
+      "armor_family",
+      "magic_shield_stat",
+      "cloth",
+      "intelligence"
+    ]
+  },
+  "stat_req": {
+    "dex_req": 0.0,
+    "int_req": 0.5,
+    "str_req": 0.0
+  },
+  "item_id": "minecraft:netherite_chestplate",
+  "gear_slot": "chest",
+  "weapon_type": "None",
+  "attack_style": "MELEE"
+}

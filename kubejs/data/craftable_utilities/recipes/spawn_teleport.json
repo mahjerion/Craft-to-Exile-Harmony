@@ -9,7 +9,7 @@
       "item": "minecraft:iron_block"
     }, 
 	"B": {
-      "item": "mmorpg:mat/magic_essence"
+      "item": "mmorpg:mat/salvage/salvage0"
     }, 
 	"A": {
       "item": "minecraft:paper"
@@ -17,6 +17,6 @@
   },
   "result": {
     "item": "craftable_utilities:spawn_teleport",
-	"count": 6
+	"count": 4
   }
 }

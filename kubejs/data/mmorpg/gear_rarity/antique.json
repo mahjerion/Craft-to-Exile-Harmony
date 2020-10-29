@@ -1,0 +1,40 @@
+{
+  "affixes": {
+    "min_amount": 0,
+    "max_amount": 0,
+    "chance_for_more": 0
+  },
+  "sockets": {
+    "min_amount": 2,
+    "max_amount": 3,
+    "chance_for_more": 50
+  },
+  "max_worn_at_once": -1,
+  "default_stat_percents": {
+    "min": 0,
+    "max": 100
+  },
+  "affix_stat_percents": {
+    "min": 0,
+    "max": 100
+  },
+  "unique_stat_percents": {
+    "min": 0,
+    "max": 100
+  },
+  "item_tier_power": 1.2,
+  "item_value_multi": 1.2,
+  "stat_req_multi": 1.0,
+  "unidentified_chance": 0,
+  "spawn_durability_hit": {
+    "min": 60,
+    "max": 80
+  },
+  "announce_in_chat": false,
+  "rarity_type": "GEAR",
+  "rank": 6,
+  "weight": 500,
+  "text_format": "WHITE",
+  "higher_rar": "relic",
+  "guid": "antique"
+}

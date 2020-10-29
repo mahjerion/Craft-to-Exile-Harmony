@@ -1,0 +1,14 @@
+{
+  "item_type": "cloth_ender_boots",
+  "item_id": "endreborn:ender_boots",
+  "id": "endreborn:cloth_ender_boots",
+  "rarities": "non_aoe",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": true
+  },
+  "unique": {
+    "chance_to_become_unique": 0.0,
+    "unique_id": ""
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "item_type": "cloth_chainmail_chest",
+  "item_id": "minecraft:chainmail_chestplate",
+  "id": "minecraft:cloth_chainmail_chest",
+  "rarities": "non_aoe",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": true
+  },
+  "unique": {
+    "chance_to_become_unique": 0.0,
+    "unique_id": ""
+  }
+}

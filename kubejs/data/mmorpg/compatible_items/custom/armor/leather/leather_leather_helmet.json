@@ -1,0 +1,14 @@
+{
+  "item_type": "leather_leather_helmet",
+  "item_id": "minecraft:leather_helmet",
+  "id": "minecraft:leather_leather_helmet",
+  "rarities": "non_aoe",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": true
+  },
+  "unique": {
+    "chance_to_become_unique": 0.0,
+    "unique_id": ""
+  }
+}

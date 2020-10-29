@@ -1,0 +1,14 @@
+{
+  "item_type": "iron_spear",
+  "item_id": "campanion:iron_spear",
+  "id": "campanion:iron_spear",
+  "rarities": "non_aoe",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": true
+  },
+  "unique": {
+    "chance_to_become_unique": 0.0,
+    "unique_id": ""
+  }
+}

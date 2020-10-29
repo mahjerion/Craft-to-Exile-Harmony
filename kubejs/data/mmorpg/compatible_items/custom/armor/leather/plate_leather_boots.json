@@ -1,0 +1,14 @@
+{
+  "item_type": "plate_leather_boots",
+  "item_id": "minecraft:leather_boots",
+  "id": "minecraft:plate_leather_boots",
+  "rarities": "non_aoe",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": true
+  },
+  "unique": {
+    "chance_to_become_unique": 0.0,
+    "unique_id": ""
+  }
+}

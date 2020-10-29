@@ -1,0 +1,14 @@
+{
+  "item_type": "plate_chainmail_pants",
+  "item_id": "minecraft:chainmail_leggings",
+  "id": "minecraft:plate_chainmail_pants",
+  "rarities": "non_aoe",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": true
+  },
+  "unique": {
+    "chance_to_become_unique": 0.0,
+    "unique_id": ""
+  }
+}

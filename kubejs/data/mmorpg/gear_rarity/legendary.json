@@ -1,0 +1,40 @@
+{
+  "affixes": {
+    "min_amount": 4,
+    "max_amount": 5,
+    "chance_for_more": 15
+  },
+  "sockets": {
+    "min_amount": 0,
+    "max_amount": 0,
+    "chance_for_more": 0
+  },
+  "max_worn_at_once": -1,
+  "default_stat_percents": {
+    "min": 30,
+    "max": 100
+  },
+  "affix_stat_percents": {
+    "min": 30,
+    "max": 100
+  },
+  "unique_stat_percents": {
+    "min": 0,
+    "max": 100
+  },
+  "item_tier_power": 2.0,
+  "item_value_multi": 2.0,
+  "stat_req_multi": 0.8,
+  "unidentified_chance": 25,
+  "spawn_durability_hit": {
+    "min": 60,
+    "max": 80
+  },
+  "announce_in_chat": true,
+  "rarity_type": "GEAR",
+  "rank": 4,
+  "weight": 150,
+  "text_format": "GOLD",
+  "higher_rar": "mythic",
+  "guid": "legendary"
+}

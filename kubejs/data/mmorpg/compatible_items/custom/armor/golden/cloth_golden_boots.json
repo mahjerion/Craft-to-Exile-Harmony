@@ -1,0 +1,14 @@
+{
+  "item_type": "cloth_golden_boots",
+  "item_id": "minecraft:golden_boots",
+  "id": "minecraft:cloth_golden_boots",
+  "rarities": "non_aoe",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": true
+  },
+  "unique": {
+    "chance_to_become_unique": 0.25,
+    "unique_id": ""
+  }
+}

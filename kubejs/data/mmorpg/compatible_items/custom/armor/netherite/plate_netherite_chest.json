@@ -1,0 +1,14 @@
+{
+  "item_type": "plate_netherite_chest",
+  "item_id": "minecraft:netherite_chestplate",
+  "id": "minecraft:plate_netherite_chest",
+  "rarities": "non_aoe",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": true
+  },
+  "unique": {
+    "chance_to_become_unique": 0.0,
+    "unique_id": ""
+  }
+}

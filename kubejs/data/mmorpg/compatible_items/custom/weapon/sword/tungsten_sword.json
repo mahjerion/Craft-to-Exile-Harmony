@@ -1,0 +1,14 @@
+{
+  "item_type": "tungsten_sword",
+  "item_id": "endreborn:tungsten_sword",
+  "id": "endreborn:tungsten_sword",
+  "rarities": "non_aoe",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": true
+  },
+  "unique": {
+    "chance_to_become_unique": 0.0,
+    "unique_id": ""
+  }
+}

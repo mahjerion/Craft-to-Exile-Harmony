@@ -1,0 +1,14 @@
+{
+  "item_type": "cloth_chainmail_helmet",
+  "item_id": "minecraft:chainmail_helmet",
+  "id": "minecraft:cloth_chainmail_helmet",
+  "rarities": "non_aoe",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": true
+  },
+  "unique": {
+    "chance_to_become_unique": 0.0,
+    "unique_id": ""
+  }
+}

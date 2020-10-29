@@ -1,0 +1,14 @@
+{
+  "item_type": "netherite_spear",
+  "item_id": "campanion:netherite_spear",
+  "id": "campanion:netherite_spear",
+  "rarities": "non_aoe",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": true
+  },
+  "unique": {
+    "chance_to_become_unique": 0.0,
+    "unique_id": ""
+  }
+}

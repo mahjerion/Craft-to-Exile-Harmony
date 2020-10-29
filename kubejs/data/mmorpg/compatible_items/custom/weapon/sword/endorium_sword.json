@@ -1,0 +1,14 @@
+{
+  "item_type": "endorium_sword",
+  "item_id": "endreborn:endorium_sword",
+  "id": "endreborn:endorium_sword",
+  "rarities": "non_aoe",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": true
+  },
+  "unique": {
+    "chance_to_become_unique": 0.0,
+    "unique_id": ""
+  }
+}

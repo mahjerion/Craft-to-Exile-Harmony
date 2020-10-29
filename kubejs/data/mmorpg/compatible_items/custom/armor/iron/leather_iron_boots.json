@@ -1,0 +1,14 @@
+{
+  "item_type": "leather_iron_boots",
+  "item_id": "minecraft:iron_boots",
+  "id": "minecraft:leather_iron_boots",
+  "rarities": "non_aoe",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": true
+  },
+  "unique": {
+    "chance_to_become_unique": 0.0,
+    "unique_id": ""
+  }
+}
