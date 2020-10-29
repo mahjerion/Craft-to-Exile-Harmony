@@ -1,22 +1,22 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " B ",
-    "BCB",
-    " A "
+    " C ",
+    "BAB"
   ],
   "key": {  
 	"C": {
       "item": "minecraft:iron_block"
     }, 
 	"B": {
-      "item": "mmorpg:gear_mat/ore/ore1"
+      "item": "mmorpg:mat/magic_essence"
     }, 
 	"A": {
       "item": "minecraft:paper"
     }
   },
   "result": {
-    "item": "craftable_utilities:spawn_teleport"
+    "item": "craftable_utilities:spawn_teleport",
+	"count": 6
   }
 }

@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Updates
 - Lowered spawn rate of Summoners during a storm.
+- Reduced cost of Spawn Teleport Scrolls.
 
 ### Mod Updates
 - Updated Age of Exile, Dungeons of Exile, Repurposed Structures.

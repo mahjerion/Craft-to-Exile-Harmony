@@ -10,13 +10,14 @@
       "item": "minecraft:gold_block"
     }, 
 	"C": {
-      "item": "mmorpg:gear_mat/ore/ore2"
+      "item": "mmorpg:mat/magic_essence"
     }, 
 	"B": {
       "item": "minecraft:paper"
     }
   },
   "result": {
-    "item": "craftable_utilities:death_teleport"
+    "item": "craftable_utilities:death_teleport",
+	"count": 4
   }
 }
