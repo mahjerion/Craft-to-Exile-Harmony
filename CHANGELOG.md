@@ -18,6 +18,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Spawner farming has been greatly nerfed in effectiveness.
 - Crafted gear has seen a general buff.
 - Increased max instability.
+- Reduced max damage a player needs to do to get EXP/loot from 50% -> 33%.
+- Disabled some conflicting Charm and Allure configurations.
+- Spawner mobs provide 25% less experience.
 
 ### Mod Updates
 - Updated Age of Exile, Dungeons of Exile, Repurposed Structures.
