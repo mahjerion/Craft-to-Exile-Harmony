@@ -20,7 +20,7 @@
 	},
 	"ANTI_ENVIRO_DMG": { 
 		// This stops players cheesing mobs with lava for example. Pretty good way to fight mob farms unless mods have fake player damage traps.
-		"MIN_PLAYER_DMG_TO_GET_LOOT": 0.5,
+		"MIN_PLAYER_DMG_TO_GET_LOOT": 0.33,
 		"AFFECTS_WHAT": { 
 			"AFFECT_VANILLA_LOOT_TABLES": false,
 			"AFFECT_AGE_OF_EXILE_LOOT": true,

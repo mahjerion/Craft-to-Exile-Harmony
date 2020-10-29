@@ -1,7 +1,7 @@
 {
   "AnvilImprovements": {
     "Description": "Removes minimum and maximum XP costs on the anvil. Anvils are also less likely to break.",
-    "Enabled": false,
+    "Enabled": true,
     "Remove Too Expensive": true,
     "Stronger anvils": true
   },
@@ -107,7 +107,7 @@
   },
   "FeatherFallingCrops": {
     "Description": "A player wearing feather falling enchanted boots will not trample crops.",
-    "Enabled": true
+    "Enabled": false
   },
   "GoldBars": {
     "Description": "Gold variant of vanilla iron bars.",
@@ -264,7 +264,7 @@
   },
   "VillagersFollowEmeraldBlocks": {
     "Description": "Villagers are attracted when the player holds a block of emeralds.",
-    "Enabled": true
+    "Enabled": false
   },
   "WanderingTraderImprovements": {
     "Description": "Wandering traders only appear near signal campfires and sell maps to biomes and structures.",
@@ -277,7 +277,7 @@
   "WitchesDropLuck": {
     "Description": "A witch has a chance to drop a Potion of Luck when killed by a player.",
     "Enabled": true,
-    "Drop chance": 0.05
+    "Drop chance": 0.01
   },
   "Woodcutters": {
     "Description": "A functional block that adds more efficient recipes for crafting wooden stairs and slabs.",
