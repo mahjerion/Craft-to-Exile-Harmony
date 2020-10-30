@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.2.6] - 2020-10-XX
 
 ### Updates
+- New mob farming system: Azuna's Favor. Accrue favor as you explore and open new chests around the world. Your favor increases your chance to find better, and more items, but decreases for every mob you kill.
 - Skills and Talent Tree have been split into separate parts.
 - The skill tree has changed again. Please be prepared to drink a reset potion.
 - You now gain separate skill and talent points. By level 50, you will have 100 talent points and 20 skill points.
@@ -29,7 +30,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Cleaned up the REI a bit.
 
 ### Mod Updates
-- Updated Age of Exile, Dungeons of Exile, Repurposed Structures.
+- Updated Age of Exile, Dungeons of Exile, Repurposed Structures, Illuminations.
 - Removed BackSlot.
 - Removed Gravestones - Allure has a built in gravestone mod already.
 

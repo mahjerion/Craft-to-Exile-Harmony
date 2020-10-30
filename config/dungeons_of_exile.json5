@@ -15,7 +15,7 @@
 ]
 		}
 	},
-	"TOWER_SEPARATION": 8,
+	"TOWER_SEPARATION": 16,
 	"ALLOWED_MODS_FOR_SPAWNERS": [ 
 		"minecraft:cave_spider",
 		"minecraft:skeleton",
