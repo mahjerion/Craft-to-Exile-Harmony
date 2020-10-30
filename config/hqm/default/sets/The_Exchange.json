@@ -18,7 +18,15 @@
         {
           "type": "CONSUME",
           "description": "Consume Task",
-          "items": []
+          "items": [
+            {
+              "item": {
+                "id": "mmorpg:mat/salvage/salvage2",
+                "Count": 64
+              },
+              "required": 64
+            }
+          ]
         }
       ],
       "prerequisites": [],
@@ -49,7 +57,22 @@
         {
           "type": "CONSUME",
           "description": "Consume Task",
-          "items": []
+          "items": [
+            {
+              "item": {
+                "id": "mmorpg:mat/salvage/salvage4",
+                "Count": 64
+              },
+              "required": 64
+            },
+            {
+              "item": {
+                "id": "mmorpg:mat/salvage/salvage4",
+                "Count": 64
+              },
+              "required": 64
+            }
+          ]
         }
       ],
       "prerequisites": [],
@@ -80,7 +103,15 @@
         {
           "type": "CONSUME",
           "description": "Consume Task",
-          "items": []
+          "items": [
+            {
+              "item": {
+                "id": "mmorpg:mat/salvage/salvage4",
+                "Count": 4
+              },
+              "required": 4
+            }
+          ]
         }
       ],
       "prerequisites": [],
@@ -114,7 +145,15 @@
         {
           "type": "CONSUME",
           "description": "Consume Task",
-          "items": []
+          "items": [
+            {
+              "item": {
+                "id": "mmorpg:mat/salvage/salvage4",
+                "Count": 7
+              },
+              "required": 7
+            }
+          ]
         }
       ],
       "prerequisites": [],
@@ -148,7 +187,15 @@
         {
           "type": "CONSUME",
           "description": "Consume Task",
-          "items": []
+          "items": [
+            {
+              "item": {
+                "id": "mmorpg:mat/salvage/salvage4",
+                "Count": 64
+              },
+              "required": 64
+            }
+          ]
         }
       ],
       "prerequisites": [],
@@ -179,7 +226,15 @@
         {
           "type": "CONSUME",
           "description": "Consume Task",
-          "items": []
+          "items": [
+            {
+              "item": {
+                "id": "mmorpg:mat/salvage/salvage2",
+                "Count": 64
+              },
+              "required": 64
+            }
+          ]
         }
       ],
       "prerequisites": [],
@@ -210,7 +265,15 @@
         {
           "type": "CONSUME",
           "description": "Consume Task",
-          "items": []
+          "items": [
+            {
+              "item": {
+                "id": "mmorpg:mat/salvage/salvage4",
+                "Count": 16
+              },
+              "required": 16
+            }
+          ]
         }
       ],
       "prerequisites": [],
@@ -244,7 +307,15 @@
         {
           "type": "CONSUME",
           "description": "Consume Task",
-          "items": []
+          "items": [
+            {
+              "item": {
+                "id": "mmorpg:mat/salvage/salvage4",
+                "Count": 32
+              },
+              "required": 32
+            }
+          ]
         }
       ],
       "prerequisites": [],
@@ -275,7 +346,15 @@
         {
           "type": "CONSUME",
           "description": "Consume Task",
-          "items": []
+          "items": [
+            {
+              "item": {
+                "id": "mmorpg:mat/salvage/salvage2",
+                "Count": 32
+              },
+              "required": 32
+            }
+          ]
         }
       ],
       "prerequisites": [],

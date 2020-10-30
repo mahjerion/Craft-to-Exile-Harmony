@@ -7,25 +7,31 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.2.6] - 2020-10-XX
+
 ### Updates
-- A new system called Azuna's Favor has been introduced in Age of Exile. You are now encouraged to explore dungeons as your item quality now drops every few mob kills, and to increase it you must find chests in the world.
+- Skills and Talent Tree have been split into separate parts.
+- The skill tree has changed again. Please be prepared to drink a reset potion.
+- You now gain separate skill and talent points. By level 50, you will have 100 talent points and 20 skill points.
 - You now keep your gear and hotbar on death.
 - New rarities such as Epic/Mythic!
+- Passive Talent Tree is scrollable now.
 - Magic and Rare essence no longer exist. New much more obtainable salvage items have taken their place.
 - Disabled non-AoE items from dropping. You will no longer find level 40 items after killing a level 1 mob!
 - Lowered spawn rate of Summoners during a storm.
 - Reduced cost of Spawn Teleport Scrolls.
-- Spawner farming has been greatly nerfed in effectiveness.
 - Crafted gear has seen a general buff.
 - Increased max instability.
 - Reduced max damage a player needs to do to get EXP/loot from 50% -> 33%.
+- Increased max instability to 2500 from 1000.
 - Disabled some conflicting Charm and Allure configurations.
-- Spawner mobs provide 25% less experience.
+- Spawner mobs provide 75% less experience.
+- Cleaned up the REI a bit.
 
 ### Mod Updates
 - Updated Age of Exile, Dungeons of Exile, Repurposed Structures.
 - Removed BackSlot.
-- Removed Gravestones - Allure has a built in gravestone that's been causing dupe issues.
+- Removed Gravestones - Allure has a built in gravestone mod already.
 
 ### Fixes
 - Disabled the rope bridge from Campanion.

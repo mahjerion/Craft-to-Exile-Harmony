@@ -1,5 +1,5 @@
 {
-  "type": "SPELL",
+  "type": "MAJOR",
   "identifier": "flicker_strike",
   "spell": "flicker_strike",
   "lock_under_adv": "",
@@ -12,7 +12,6 @@
       "scaleToLevel": false
     }
   ],
-  "spell_mods": [],
   "icon": "mmorpg:textures/gui/spells/icons/flicker_strike.png",
   "is_entry": false,
   "lvl_req": 1

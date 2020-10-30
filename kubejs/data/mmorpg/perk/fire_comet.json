@@ -1,5 +1,5 @@
 {
-  "type": "SPELL",
+  "type": "MAJOR",
   "identifier": "fire_comet",
   "spell": "fire_comet",
   "lock_under_adv": "",
@@ -14,6 +14,5 @@
       "type": "FLAT",
       "scaleToLevel": false
     }
-  ],
-  "spell_mods": []
+  ]
 }

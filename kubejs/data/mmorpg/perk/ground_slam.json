@@ -1,5 +1,5 @@
 {
-  "type": "SPELL",
+  "type": "MAJOR",
   "identifier": "ground_slam",
   "spell": "ground_slam",
   "lock_under_adv": "",
@@ -12,7 +12,6 @@
       "scaleToLevel": false
     }
   ],
-  "spell_mods": [],
   "icon": "mmorpg:textures/gui/spells/icons/ground_slam.png",
   "is_entry": false,
   "lvl_req": 1

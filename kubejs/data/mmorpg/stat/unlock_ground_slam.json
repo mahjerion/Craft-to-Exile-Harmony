@@ -8,7 +8,7 @@
     "perc": false,
     "sec_val": false,
     "ele": "Physical",
-    "scale": "SLOW_SCALING",
+    "scale": "SLOW",
     "spell": "ground_slam"
   }
 }

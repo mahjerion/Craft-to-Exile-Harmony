@@ -43,6 +43,10 @@
           "tag": {
             "Damage": 0
           }
+        },
+        {
+          "id": "mmorpg:mat/salvage/salvage2",
+          "Count": 16
         }
       ],
       "rewardchoice": [
@@ -109,7 +113,12 @@
         "80e98aaa-3a29-42e5-9099-c272ea823a2b"
       ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "mmorpg:mat/salvage/salvage2",
+          "Count": 16
+        }
+      ],
       "rewardchoice": [
         {
           "id": "mmorpg:gear_mat/ore/ore3",
@@ -162,6 +171,10 @@
         {
           "id": "minecraft:redstone_block",
           "Count": 1
+        },
+        {
+          "id": "mmorpg:mat/salvage/salvage2",
+          "Count": 8
         }
       ],
       "rewardchoice": [],
@@ -217,8 +230,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 0,
-        "hours": 1
+        "days": 1,
+        "hours": 0
       },
       "tasks": [
         {
@@ -354,6 +367,10 @@
         {
           "id": "craftable_utilities:death_teleport",
           "Count": 8
+        },
+        {
+          "id": "mmorpg:mat/salvage/salvage2",
+          "Count": 16
         }
       ],
       "rewardchoice": [],
@@ -371,8 +388,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 0,
-        "hours": 1
+        "days": 1,
+        "hours": 0
       },
       "tasks": [
         {
@@ -445,8 +462,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 0,
-        "hours": 1
+        "days": 1,
+        "hours": 0
       },
       "tasks": [
         {
@@ -494,7 +511,12 @@
       ],
       "prerequisites": [],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "mmorpg:mat/salvage/salvage3",
+          "Count": 1
+        }
+      ],
       "rewardchoice": [
         {
           "id": "mmorpg:loot_crate/rare",
@@ -544,7 +566,12 @@
         "4a786f08-3ad3-4678-a471-f3c5b2ce7f30"
       ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "mmorpg:mat/salvage/salvage2",
+          "Count": 16
+        }
+      ],
       "rewardchoice": [
         {
           "id": "mmorpg:armor/plate/chest/plate_chest3",
@@ -609,6 +636,10 @@
         {
           "id": "mmorpg:currency/orb_of_discovery",
           "Count": 1
+        },
+        {
+          "id": "mmorpg:mat/salvage/salvage2",
+          "Count": 4
         }
       ],
       "rewardchoice": [],
@@ -644,6 +675,10 @@
         {
           "id": "minecraft:netherite_ingot",
           "Count": 1
+        },
+        {
+          "id": "mmorpg:mat/salvage/salvage2",
+          "Count": 2
         }
       ],
       "rewardchoice": [],
@@ -661,8 +696,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 0,
-        "hours": 1
+        "days": 1,
+        "hours": 0
       },
       "tasks": [
         {

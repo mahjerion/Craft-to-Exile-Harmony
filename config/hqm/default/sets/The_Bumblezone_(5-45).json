@@ -61,8 +61,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 1,
-        "hours": 0
+        "days": 0,
+        "hours": 1
       },
       "tasks": [
         {
@@ -133,6 +133,10 @@
         {
           "id": "minecraft:honeycomb",
           "Count": 1
+        },
+        {
+          "id": "mmorpg:mat/salvage/salvage1",
+          "Count": 4
         }
       ],
       "rewardchoice": [],
@@ -150,8 +154,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 1,
-        "hours": 0
+        "days": 0,
+        "hours": 1
       },
       "tasks": [
         {

@@ -1,5 +1,5 @@
 {
-  "type": "SPELL",
+  "type": "MAJOR",
   "identifier": "cleave",
   "spell": "cleave",
   "lock_under_adv": "",
@@ -12,7 +12,6 @@
       "scaleToLevel": false
     }
   ],
-  "spell_mods": [],
   "icon": "mmorpg:textures/gui/spells/icons/cleave.png",
   "is_entry": false,
   "lvl_req": 1

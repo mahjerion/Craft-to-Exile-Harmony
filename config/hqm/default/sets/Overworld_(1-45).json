@@ -36,6 +36,10 @@
         {
           "id": "mmorpg:loot_crate/gem",
           "Count": 1
+        },
+        {
+          "id": "mmorpg:mat/salvage/salvage2",
+          "Count": 4
         }
       ],
       "rewardchoice": [],
@@ -117,6 +121,10 @@
         {
           "id": "mmorpg:loot_crate/common",
           "Count": 1
+        },
+        {
+          "id": "mmorpg:mat/salvage/salvage0",
+          "Count": 12
         }
       ],
       "rewardchoice": [],
@@ -158,6 +166,10 @@
         {
           "id": "minecraft:diamond",
           "Count": 4
+        },
+        {
+          "id": "mmorpg:mat/salvage/salvage2",
+          "Count": 16
         }
       ],
       "rewardchoice": [
@@ -290,8 +302,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 7,
-        "hours": 0
+        "days": 0,
+        "hours": 7
       },
       "tasks": [
         {
@@ -419,8 +431,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 1,
-        "hours": 0
+        "days": 0,
+        "hours": 1
       },
       "tasks": [
         {
@@ -523,6 +535,10 @@
         {
           "id": "mmorpg:loot_crate/common",
           "Count": 1
+        },
+        {
+          "id": "mmorpg:mat/salvage/salvage0",
+          "Count": 16
         }
       ],
       "rewardchoice": [],
@@ -569,6 +585,10 @@
         {
           "id": "mmorpg:loot_crate/relic",
           "Count": 1
+        },
+        {
+          "id": "mmorpg:mat/salvage/salvage2",
+          "Count": 8
         }
       ],
       "rewardchoice": [],
@@ -663,6 +683,10 @@
         {
           "id": "minecraft:cooked_porkchop",
           "Count": 3
+        },
+        {
+          "id": "mmorpg:mat/salvage/salvage0",
+          "Count": 8
         }
       ],
       "rewardchoice": [
@@ -709,8 +733,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 1,
-        "hours": 0
+        "days": 0,
+        "hours": 1
       },
       "tasks": [
         {
@@ -779,8 +803,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 1,
-        "hours": 0
+        "days": 0,
+        "hours": 1
       },
       "tasks": [
         {
@@ -832,6 +856,47 @@
           "Count": 16
         }
       ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "5131fb94-f3d9-4f4d-a253-10cc8bbc5345",
+      "name": "Trading Post",
+      "description": "Craft a trading post to set up a shop for other players to use!",
+      "x": 116,
+      "y": 16,
+      "icon": {
+        "id": "adorn:trading_station",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Crafting Task",
+          "items": [
+            {
+              "item": {
+                "id": "adorn:trading_station",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "03b6069e-a4bd-4f91-9449-59e49409b70d"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "adorn:traders_manual",
+          "Count": 1
+        },
+        {
+          "id": "mmorpg:mat/salvage/salvage1",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
       "commandrewards": []
     },
     {
@@ -911,6 +976,10 @@
         {
           "id": "mmorpg:potions/add_reset_perk_points",
           "Count": 5
+        },
+        {
+          "id": "mmorpg:mat/salvage/salvage2",
+          "Count": 8
         }
       ],
       "rewardchoice": [
@@ -995,6 +1064,10 @@
         {
           "id": "craftable_utilities:death_teleport",
           "Count": 2
+        },
+        {
+          "id": "mmorpg:mat/salvage/salvage0",
+          "Count": 16
         }
       ],
       "rewardchoice": [],
@@ -1012,8 +1085,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 1,
-        "hours": 0
+        "days": 0,
+        "hours": 1
       },
       "tasks": [
         {
@@ -1098,6 +1171,10 @@
         {
           "id": "minecraft:stone_button",
           "Count": 1
+        },
+        {
+          "id": "mmorpg:mat/salvage/salvage1",
+          "Count": 8
         }
       ],
       "rewardchoice": [],
@@ -1115,8 +1192,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 1,
-        "hours": 0
+        "days": 0,
+        "hours": 1
       },
       "tasks": [
         {
@@ -1212,6 +1289,10 @@
         {
           "id": "mmorpg:runes/nos",
           "Count": 1
+        },
+        {
+          "id": "mmorpg:mat/salvage/salvage2",
+          "Count": 4
         }
       ],
       "rewardchoice": [],
@@ -1245,7 +1326,12 @@
         "776e6acb-8edd-40fc-9b77-2cb07591d60d"
       ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "mmorpg:mat/salvage/salvage1",
+          "Count": 8
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     },
@@ -1261,8 +1347,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 1,
-        "hours": 0
+        "days": 0,
+        "hours": 1
       },
       "tasks": [
         {
@@ -1378,6 +1464,10 @@
         {
           "id": "mmorpg:gear_mat/cloth/cloth1",
           "Count": 4
+        },
+        {
+          "id": "mmorpg:mat/salvage/salvage1",
+          "Count": 8
         }
       ],
       "rewardchoice": [],
@@ -1422,7 +1512,12 @@
         "de27675e-9006-4d74-874d-6c2417d77562"
       ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "mmorpg:mat/salvage/salvage0",
+          "Count": 16
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     },
@@ -1467,6 +1562,10 @@
           "tag": {
             "Damage": 0
           }
+        },
+        {
+          "id": "mmorpg:mat/salvage/salvage1",
+          "Count": 8
         }
       ],
       "rewardchoice": [],
@@ -1521,6 +1620,10 @@
         {
           "id": "mmorpg:loot_crate/magic",
           "Count": 1
+        },
+        {
+          "id": "mmorpg:mat/salvage/salvage0",
+          "Count": 8
         }
       ],
       "rewardchoice": [
