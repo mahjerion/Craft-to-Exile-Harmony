@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [1.2.6] - 2020-10-XX
+## [1.2.6] - 2020-11-1
 
 ### Updates
 - New mob farming system: Azuna's Favor. Accrue favor as you explore and open new chests around the world. Your favor increases your chance to find better, and more items, but decreases for every mob you kill.
@@ -26,17 +26,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Reduced max damage a player needs to do to get EXP/loot from 50% -> 33%.
 - Increased max instability to 2500 from 1000.
 - Disabled some conflicting Charm and Allure configurations.
-- Spawner mobs provide 75% less experience.
+- Spawner mobs provide 50% less experience.
 - Cleaned up the REI a bit.
+- Lowered max HP of Ender Dragon, Wither, and Blackstone Golem.
 
 ### Mod Updates
-- Updated Age of Exile, Dungeons of Exile, Repurposed Structures, Illuminations.
+- Updated Age of Exile, Dungeons of Exile, Repurposed Structures, Illuminations, Fabric Waystones, Charm.
 - Removed BackSlot.
 - Removed Gravestones - Allure has a built in gravestone mod already.
 
 ### Fixes
 - Disabled the rope bridge from Campanion.
 - Disabled Embur Gel Block - causes crashes.
+- Crashes caused by Fabric Waystones should be reduced.
 
 ## [1.2.4] - 2020-10-26
 
