@@ -7,6 +7,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.2.6c] - 2020-11-2
+
+### Updates
+- Disabled Allure gravestones.
+
+### Mod Updates
+- Updated Age of Exile.
+- Re-added Gravestones.
+- Removed RpgZ.
+
+### Fixes
+- Environmental damage no longer breaks your gear instantly.
+
+## [1.2.6b] - 2020-11-1
+### Fixes
+- Fixed spell crash.
+
 ## [1.2.6] - 2020-11-1
 
 ### Updates

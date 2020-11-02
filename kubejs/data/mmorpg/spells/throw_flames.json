@@ -123,7 +123,7 @@
               "map": {},
               "calc": {
                 "scaling_values": [],
-                "base_scaling": "SCALING",
+                "base_scaling": "NORMAL",
                 "attack_scaling": 0.0,
                 "base_val": 1.0
               }
@@ -157,7 +157,7 @@
               },
               "calc": {
                 "scaling_values": [],
-                "base_scaling": "SCALING",
+                "base_scaling": "NORMAL",
                 "attack_scaling": 0.25,
                 "base_val": 1.0
               }
@@ -181,6 +181,7 @@
     "cast_time_ticks": 0,
     "cooldown_ticks": 25,
     "is_starter": false,
+    "style": "MAGIC",
     "passive_config": {
       "is_passive": false,
       "cast_when_hp_bellow": 0.3

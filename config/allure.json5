@@ -16,7 +16,7 @@
 	"extraDarkForest": true,
 	"extraDarkForestSpawn": 30,
 	"johnnyChance": 0,
-	"gravestonesEnabled": true,
+	"gravestonesEnabled": false,
 	"lockGravestones": true,
 	"renderSkulls": true,
 	"renderCrateName": true,

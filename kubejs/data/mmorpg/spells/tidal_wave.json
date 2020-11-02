@@ -105,7 +105,7 @@
               },
               "calc": {
                 "scaling_values": [],
-                "base_scaling": "SCALING",
+                "base_scaling": "NORMAL",
                 "attack_scaling": 0.15,
                 "base_val": 1.0
               }
@@ -133,7 +133,7 @@
               },
               "calc": {
                 "scaling_values": [],
-                "base_scaling": "SCALING",
+                "base_scaling": "NORMAL",
                 "attack_scaling": 0.1,
                 "base_val": 2.0
               }
@@ -167,7 +167,7 @@
               },
               "calc": {
                 "scaling_values": [],
-                "base_scaling": "SCALING",
+                "base_scaling": "NORMAL",
                 "attack_scaling": 0.1,
                 "base_val": 2.0
               }
@@ -201,7 +201,7 @@
               },
               "calc": {
                 "scaling_values": [],
-                "base_scaling": "SCALING",
+                "base_scaling": "NORMAL",
                 "attack_scaling": 0.2,
                 "base_val": 0.0
               }
@@ -231,6 +231,7 @@
     "cast_time_ticks": 0,
     "cooldown_ticks": 20,
     "is_starter": false,
+    "style": "MAGIC",
     "passive_config": {
       "is_passive": false,
       "cast_when_hp_bellow": 0.3
