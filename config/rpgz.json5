@@ -1,5 +1,0 @@
-{ 
-	"drop_unlooted": false,
-	// Default: 2400ticks = 2min
-	"drop_after_ticks": 2400
-}
