@@ -1,4 +1,5 @@
 {
+  "__comment": "For help with the config refer to https://github.com/Flemmli97/Flan/wiki/Config",
   "startingBlocks": 1000,
   "maxClaimBlocks": 5000,
   "ticksForNextBlock": 600,
@@ -9,5 +10,7 @@
   "claimingItem": "minecraft:golden_hoe",
   "inspectionItem": "minecraft:stick",
   "claimDisplayTime": 1000,
-  "permissionLevel": 2
+  "permissionLevel": 2,
+  "globalDefaultPerms": {},
+  "enableLogs": false
 }

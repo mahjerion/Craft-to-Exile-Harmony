@@ -7,6 +7,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.2.7] - 2020-11-4
+
+### Updates
+- You now retain equipped items on death again.
+- Added recipe for spell reset potion.
+- Added spell reset potion to a quest reward.
+- Death chests are protected for 5 Minecraft days.
+- (SERVERS ONLY) Enabled /home command because of how finnicky Waystones are recently on servers. You can have a max of 3 homes.
+- Very slightly reduced the power of some weapon runewords.
+
+### Mod Updates
+- Updated Xaero's, FLAN.
+- Added VanillaDeathChest.
+- Removed Gravestones.
+
+### Fixes
+- Fixed Engima not working.
+- Ender pearl crashes should be resolved.
+
 ## [1.2.6c] - 2020-11-2
 
 ### Fixes

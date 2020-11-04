@@ -10,20 +10,20 @@
       "type": "FLAT"
     },
     {
-      "firstMin": 1.0,
-      "firstMax": 1.0,
-      "secondMin": 0.0,
-      "secondMax": 0.0,
+      "first_min": 1.0,
+      "first_max": 1.0,
+      "second_min": 1.0,
+      "second_max": 1.0,
       "stat": "unlock_teleport",
-      "type": "flat"
+      "type": "FLAT"
     },
     {
-      "firstMin": 3.0,
-      "firstMax": 4.0,
-      "secondMin": 0.0,
-      "secondMax": 0.0,
+      "first_min": 3.0,
+      "first_max": 4.0,
+      "second_min": 0.0,
+      "second_max": 0.0,
       "stat": "mana_per_sec",
-      "type": "flat"
+      "type": "FLAT"
     }
   ],
   "runes_needed": [

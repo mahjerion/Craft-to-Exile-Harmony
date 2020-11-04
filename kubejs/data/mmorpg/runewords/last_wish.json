@@ -2,8 +2,8 @@
   "identifier": "last_wish",
   "stats": [
     {
-      "first_min": 140.0,
-      "first_max": 190.0,
+      "first_min": 110.0,
+      "first_max": 160.0,
       "second_min": 0.0,
       "second_max": 0.0,
       "stat": "physical_weapon_damage",
