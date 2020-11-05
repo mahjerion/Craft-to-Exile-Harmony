@@ -1,0 +1,28 @@
+{
+  "identifier": "starlight",
+  "stats": [
+    {
+      "first_min": 22.0,
+      "first_max": 35.0,
+      "second_min": 0.0,
+      "second_max": 0.0,
+      "stat": "magic_shield",
+      "type": "LOCAL_INCREASE"
+    },
+    {
+      "first_min": 2.0,
+      "first_max": 5.0,
+      "second_min": 0.0,
+      "second_max": 0.0,
+      "stat": "magic_shield_per_sec",
+      "type": "FLAT"
+    }
+  ],
+  "runes_needed": [
+    "xer",
+    "cen",
+    "oru",
+    "nos"
+  ],
+  "family": "Armor"
+}

@@ -1,0 +1,16 @@
+{
+  "min_lvl": 20,
+  "dmg_multi": 2.3,
+  "extra_hp_multi": 4.25,
+  "stat_multi": 3.5,
+  "loot_multi": 4.0,
+  "exp_multi": 4.0,
+  "affix_chance": 80.0,
+  "name_add": "",
+  "rarity_type": "MOB",
+  "rank": 4,
+  "weight": 50,
+  "text_format": "GOLD",
+  "higher_rar": "",
+  "guid": "legendary"
+}

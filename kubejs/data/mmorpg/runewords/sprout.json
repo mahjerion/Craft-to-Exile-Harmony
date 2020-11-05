@@ -1,0 +1,43 @@
+{
+  "identifier": "sprout",
+  "stats": [
+    {
+      "first_min": 3.0,
+      "first_max": 5.0,
+      "second_min": 7.0,
+      "second_max": 10.0,
+      "stat": "water_weapon_damage",
+      "type": "FLAT"
+    },
+    {
+      "first_min": 35.0,
+      "first_max": 50.0,
+      "second_min": 0.0,
+      "second_max": 0.0,
+      "stat": "spell_water_damage",
+      "type": "LOCAL_INCREASE"
+    },
+    {
+      "first_min": 1.0,
+      "first_max": 3.0,
+      "second_min": 0.0,
+      "second_max": 0.0,
+      "stat": "mana_per_sec",
+      "type": "FLAT"
+    },
+    {
+      "first_min": 25.0,
+      "first_max": 33.0,
+      "second_min": 0.0,
+      "second_max": 0.0,
+      "stat": "fire_resist",
+      "type": "FLAT"
+    }
+  ],
+  "runes_needed": [
+    "toq",
+    "nos",
+    "xer"
+  ],
+  "family": "Weapon",
+}

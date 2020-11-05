@@ -1,10 +1,11 @@
 {
 	"powers": [
 		"origins-classes:sneaky",
-		"origins-classes:stealth",
-		"origins-classes:stealth_descriptor",
+		"origins:phantomize",
+		"origins:invisibility"
 		"origins:fragile",
-		"origins:more_exhaustion"
+		"origins:hunger_over_time",
+		"origins:translucent"
 	],
 	"icon": "mmorpg:weapon/sword/sword2",
 	"order": 6,

@@ -32,8 +32,8 @@
       "type": "flat"
     },
     {
-      "firstMin": 14.0,
-      "firstMax": 18.0,
+      "firstMin": 28.0,
+      "firstMax": 36.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "str_to_spell_dmg",

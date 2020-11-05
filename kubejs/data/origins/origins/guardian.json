@@ -3,7 +3,6 @@
 		"origins:shulker_inventory",
 		"origins:natural_armor",
 		"origins-classes:less_shield_slowdown",
-		"origins-classes:better_enchanting",
 		"origins:nine_lives"
 	],
 	"icon": "minecraft:shield",

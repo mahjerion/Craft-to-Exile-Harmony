@@ -1,9 +1,9 @@
 {
 	"powers": [
+		"origins:shulker_inventory",
 		"origins-classes:efficient_repairs",
-		"origins-classes:more_stone_break_speed",
 		"origins-classes:more_crop_drops",
-		"origins-classes:more_planks_from_logs"
+		"origins:ender_particles"
 	],
 	"icon": "minecraft:player_head",
 	"order": 0,

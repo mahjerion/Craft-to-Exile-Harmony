@@ -1,0 +1,50 @@
+{
+  "id": "haunted",
+  "weight": 1000,
+  "rarity": 0,
+  "tier": 0,
+  "format": "GRAY",
+  "icon": "",
+  "stats": [
+    {
+      "firstMin": 15.0,
+      "firstMax": 15.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "chance_of_burn",
+      "type": "flat"
+    },
+    {
+      "firstMin": 15.0,
+      "firstMax": 15.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "chance_of_chill",
+      "type": "flat"
+    },
+    {
+      "firstMin": 15.0,
+      "firstMax": 15.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "chance_of_poison",
+      "type": "flat"
+    },
+    {
+      "firstMin": 15.0,
+      "firstMax": 15.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "chance_of_static",
+      "type": "flat"
+    },
+    {
+      "firstMin": 15.0,
+      "firstMax": 15.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "extra_mob_drops",
+      "type": "flat"
+    }
+  ]
+}

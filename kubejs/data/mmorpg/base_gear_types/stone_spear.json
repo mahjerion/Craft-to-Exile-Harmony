@@ -25,7 +25,7 @@
     },
     {
       "firstMin": 3.0,
-      "firstMax": 12.0,
+      "firstMax": 9.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "critical_hit",

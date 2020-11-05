@@ -181,6 +181,9 @@
 
   "power.origins.translucent.name": "Translucent",
   "power.origins.translucent.description": "Your skin is translucent.",
+  
+  "power.origins.frail.name": "Frail",
+  "power.origins.frail.description": "You have 5 less hearts of health.",
 
   "category.origins": "Ascendancy",
   "key.origins.active_power": "Active Power",
@@ -203,7 +206,7 @@
   "origins.gui.impact.high": "High",
 
   "layer.origins.origin": "Origin",
-  "layer.origins.ascendancy": "Ascendancy",
+  "layer.origins.ascendancy.name": "Ascendancy",
 
   "death.attack.no_water_for_gills": "%s didn't manage to keep wet.",
   "death.attack.hurt_by_water": "%s took a bath for too long.",

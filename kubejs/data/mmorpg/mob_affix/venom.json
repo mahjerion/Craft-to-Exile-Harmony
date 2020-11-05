@@ -1,0 +1,34 @@
+{
+  "id": "venom",
+  "weight": 1000,
+  "rarity": 0,
+  "tier": 0,
+  "format": "DARK_GREEN",
+  "icon": "§2✿",
+  "stats": [
+    {
+      "firstMin": 50.0,
+      "firstMax": 50.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "convert_nature_to_phys",
+      "type": "flat"
+    },
+    {
+      "firstMin": 1.0,
+      "firstMax": 1.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "nature_weapon_damage",
+      "type": "flat"
+    },
+    {
+      "firstMin": 10.0,
+      "firstMax": 10.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "extra_mob_drops",
+      "type": "flat"
+    }
+  ]
+}

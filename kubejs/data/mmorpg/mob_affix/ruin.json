@@ -1,0 +1,26 @@
+{
+  "id": "ruin",
+  "weight": 1000,
+  "rarity": 0,
+  "tier": 0,
+  "format": "GRAY",
+  "icon": "",
+  "stats": [
+    {
+      "firstMin": 1.0,
+      "firstMax": 1.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "physical_weapon_damage",
+      "type": "flat"
+    },
+    {
+      "firstMin": 10.0,
+      "firstMax": 10.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "extra_mob_drops",
+      "type": "flat"
+    }
+  ]
+}

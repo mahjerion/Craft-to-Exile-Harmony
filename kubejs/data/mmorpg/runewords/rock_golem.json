@@ -1,0 +1,28 @@
+{
+  "identifier": "rock_golem",
+  "stats": [
+    {
+      "first_min": 10.0,
+      "first_max": 20.0,
+      "second_min": 0.0,
+      "second_max": 0.0,
+      "stat": "armor",
+      "type": "FLAT"
+    },
+    {
+      "first_min": 60.0,
+      "first_max": 100.0,
+      "second_min": 0.0,
+      "second_max": 0.0,
+      "stat": "armor",
+      "type": "LOCAL_INCREASE"
+    }
+  ],
+  "runes_needed": [
+    "xer",
+    "cen",
+    "oru",
+    "ita"
+  ],
+  "family": "Armor"
+}

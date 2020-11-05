@@ -1,0 +1,47 @@
+{
+  "id": "crossbow2",
+  "weight": 1000,
+  "rarity": 0,
+  "tier": 0,
+  "implicit_stats": [],
+  "base_stats": [
+    {
+      "firstMin": 2.0,
+      "firstMax": 3.0,
+      "secondMin": 3.0,
+      "secondMax": 7.0,
+      "stat": "physical_weapon_damage",
+      "type": "flat"
+    },
+    {
+      "firstMin": 3.0,
+      "firstMax": 5.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "critical_hit",
+      "type": "flat"
+    }
+  ],
+  "level_range": {
+    "start": 0.4,
+    "end": 0.6
+  },
+  "tag_list": {
+    "tags": [
+      "dexterity",
+      "ranger_casting_weapon",
+      "crossbow",
+      "ranged_weapon",
+      "weapon_family"
+    ]
+  },
+  "stat_req": {
+    "dex_req": 0.0,
+    "int_req": 0.0,
+    "str_req": 0.0
+  },
+  "item_id": "minecraft:crossbow",
+  "gear_slot": "crossbow",
+  "weapon_type": "CrossBow",
+  "attack_style": "RANGED"
+}

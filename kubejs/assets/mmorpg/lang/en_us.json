@@ -715,6 +715,13 @@
 
 "_comment": " [CATEGORY]: AFFIXES - NAMES",
 
+	"mmorpg.affix.soothing": "Soothing",
+	"mmorpg.affix.empowering": "Empowering",
+	"mmorpg.affix.spell_thunder_damage": "Sparkling",
+	"mmorpg.affix.spell_nature_damage": "Sizzling",
+	"mmorpg.affix.spell_water_damage": "Bubbly",
+	"mmorpg.affix.spell_fire_damage": "Crisp",
+	"mmorpg.affix.of_insight": "Of Insight",
 
 "_comment": " [CATEGORY]: STATS - NAMES",
 
@@ -935,6 +942,12 @@
 	"mmorpg.runeword.insight": "Insight",
 	"mmorpg.runeword.call_to_arms": "Call to Arms",
 	"mmorpg.runeword.last_wish": "Last Wish",
+	"mmorpg.runeword.leaf": "Leaf",
+	"mmorpg.runeword.sprout": "Sprout",
+	"mmorpg.runeword.memory": "Memory",
+	"mmorpg.runeword.static": "Static",
+	"mmorpg.runeword.heart_of_the_oak": "Heart of the Oak",
+	"mmorpg.runeword.white": "White",
 
 "_comment": " [CATEGORY]: RUNE WORDS - NAMES",
 
@@ -1529,7 +1542,7 @@
 
 "_comment": " [CATEGORY]: STATS - DESCRIPTIONS",
 
-	"mmorpg.stat_desc.all_attributes": "Adds to Dexterity, Intelligence and Strength.",
+	"mmorpg.stat_desc.all_attributes": "Adds to DEX, INT STR, VIT, WIL, AGI.",
 	"mmorpg.stat_desc.all_ele_dmg": "Increases All dmg of that element, both spells and attacks",
 	"mmorpg.stat_desc.alter_req_percent": "Alters requirements of this item.",
 	"mmorpg.stat_desc.armor": "Decreases damage taken by a percent",
@@ -1547,7 +1560,7 @@
 	"mmorpg.stat_desc.critical_hit": "Chance to multiply damage by critical damage",
 	"mmorpg.stat_desc.damage_shield": "Decreases that amount of damage from every attack.",
 	"mmorpg.stat_desc.day_dmg": "Increases dmg at day.",
-	"mmorpg.stat_desc.dexterity": "Increases Crit Hit and Dodge",
+	"mmorpg.stat_desc.dexterity": "Determines your total: Critical Chance, Ranged Damage",
 	"mmorpg.stat_desc.dexterity_flat_stat_req": "Alters stat requirements of this item.",
 	"mmorpg.stat_desc.dmg_under_hunger": "Increases your damage if you are under this status effect.",
 	"mmorpg.stat_desc.dmg_under_poison": "Increases your damage if you are under this status effect.",
@@ -1572,7 +1585,7 @@
 	"mmorpg.stat_desc.hunger_immunity": "This effect can't apply to you.",
 	"mmorpg.stat_desc.increase_healing": "Increases all types of healing recieved like health regen, lifesteal, life on hit, spell heals etc",
 	"mmorpg.stat_desc.increased_quantity": "Increases Loot Drop amount",
-	"mmorpg.stat_desc.intelligence": "Increase Magic Shield and Mana and Mana regen.",
+	"mmorpg.stat_desc.intelligence": "Determines your total: All Elemental Damage, Magic Damage",
 	"mmorpg.stat_desc.intelligence_flat_stat_req": "Alters stat requirements of this item.",
 	"mmorpg.stat_desc.life_on_hit": "Gives health on basic attack hit",
 	"mmorpg.stat_desc.lifesteal": "Percent of basic attack DMG added to health",
@@ -1605,7 +1618,7 @@
 	"mmorpg.stat_desc.slow_immunity": "This effect can't apply to you.",
 	"mmorpg.stat_desc.spell_damage": "Increases DMG of all spells no matter the element",
 	"mmorpg.stat_desc.static_bonus_dmg": "Increases dmg if enemy is affected by: Charged",
-	"mmorpg.stat_desc.strength": "Increases Physical Dmg and health",
+	"mmorpg.stat_desc.strength": "Determines your total: Critical Damage, Melee Damage",
 	"mmorpg.stat_desc.strength_flat_stat_req": "Alters stat requirements of this item.",
 	"mmorpg.stat_desc.turn_phys_to_ele": "Turns % of phys atk dmg into ele",
 	"mmorpg.stat_desc.unlock_arcane_bolt": "Unlocks the spell.",

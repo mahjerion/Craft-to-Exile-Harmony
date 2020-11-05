@@ -1,0 +1,35 @@
+{
+  "identifier": "venom",
+  "stats": [
+    {
+      "first_min": 1.0,
+      "first_max": 2.0,
+      "second_min": 2.0,
+      "second_max": 3.0,
+      "stat": "nature_weapon_damage",
+      "type": "FLAT"
+    },
+    {
+      "first_min": 25.0,
+      "first_max": 35.0,
+      "second_min": 0.0,
+      "second_max": 0.0,
+      "stat": "nature_weapon_damage",
+      "type": "LOCAL_INCREASE"
+    },
+    {
+      "first_min": 25.0,
+      "first_max": 50.0,
+      "second_min": 0.0,
+      "second_max": 0.0,
+      "stat": "chance_of_poison",
+      "type": "FLAT"
+    }
+  ],
+  "runes_needed": [
+    "dos",
+    "ita",
+    "nos"
+  ],
+  "family": "Weapon"
+}

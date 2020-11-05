@@ -1,0 +1,35 @@
+{
+  "identifier": "leaf",
+  "stats": [
+    {
+      "first_min": 35.0,
+      "first_max": 50.0,
+      "second_min": 0.0,
+      "second_max": 0.0,
+      "stat": "spell_fire_damage",
+      "type": "LOCAL_INCREASE"
+    },
+    {
+      "first_min": 2.0,
+      "first_max": 5.0,
+      "second_min": 0.0,
+      "second_max": 0.0,
+      "stat": "mana_on_kill",
+      "type": "FLAT"
+    },
+    {
+      "first_min": 25.0,
+      "first_max": 33.0,
+      "second_min": 0.0,
+      "second_max": 0.0,
+      "stat": "water_resist",
+      "type": "FLAT"
+    }
+  ],
+  "runes_needed": [
+    "xer",
+    "ano",
+    "nos"
+  ],
+  "family": "Weapon",
+}

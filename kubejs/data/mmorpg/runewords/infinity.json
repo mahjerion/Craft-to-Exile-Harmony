@@ -1,0 +1,27 @@
+{
+  "identifier": "infinity",
+  "stats": [
+    {
+      "first_min": 0.5,
+      "first_max": 2.0,
+      "second_min": 0.0,
+      "second_max": 0.0,
+      "stat": "magic_shield_regen",
+      "type": "FLAT"
+    },
+    {
+      "first_min": 35.0,
+      "first_max": 55.0,
+      "second_min": 0.0,
+      "second_max": 0.0,
+      "stat": "mana_regen",
+      "type": "LOCAL_INCREASE"
+    }
+  ],
+  "runes_needed": [
+    "xer",
+    "wir",
+    "oru"
+  ],
+  "family": "Jewelry"
+}

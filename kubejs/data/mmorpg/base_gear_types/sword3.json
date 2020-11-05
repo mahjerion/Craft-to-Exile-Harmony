@@ -1,0 +1,57 @@
+{
+  "id": "sword3",
+  "weight": 1000,
+  "rarity": 0,
+  "tier": 0,
+  "implicit_stats": [
+    {
+      "firstMin": 2.0,
+      "firstMax": 3.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "lifesteal",
+      "type": "flat"
+    }
+  ],
+  "base_stats": [
+    {
+      "firstMin": 2.0,
+      "firstMax": 3.0,
+      "secondMin": 2.0,
+      "secondMax": 4.0,
+      "stat": "physical_weapon_damage",
+      "type": "flat"
+    },
+    {
+      "firstMin": 2.0,
+      "firstMax": 5.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "critical_hit",
+      "type": "flat"
+    }
+  ],
+  "level_range": {
+    "start": 0.6,
+    "end": 0.8
+  },
+  "tag_list": {
+    "tags": [
+      "dexterity",
+      "warrior_casting_weapon",
+      "sword",
+      "strength",
+      "melee_weapon",
+      "weapon_family"
+    ]
+  },
+  "stat_req": {
+    "dex_req": 0.0,
+    "int_req": 0.0,
+    "str_req": 0.0
+  },
+  "item_id": "mmorpg:weapon/sword/sword3",
+  "gear_slot": "sword",
+  "weapon_type": "Sword",
+  "attack_style": "MELEE"
+}

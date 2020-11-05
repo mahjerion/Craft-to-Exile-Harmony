@@ -1,0 +1,47 @@
+{
+  "id": "axe0",
+  "weight": 1000,
+  "rarity": 0,
+  "tier": 0,
+  "implicit_stats": [],
+  "base_stats": [
+    {
+      "firstMin": 2.0,
+      "firstMax": 3.0,
+      "secondMin": 4.0,
+      "secondMax": 8.0,
+      "stat": "physical_weapon_damage",
+      "type": "flat"
+    },
+    {
+      "firstMin": 4.0,
+      "firstMax": 10.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "critical_hit",
+      "type": "flat"
+    }
+  ],
+  "level_range": {
+    "start": 0.0,
+    "end": 0.2
+  },
+  "tag_list": {
+    "tags": [
+      "warrior_casting_weapon",
+      "strength",
+      "weapon_family",
+      "melee_weapon",
+      "axe"
+    ]
+  },
+  "stat_req": {
+    "dex_req": 0.0,
+    "int_req": 0.0,
+    "str_req": 0.0
+  },
+  "item_id": "mmorpg:weapon/axe/axe0",
+  "gear_slot": "axe",
+  "weapon_type": "Axe",
+  "attack_style": "MELEE"
+}

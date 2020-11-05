@@ -5,7 +5,7 @@
 		"origins:swim_speed",
 		"origins:hotblooded",
 		"origins:flame_particles",
-		"origins:fragile"
+		"origins:frail"
 	],
 	"icon": "mmorpg:weapon/wand/wand4",
 	"order": 7,

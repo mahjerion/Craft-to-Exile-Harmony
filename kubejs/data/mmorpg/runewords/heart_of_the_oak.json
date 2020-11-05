@@ -1,0 +1,45 @@
+{
+  "identifier": "heart_of_the_oak",
+  "stats": [
+    {
+      "first_min": 60.0,
+      "first_max": 80.0,
+      "second_min": 0.0,
+      "second_max": 0.0,
+      "stat": "spell_damage",
+      "type": "LOCAL_INCREASE"
+    },
+    {
+      "first_min": 30.0,
+      "first_max": 40.0,
+      "second_min": 0.0,
+      "second_max": 0.0,
+      "stat": "faster_cast_rate",
+      "type": "FLAT"
+    },
+    {
+      "first_min": 10.0,
+      "first_max": 20.0,
+      "second_min": 0.0,
+      "second_max": 0.0,
+      "stat": "mana",
+      "type": "LOCAL_INCREASE"
+    },
+    {
+      "first_min": 30.0,
+      "first_max": 40.0,
+      "second_min": 0.0,
+      "second_max": 0.0,
+      "stat": "elemental_resist",
+      "type": "LOCAL_INCREASE"
+    }
+  ],
+  "runes_needed": [
+    "eno",
+    "xer",
+    "yun",
+    "toq",
+    "wir"
+  ],
+  "family": "Weapon",
+}

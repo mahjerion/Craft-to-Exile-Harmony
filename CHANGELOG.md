@@ -7,6 +7,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Updates
+- Added TheMeowstardCat's Community Server to the list of default available servers. Thanks for supporting CtE for so long!
+- Rebalanced Ascendancy classes.
+- Added 6 new runewords catered for mages.
+- Rebalanced most runewords. That means moderate buffs to the mod runewords and slight nerfs to my runewords.
+- Some unique weapons have been rebalanced similarly.
+- Mob affixes have been slightly modified to better reflect their names.
+- Increased mob HP at lower rarities.
+- Added some new affixes for spellcasters.
+- Very slightly increased the power of armor/dodge/magic shield.
+- Lowered critical hit values.
+- Increased difficulty of The Nether and The End (subsequently, mobs grant more experience in these dimensions now).
+
+### Mod Updates
+- Updated Origins.
+
+### Fixes
+- Fixed incorrect stat descriptions.
+
 ## [1.2.7] - 2020-11-4
 
 ### Updates

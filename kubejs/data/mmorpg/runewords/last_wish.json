@@ -2,16 +2,16 @@
   "identifier": "last_wish",
   "stats": [
     {
-      "first_min": 110.0,
-      "first_max": 160.0,
+      "first_min": 70.0,
+      "first_max": 110.0,
       "second_min": 0.0,
       "second_max": 0.0,
       "stat": "physical_weapon_damage",
       "type": "LOCAL_INCREASE"
     },
     {
-      "first_min": 15.0,
-      "first_max": 20.0,
+      "first_min": 12.0,
+      "first_max": 18.0,
       "second_min": 0.0,
       "second_max": 0.0,
       "stat": "lifesteal",

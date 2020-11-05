@@ -1,0 +1,16 @@
+{
+  "min_lvl": 0,
+  "dmg_multi": 1.0,
+  "extra_hp_multi": 0.35,
+  "stat_multi": 0.9,
+  "loot_multi": 1.0,
+  "exp_multi": 1.0,
+  "affix_chance": 5.0,
+  "name_add": "",
+  "rarity_type": "MOB",
+  "rank": 0,
+  "weight": 1000,
+  "text_format": "GRAY",
+  "higher_rar": "",
+  "guid": "common"
+}
