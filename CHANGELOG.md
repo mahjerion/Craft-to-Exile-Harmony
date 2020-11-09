@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.3.0] - 2020-11-09
+
 ### Updates
 - Added TheMeowstardCat's Community Server to the list of default available servers. Thanks for supporting CtE for so long!
 - Rebalanced Ascendancy classes.
@@ -21,10 +23,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Increased difficulty of The Nether and The End (subsequently, mobs grant more experience in these dimensions now).
 
 ### Mod Updates
-- Updated Origins.
+- Updated Origins, Jumploader. FLAN, HQM, Charmonium, Charm.
+- Added Better Ping Display.
+- Added XP Storage.
+- Removed Numberic Ping.
 
 ### Fixes
 - Fixed incorrect stat descriptions.
+- Fixed Nether dailies.
 
 ## [1.2.7] - 2020-11-4
 

@@ -4,7 +4,7 @@
   "id": "minecraft:cloth_chainmail_boots",
   "rarities": "non_aoe",
   "misc": {
-    "weight": 1000,
+    "weight": 0,
     "can_be_salvaged": true
   },
   "unique": {

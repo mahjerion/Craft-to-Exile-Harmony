@@ -1139,6 +1139,53 @@
       "commandrewards": []
     },
     {
+      "uuid": "36736f21-0fae-434f-beb9-364db8e1ffc5",
+      "name": "XP Storage",
+      "description": "XP books are a cheap and efficient method for storing vanilla XP. You can even upgrade them to store more!",
+      "x": 148,
+      "y": 80,
+      "icon": {
+        "id": "xp_storage:xp_book",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Crafting Task",
+          "items": [
+            {
+              "item": {
+                "id": "xp_storage:xp_book",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "931874d5-15be-4aa4-9289-1472d8ad7c59",
+        "c4a504f1-74f5-4c6d-8386-a317ae4b7586"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:loot_crate/ench_exp_bag",
+          "Count": 1,
+          "tag": {
+            "exp": 250
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "8d2a72e9-fef5-4d15-8e05-95cad3df8316",
       "name": "Warding Brush",
       "description": "Although uncraftable, you will find across the world Ward blocks, which provide bonuses to nearby players when placed and supplied with redstone power!",

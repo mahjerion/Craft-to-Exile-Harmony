@@ -2,7 +2,7 @@
 	"powers": [
 		"origins-classes:sneaky",
 		"origins:phantomize",
-		"origins:invisibility"
+		"origins:invisibility",
 		"origins:fragile",
 		"origins:hunger_over_time",
 		"origins:translucent"

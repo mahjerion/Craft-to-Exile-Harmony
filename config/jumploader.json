@@ -8,5 +8,6 @@
   "gameSide": "current",
   "disableUI": false,
   "loadJarsFromFolder": null,
-  "overrideMainClass": null
+  "overrideMainClass": null,
+  "pinFabricLoaderVersion": "0.10.6+build.214"
 }
