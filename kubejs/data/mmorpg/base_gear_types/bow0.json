@@ -8,14 +8,14 @@
     {
       "firstMin": 1.0,
       "firstMax": 3.0,
-      "secondMin": 2.0,
+      "secondMin": 4.0,
       "secondMax": 6.0,
       "stat": "physical_weapon_damage",
       "type": "flat"
     },
     {
-      "firstMin": 5.0,
-      "firstMax": 14.0,
+      "firstMin": 4.0,
+      "firstMax": 8.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "critical_hit",

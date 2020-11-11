@@ -84,8 +84,8 @@
               "calc": {
                 "scaling_values": [],
                 "base_scaling": "NORMAL",
-                "attack_scaling": 0.0,
-                "base_val": 8.0
+                "attack_scaling": 0.2,
+                "base_val": 5.0
               }
             }
           ],

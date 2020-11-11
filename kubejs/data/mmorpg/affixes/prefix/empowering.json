@@ -18,10 +18,10 @@
     "1": {
       "mods": [
         {
-          "first_min": 1.0,
-          "first_max": 1.5,
-          "second_min": 1.2,
-          "second_max": 1.5,
+          "first_min": 0.9,
+          "first_max": 1.1,
+          "second_min": 1.1,
+          "second_max": 1.3,
           "stat": "spell_damage",
           "type": "FLAT"
         }
@@ -32,10 +32,10 @@
     "2": {
       "mods": [
         {
-          "first_min": 0.6,
-          "first_max": 0.8,
-          "second_min": 0.8,
-          "second_max": 1.0,
+          "first_min": 0.5,
+          "first_max": 0.7,
+          "second_min": 0.7,
+          "second_max": 0.9,
           "stat": "spell_damage",
           "type": "FLAT"
         }
@@ -46,10 +46,10 @@
     "3": {
       "mods": [
         {
-          "first_min": 0.4,
-          "first_max": 0.6,
-          "second_min": 0.6,
-          "second_max": 0.8,
+          "first_min": 0.3,
+          "first_max": 0.5,
+          "second_min": 0.5,
+          "second_max": 0.7,
           "stat": "spell_damage",
           "type": "FLAT"
         }

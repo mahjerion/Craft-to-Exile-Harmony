@@ -4,7 +4,7 @@
     "stats": []
   },
   "loot_multi": 1.0,
-  "exp_multi": 0.75,
+  "exp_multi": 1.0,
   "min_rarity": 0,
   "max_rarity": 4,
   "min_lvl": 1,

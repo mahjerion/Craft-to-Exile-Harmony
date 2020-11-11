@@ -1,0 +1,47 @@
+{
+  "id": "leather_pants1",
+  "weight": 1000,
+  "rarity": 0,
+  "tier": 0,
+  "implicit_stats": [],
+  "base_stats": [
+    {
+      "firstMin": 24.0,
+      "firstMax": 96.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "dodge",
+      "type": "flat"
+    },
+    {
+      "firstMin": 0.9,
+      "firstMax": 2.7,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "health",
+      "type": "flat"
+    }
+  ],
+  "level_range": {
+    "start": 0.2,
+    "end": 0.4
+  },
+  "tag_list": {
+    "tags": [
+      "dexterity",
+      "dodge_stat",
+      "armor_family",
+      "pants",
+      "leather"
+    ]
+  },
+  "stat_req": {
+    "dex_req": 0.0,
+    "int_req": 0.0,
+    "str_req": 0.0
+  },
+  "item_id": "mmorpg:armor/leather/pants/leather_pants1",
+  "gear_slot": "pants",
+  "weapon_type": "None",
+  "attack_style": "MELEE"
+}

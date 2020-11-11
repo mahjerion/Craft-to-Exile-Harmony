@@ -18,10 +18,10 @@
     "1": {
       "mods": [
         {
-          "first_min": 2.0,
-          "first_max": 2.5,
-          "second_min": 2.5,
-          "second_max": 3.0,
+          "first_min": 1,6,
+          "first_max": 2.0,
+          "second_min": 2.0,
+          "second_max": 2.4,
           "stat": "spell_water_damage",
           "type": "FLAT"
         }
@@ -32,10 +32,10 @@
     "2": {
       "mods": [
         {
-          "first_min": 1.0,
-          "first_max": 1.5,
-          "second_min": 1.5,
-          "second_max": 2.0,
+          "first_min": 0.8,
+          "first_max": 1.2,
+          "second_min": 1.2,
+          "second_max": 1.6,
           "stat": "spell_water_damage",
           "type": "FLAT"
         }
@@ -46,10 +46,10 @@
     "3": {
       "mods": [
         {
-          "first_min": 0.5,
-          "first_max": 1.0,
-          "second_min": 1.0,
-          "second_max": 1.5,
+          "first_min": 0.4,
+          "first_max": 0.8,
+          "second_min": 0.8,
+          "second_max": 1.2,
           "stat": "spell_water_damage",
           "type": "FLAT"
         }

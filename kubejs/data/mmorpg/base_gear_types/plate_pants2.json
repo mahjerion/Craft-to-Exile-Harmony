@@ -1,0 +1,47 @@
+{
+  "id": "plate_pants2",
+  "weight": 1000,
+  "rarity": 0,
+  "tier": 0,
+  "implicit_stats": [],
+  "base_stats": [
+    {
+      "firstMin": 18.0,
+      "firstMax": 72.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "armor",
+      "type": "flat"
+    },
+    {
+      "firstMin": 2.0,
+      "firstMax": 4.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "health",
+      "type": "flat"
+    }
+  ],
+  "level_range": {
+    "start": 0.4,
+    "end": 0.6
+  },
+  "tag_list": {
+    "tags": [
+      "armor_family",
+      "pants",
+      "strength",
+      "plate",
+      "armor_stat"
+    ]
+  },
+  "stat_req": {
+    "dex_req": 0.0,
+    "int_req": 0.0,
+    "str_req": 0.0
+  },
+  "item_id": "mmorpg:armor/plate/pants/plate_pants2",
+  "gear_slot": "pants",
+  "weapon_type": "None",
+  "attack_style": "MELEE"
+}

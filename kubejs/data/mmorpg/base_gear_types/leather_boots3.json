@@ -1,0 +1,47 @@
+{
+  "id": "leather_boots3",
+  "weight": 1000,
+  "rarity": 0,
+  "tier": 0,
+  "implicit_stats": [],
+  "base_stats": [
+    {
+      "firstMin": 13.0,
+      "firstMax": 52.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "dodge",
+      "type": "flat"
+    },
+    {
+      "firstMin": 0.6,
+      "firstMax": 1.8,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "health",
+      "type": "flat"
+    }
+  ],
+  "level_range": {
+    "start": 0.6,
+    "end": 0.8
+  },
+  "tag_list": {
+    "tags": [
+      "dexterity",
+      "dodge_stat",
+      "armor_family",
+      "boots",
+      "leather"
+    ]
+  },
+  "stat_req": {
+    "dex_req": 0.0,
+    "int_req": 0.0,
+    "str_req": 0.0
+  },
+  "item_id": "mmorpg:armor/leather/boots/leather_boots3",
+  "gear_slot": "boots",
+  "weapon_type": "None",
+  "attack_style": "MELEE"
+}

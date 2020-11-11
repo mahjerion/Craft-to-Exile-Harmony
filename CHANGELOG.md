@@ -7,6 +7,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Updates
+- You now only do 20% of your damage when in PvP. This is common practice with RPG games, otherwise it becomes a "who can hit the other guy first" battle.
+- Increased base armor, dodge, and magic shield values from Age of Exile gear.
+- Crossbows now have armor penetration at the cost of reduced critical hit chance.
+- Bow max base damage roll was increased by about 15%.
+- Bows have had their critical hit chance reduced heavily.
+- Critical hit chance and damage has been reduced.
+- Lowered the base value of almost all elemental spells by about 15-25%.
+- Reduced power of spell damage affixes slightly.
+- Mobs now scale at a higher rate. That is to say, level 50 mobs will be twice as strong as they currently are.
+- Increased EXP curve. As a result, I've bumped up EXP gain by about 33%. Overall, it should still be slower.
+- Skeleton vanguards and summoners have been weakened greatly.
+- Skeleton vanguards, summoners, endermites, slimes, drowned, and iron golems have all had their EXP reduced heavily.
+- Reduced EXP gain from spawners from 50% to 33%. Also increased the rate at which EXP falls off within a chunk from 2% to 3% per mob kill.
+
+## [1.3.0b] - 2020-11-09
+
+### Mod Updates
+- Downgraded Charm and Charmonium.
+
 ## [1.3.0] - 2020-11-09
 
 ### Updates
