@@ -1,0 +1,42 @@
+{
+  "id": "crown_of_elements",
+  "weight": 1000,
+  "rarity": 1,
+  "tier": 0,
+  "unique_stats": [
+    {
+      "firstMin": 20.0,
+      "firstMax": 30.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "spell_water_damage",
+      "type": "flat"
+    },
+    {
+      "firstMin": 20.0,
+      "firstMax": 30.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "spell_fire_damage",
+      "type": "flat"
+    },
+    {
+      "firstMin": 20.0,
+      "firstMax": 30.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "spell_thunder_damage",
+      "type": "flat"
+    },
+    {
+      "firstMin": 20.0,
+      "firstMax": 30.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "spell_nature_damage",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "cloth_helmet4",
+  "item_id": "mmorpg:uniques/armor/crown_of_elements"
+}

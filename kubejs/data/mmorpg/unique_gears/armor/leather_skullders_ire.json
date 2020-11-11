@@ -8,27 +8,19 @@
   "lang_file_desc_string": "item.mmorpg.uniques.armor.skullders_ire.desc",
   "unique_stats": [
     {
-      "firstMin": 50.0,
-      "firstMax": 100.0,
+      "firstMin": 80.0,
+      "firstMax": 120.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "dodge",
       "type": "local_increase"
     },
     {
-      "firstMin": 100.0,
-      "firstMax": 100.0,
+      "firstMin": 150.0,
+      "firstMax": 150.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "magic_find",
-      "type": "flat"
-    },
-    {
-      "firstMin": 0.25,
-      "firstMax": 0.50,
-      "secondMin": 0.0,
-      "secondMax": 0.0,
-      "stat": "dexterity_flat_stat_req",
       "type": "flat"
     }
   ],

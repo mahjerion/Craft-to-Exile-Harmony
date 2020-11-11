@@ -1,0 +1,34 @@
+{
+  "id": "obsi_might",
+  "weight": 1000,
+  "rarity": 1,
+  "tier": 0,
+  "unique_stats": [
+    {
+      "firstMin": 8.0,
+      "firstMax": 10.0,
+      "secondMin": 16.0,
+      "secondMax": 18.0,
+      "stat": "fire_weapon_damage",
+      "type": "flat"
+    },
+    {
+      "firstMin": 50.0,
+      "firstMax": 80.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "critical_hit",
+      "type": "local_increase"
+    },
+    {
+      "firstMin": 3.0,
+      "firstMax": 5.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "health_on_kill",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "axe4",
+  "item_id": "mmorpg:uniques/weapon/obsi_might"
+}

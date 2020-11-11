@@ -2,7 +2,7 @@
   "identifier": "insight",
   "stats": [
     {
-      "first_min": 40.0,
+      "first_min": 20.0,
       "first_max": 60.0,
       "second_min": 0.0,
       "second_max": 0.0,
@@ -11,7 +11,7 @@
     },
     {
       "first_min": 150.0,
-      "first_max": 220.0,
+      "first_max": 250.0,
       "second_min": 0.0,
       "second_max": 0.0,
       "stat": "mana_regen",

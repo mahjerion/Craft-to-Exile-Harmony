@@ -2,8 +2,8 @@
   "identifier": "chains_of_honor",
   "stats": [
     {
-      "first_min": 15.0,
-      "first_max": 25.0,
+      "first_min": 10.0,
+      "first_max": 30.0,
       "second_min": 0.0,
       "second_max": 0.0,
       "stat": "elemental_resist",
@@ -11,7 +11,7 @@
     },
     {
       "first_min": 30.0,
-      "first_max": 30.0,
+      "first_max": 50.0,
       "second_min": 0.0,
       "second_max": 0.0,
       "stat": "increase_healing",

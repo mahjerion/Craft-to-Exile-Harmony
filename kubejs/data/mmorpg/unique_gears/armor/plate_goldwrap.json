@@ -8,8 +8,8 @@
   "lang_file_desc_string": "item.mmorpg.uniques.armor.goldwrap.desc",
   "unique_stats": [
     {
-      "firstMin": 40.0,
-      "firstMax": 60.0,
+      "firstMin": 50.0,
+      "firstMax": 70.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "armor",
@@ -17,7 +17,7 @@
     },
     {
       "firstMin": 25.0,
-      "firstMax": 25.0,
+      "firstMax": 35.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "armor",
@@ -25,7 +25,7 @@
     },
     {
       "firstMin": 10.0,
-      "firstMax": 10.0,
+      "firstMax": 15.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "attack_speed",
@@ -33,18 +33,10 @@
     },
     {
       "firstMin": 30.0,
-      "firstMax": 30.0,
+      "firstMax": 35.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "magic_find",
-      "type": "flat"
-    },
-    {
-      "firstMin": 0.25,
-      "firstMax": 0.50,
-      "secondMin": 0.0,
-      "secondMax": 0.0,
-      "stat": "strength_flat_stat_req",
       "type": "flat"
     }
   ],

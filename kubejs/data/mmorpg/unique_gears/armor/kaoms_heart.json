@@ -8,8 +8,16 @@
   "lang_file_desc_string": "item.mmorpg.uniques.armor.kaoms_heart.desc",
   "unique_stats": [
     {
-      "firstMin": 400.0,
-      "firstMax": 400.0,
+      "firstMin": 30.0,
+      "firstMax": 50.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "armor",
+      "type": "local_increase"
+    },
+    {
+      "firstMin": 800.0,
+      "firstMax": 800.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "health",
@@ -22,14 +30,6 @@
       "secondMax": 0.0,
       "stat": "all_fire_damage",
       "type": "local_increase"
-    },
-    {
-      "firstMin": 0.6,
-      "firstMax": 0.65,
-      "secondMin": 0.0,
-      "secondMax": 0.0,
-      "stat": "strength_flat_stat_req",
-      "type": "flat"
     }
   ],
   "gear_type": "plate_chest0",

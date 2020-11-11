@@ -8,36 +8,28 @@
   "lang_file_desc_string": "item.mmorpg.uniques.armor.iron_heart.desc",
   "unique_stats": [
     {
-      "firstMin": 80.0,
-      "firstMax": 100.0,
+      "firstMin": 140.0,
+      "firstMax": 160.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "armor",
       "type": "local_increase"
     },
     {
-      "firstMin": -40.0,
-      "firstMax": -30.0,
+      "firstMin": -20.0,
+      "firstMax": -10.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "elemental_resist",
       "type": "flat"
     },
     {
-      "firstMin": 30.0,
-      "firstMax": 40.0,
+      "firstMin": 40.0,
+      "firstMax": 50.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "physical_weapon_damage",
       "type": "global_increase"
-    },
-    {
-      "firstMin": 0.6,
-      "firstMax": 0.7,
-      "secondMin": 0.0,
-      "secondMax": 0.0,
-      "stat": "strength_flat_stat_req",
-      "type": "flat"
     }
   ],
   "gear_type": "plate_chest1",

@@ -1,0 +1,50 @@
+{
+  "id": "beast_blood",
+  "weight": 250,
+  "rarity": 2,
+  "tier": 0,
+  "unique_stats": [
+    {
+      "firstMin": 20.0,
+      "firstMax": 40.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "armor",
+      "type": "local_increase"
+    },
+    {
+      "firstMin": 20.0,
+      "firstMax": 25.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "health",
+      "type": "local_increase"
+    },
+    {
+      "firstMin": 3.0,
+      "firstMax": 5.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "health_per_sec",
+      "type": "flat"
+    },
+    {
+      "firstMin": 1.0,
+      "firstMax": 1.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "hunger_immunity",
+      "type": "flat"
+    },
+    {
+      "firstMin": -6.0,
+      "firstMax": -3.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "increased_quantity",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "plate_chest4",
+  "item_id": "mmorpg:uniques/armor/beast_blood"
+}

@@ -1288,6 +1288,7 @@
 	"mmorpg.unique_gear.the_baron.name": "The Baron",
 	"mmorpg.unique_gear.the_fetid_sprinkler.name": "The Fetid Sprinkler",
 	"mmorpg.unique_gear.the_whispering_fire.name": "The Whispering Fire",
+	"mmorpg.unique_gear.ngamahus_flame.name": "Ngamahu's Flame",
 	"mmorpg.unique_gear.kaoms_heart.name": "Kaom's Heart",
 
 "_comment": " [CATEGORY]: GEAR ITEMS - NAMES",
@@ -1520,6 +1521,7 @@
 	"mmorpg.unique_gear.the_fetid_sprinkler.desc": "A chilling hush, a scraping sound of things no more entombed in ground.",
 	"mmorpg.unique_gear.the_whispering_fire.desc": "Guard your darkest thoughts well, for they are the cracks through which the Nightmare crawls.",
 	"mmorpg.unique_gear.kaoms_heart.desc": "The warrior who fears will fall.",
+	"mmorpg.unique_gear.ngamahus_flame.desc": "The savages claim the weapon was forged by their fire God.",
 
 "_comment": " [CATEGORY]: UNIQUE ITEMS - DESCRIPTIONS",
 

@@ -1,0 +1,42 @@
+{
+  "id": "kingmaker",
+  "weight": 1000,
+  "rarity": 1,
+  "tier": 0,
+  "unique_stats": [
+    {
+      "firstMin": 60.0,
+      "firstMax": 80.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "health",
+      "type": "flat"
+    },
+    {
+      "firstMin": 75.0,
+      "firstMax": 100.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "critical_damage",
+      "type": "flat"
+    },
+    {
+      "firstMin": 1.0,
+      "firstMax": 1.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "unlock_bravery",
+      "type": "flat"
+    },
+    {
+      "firstMin": -0.2,
+      "firstMax": -0.1,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "dexterity",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "plate_chest3",
+  "item_id": "mmorpg:uniques/armor/kingmaker"
+}

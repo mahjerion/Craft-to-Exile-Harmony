@@ -8,8 +8,8 @@
   "lang_file_desc_string": "item.mmorpg.uniques.armor.goldwyrm.desc",
   "unique_stats": [
     {
-      "firstMin": 25.0,
-      "firstMax": 25.0,
+      "firstMin": 35.0,
+      "firstMax": 35.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "mana_regen",
@@ -17,7 +17,7 @@
     },
     {
       "firstMin": 14.0,
-      "firstMax": 20.0,
+      "firstMax": 22.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "increased_quantity",
@@ -25,18 +25,10 @@
     },
     {
       "firstMin": 30.0,
-      "firstMax": 40.0,
+      "firstMax": 45.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "fire_resist",
-      "type": "flat"
-    },
-    {
-      "firstMin": 0.25,
-      "firstMax": 0.50,
-      "secondMin": 0.0,
-      "secondMax": 0.0,
-      "stat": "dexterity_flat_stat_req",
       "type": "flat"
     }
   ],

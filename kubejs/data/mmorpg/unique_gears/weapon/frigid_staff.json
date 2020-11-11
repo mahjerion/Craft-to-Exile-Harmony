@@ -1,0 +1,58 @@
+{
+  "id": "frigid_staff",
+  "weight": 1000,
+  "rarity": 1,
+  "tier": 0,
+  "unique_stats": [
+    {
+      "firstMin": 2.0,
+      "firstMax": 2.0,
+      "secondMin": 5.0,
+      "secondMax": 5.0,
+      "stat": "water_weapon_damage",
+      "type": "flat"
+    },
+    {
+      "firstMin": 50.0,
+      "firstMax": 60.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "spell_water_damage",
+      "type": "flat"
+    },
+    {
+      "firstMin": 20.0,
+      "firstMax": 25.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "faster_projectiles",
+      "type": "flat"
+    },
+    {
+      "firstMin": 15.0,
+      "firstMax": 20.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "chance_of_chill",
+      "type": "flat"
+    },
+    {
+      "firstMin": 5.0,
+      "firstMax": 10.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "critical_hit",
+      "type": "flat"
+    },
+    {
+      "firstMin": 3.0,
+      "firstMax": 6.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "mana_on_kill",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "wand4",
+  "item_id": "mmorpg:uniques/weapon/frigid_staff"
+}

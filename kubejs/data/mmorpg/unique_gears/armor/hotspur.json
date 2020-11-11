@@ -8,16 +8,16 @@
   "lang_file_desc_string": "item.mmorpg.uniques.armor.hotspur.desc",
   "unique_stats": [
     {
-      "firstMin": 10.0,
-      "firstMax": 20.0,
+      "firstMin": 30.0,
+      "firstMax": 50.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "dodge",
       "type": "local_increase"
     },
     {
-      "firstMin": 5.0,
-      "firstMax": 10.0,
+      "firstMin": 15.0,
+      "firstMax": 30.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "armor",
@@ -25,7 +25,7 @@
     },
     {
       "firstMin": 45.0,
-      "firstMax": 45.0,
+      "firstMax": 60.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "fire_resist",
@@ -33,18 +33,10 @@
     },
     {
       "firstMin": 15.0,
-      "firstMax": 15.0,
+      "firstMax": 25.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "health",
-      "type": "flat"
-    },
-    {
-      "firstMin": 0.25,
-      "firstMax": 0.50,
-      "secondMin": 0.0,
-      "secondMax": 0.0,
-      "stat": "dexterity_flat_stat_req",
       "type": "flat"
     }
   ],

@@ -8,27 +8,19 @@
   "lang_file_desc_string": "item.mmorpg.uniques.weapon.limbsplit.desc",
   "unique_stats": [
     {
-      "firstMin": 80.0,
-      "firstMax": 100.0,
+      "firstMin": 100.0,
+      "firstMax": 120.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "physical_weapon_damage",
       "type": "local_increase"
     },
     {
-      "firstMin": 0.05,
-      "firstMax": 0.1,
+      "firstMin": 0.15,
+      "firstMax": 0.2,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "strength",
-      "type": "flat"
-    },
-    {
-      "firstMin": 0.25,
-      "firstMax": 0.5,
-      "secondMin": 0.0,
-      "secondMax": 0.0,
-      "stat": "strength_flat_stat_req",
       "type": "flat"
     }
   ],

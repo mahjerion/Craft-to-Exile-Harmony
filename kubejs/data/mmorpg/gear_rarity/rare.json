@@ -1,13 +1,13 @@
 {
   "affixes": {
     "min_amount": 2,
-    "max_amount": 3,
-    "chance_for_more": 15
+    "max_amount": 4,
+    "chance_for_more": 20
   },
   "sockets": {
     "min_amount": 0,
     "max_amount": 1,
-    "chance_for_more": 5
+    "chance_for_more": 10
   },
   "max_worn_at_once": -1,
   "default_stat_percents": {

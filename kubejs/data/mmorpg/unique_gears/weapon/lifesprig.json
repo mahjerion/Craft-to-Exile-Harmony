@@ -8,7 +8,7 @@
   "lang_file_desc_string": "item.mmorpg.uniques.weapon.lifesprig.desc",
   "unique_stats": [
     {
-      "firstMin": 10.0,
+      "firstMin": 20.0,
       "firstMax": 30.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
@@ -32,8 +32,8 @@
       "type": "flat"
     },
     {
-      "firstMin": 5.0,
-      "firstMax": 10.0,
+      "firstMin": 10.0,
+      "firstMax": 15.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "spell_damage",

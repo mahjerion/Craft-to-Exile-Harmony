@@ -8,24 +8,24 @@
   "lang_file_desc_string": "item.mmorpg.uniques.armor.goldrim.desc",
   "unique_stats": [
     {
-      "firstMin": 15.0,
-      "firstMax": 30.0,
+      "firstMin": 25.0,
+      "firstMax": 40.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "dodge",
       "type": "flat"
     },
     {
-      "firstMin": 20.0,
-      "firstMax": 40.0,
+      "firstMin": 30.0,
+      "firstMax": 50.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "magic_find",
       "type": "flat"
     },
     {
-      "firstMin": 20.0,
-      "firstMax": 40.0,
+      "firstMin": 30.0,
+      "firstMax": 50.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "elemental_resist",

@@ -7,7 +7,7 @@
   "sockets": {
     "min_amount": 3,
     "max_amount": 5,
-    "chance_for_more": 20
+    "chance_for_more": 25
   },
   "max_worn_at_once": -1,
   "default_stat_percents": {
@@ -33,7 +33,7 @@
   "announce_in_chat": true,
   "rarity_type": "GEAR",
   "rank": 5,
-  "weight": 150,
+  "weight": 50,
   "text_format": "GOLD",
   "higher_rar": "",
   "guid": "relic"

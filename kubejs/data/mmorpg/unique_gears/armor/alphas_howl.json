@@ -8,8 +8,8 @@
   "lang_file_desc_string": "item.mmorpg.uniques.armor.alphas_howl.desc",
   "unique_stats": [
     {
-      "firstMin": 80.0,
-      "firstMax": 120.0,
+      "firstMin": 130.0,
+      "firstMax": 150.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "dodge",
@@ -25,7 +25,7 @@
     },
     {
       "firstMin": 15.0,
-      "firstMax": 20.0,
+      "firstMax": 25.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "cdr",
@@ -40,27 +40,11 @@
       "type": "flat"
     },
     {
-      "firstMin": 30.0,
-      "firstMax": 35.0,
+      "firstMin": 35.0,
+      "firstMax": 50.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "increase_healing",
-      "type": "flat"
-    },
-    {
-      "firstMin": 0.20,
-      "firstMax": 0.25,
-      "secondMin": 0.0,
-      "secondMax": 0.0,
-      "stat": "intelligence_flat_stat_req",
-      "type": "flat"
-    },
-    {
-      "firstMin": 0.20,
-      "firstMax": 0.25,
-      "secondMin": 0.0,
-      "secondMax": 0.0,
-      "stat": "dexterity_flat_stat_req",
       "type": "flat"
     }
   ],

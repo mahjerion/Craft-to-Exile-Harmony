@@ -8,8 +8,8 @@
   "lang_file_desc_string": "item.mmorpg.uniques.armor.deerstalker.desc",
   "unique_stats": [
     {
-      "firstMin": 40.0,
-      "firstMax": 60.0,
+      "firstMin": 60.0,
+      "firstMax": 80.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "dodge",
@@ -24,27 +24,19 @@
       "type": "flat"
     },
     {
-      "firstMin": 0.1,
-      "firstMax": 0.1,
+      "firstMin": 0.4,
+      "firstMax": 0.5,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "dexterity",
       "type": "flat"
     },
     {
-      "firstMin": 0.1,
-      "firstMax": 0.1,
+      "firstMin": 0.2,
+      "firstMax": 0.3,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "intelligence",
-      "type": "flat"
-    },
-    {
-      "firstMin": 0.5,
-      "firstMax": 0.75,
-      "secondMin": 0.0,
-      "secondMax": 0.0,
-      "stat": "dexterity_flat_stat_req",
       "type": "flat"
     }
   ],

@@ -1,0 +1,26 @@
+{
+  "id": "snake_eye",
+  "weight": 1000,
+  "rarity": 1,
+  "tier": 0,
+  "unique_stats": [
+    {
+      "firstMin": 8.0,
+      "firstMax": 12.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "chance_of_poison",
+      "type": "flat"
+    },
+    {
+      "firstMin": 8.0,
+      "firstMax": 12.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "lifesteal",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "life_necklace_low",
+  "item_id": "mmorpg:uniques/jewelry/snake_eye"
+}

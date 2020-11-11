@@ -9,15 +9,15 @@
   "unique_stats": [
     {
       "firstMin": 100.0,
-      "firstMax": 100.0,
+      "firstMax": 150.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "magic_shield",
       "type": "flat"
     },
     {
-      "firstMin": 30.0,
-      "firstMax": 35.0,
+      "firstMin": 35.0,
+      "firstMax": 50.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "spell_damage",
@@ -32,19 +32,11 @@
       "type": "flat"
     },
     {
-      "firstMin": 0.1,
-      "firstMax": 0.1,
+      "firstMin": 0.2,
+      "firstMax": 0.3,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "intelligence",
-      "type": "flat"
-    },
-    {
-      "firstMin": 0.2,
-      "firstMax": 0.4,
-      "secondMin": 0.0,
-      "secondMax": 0.0,
-      "stat": "intelligence_flat_stat_req",
       "type": "flat"
     }
   ],

@@ -2,7 +2,7 @@
   "identifier": "enigma",
   "stats": [
 	{
-      "first_min": 15.0,
+      "first_min": 10.0,
       "first_max": 30.0,
       "second_min": 0.0,
       "second_max": 0.0,
@@ -19,7 +19,7 @@
     },
     {
       "first_min": 2.0,
-      "first_max": 4.0,
+      "first_max": 3.0,
       "second_min": 0.0,
       "second_max": 0.0,
       "stat": "mana_per_sec",

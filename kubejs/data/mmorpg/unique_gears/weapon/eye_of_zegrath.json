@@ -1,0 +1,42 @@
+{
+  "id": "eye_of_zegrath",
+  "weight": 1000,
+  "rarity": 1,
+  "tier": 0,
+  "unique_stats": [
+    {
+      "firstMin": 20.0,
+      "firstMax": 40.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "physical_weapon_damage",
+      "type": "local_increase"
+    },
+    {
+      "firstMin": 1.0,
+      "firstMax": 100.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "chance_of_burn",
+      "type": "flat"
+    },
+    {
+      "firstMin": 1.0,
+      "firstMax": 100.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "chance_of_chill",
+      "type": "flat"
+    },
+    {
+      "firstMin": 1.0,
+      "firstMax": 100.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "chance_of_poison",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "wand0",
+  "item_id": "mmorpg:uniques/weapon/eye_of_zegrath"
+}

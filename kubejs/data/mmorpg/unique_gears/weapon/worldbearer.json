@@ -1,0 +1,42 @@
+{
+  "id": "worldbearer",
+  "weight": 1000,
+  "rarity": 1,
+  "tier": 0,
+  "unique_stats": [
+    {
+      "firstMin": 3.0,
+      "firstMax": 5.0,
+      "secondMin": 6.0,
+      "secondMax": 8.0,
+      "stat": "nature_weapon_damage",
+      "type": "flat"
+    },
+    {
+      "firstMin": 35.0,
+      "firstMax": 50.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "spell_nature_damage",
+      "type": "flat"
+    },
+    {
+      "firstMin": 75.0,
+      "firstMax": 80.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "chance_of_poison",
+      "type": "flat"
+    },
+    {
+      "firstMin": 30.0,
+      "firstMax": 35.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "strength",
+      "type": "local_increase"
+    }
+  ],
+  "gear_type": "wand4",
+  "item_id": "mmorpg:uniques/weapon/worldbearer"
+}

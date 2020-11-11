@@ -8,24 +8,24 @@
   "lang_file_desc_string": "item.mmorpg.uniques.armor.tearhaunch.desc",
   "unique_stats": [
     {
-      "firstMin": 30.0,
-      "firstMax": 50.0,
+      "firstMin": 60.0,
+      "firstMax": 80.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "armor",
       "type": "local_increase"
     },
     {
-      "firstMin": 10.0,
-      "firstMax": 15.0,
+      "firstMin": 15.0,
+      "firstMax": 25.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "elemental_resist",
       "type": "flat"
     },
     {
-      "firstMin": 5.0,
-      "firstMax": 10.0,
+      "firstMin": 10.0,
+      "firstMax": 15.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "armor",
@@ -45,14 +45,6 @@
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "strength",
-      "type": "flat"
-    },
-    {
-      "firstMin": 0.5,
-      "firstMax": 0.75,
-      "secondMin": 0.0,
-      "secondMax": 0.0,
-      "stat": "strength_flat_stat_req",
       "type": "flat"
     }
   ],

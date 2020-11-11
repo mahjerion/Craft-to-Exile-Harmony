@@ -2,8 +2,8 @@
   "identifier": "all_knowing",
   "stats": [
     {
-      "first_min": 0.1,
-      "first_max": 0.2,
+      "first_min": 0.3,
+      "first_max": 0.5,
       "second_min": 0.0,
       "second_max": 0.0,
       "stat": "all_attributes",

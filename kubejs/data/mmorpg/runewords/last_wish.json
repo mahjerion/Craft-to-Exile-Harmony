@@ -2,7 +2,7 @@
   "identifier": "last_wish",
   "stats": [
     {
-      "first_min": 70.0,
+      "first_min": 60.0,
       "first_max": 110.0,
       "second_min": 0.0,
       "second_max": 0.0,
@@ -10,7 +10,7 @@
       "type": "LOCAL_INCREASE"
     },
     {
-      "first_min": 12.0,
+      "first_min": 8.0,
       "first_max": 18.0,
       "second_min": 0.0,
       "second_max": 0.0,
@@ -26,7 +26,7 @@
       "type": "FLAT"
     },
     {
-      "first_min": 100.0,
+      "first_min": 80.0,
       "first_max": 100.0,
       "second_min": 0.0,
       "second_max": 0.0,

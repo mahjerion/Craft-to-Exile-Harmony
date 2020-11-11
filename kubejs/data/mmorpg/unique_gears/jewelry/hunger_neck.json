@@ -1,0 +1,50 @@
+{
+  "id": "hunger_neck",
+  "weight": 1000,
+  "rarity": 1,
+  "tier": 0,
+  "unique_stats": [
+    {
+      "firstMin": -50.0,
+      "firstMax": -50.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "health_regen",
+      "type": "local_increase"
+    },
+    {
+      "firstMin": -50.0,
+      "firstMax": -50.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "magic_shield_regen",
+      "type": "local_increase"
+    },
+    {
+      "firstMin": 120.0,
+      "firstMax": 150.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "dmg_under_hunger",
+      "type": "flat"
+    },
+    {
+      "firstMin": 30.0,
+      "firstMax": 50.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "lifesteal",
+      "type": "local_increase"
+    },
+    {
+      "firstMin": 30.0,
+      "firstMax": 50.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "magic_steal",
+      "type": "local_increase"
+    }
+  ],
+  "gear_type": "life_necklace_end",
+  "item_id": "mmorpg:uniques/jewelry/hunger_neck"
+}

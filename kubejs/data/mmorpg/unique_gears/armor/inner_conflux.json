@@ -1,0 +1,50 @@
+{
+  "id": "inner_conflux",
+  "weight": 1000,
+  "rarity": 1,
+  "tier": 0,
+  "unique_stats": [
+    {
+      "firstMin": 15.0,
+      "firstMax": 35.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "magic_shield",
+      "type": "flat"
+    },
+    {
+      "firstMin": 60.0,
+      "firstMax": 90.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "magic_shield",
+      "type": "local_increase"
+    },
+    {
+      "firstMin": 1.0,
+      "firstMax": 3.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "mana_per_sec",
+      "type": "flat"
+    },
+    {
+      "firstMin": 1.0,
+      "firstMax": 3.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "magic_shield_per_sec",
+      "type": "flat"
+    },
+    {
+      "firstMin": -8.0,
+      "firstMax": -3.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "health",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "cloth_chest4",
+  "item_id": "mmorpg:uniques/armor/inner_conflux"
+}

@@ -8,43 +8,35 @@
   "lang_file_desc_string": "item.mmorpg.uniques.armor.cloak_of_flame.desc",
   "unique_stats": [
     {
-      "firstMin": 30.0,
-      "firstMax": 50.0,
+      "firstMin": 60.0,
+      "firstMax": 80.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "fire_resist",
       "type": "flat"
     },
     {
-      "firstMin": 15.0,
-      "firstMax": 30.0,
+      "firstMin": 35.0,
+      "firstMax": 40.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "burn_bonus_dmg",
       "type": "flat"
     },
     {
-      "firstMin": 10.0,
-      "firstMax": 10.0,
+      "firstMin": 20.0,
+      "firstMax": 25.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "chance_of_burn",
       "type": "flat"
     },
     {
-      "firstMin": 20.0,
-      "firstMax": 20.0,
+      "firstMin": 50.0,
+      "firstMax": 50.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "convert_fire_to_phys",
-      "type": "flat"
-    },
-    {
-      "firstMin": 0.5,
-      "firstMax": 0.75,
-      "secondMin": 0.0,
-      "secondMax": 0.0,
-      "stat": "intelligence_flat_stat_req",
       "type": "flat"
     }
   ],

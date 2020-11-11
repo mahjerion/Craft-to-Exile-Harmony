@@ -8,24 +8,24 @@
   "lang_file_desc_string": "item.mmorpg.uniques.armor.stormcharger.desc",
   "unique_stats": [
     {
-      "firstMin": 1.0,
-      "firstMax": 50.0,
+      "firstMin": 25.0,
+      "firstMax": 75.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "thunder_resist",
       "type": "flat"
     },
     {
-      "firstMin": 10.0,
-      "firstMax": 10.0,
+      "firstMin": 15.0,
+      "firstMax": 20.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "chance_of_static",
       "type": "flat"
     },
     {
-      "firstMin": 15.0,
-      "firstMax": 25.0,
+      "firstMin": 50.0,
+      "firstMax": 75.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "static_bonus_dmg",
@@ -37,14 +37,6 @@
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "convert_thunder_to_phys",
-      "type": "flat"
-    },
-    {
-      "firstMin": 0.5,
-      "firstMax": 0.75,
-      "secondMin": 0.0,
-      "secondMax": 0.0,
-      "stat": "strength_flat_stat_req",
       "type": "flat"
     }
   ],

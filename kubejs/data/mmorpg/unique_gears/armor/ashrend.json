@@ -8,16 +8,16 @@
   "lang_file_desc_string": "item.mmorpg.uniques.armor.ashrend.desc",
   "unique_stats": [
     {
-      "firstMin": 10.0,
-      "firstMax": 10.0,
+      "firstMin": 30.0,
+      "firstMax": 30.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "chance_of_burn",
       "type": "flat"
     },
     {
-      "firstMin": 50.0,
-      "firstMax": 60.0,
+      "firstMin": 80.0,
+      "firstMax": 100.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "dodge",
@@ -40,11 +40,19 @@
       "type": "flat"
     },
     {
-      "firstMin": 10.0,
-      "firstMax": 15.0,
+      "firstMin": 15.0,
+      "firstMax": 25.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "bow_damage",
+      "type": "global_increase"
+    },
+    {
+      "firstMin": 15.0,
+      "firstMax": 25.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "crossbow_damage",
       "type": "global_increase"
     }
   ],

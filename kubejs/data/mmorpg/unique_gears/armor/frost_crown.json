@@ -1,0 +1,42 @@
+{
+  "id": "frost_crown",
+  "weight": 1000,
+  "rarity": 1,
+  "tier": 0,
+  "unique_stats": [
+    {
+      "firstMin": 15.0,
+      "firstMax": 30.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "spell_water_damage",
+      "type": "flat"
+    },
+    {
+      "firstMin": 35.0,
+      "firstMax": 50.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "water_resist",
+      "type": "flat"
+    },
+    {
+      "firstMin": 15.0,
+      "firstMax": 25.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "water_penetration",
+      "type": "flat"
+    },
+    {
+      "firstMin": 10.0,
+      "firstMax": 20.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "chance_of_chill",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "cloth_helmet2",
+  "item_id": "mmorpg:uniques/armor/frost_crown"
+}

@@ -7,8 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.3.1] - 2020-11-11
+
 ### Updates
 - You now only do 20% of your damage when in PvP. This is common practice with RPG games, otherwise it becomes a "who can hit the other guy first" battle.
+- All rarities can now roll sockets. Rare - mythic and uniques can roll a max of 1 socket.
+- Rare - mythic can now roll an additional affix. Mythics can have up to 7 affixes!
+- The chance of rolling an affix has been increased across the board.
+- Antiques and relics have had their chance to roll additional sockets increased.
+- Antiques can now have 1-5 sockets instead of 1-3.
+- Reduced the drop rate of relics to compensate for change above.
+- Major buff to uniques across the board.
+- Increased variability of runeword stats. The ceiling is still just as high, but they may roll lower. Some runewords have had their values modified slightly to reflect this change.
 - Increased base armor, dodge, and magic shield values from Age of Exile gear.
 - Crossbows now have armor penetration at the cost of reduced critical hit chance.
 - Bow max base damage roll was increased by about 15%.
@@ -19,8 +29,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Mobs now scale at a higher rate. That is to say, level 50 mobs will be twice as strong as they currently are.
 - Increased EXP curve. As a result, I've bumped up EXP gain by about 33%. Overall, it should still be slower.
 - Skeleton vanguards and summoners have been weakened greatly.
-- Skeleton vanguards, summoners, endermites, slimes, drowned, and iron golems have all had their EXP reduced heavily.
+- Skeleton vanguards, summoners, endermites, slimes, drowned, and iron golems have all had their EXP reduced.
 - Reduced EXP gain from spawners from 50% to 33%. Also increased the rate at which EXP falls off within a chunk from 2% to 3% per mob kill.
+- Increased the cost of loot crates.
+
+### Mod Updates
+- Updated Lithium, Better Dropped Items.
+- Added Anvil Fix.
+
+### Fixes
+- Enchanting via the anvil now works properly!
 
 ## [1.3.0b] - 2020-11-09
 

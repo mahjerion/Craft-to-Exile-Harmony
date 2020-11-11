@@ -1,0 +1,26 @@
+{
+  "id": "will_of_flora",
+  "weight": 1000,
+  "rarity": 1,
+  "tier": 0,
+  "unique_stats": [
+    {
+      "firstMin": 10.0,
+      "firstMax": 15.0,
+      "secondMin": 20.0,
+      "secondMax": 25.0,
+      "stat": "nature_weapon_damage",
+      "type": "flat"
+    },
+    {
+      "firstMin": 125.0,
+      "firstMax": 150.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "increase_healing",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "scepter3",
+  "item_id": "mmorpg:uniques/weapon/will_of_flora"
+}

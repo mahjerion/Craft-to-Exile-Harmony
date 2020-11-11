@@ -2,7 +2,7 @@
   "affixes": {
     "min_amount": 1,
     "max_amount": 2,
-    "chance_for_more": 15
+    "chance_for_more": 20
   },
   "sockets": {
     "min_amount": 0,

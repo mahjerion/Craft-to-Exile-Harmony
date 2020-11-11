@@ -1,0 +1,42 @@
+{
+  "id": "greed_persist",
+  "weight": 250,
+  "rarity": 2,
+  "tier": 0,
+  "unique_stats": [
+    {
+      "firstMin": -30.0,
+      "firstMax": 30.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "increased_quantity",
+      "type": "flat"
+    },
+    {
+      "firstMin": -30.0,
+      "firstMax": 30.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "magic_find",
+      "type": "flat"
+    },
+    {
+      "firstMin": -40.0,
+      "firstMax": 40.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "elemental_resist",
+      "type": "flat"
+    },
+    {
+      "firstMin": -40.0,
+      "firstMax": 40.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "health",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "thunder_res_ring_end",
+  "item_id": "mmorpg:uniques/jewelry/greed_persist"
+}

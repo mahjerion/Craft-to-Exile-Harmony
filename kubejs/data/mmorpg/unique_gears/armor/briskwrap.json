@@ -8,24 +8,24 @@
   "lang_file_desc_string": "item.mmorpg.uniques.armor.briskwrap.desc",
   "unique_stats": [
     {
-      "firstMin": 10.0,
-      "firstMax": 10.0,
+      "firstMin": 20.0,
+      "firstMax": 20.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "attack_speed",
       "type": "flat"
     },
     {
-      "firstMin": 60.0,
-      "firstMax": 80.0,
+      "firstMin": 180.0,
+      "firstMax": 200.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "dodge",
       "type": "flat"
     },
     {
-      "firstMin": 20.0,
-      "firstMax": 25.0,
+      "firstMin": 30.0,
+      "firstMax": 45.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "water_resist",
@@ -33,19 +33,11 @@
     },
     {
       "firstMin": 0.15,
-      "firstMax": 0.15,
+      "firstMax": 0.25,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "dexterity",
       "type": "global_increase"
-    },
-    {
-      "firstMin": 0.25,
-      "firstMax": 0.5,
-      "secondMin": 0.0,
-      "secondMax": 0.0,
-      "stat": "dexterity_flat_stat_req",
-      "type": "flat"
     }
   ],
   "gear_type": "leather_chest0",

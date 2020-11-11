@@ -25,6 +25,13 @@
                 "Count": 64
               },
               "required": 64
+            },
+            {
+              "item": {
+                "id": "mmorpg:currency/randomize_affixes",
+                "Count": 4
+              },
+              "required": 4
             }
           ]
         }
@@ -71,6 +78,19 @@
                 "Count": 64
               },
               "required": 64
+            },
+            {
+              "item": {
+                "id": "mmorpg:mat/salvage/salvage4",
+                "Count": 64
+              },
+              "required": 64
+            },
+            {
+              "item": {
+                "id": "mmorpg:currency/reroll_unique_numbers",
+                "Count": 1
+              }
             }
           ]
         }
@@ -194,6 +214,19 @@
                 "Count": 64
               },
               "required": 64
+            },
+            {
+              "item": {
+                "id": "mmorpg:mat/salvage/salvage4",
+                "Count": 64
+              },
+              "required": 64
+            },
+            {
+              "item": {
+                "id": "mmorpg:currency/orb_of_discovery",
+                "Count": 1
+              }
             }
           ]
         }
@@ -233,6 +266,13 @@
                 "Count": 64
               },
               "required": 64
+            },
+            {
+              "item": {
+                "id": "mmorpg:currency/orb_of_transmutation",
+                "Count": 4
+              },
+              "required": 4
             }
           ]
         }
@@ -314,6 +354,12 @@
                 "Count": 32
               },
               "required": 32
+            },
+            {
+              "item": {
+                "id": "mmorpg:currency/crystal_of_truth",
+                "Count": 1
+              }
             }
           ]
         }

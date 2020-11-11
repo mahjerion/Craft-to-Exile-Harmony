@@ -2,32 +2,32 @@
   "identifier": "sentinel",
   "stats": [
     {
-      "first_min": -5.0,
-      "first_max": -3.0,
+      "first_min": -3.0,
+      "first_max": -1.0,
       "second_min": 0.0,
       "second_max": 0.0,
       "stat": "max_fire_resist",
       "type": "FLAT"
     },
     {
-      "first_min": -5.0,
-      "first_max": -3.0,
+      "first_min": -3.0,
+      "first_max": -1.0,
       "second_min": 0.0,
       "second_max": 0.0,
       "stat": "max_water_resist",
       "type": "FLAT"
     },
     {
-      "first_min": -5.0,
-      "first_max": -3.0,
+      "first_min": -3.0,
+      "first_max": -1.0,
       "second_min": 0.0,
       "second_max": 0.0,
       "stat": "max_nature_resist",
       "type": "FLAT"
     },
     {
-      "first_min": -5.0,
-      "first_max": -3.0,
+      "first_min": -3.0,
+      "first_max": -1.0,
       "second_min": 0.0,
       "second_max": 0.0,
       "stat": "max_thunder_resist",

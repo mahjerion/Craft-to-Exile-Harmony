@@ -1,0 +1,34 @@
+{
+  "id": "birth_miracle",
+  "weight": 1000,
+  "rarity": 1,
+  "tier": 0,
+  "unique_stats": [
+    {
+      "firstMin": 6.0,
+      "firstMax": 8.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "health",
+      "type": "local_increase"
+    },
+    {
+      "firstMin": 0.4,
+      "firstMax": 0.6,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "all_attributes",
+      "type": "flat"
+    },
+    {
+      "firstMin": 3.0,
+      "firstMax": 6.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "health_on_kill",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "life_necklace_end",
+  "item_id": "mmorpg:uniques/jewelry/birth_miracle"
+}

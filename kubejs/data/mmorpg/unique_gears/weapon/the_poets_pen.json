@@ -8,15 +8,15 @@
   "lang_file_desc_string": "item.mmorpg.uniques.weapon.the_poets_pen.desc",
   "unique_stats": [
     {
-      "firstMin": 80.0,
-      "firstMax": 120.0,
+      "firstMin": 220.0,
+      "firstMax": 280.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "physical_weapon_damage",
       "type": "local_increase"
     },
     {
-      "firstMin": 25.0,
+      "firstMin": 35.0,
       "firstMax": 50.0,
       "secondMin": 0.0,
       "secondMax": 0.0,

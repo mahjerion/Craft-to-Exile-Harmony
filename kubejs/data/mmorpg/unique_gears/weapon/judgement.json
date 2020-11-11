@@ -1,0 +1,42 @@
+{
+  "id": "judgement",
+  "weight": 1000,
+  "rarity": 1,
+  "tier": 0,
+  "unique_stats": [
+    {
+      "firstMin": 2.0,
+      "firstMax": 3.0,
+      "secondMin": 4.0,
+      "secondMax": 5.0,
+      "stat": "thunder_weapon_damage",
+      "type": "flat"
+    },
+    {
+      "firstMin": 2.0,
+      "firstMax": 3.0,
+      "secondMin": 4.0,
+      "secondMax": 5.0,
+      "stat": "fire_weapon_damage",
+      "type": "flat"
+    },
+    {
+      "firstMin": -30.0,
+      "firstMax": 50.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "increase_healing",
+      "type": "flat"
+    },
+    {
+      "firstMin": -5.0,
+      "firstMax": 10.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "mana_burn",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "axe3",
+  "item_id": "mmorpg:uniques/weapon/judgement"
+}

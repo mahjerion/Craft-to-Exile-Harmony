@@ -8,35 +8,35 @@
   "lang_file_desc_string": "item.mmorpg.uniques.weapon.redbeak.desc",
   "unique_stats": [
     {
-      "firstMin": 40.0,
-      "firstMax": 40.0,
+      "firstMin": 60.0,
+      "firstMax": 80.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "physical_weapon_damage",
       "type": "local_increase"
     },
     {
-      "firstMin": 5.0,
-      "firstMax": 5.0,
+      "firstMin": 10.0,
+      "firstMax": 10.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "attack_speed",
       "type": "flat"
     },
     {
-      "firstMin": 10.0,
-      "firstMax": 20.0,
+      "firstMin": 15.0,
+      "firstMax": 25.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "health",
       "type": "flat"
     },
     {
-      "firstMin": 2.0,
-      "firstMax": 2.0,
+      "firstMin": 3.0,
+      "firstMax": 5.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
-      "stat": "life_on_hit",
+      "stat": "lifesteal",
       "type": "flat"
     }
   ],

@@ -1,0 +1,26 @@
+{
+  "id": "loop_of_infinity",
+  "weight": 1000,
+  "rarity": 1,
+  "tier": 0,
+  "unique_stats": [
+    {
+      "firstMin": 10.0,
+      "firstMax": 15.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "mana",
+      "type": "local_increase"
+    },
+    {
+      "firstMin": 3.0,
+      "firstMax": 4.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "mana_per_sec",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "mana_reg_ring_end",
+  "item_id": "mmorpg:uniques/jewelry/loop_of_infinity"
+}
