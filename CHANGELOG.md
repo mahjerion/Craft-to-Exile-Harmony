@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Weapons have had their base critical hit lowered overall. Axes and bows are still kings of critical hit chance, while wands and scepters have very low critical hit chances.
 - Sword damage has gone up slightly.
 - Spears have been buffed significantly. They have high base damage and armor penetration but low critical hit chance.
+- Uniques, runewords, and regular affix items (mythic, rare, etc.) have had their stats completely refactored. In short, uniques and runewords received a substantial nerf to damage (defense remains more or less untouched), and affixes have been buffed slightly overall. Before, runewords were powerful and deterministic. I want them to still retain their power but to fall more in line with the scaling of Age of Exile. Some runewords and uniques will be meant for leveling, some will be all-around good, and some will be build enablers. Another one of my goals was to encourage crafting, and in order to do so I had to bring affix items 'up to standards' while bringing the other two down. This is a continuing work in progress - I don't think I'll get it right this time round but hopefully it's one step closer.
 
 ## [1.3.1] - 2020-11-11
 
