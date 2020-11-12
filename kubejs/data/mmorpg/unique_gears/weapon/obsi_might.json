@@ -5,16 +5,16 @@
   "tier": 0,
   "unique_stats": [
     {
-      "firstMin": 8.0,
-      "firstMax": 10.0,
-      "secondMin": 16.0,
-      "secondMax": 18.0,
+      "firstMin": 4.0,
+      "firstMax": 6.0,
+      "secondMin": 8.0,
+      "secondMax": 10.0,
       "stat": "fire_weapon_damage",
       "type": "flat"
     },
     {
-      "firstMin": 50.0,
-      "firstMax": 80.0,
+      "firstMin": 40.0,
+      "firstMax": 60.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "critical_hit",

@@ -5,8 +5,8 @@
   "tier": 0,
   "unique_stats": [
     {
-      "firstMin": 40.0,
-      "firstMax": 60.0,
+      "firstMin": 20.0,
+      "firstMax": 30.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "spell_damage",
@@ -21,8 +21,8 @@
       "type": "flat"
     },
     {
-      "firstMin": 20.0,
-      "firstMax": 30.0,
+      "firstMin": 15.0,
+      "firstMax": 20.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "cdr",

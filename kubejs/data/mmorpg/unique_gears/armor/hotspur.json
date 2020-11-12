@@ -24,8 +24,8 @@
       "type": "flat"
     },
     {
-      "firstMin": 45.0,
-      "firstMax": 60.0,
+      "firstMin": 30.0,
+      "firstMax": 50.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "fire_resist",

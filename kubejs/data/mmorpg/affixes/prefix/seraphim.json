@@ -18,8 +18,8 @@
     "1": {
       "mods": [
         {
-          "first_min": 2.0,
-          "first_max": 3.0,
+          "first_min": 3.0,
+          "first_max": 4.0,
           "second_min": 0.0,
           "second_max": 0.0,
           "stat": "magic_shield",
@@ -40,8 +40,8 @@
     "2": {
       "mods": [
         {
-          "first_min": 1.0,
-          "first_max": 2.0,
+          "first_min": 2.0,
+          "first_max": 3.0,
           "second_min": 0.0,
           "second_max": 0.0,
           "stat": "magic_shield",
@@ -62,8 +62,8 @@
     "3": {
       "mods": [
         {
-          "first_min": 0.5,
-          "first_max": 1.0,
+          "first_min": 1.0,
+          "first_max": 2.0,
           "second_min": 0.0,
           "second_max": 0.0,
           "stat": "magic_shield",

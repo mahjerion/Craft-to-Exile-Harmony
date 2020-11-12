@@ -16,16 +16,16 @@
       "type": "local_increase"
     },
     {
-      "firstMin": 40.0,
-      "firstMax": 50.0,
+      "firstMin": 20.0,
+      "firstMax": 30.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "fire_resist",
       "type": "flat"
     },
     {
-      "firstMin": 40.0,
-      "firstMax": 50.0,
+      "firstMin": 20.0,
+      "firstMax": 30.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "water_resist",

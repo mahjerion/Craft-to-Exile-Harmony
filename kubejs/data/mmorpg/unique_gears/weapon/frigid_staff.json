@@ -13,8 +13,8 @@
       "type": "flat"
     },
     {
-      "firstMin": 50.0,
-      "firstMax": 60.0,
+      "firstMin": 20.0,
+      "firstMax": 30.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "spell_water_damage",
@@ -37,8 +37,8 @@
       "type": "flat"
     },
     {
-      "firstMin": 5.0,
-      "firstMax": 10.0,
+      "firstMin": 2.0,
+      "firstMax": 3.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "critical_hit",
@@ -46,7 +46,7 @@
     },
     {
       "firstMin": 3.0,
-      "firstMax": 6.0,
+      "firstMax": 5.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "mana_on_kill",

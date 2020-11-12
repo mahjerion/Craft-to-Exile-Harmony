@@ -7,8 +7,8 @@
     {
       "firstMin": 1.0,
       "firstMax": 1.0,
-      "secondMin": 15.0,
-      "secondMax": 20.0,
+      "secondMin": 14.0,
+      "secondMax": 18.0,
       "stat": "thunder_weapon_damage",
       "type": "flat"
     },

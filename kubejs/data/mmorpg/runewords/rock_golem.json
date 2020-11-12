@@ -2,8 +2,8 @@
   "identifier": "rock_golem",
   "stats": [
     {
-      "first_min": 10.0,
-      "first_max": 20.0,
+      "first_min": 15.0,
+      "first_max": 30.0,
       "second_min": 0.0,
       "second_max": 0.0,
       "stat": "armor",

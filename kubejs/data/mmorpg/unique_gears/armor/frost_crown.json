@@ -6,15 +6,15 @@
   "unique_stats": [
     {
       "firstMin": 15.0,
-      "firstMax": 30.0,
+      "firstMax": 25.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "spell_water_damage",
       "type": "flat"
     },
     {
-      "firstMin": 35.0,
-      "firstMax": 50.0,
+      "firstMin": 30.0,
+      "firstMax": 40.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "water_resist",

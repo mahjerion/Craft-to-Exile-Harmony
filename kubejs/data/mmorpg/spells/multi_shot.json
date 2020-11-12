@@ -63,7 +63,7 @@
               "calc": {
                 "scaling_values": [],
                 "base_scaling": "NORMAL",
-                "attack_scaling": 0.7,
+                "attack_scaling": 1.0,
                 "base_val": 3.0
               }
             }

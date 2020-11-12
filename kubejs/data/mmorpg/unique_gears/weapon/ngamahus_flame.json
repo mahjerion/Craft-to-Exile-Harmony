@@ -8,10 +8,10 @@
   "lang_file_desc_string": "item.mmorpg.uniques.weapon.ngamahus_flame.desc",
   "unique_stats": [
     {
-      "firstMin": 5.0,
-      "firstMax": 7.0,
-      "secondMin": 7.0,
-      "secondMax": 10.0,
+      "firstMin": 2.0,
+      "firstMax": 3.0,
+      "secondMin": 4.0,
+      "secondMax": 5.0,
       "stat": "fire_weapon_damage",
       "type": "flat"
     },

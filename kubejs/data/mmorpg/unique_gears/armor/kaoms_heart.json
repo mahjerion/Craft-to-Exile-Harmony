@@ -16,7 +16,7 @@
       "type": "local_increase"
     },
     {
-      "firstMin": 800.0,
+      "firstMin": 600.0,
       "firstMax": 800.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
@@ -24,8 +24,8 @@
       "type": "flat"
     },
     {
-      "firstMin": 20.0,
-      "firstMax": 40.0,
+      "firstMin": 10.0,
+      "firstMax": 20.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "all_fire_damage",

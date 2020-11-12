@@ -2,8 +2,8 @@
   "identifier": "heart_of_the_oak",
   "stats": [
     {
-      "first_min": 30.0,
-      "first_max": 60.0,
+      "first_min": 20.0,
+      "first_max": 30.0,
       "second_min": 0.0,
       "second_max": 0.0,
       "stat": "spell_damage",
@@ -11,7 +11,7 @@
     },
     {
       "first_min": 20.0,
-      "first_max": 40.0,
+      "first_max": 30.0,
       "second_min": 0.0,
       "second_max": 0.0,
       "stat": "faster_cast_rate",
@@ -19,15 +19,15 @@
     },
     {
       "first_min": 5.0,
-      "first_max": 15.0,
+      "first_max": 10.0,
       "second_min": 0.0,
       "second_max": 0.0,
       "stat": "mana",
       "type": "LOCAL_INCREASE"
     },
     {
-      "first_min": 20.0,
-      "first_max": 30.0,
+      "first_min": 15.0,
+      "first_max": 25.0,
       "second_min": 0.0,
       "second_max": 0.0,
       "stat": "elemental_resist",

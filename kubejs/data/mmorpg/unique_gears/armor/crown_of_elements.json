@@ -5,32 +5,32 @@
   "tier": 0,
   "unique_stats": [
     {
-      "firstMin": 20.0,
-      "firstMax": 30.0,
+      "firstMin": 10.0,
+      "firstMax": 15.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "spell_water_damage",
       "type": "flat"
     },
     {
-      "firstMin": 20.0,
-      "firstMax": 30.0,
+      "firstMin": 10.0,
+      "firstMax": 15.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "spell_fire_damage",
       "type": "flat"
     },
     {
-      "firstMin": 20.0,
-      "firstMax": 30.0,
+      "firstMin": 10.0,
+      "firstMax": 15.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "spell_thunder_damage",
       "type": "flat"
     },
     {
-      "firstMin": 20.0,
-      "firstMax": 30.0,
+      "firstMin": 10.0,
+      "firstMax": 15.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "spell_nature_damage",

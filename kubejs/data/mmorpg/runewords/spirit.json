@@ -2,8 +2,8 @@
   "identifier": "spirit",
   "stats": [
     {
-      "first_min": 50.0,
-      "first_max": 75.0,
+      "first_min": 20.0,
+      "first_max": 25.0,
       "second_min": 0.0,
       "second_max": 0.0,
       "stat": "spell_damage",

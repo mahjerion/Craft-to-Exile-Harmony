@@ -5,16 +5,16 @@
   "tier": 0,
   "unique_stats": [
     {
-      "firstMin": 3.0,
-      "firstMax": 5.0,
-      "secondMin": 8.0,
-      "secondMax": 12.0,
+      "firstMin": 2.0,
+      "firstMax": 3.0,
+      "secondMin": 5.0,
+      "secondMax": 6.0,
       "stat": "water_weapon_damage",
       "type": "flat"
     },
     {
-      "firstMin": 50.0,
-      "firstMax": 70.0,
+      "firstMin": 30.0,
+      "firstMax": 35.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "water_weapon_damage",

@@ -5,16 +5,16 @@
   "tier": 0,
   "unique_stats": [
     {
-      "firstMin": 10.0,
-      "firstMax": 15.0,
-      "secondMin": 20.0,
-      "secondMax": 25.0,
+      "firstMin": 4.0,
+      "firstMax": 6.0,
+      "secondMin": 8.0,
+      "secondMax": 10.0,
       "stat": "nature_weapon_damage",
       "type": "flat"
     },
     {
-      "firstMin": 125.0,
-      "firstMax": 150.0,
+      "firstMin": 70.0,
+      "firstMax": 90.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "increase_healing",

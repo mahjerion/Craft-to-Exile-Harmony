@@ -8,8 +8,8 @@
   "lang_file_desc_string": "item.mmorpg.uniques.armor.enzomyte_hold.desc",
   "unique_stats": [
     {
-      "firstMin": 25.0,
-      "firstMax": 25.0,
+      "firstMin": 33.0,
+      "firstMax": 33.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "physical_weapon_damage",

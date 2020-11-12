@@ -5,8 +5,8 @@
   "tier": 0,
   "unique_stats": [
     {
-      "firstMin": 20.0,
-      "firstMax": 40.0,
+      "firstMin": 5.0,
+      "firstMax": 10.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "physical_weapon_damage",
@@ -14,7 +14,7 @@
     },
     {
       "firstMin": 1.0,
-      "firstMax": 100.0,
+      "firstMax": 50.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "chance_of_burn",
@@ -22,7 +22,7 @@
     },
     {
       "firstMin": 1.0,
-      "firstMax": 100.0,
+      "firstMax": 50.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "chance_of_chill",
@@ -30,7 +30,7 @@
     },
     {
       "firstMin": 1.0,
-      "firstMax": 100.0,
+      "firstMax": 50.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "chance_of_poison",

@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Updates
+- Increased attack scaling of bow skills.
+- Weapons now have a flat critical hit base. For instance, the axe's critical hit base has changed from 4-10% to always 8%.
+- Weapons have had their base critical hit lowered overall. Axes and bows are still kings of critical hit chance, while wands and scepters have very low critical hit chances.
+- Sword damage has gone up slightly.
+- Spears have been buffed significantly. They have high base damage and armor penetration but low critical hit chance.
+
 ## [1.3.1] - 2020-11-11
 
 ### Updates

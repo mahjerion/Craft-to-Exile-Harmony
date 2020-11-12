@@ -2,24 +2,24 @@
   "identifier": "insight",
   "stats": [
     {
-      "first_min": 20.0,
-      "first_max": 60.0,
+      "first_min": 10.0,
+      "first_max": 25.0,
       "second_min": 0.0,
       "second_max": 0.0,
       "stat": "physical_weapon_damage",
       "type": "LOCAL_INCREASE"
     },
     {
-      "first_min": 150.0,
-      "first_max": 250.0,
+      "first_min": 100.0,
+      "first_max": 200.0,
       "second_min": 0.0,
       "second_max": 0.0,
       "stat": "mana_regen",
       "type": "LOCAL_INCREASE"
     },
     {
-      "first_min": 25.0,
-      "first_max": 35.0,
+      "first_min": 15.0,
+      "first_max": 25.0,
       "second_min": 0.0,
       "second_max": 0.0,
       "stat": "faster_cast_rate",

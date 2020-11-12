@@ -16,16 +16,16 @@
       "type": "flat"
     },
     {
-      "firstMin": 35.0,
-      "firstMax": 50.0,
+      "firstMin": 10.0,
+      "firstMax": 20.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "spell_damage",
       "type": "flat"
     },
     {
-      "firstMin": 40.0,
-      "firstMax": 50.0,
+      "firstMin": 30.0,
+      "firstMax": 40.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "health",

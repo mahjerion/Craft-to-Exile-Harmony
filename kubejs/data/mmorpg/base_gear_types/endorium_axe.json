@@ -11,12 +11,12 @@
       "firstMin": 1.0,
       "firstMax": 2.0,
       "secondMin": 3.0,
-      "secondMax": 8.0,
+      "secondMax": 7.0,
       "stat": "physical_weapon_damage",
       "type": "flat"
     },
     {
-      "firstMin": 3.0,
+      "firstMin": 8.0,
       "firstMax": 8.0,
       "secondMin": 0.0,
       "secondMax": 0.0,

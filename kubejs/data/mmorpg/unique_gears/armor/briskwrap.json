@@ -8,7 +8,7 @@
   "lang_file_desc_string": "item.mmorpg.uniques.armor.briskwrap.desc",
   "unique_stats": [
     {
-      "firstMin": 20.0,
+      "firstMin": 15.0,
       "firstMax": 20.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
@@ -16,16 +16,16 @@
       "type": "flat"
     },
     {
-      "firstMin": 180.0,
-      "firstMax": 200.0,
+      "firstMin": 140.0,
+      "firstMax": 160.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "dodge",
       "type": "flat"
     },
     {
-      "firstMin": 30.0,
-      "firstMax": 45.0,
+      "firstMin": 20.0,
+      "firstMax": 30.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "water_resist",

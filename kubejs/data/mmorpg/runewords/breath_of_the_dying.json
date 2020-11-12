@@ -2,8 +2,8 @@
   "identifier": "breath_of_the_dying",
   "stats": [
     {
-      "first_min": 90.0,
-      "first_max": 140.0,
+      "first_min": 30.0,
+      "first_max": 60.0,
       "second_min": 0.0,
       "second_max": 0.0,
       "stat": "physical_weapon_damage",
@@ -26,8 +26,8 @@
       "type": "FLAT"
     },
     {
-      "first_min": 25.0,
-      "first_max": 45.0,
+      "first_min": 15.0,
+      "first_max": 25.0,
       "second_min": 0.0,
       "second_max": 0.0,
       "stat": "attack_speed",

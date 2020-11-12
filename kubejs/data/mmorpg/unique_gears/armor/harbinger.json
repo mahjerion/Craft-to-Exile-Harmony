@@ -13,8 +13,8 @@
       "type": "local_increase"
     },
     {
-      "firstMin": 15.0,
-      "firstMax": 20.0,
+      "firstMin": 5.0,
+      "firstMax": 10.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "critical_hit",

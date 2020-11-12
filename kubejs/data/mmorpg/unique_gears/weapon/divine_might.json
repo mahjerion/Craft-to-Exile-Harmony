@@ -21,8 +21,8 @@
       "type": "flat"
     },
     {
-      "firstMin": 10.0,
-      "firstMax": 15.0,
+      "firstMin": 3.0,
+      "firstMax": 5.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "critical_hit",
@@ -30,7 +30,7 @@
     },
     {
       "firstMin": 50.0,
-      "firstMax": 100.0,
+      "firstMax": 80.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "heal_to_dmg",

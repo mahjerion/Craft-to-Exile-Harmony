@@ -3,7 +3,7 @@
   "stats": [
     {
       "first_min": 20.0,
-      "first_max": 40.0,
+      "first_max": 30.0,
       "second_min": 0.0,
       "second_max": 0.0,
       "stat": "spell_fire_damage",
@@ -11,15 +11,15 @@
     },
     {
       "first_min": 1.0,
-      "first_max": 4.0,
+      "first_max": 2.0,
       "second_min": 0.0,
       "second_max": 0.0,
       "stat": "mana_on_kill",
       "type": "FLAT"
     },
     {
-      "first_min": 13.0,
-      "first_max": 33.0,
+      "first_min": 10.0,
+      "first_max": 20.0,
       "second_min": 0.0,
       "second_max": 0.0,
       "stat": "water_resist",

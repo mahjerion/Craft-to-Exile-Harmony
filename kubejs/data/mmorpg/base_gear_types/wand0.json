@@ -5,7 +5,7 @@
   "tier": 0,
   "implicit_stats": [
     {
-      "firstMin": 3.0,
+      "firstMin": 4.0,
       "firstMax": 10.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
@@ -15,16 +15,16 @@
   ],
   "base_stats": [
     {
-      "firstMin": 2.0,
-      "firstMax": 3.0,
-      "secondMin": 3.0,
-      "secondMax": 5.0,
+      "firstMin": 1.0,
+      "firstMax": 2.0,
+      "secondMin": 2.0,
+      "secondMax": 3.0,
       "stat": "physical_weapon_damage",
       "type": "flat"
     },
     {
       "firstMin": 3.0,
-      "firstMax": 7.0,
+      "firstMax": 3.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "critical_hit",

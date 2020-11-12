@@ -8,8 +8,8 @@
   "lang_file_desc_string": "item.mmorpg.uniques.armor.cloak_of_flame.desc",
   "unique_stats": [
     {
-      "firstMin": 60.0,
-      "firstMax": 80.0,
+      "firstMin": 50.0,
+      "firstMax": 60.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "fire_resist",
