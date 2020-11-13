@@ -16,8 +16,8 @@
       "type": "local_increase"
     },
     {
-      "firstMin": 150.0,
-      "firstMax": 150.0,
+      "firstMin": 100.0,
+      "firstMax": 100.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "magic_find",

@@ -5,10 +5,10 @@
   "tier": 0,
   "unique_stats": [
     {
-      "firstMin": 1.0,
-      "firstMax": 1.0,
-      "secondMin": 14.0,
-      "secondMax": 18.0,
+      "firstMin": 0.1,
+      "firstMax": 0.1,
+      "secondMin": 12.0,
+      "secondMax": 14.0,
       "stat": "thunder_weapon_damage",
       "type": "flat"
     },

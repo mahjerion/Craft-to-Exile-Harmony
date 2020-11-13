@@ -1,0 +1,42 @@
+{
+  "id": "kaoms_sign",
+  "weight": 1000,
+  "rarity": 1,
+  "tier": 0,
+  "unique_stats": [
+    {
+      "firstMin": 1.0,
+      "firstMax": 2.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "health",
+      "type": "flat"
+    },
+    {
+      "firstMin": 0.2,
+      "firstMax": 0.3,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "strength",
+      "type": "flat"
+    },
+    {
+      "firstMin": 3.0,
+      "firstMax": 4.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "life_on_hit",
+      "type": "flat"
+    },
+    {
+      "firstMin": 5.0,
+      "firstMax": 10.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "armor",
+      "type": "global_increase"
+    }
+  ],
+  "gear_type": "fire_res_ring_end",
+  "item_id": "mmorpg:jewelry/ring/fire_res_ring_end"
+}

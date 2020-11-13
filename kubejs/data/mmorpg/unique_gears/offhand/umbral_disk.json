@@ -1,0 +1,50 @@
+{
+  "id": "umbral_disk",
+  "weight": 1000,
+  "rarity": 1,
+  "tier": 0,
+  "unique_stats": [
+    {
+      "firstMin": 50.0,
+      "firstMax": 70.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "dodge",
+      "type": "local_increase"
+    },
+    {
+      "firstMin": 30.0,
+      "firstMax": 40.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "dodge",
+      "type": "flat"
+    },
+    {
+      "firstMin": 3.0,
+      "firstMax": 5.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "health",
+      "type": "flat"
+    },
+    {
+      "firstMin": 5.0,
+      "firstMax": 10.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "chance_of_poison",
+      "type": "flat"
+    },
+    {
+      "firstMin": 0.1,
+      "firstMax": 0.1,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "dexterity",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "buckler_shield1",
+  "item_id": "minecraft:shield"
+}

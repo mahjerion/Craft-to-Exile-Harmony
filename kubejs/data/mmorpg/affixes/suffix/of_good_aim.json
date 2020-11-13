@@ -18,8 +18,8 @@
     "1": {
       "mods": [
         {
-          "first_min": 3.0,
-          "first_max": 4.0,
+          "first_min": 1.2,
+          "first_max": 1.6,
           "second_min": 0.0,
           "second_max": 0.0,
           "stat": "critical_hit",
@@ -32,8 +32,8 @@
     "2": {
       "mods": [
         {
-          "first_min": 2.0,
-          "first_max": 3.0,
+          "first_min": 0.8,
+          "first_max": 1.2,
           "second_min": 0.0,
           "second_max": 0.0,
           "stat": "critical_hit",
@@ -46,8 +46,8 @@
     "3": {
       "mods": [
         {
-          "first_min": 1.0,
-          "first_max": 2.0,
+          "first_min": 0.4,
+          "first_max": 0.8,
           "second_min": 0.0,
           "second_max": 0.0,
           "stat": "critical_hit",

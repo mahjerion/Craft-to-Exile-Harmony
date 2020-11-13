@@ -1,0 +1,34 @@
+{
+  "id": "pledge_of_hands",
+  "weight": 1000,
+  "rarity": 1,
+  "tier": 0,
+  "unique_stats": [
+    {
+      "firstMin": -15.0,
+      "firstMax": -25.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "cdr",
+      "type": "flat"
+    },
+    {
+      "firstMin": 40.0,
+      "firstMax": 50.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "spell_damage",
+      "type": "flat"
+    },
+    {
+      "firstMin": 20.0,
+      "firstMax": 30.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "mana",
+      "type": "local_increase"
+    }
+  ],
+  "gear_type": "wand4",
+  "item_id": "mmorpg:weapon/wand/wand4"
+}

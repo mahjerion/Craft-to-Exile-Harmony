@@ -1,0 +1,34 @@
+{
+  "id": "chin_sol",
+  "weight": 1000,
+  "rarity": 1,
+  "tier": 0,
+  "unique_stats": [
+    {
+      "firstMin": 4.0,
+      "firstMax": 4.0,
+      "secondMin": 6.0,
+      "secondMax": 6.0,
+      "stat": "fire_weapon_damage",
+      "type": "flat"
+    },
+    {
+      "firstMin": 60.0,
+      "firstMax": 80.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "fire_weapon_damage",
+      "type": "local_increase"
+    },
+    {
+      "firstMin": 0.1,
+      "firstMax": 0.2,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "dexterity",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "bow3",
+  "item_id": "minecraft:bow"
+}

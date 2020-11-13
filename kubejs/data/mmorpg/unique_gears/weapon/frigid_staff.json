@@ -13,8 +13,8 @@
       "type": "flat"
     },
     {
-      "firstMin": 20.0,
-      "firstMax": 30.0,
+      "firstMin": 30.0,
+      "firstMax": 35.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "spell_water_damage",
@@ -37,8 +37,8 @@
       "type": "flat"
     },
     {
-      "firstMin": 2.0,
-      "firstMax": 3.0,
+      "firstMin": 0.5,
+      "firstMax": 0.7,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "critical_hit",
@@ -53,6 +53,6 @@
       "type": "flat"
     }
   ],
-  "gear_type": "wand4",
+  "gear_type": "wand3",
   "item_id": "mmorpg:uniques/weapon/frigid_staff"
 }

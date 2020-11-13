@@ -2,10 +2,10 @@
   "identifier": "sprout",
   "stats": [
     {
-      "first_min": 2.0,
-      "first_max": 4.0,
-      "second_min": 5.0,
-      "second_max": 6.0,
+      "first_min": 0.5,
+      "first_max": 1.0,
+      "second_min": 1.0,
+      "second_max": 1.5,
       "stat": "water_weapon_damage",
       "type": "FLAT"
     },
@@ -39,5 +39,5 @@
     "nos",
     "xer"
   ],
-  "family": "Weapon",
+  "family": "Weapon"
 }

@@ -1,0 +1,42 @@
+{
+  "id": "perandus_signet",
+  "weight": 1000,
+  "rarity": 1,
+  "tier": 0,
+  "unique_stats": [
+    {
+      "firstMin": 5.0,
+      "firstMax": 10.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "mana",
+      "type": "flat"
+    },
+    {
+      "firstMin": 1.5,
+      "firstMax": 2.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "mana_regen",
+      "type": "flat"
+    },
+    {
+      "firstMin": 2.0,
+      "firstMax": 3.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "bonus_exp",
+      "type": "flat"
+    },
+    {
+      "firstMin": 20.0,
+      "firstMax": 30.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "magic_find",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "thunder_res_ring_low",
+  "item_id": "mmorpg:jewelry/ring/thunder_res_ring_low"
+}

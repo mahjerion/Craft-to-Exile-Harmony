@@ -16,11 +16,19 @@
       "type": "local_increase"
     },
     {
-      "firstMin": 30.0,
-      "firstMax": 40.0,
+      "firstMin": 10.0,
+      "firstMax": 20.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "attack_speed",
+      "type": "flat"
+    },
+    {
+      "firstMin": 1.5,
+      "firstMax": 2.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "critical_hit",
       "type": "flat"
     }	
   ],

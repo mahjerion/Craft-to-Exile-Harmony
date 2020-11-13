@@ -16,8 +16,8 @@
       "type": "local_increase"
     },
     {
-      "firstMin": 600.0,
-      "firstMax": 800.0,
+      "firstMin": 80.0,
+      "firstMax": 100.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "health",
@@ -30,8 +30,40 @@
       "secondMax": 0.0,
       "stat": "all_fire_damage",
       "type": "local_increase"
+    },
+    {
+      "firstMin": -10.0,
+      "firstMax": -5.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "max_fire_resist",
+      "type": "flat"
+    },
+    {
+      "firstMin": -10.0,
+      "firstMax": -5.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "max_water_resist",
+      "type": "flat"
+    },
+    {
+      "firstMin": -10.0,
+      "firstMax": -5.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "max_thunder_resist",
+      "type": "flat"
+    },
+    {
+      "firstMin": -10.0,
+      "firstMax": -5.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "max_nature_resist",
+      "type": "flat"
     }
   ],
-  "gear_type": "plate_chest0",
+  "gear_type": "plate_chest4",
   "item_id": "mmorpg:armor/plate/chest/plate_chest4"
 }

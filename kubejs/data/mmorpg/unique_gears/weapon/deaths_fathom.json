@@ -1,0 +1,50 @@
+{
+  "id": "deaths_fathom",
+  "weight": 250,
+  "rarity": 2,
+  "tier": 0,
+  "unique_stats": [
+    {
+      "firstMin": 10.0,
+      "firstMax": 20.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "spell_damage",
+      "type": "flat"
+    },
+    {
+      "firstMin": 5.0,
+      "firstMax": 8.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "faster_cast_rate",
+      "type": "flat"
+    },
+    {
+      "firstMin": 5.0,
+      "firstMax": 35.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "spell_water_damage",
+      "type": "flat"
+    },
+    {
+      "firstMin": 3.0,
+      "firstMax": 10.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "thunder_resist",
+      "type": "flat"
+    },
+    {
+      "firstMin": 3.0,
+      "firstMax": 10.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "fire_resist",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "wand4",
+  "item_id": "mmorpg:weapon/wand/wand4"
+}

@@ -14,7 +14,7 @@
     },
     {
       "firstMin": 70.0,
-      "firstMax": 90.0,
+      "firstMax": 80.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "increase_healing",

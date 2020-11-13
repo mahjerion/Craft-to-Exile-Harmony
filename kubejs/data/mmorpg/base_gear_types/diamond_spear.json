@@ -8,8 +8,8 @@
   "implicit_stats": [],
   "base_stats": [
     {
-      "firstMin": 5.0,
-      "firstMax": 8.0,
+      "firstMin": 70.0,
+      "firstMax": 86.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "armor_penetration",

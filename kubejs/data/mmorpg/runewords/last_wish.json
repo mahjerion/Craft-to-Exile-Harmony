@@ -2,16 +2,16 @@
   "identifier": "last_wish",
   "stats": [
     {
-      "first_min": 25.0,
-      "first_max": 50.0,
+      "first_min": 30.0,
+      "first_max": 60.0,
       "second_min": 0.0,
       "second_max": 0.0,
       "stat": "physical_weapon_damage",
       "type": "LOCAL_INCREASE"
     },
     {
-      "first_min": 6.0,
-      "first_max": 14.0,
+      "first_min": 4.0,
+      "first_max": 8.0,
       "second_min": 0.0,
       "second_max": 0.0,
       "stat": "lifesteal",
@@ -26,12 +26,12 @@
       "type": "FLAT"
     },
     {
-      "first_min": 30.0,
-      "first_max": 50.0,
+      "first_min": 300.0,
+      "first_max": 500.0,
       "second_min": 0.0,
       "second_max": 0.0,
       "stat": "armor_penetration",
-      "type": "LOCAL_INCREASE"
+      "type": "FLAT"
     }
   ],
   "runes_needed": [

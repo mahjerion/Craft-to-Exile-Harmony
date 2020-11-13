@@ -9,6 +9,6 @@
 		"source": "servers.dat",
 		"destination": "servers.dat",
 		"side": "client",
-		"version": 2
+		"version": 3
 	}
 ]

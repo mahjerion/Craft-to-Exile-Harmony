@@ -1,0 +1,42 @@
+{
+  "id": "buriza_do_kyanon",
+  "weight": 1000,
+  "rarity": 1,
+  "tier": 0,
+  "unique_stats": [
+    {
+      "firstMin": 30.0,
+      "firstMax": 40.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "physical_weapon_damage",
+      "type": "local_increase"
+    },
+    {
+      "firstMin": 2.0,
+      "firstMax": 3.0,
+      "secondMin": 3.0,
+      "secondMax": 4.0,
+      "stat": "water_weapon_damage",
+      "type": "flat"
+    },
+    {
+      "firstMin": 15.0,
+      "firstMax": 25.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "convert_water_to_phys",
+      "type": "flat"
+    },
+    {
+      "firstMin": 0.3,
+      "firstMax": 0.35,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "dexterity",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "crossbow2",
+  "item_id": "minecraft:crossbow"
+}

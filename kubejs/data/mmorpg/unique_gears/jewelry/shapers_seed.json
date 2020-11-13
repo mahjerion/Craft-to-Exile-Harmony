@@ -1,0 +1,50 @@
+{
+  "id": "shapers_seed",
+  "weight": 1000,
+  "rarity": 1,
+  "tier": 0,
+  "unique_stats": [
+    {
+      "firstMin": 0.05,
+      "firstMax": 0.1,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "strength",
+      "type": "flat"
+    },
+    {
+      "firstMin": 0.05,
+      "firstMax": 0.1,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "intelligence",
+      "type": "flat"
+    },
+    {
+      "firstMin": 3.0,
+      "firstMax": 5.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "mana_regen",
+      "type": "flat"
+    },
+    {
+      "firstMin": 2.0,
+      "firstMax": 3.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "health_per_sec",
+      "type": "flat"
+    },
+    {
+      "firstMin": 20.0,
+      "firstMax": 30.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "increase_healing",
+      "type": "local_increase"
+    }
+  ],
+  "gear_type": "life_necklace_low",
+  "item_id": "mmorpg:jewelry/necklace/life_necklace_low"
+}

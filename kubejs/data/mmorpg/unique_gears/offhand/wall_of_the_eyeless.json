@@ -1,0 +1,42 @@
+{
+  "id": "wall_of_the_eyeless",
+  "weight": 1000,
+  "rarity": 1,
+  "tier": 0,
+  "unique_stats": [
+    {
+      "firstMin": 40.0,
+      "firstMax": 60.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "magic_shield",
+      "type": "local_increase"
+    },
+    {
+      "firstMin": 3.0,
+      "firstMax": 3.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "mana_on_kill",
+      "type": "flat"
+    },
+    {
+      "firstMin": 20.0,
+      "firstMax": 25.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "faster_cast_rate",
+      "type": "flat"
+    },
+    {
+      "firstMin": 15.0,
+      "firstMax": 20.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "nature_resist",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "spirit_shield1",
+  "item_id": "minecraft:shield"
+}

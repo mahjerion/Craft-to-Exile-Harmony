@@ -1,8 +1,8 @@
 {
   "on_armor_stats": [
     {
-      "first_min": 20.0,
-      "first_max": 25.0,
+      "first_min": 15.0,
+      "first_max": 18.0,
       "second_min": 0.0,
       "second_max": 0.0,
       "stat": "nature_resist",

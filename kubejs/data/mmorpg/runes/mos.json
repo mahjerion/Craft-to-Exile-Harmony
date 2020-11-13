@@ -21,7 +21,7 @@
   ],
   "on_weapons_stats": [
     {
-      "first_min": 5.0,
+      "first_min": 4.0,
       "first_max": 6.0,
       "second_min": 0.0,
       "second_max": 0.0,

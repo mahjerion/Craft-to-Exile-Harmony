@@ -5,16 +5,16 @@
   "tier": 0,
   "unique_stats": [
     {
-      "firstMin": 20.0,
-      "firstMax": 40.0,
+      "firstMin": 40.0,
+      "firstMax": 60.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "armor",
       "type": "local_increase"
     },
     {
-      "firstMin": 15.0,
-      "firstMax": 20.0,
+      "firstMin": 30.0,
+      "firstMax": 40.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "health",
@@ -37,8 +37,8 @@
       "type": "flat"
     },
     {
-      "firstMin": -6.0,
-      "firstMax": -3.0,
+      "firstMin": -3.0,
+      "firstMax": -2.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "increased_quantity",

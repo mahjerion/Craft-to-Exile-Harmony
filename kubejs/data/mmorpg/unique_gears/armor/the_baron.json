@@ -8,16 +8,16 @@
   "lang_file_desc_string": "item.mmorpg.uniques.armor.the_baron.desc",
   "unique_stats": [
     {
-      "firstMin": 35.0,
-      "firstMax": 70.0,
+      "firstMin": 10.0,
+      "firstMax": 15.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "increase_healing",
       "type": "flat"
     },
     {
-      "firstMin": 80.0,
-      "firstMax": 100.0,
+      "firstMin": 40.0,
+      "firstMax": 50.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "heal_to_dmg",

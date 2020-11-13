@@ -1,0 +1,42 @@
+{
+  "id": "doedres_damning",
+  "weight": 1000,
+  "rarity": 1,
+  "tier": 0,
+  "unique_stats": [
+    {
+      "firstMin": 0.05,
+      "firstMax": 0.1,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "intelligence",
+      "type": "flat"
+    },
+    {
+      "firstMin": 7.0,
+      "firstMax": 10.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "elemental_resist",
+      "type": "flat"
+    },
+    {
+      "firstMin": 0.3,
+      "firstMax": 0.5,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "mana_on_kill",
+      "type": "flat"
+    },
+    {
+      "firstMin": 6.0,
+      "firstMax": 8.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "heal_to_dmg",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "mana_reg_ring_low",
+  "item_id": "mmorpg:jewelry/ring/mana_reg_ring_low"
+}

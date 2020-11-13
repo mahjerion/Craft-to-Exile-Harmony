@@ -1,0 +1,42 @@
+{
+  "id": "voltaxic_rift",
+  "weight": 1000,
+  "rarity": 1,
+  "tier": 0,
+  "unique_stats": [
+    {
+      "firstMin": 0.1,
+      "firstMax": 0.1,
+      "secondMin": 8.0,
+      "secondMax": 10.0,
+      "stat": "thunder_weapon_damage",
+      "type": "flat"
+    },
+    {
+      "firstMin": 1.0,
+      "firstMax": 1.5,
+      "secondMin": 1.5,
+      "secondMax": 2.0,
+      "stat": "nature_weapon_damage",
+      "type": "flat"
+    },
+    {
+      "firstMin": 10.0,
+      "firstMax": 20.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "chance_of_static",
+      "type": "flat"
+    },
+    {
+      "firstMin": 50.0,
+      "firstMax": 50.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "static_bonus_dmg",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "bow4",
+  "item_id": "minecraft:bow"
+}

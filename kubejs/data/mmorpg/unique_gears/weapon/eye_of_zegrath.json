@@ -14,7 +14,7 @@
     },
     {
       "firstMin": 1.0,
-      "firstMax": 50.0,
+      "firstMax": 33.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "chance_of_burn",
@@ -22,7 +22,7 @@
     },
     {
       "firstMin": 1.0,
-      "firstMax": 50.0,
+      "firstMax": 33.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "chance_of_chill",
@@ -30,7 +30,7 @@
     },
     {
       "firstMin": 1.0,
-      "firstMax": 50.0,
+      "firstMax": 33.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "chance_of_poison",

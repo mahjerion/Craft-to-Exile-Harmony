@@ -1,0 +1,42 @@
+{
+  "id": "apeps_rage",
+  "weight": 1000,
+  "rarity": 1,
+  "tier": 0,
+  "unique_stats": [
+    {
+      "firstMin": 30.0,
+      "firstMax": 40.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "spell_nature_damage",
+      "type": "flat"
+    },
+    {
+      "firstMin": 10.0,
+      "firstMax": 15.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "faster_cast_rate",
+      "type": "flat"
+    },
+    {
+      "firstMin": 3.0,
+      "firstMax": 5.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "nature_resist",
+      "type": "flat"
+    },
+    {
+      "firstMin": 10.0,
+      "firstMax": 20.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "mana_cost_red",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "wand4",
+  "item_id": "mmorpg:weapon/wand/wand4"
+}

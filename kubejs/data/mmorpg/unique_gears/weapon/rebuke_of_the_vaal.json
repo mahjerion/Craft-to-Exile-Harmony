@@ -1,0 +1,58 @@
+{
+  "id": "rebuke_of_the_vaal",
+  "weight": 1000,
+  "rarity": 1,
+  "tier": 0,
+  "unique_stats": [
+    {
+      "firstMin": 2.0,
+      "firstMax": 4.0,
+      "secondMin": 4.0,
+      "secondMax": 6.0,
+      "stat": "physical_weapon_damage",
+      "type": "flat"
+    },
+    {
+      "firstMin": 10.0,
+      "firstMax": 25.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "convert_fire_to_phys",
+      "type": "flat"
+    },
+    {
+      "firstMin": 10.0,
+      "firstMax": 25.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "convert_water_to_phys",
+      "type": "flat"
+    },
+    {
+      "firstMin": 10.0,
+      "firstMax": 25.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "convert_thunder_to_phys",
+      "type": "flat"
+    },
+    {
+      "firstMin": 10.0,
+      "firstMax": 25.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "convert_nature_to_phys",
+      "type": "flat"
+    },
+    {
+      "firstMin": 5.0,
+      "firstMax": 10.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "attack_speed",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "sword4",
+  "item_id": "mmorpg:weapon/sword/sword4"
+}

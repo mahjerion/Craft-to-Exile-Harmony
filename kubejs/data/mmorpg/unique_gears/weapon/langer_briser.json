@@ -1,0 +1,42 @@
+{
+  "id": "langer_briser",
+  "weight": 1000,
+  "rarity": 1,
+  "tier": 0,
+  "unique_stats": [
+    {
+      "firstMin": 20.0,
+      "firstMax": 30.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "physical_weapon_damage",
+      "type": "local_increase"
+    },
+    {
+      "firstMin": 0.1,
+      "firstMax": 0.1,
+      "secondMin": 7.0,
+      "secondMax": 8.0,
+      "stat": "thunder_weapon_damage",
+      "type": "flat"
+    },
+    {
+      "firstMin": 5.0,
+      "firstMax": 5.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "health",
+      "type": "flat"
+    },
+    {
+      "firstMin": 30.0,
+      "firstMax": 60.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "magic_find",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "crossbow2",
+  "item_id": "minecraft:crossbow"
+}

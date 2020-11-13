@@ -1,0 +1,34 @@
+{
+  "id": "andvarius",
+  "weight": 50,
+  "rarity": 4,
+  "tier": 0,
+  "unique_stats": [
+    {
+      "firstMin": 80.0,
+      "firstMax": 100.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "magic_find",
+      "type": "flat"
+    },
+    {
+      "firstMin": -10.0,
+      "firstMax": -20.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "elemental_resist",
+      "type": "flat"
+    },
+    {
+      "firstMin": 0.1,
+      "firstMax": 0.1,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "dexterity",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "thunder_res_ring_end",
+  "item_id": "mmorpg:jewelry/ring/thunder_res_ring_end"
+}

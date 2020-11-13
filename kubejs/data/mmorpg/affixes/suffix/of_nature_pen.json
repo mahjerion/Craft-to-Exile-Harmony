@@ -1,0 +1,61 @@
+{
+  "guid": "all_nature_pen",
+  "loc_name": "Of Toxicity",
+  "weight": 250,
+  "requirements": {
+    "tag_requirements": [
+      {
+        "included": [
+          "weapon_family"
+        ],
+        "excluded": []
+      }
+    ]
+  },
+  "tags": [],
+  "type": "suffix",
+  "tier_map": {
+    "1": {
+      "mods": [
+        {
+          "first_min": 6.0,
+          "first_max": 8.0,
+          "second_min": 0.0,
+          "second_max": 0.0,
+          "stat": "nature_penetration",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 200,
+      "tier": 1
+    },
+    "2": {
+      "mods": [
+        {
+          "first_min": 4.0,
+          "first_max": 6.0,
+          "second_min": 0.0,
+          "second_max": 0.0,
+          "stat": "nature_penetration",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 300,
+      "tier": 2
+    },
+    "3": {
+      "mods": [
+        {
+          "first_min": 2.0,
+          "first_max": 4.0,
+          "second_min": 0.0,
+          "second_max": 0.0,
+          "stat": "nature_penetration",
+          "type": "FLAT"
+        }
+      ],
+      "weight": 400,
+      "tier": 3
+    }
+  }
+}

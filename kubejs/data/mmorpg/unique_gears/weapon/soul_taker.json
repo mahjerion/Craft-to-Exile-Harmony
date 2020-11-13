@@ -1,0 +1,50 @@
+{
+  "id": "soul_taker",
+  "weight": 1000,
+  "rarity": 1,
+  "tier": 0,
+  "unique_stats": [
+    {
+      "firstMin": 20.0,
+      "firstMax": 40.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "physical_weapon_damage",
+      "type": "local_increase"
+    },
+    {
+      "firstMin": 2.0,
+      "firstMax": 4.0,
+      "secondMin": 4.0,
+      "secondMax": 6.0,
+      "stat": "water_weapon_damage",
+      "type": "flat"
+    },
+    {
+      "firstMin": 15.0,
+      "firstMax": 20.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "water_resist",
+      "type": "flat"
+    },
+    {
+      "firstMin": 4.0,
+      "firstMax": 8.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "mana_steal",
+      "type": "flat"
+    },
+    {
+      "firstMin": 3.0,
+      "firstMax": 6.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "mana_per_sec",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "axe3",
+  "item_id": "mmorpg:weapon/axe/axe3"
+}

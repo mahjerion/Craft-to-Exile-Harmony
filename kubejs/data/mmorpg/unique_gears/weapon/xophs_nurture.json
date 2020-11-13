@@ -1,0 +1,42 @@
+{
+  "id": "xophs_nurture",
+  "weight": 1000,
+  "rarity": 1,
+  "tier": 0,
+  "unique_stats": [
+    {
+      "firstMin": 40.0,
+      "firstMax": 60.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "physical_weapon_damage",
+      "type": "local_increase"
+    },
+    {
+      "firstMin": 35.0,
+      "firstMax": 50.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "convert_fire_to_phys",
+      "type": "flat"
+    },
+    {
+      "firstMin": 20.0,
+      "firstMax": 20.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "chance_of_burn",
+      "type": "flat"
+    },
+    {
+      "firstMin": 2.0,
+      "firstMax": 4.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "health_regen",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "bow4",
+  "item_id": "minecraft:bow"
+}

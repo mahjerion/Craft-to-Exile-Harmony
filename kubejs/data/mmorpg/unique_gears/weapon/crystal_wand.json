@@ -13,8 +13,8 @@
       "type": "flat"
     },
     {
-      "firstMin": -25.0,
-      "firstMax": -30.0,
+      "firstMin": -10.0,
+      "firstMax": -20.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "mana_cost_red",

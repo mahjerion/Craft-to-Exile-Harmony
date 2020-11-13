@@ -1,0 +1,42 @@
+{
+  "id": "kitavas_feast",
+  "weight": 250,
+  "rarity": 2,
+  "tier": 0,
+  "unique_stats": [
+    {
+      "firstMin": 80.0,
+      "firstMax": 100.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "physical_weapon_damage",
+      "type": "local_increase"
+    },
+    {
+      "firstMin": 4.0,
+      "firstMax": 8.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "lifesteal",
+      "type": "flat"
+    },
+    {
+      "firstMin": 4.0,
+      "firstMax": 8.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "mana_steal",
+      "type": "flat"
+    },
+    {
+      "firstMin": 5.0,
+      "firstMax": 5.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "health_on_kill",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "axe4",
+  "item_id": "mmorpg:weapon/axe/axe4"
+}

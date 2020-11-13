@@ -1,0 +1,50 @@
+{
+  "id": "fate_of_the_vaal",
+  "weight": 1000,
+  "rarity": 1,
+  "tier": 0,
+  "unique_stats": [
+    {
+      "firstMin": 0.2,
+      "firstMax": 0.6,
+      "secondMin": 0.6,
+      "secondMax": 1.0,
+      "stat": "physical_weapon_damage",
+      "type": "flat"
+    },
+    {
+      "firstMin": 10.0,
+      "firstMax": 20.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "convert_fire_to_phys",
+      "type": "flat"
+    },
+    {
+      "firstMin": 10.0,
+      "firstMax": 20.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "convert_water_to_phys",
+      "type": "flat"
+    },
+    {
+      "firstMin": 10.0,
+      "firstMax": 20.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "convert_thunder_to_phys",
+      "type": "flat"
+    },
+    {
+      "firstMin": 10.0,
+      "firstMax": 20.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "convert_nature_to_phys",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "sword2",
+  "item_id": "mmorpg:weapon/sword/sword2"
+}

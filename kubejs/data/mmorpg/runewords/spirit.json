@@ -10,8 +10,8 @@
       "type": "LOCAL_INCREASE"
     },
     {
-      "first_min": 25.0,
-      "first_max": 35.0,
+      "first_min": 15.0,
+      "first_max": 20.0,
       "second_min": 0.0,
       "second_max": 0.0,
       "stat": "faster_cast_rate",

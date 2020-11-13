@@ -1,0 +1,26 @@
+{
+  "id": "storm_cloud",
+  "weight": 1000,
+  "rarity": 1,
+  "tier": 0,
+  "unique_stats": [
+    {
+      "firstMin": -100.0,
+      "firstMax": -100.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "physical_weapon_damage",
+      "type": "local_increase"
+    },
+    {
+      "firstMin": 0.1,
+      "firstMax": 0.1,
+      "secondMin": 9.0,
+      "secondMax": 12.0,
+      "stat": "thunder_weapon_damage",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "bow0",
+  "item_id": "minecraft:bow"
+}

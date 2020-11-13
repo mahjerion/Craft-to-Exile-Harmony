@@ -1,0 +1,42 @@
+{
+  "id": "pus_spitter",
+  "weight": 1000,
+  "rarity": 1,
+  "tier": 0,
+  "unique_stats": [
+    {
+      "firstMin": 10.0,
+      "firstMax": 20.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "physical_weapon_damage",
+      "type": "local_increase"
+    },
+    {
+      "firstMin": 2.0,
+      "firstMax": 3.0,
+      "secondMin": 4.0,
+      "secondMax": 5.0,
+      "stat": "nature_weapon_damage",
+      "type": "flat"
+    },
+    {
+      "firstMin": 20.0,
+      "firstMax": 30.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "chance_of_poison",
+      "type": "flat"
+    },
+    {
+      "firstMin": 60.0,
+      "firstMax": 80.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "poison_bonus_dmg",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "crossbow3",
+  "item_id": "minecraft:crossbow"
+}

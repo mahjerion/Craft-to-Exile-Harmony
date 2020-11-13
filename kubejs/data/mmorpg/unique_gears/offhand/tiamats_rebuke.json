@@ -1,0 +1,50 @@
+{
+  "id": "tiamats_rebuke",
+  "weight": 1000,
+  "rarity": 1,
+  "tier": 0,
+  "unique_stats": [
+    {
+      "firstMin": 70.0,
+      "firstMax": 90.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "armor",
+      "type": "local_increase"
+    },
+    {
+      "firstMin": 0.25,
+      "firstMax": 0.45,
+      "secondMin": 0.65,
+      "secondMax": 0.85,
+      "stat": "water_weapon_damage",
+      "type": "flat"
+    },
+    {
+      "firstMin": 0.25,
+      "firstMax": 0.45,
+      "secondMin": 0.65,
+      "secondMax": 0.85,
+      "stat": "fire_weapon_damage",
+      "type": "flat"
+    },
+    {
+      "firstMin": 0.01,
+      "firstMax": 0.01,
+      "secondMin": 2.0,
+      "secondMax": 2.5,
+      "stat": "thunder_weapon_damage",
+      "type": "flat"
+    },
+    {
+      "firstMin": 10.0,
+      "firstMax": 20.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "elemental_resist",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "tower_shield3",
+  "item_id": "minecraft:shield"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "amplification_rod",
+  "weight": 1000,
+  "rarity": 1,
+  "tier": 0,
+  "unique_stats": [
+    {
+      "firstMin": 10.0,
+      "firstMax": 20.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "spell_damage",
+      "type": "flat"
+    },
+    {
+      "firstMin": 30.0,
+      "firstMax": 40.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "faster_cast_rate",
+      "type": "flat"
+    },
+    {
+      "firstMin": 15.0,
+      "firstMax": 30.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "cdr",
+      "type": "flat"
+    },
+    {
+      "firstMin": 0.2,
+      "firstMax": 0.6,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "intelligence",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "wand3",
+  "item_id": "mmorpg:weapon/wand/wand3"
+}

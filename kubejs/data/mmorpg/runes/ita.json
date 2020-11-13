@@ -26,7 +26,7 @@
       "second_min": 0.0,
       "second_max": 0.0,
       "stat": "life_on_hit",
-      "type": "FLAT"
+      "type": "LOCAL_INCREASE"
     }
   ],
   "item_id": "mmorpg:runes/ita",

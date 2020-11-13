@@ -1,8 +1,8 @@
 {
   "on_armor_stats": [
     {
-      "first_min": 8.0,
-      "first_max": 10.0,
+      "first_min": 4.0,
+      "first_max": 6.0,
       "second_min": 0.0,
       "second_max": 0.0,
       "stat": "increased_quantity",
@@ -11,8 +11,8 @@
   ],
   "on_jewelry_stats": [
     {
-      "first_min": 33.0,
-      "first_max": 35.0,
+      "first_min": 20.0,
+      "first_max": 25.0,
       "second_min": 0.0,
       "second_max": 0.0,
       "stat": "mana_burn_resist",
@@ -22,7 +22,7 @@
   "on_weapons_stats": [
     {
       "first_min": 3.0,
-      "first_max": 5.0,
+      "first_max": 4.0,
       "second_min": 0.0,
       "second_max": 0.0,
       "stat": "armor_penetration",

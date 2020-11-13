@@ -18,8 +18,8 @@
     "1": {
       "mods": [
         {
-          "first_min": 50.0,
-          "first_max": 60.0,
+          "first_min": 40.0,
+          "first_max": 48.0,
           "second_min": 0.0,
           "second_max": 0.0,
           "stat": "physical_weapon_damage",
@@ -32,8 +32,8 @@
     "2": {
       "mods": [
         {
-          "first_min": 40.0,
-          "first_max": 50.0,
+          "first_min": 32.0,
+          "first_max": 40.0,
           "second_min": 0.0,
           "second_max": 0.0,
           "stat": "physical_weapon_damage",
@@ -46,8 +46,8 @@
     "3": {
       "mods": [
         {
-          "first_min": 30.0,
-          "first_max": 40.0,
+          "first_min": 24.0,
+          "first_max": 32.0,
           "second_min": 0.0,
           "second_max": 0.0,
           "stat": "physical_weapon_damage",
@@ -60,8 +60,8 @@
     "4": {
       "mods": [
         {
-          "first_min": 20.0,
-          "first_max": 30.0,
+          "first_min": 16.0,
+          "first_max": 24.0,
           "second_min": 0.0,
           "second_max": 0.0,
           "stat": "physical_weapon_damage",
@@ -74,8 +74,8 @@
     "5": {
       "mods": [
         {
-          "first_min": 10.0,
-          "first_max": 20.0,
+          "first_min": 8.0,
+          "first_max": 16.0,
           "second_min": 0.0,
           "second_max": 0.0,
           "stat": "physical_weapon_damage",

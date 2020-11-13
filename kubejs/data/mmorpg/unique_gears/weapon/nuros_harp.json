@@ -1,0 +1,42 @@
+{
+  "id": "nuros_harp",
+  "weight": 1000,
+  "rarity": 1,
+  "tier": 0,
+  "unique_stats": [
+    {
+      "firstMin": -100.0,
+      "firstMax": -100.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "physical_weapon_damage",
+      "type": "local_increase"
+    },
+    {
+      "firstMin": 4.0,
+      "firstMax": 5.0,
+      "secondMin": 8.0,
+      "secondMax": 9.0,
+      "stat": "water_weapon_damage",
+      "type": "flat"
+    },
+    {
+      "firstMin": 30.0,
+      "firstMax": 35.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "chance_of_chill",
+      "type": "flat"
+    },
+    {
+      "firstMin": 10.0,
+      "firstMax": 20.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "increase_healing",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "bow4",
+  "item_id": "minecraft:bow"
+}
