@@ -24,8 +24,8 @@
       "type": "local_increase"
     },
     {
-      "firstMin": 10.0,
-      "firstMax": 20.0,
+      "firstMin": 4.0,
+      "firstMax": 6.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "health",

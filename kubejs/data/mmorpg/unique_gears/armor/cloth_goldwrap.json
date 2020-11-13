@@ -16,8 +16,8 @@
       "type": "local_increase"
     },
     {
-      "firstMin": 25.0,
-      "firstMax": 35.0,
+      "firstMin": 3.0,
+      "firstMax": 5.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "magic_shield",

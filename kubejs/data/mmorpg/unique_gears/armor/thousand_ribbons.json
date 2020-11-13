@@ -24,8 +24,8 @@
       "type": "flat"
     },
     {
-      "firstMin": 5.0,
-      "firstMax": 5.0,
+      "firstMin": 3.0,
+      "firstMax": 3.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "health",

@@ -16,8 +16,8 @@
       "type": "flat"
     },
     {
-      "firstMin": 15.0,
-      "firstMax": 25.0,
+      "firstMin": 4.0,
+      "firstMax": 6.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "magic_shield",

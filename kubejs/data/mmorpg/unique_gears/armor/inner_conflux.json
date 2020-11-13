@@ -5,8 +5,8 @@
   "tier": 0,
   "unique_stats": [
     {
-      "firstMin": 15.0,
-      "firstMax": 35.0,
+      "firstMin": 4.0,
+      "firstMax": 7.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "magic_shield",
