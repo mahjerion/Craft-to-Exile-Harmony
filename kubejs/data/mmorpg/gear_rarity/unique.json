@@ -6,8 +6,8 @@
   },
   "sockets": {
     "min_amount": 0,
-    "max_amount": 1,
-    "chance_for_more": 5
+    "max_amount": 0,
+    "chance_for_more": 0
   },
   "max_worn_at_once": -1,
   "default_stat_percents": {

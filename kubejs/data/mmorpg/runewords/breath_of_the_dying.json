@@ -11,7 +11,7 @@
     },
     {
       "first_min": 20.0,
-      "first_max": 20.0,
+      "first_max": 25.0,
       "second_min": 0.0,
       "second_max": 0.0,
       "stat": "chance_of_poison",
@@ -26,8 +26,8 @@
       "type": "FLAT"
     },
     {
-      "first_min": 15.0,
-      "first_max": 25.0,
+      "first_min": 10.0,
+      "first_max": 20.0,
       "second_min": 0.0,
       "second_max": 0.0,
       "stat": "attack_speed",

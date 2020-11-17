@@ -16,8 +16,8 @@
       "type": "flat"
     },
     {
-      "firstMin": 30.0,
-      "firstMax": 35.0,
+      "firstMin": 10.0,
+      "firstMax": 20.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "increase_healing",

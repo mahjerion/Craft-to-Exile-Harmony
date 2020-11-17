@@ -11,7 +11,7 @@
     },
     {
       "first_min": 20.0,
-      "first_max": 40.0,
+      "first_max": 35.0,
       "second_min": 0.0,
       "second_max": 0.0,
       "stat": "spell_nature_damage",

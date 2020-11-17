@@ -14,8 +14,8 @@
       "type": "flat"
     },
     {
-      "firstMin": 6.0,
-      "firstMax": 6.0,
+      "firstMin": 4.0,
+      "firstMax": 4.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "critical_hit",
