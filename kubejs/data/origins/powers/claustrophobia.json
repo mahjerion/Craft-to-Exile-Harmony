@@ -1,8 +1,8 @@
 {
   "type": "origins:stacking_status_effect",
   "min_stacks": -20,
-  "max_stacks": 240,
-  "duration_per_stack": 7,
+  "max_stacks": 20,
+  "duration_per_stack": 4,
   "effects": [
     {
       "effect": "minecraft:weakness",

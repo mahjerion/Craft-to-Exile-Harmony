@@ -2,7 +2,6 @@
 	"powers": [
 		"origins-classes:no_projectile_divergence",
 		"origins-classes:less_bow_slowdown",
-		"origins:climbing",
 		"origins:claustrophobia",
 		"origins:fragile"
 	],

@@ -25,6 +25,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Increased XP gain from spawners back to 50% from 33%.
 - Reduced favor gain from chests to 25 from 50. This is anticipatory for the next update.
 - Increased HP of Ender Dragon, Wither, and Blackstone Golem.
+- Deadeye can no longer climb but claustrophobia is 90% less effective.
+- Assassins have gone back to the old stealth instead of invisibility and now deal extra damage.
 
 ### Fixes
 - Disabled Blood Mage perk for temporarily.
