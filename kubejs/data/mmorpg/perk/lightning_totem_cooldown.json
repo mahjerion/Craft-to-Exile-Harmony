@@ -1,0 +1,32 @@
+{
+  "type": "SPELL_MOD",
+  "identifier": "lightning_totem_cooldown",
+  "spell": "",
+  "lock_under_adv": "",
+  "icon": "mmorpg:textures/gui/spells/icons/lightning_totem.png",
+  "is_entry": false,
+  "lvl_req": 1,
+  "stats": [
+    {
+      "first": 1.0,
+      "second": 0.0,
+      "stat": "mod_lightning_totem_cooldown",
+      "type": "FLAT",
+      "scaleToLevel": false
+    },
+    {
+      "first": -50.0,
+      "second": 0.0,
+      "stat": "lightning_totem_cooldown",
+      "type": "FLAT",
+      "scaleToLevel": false
+    },
+    {
+      "first": -50.0,
+      "second": 0.0,
+      "stat": "lightning_totem_damage",
+      "type": "FLAT",
+      "scaleToLevel": false
+    }
+  ]
+}

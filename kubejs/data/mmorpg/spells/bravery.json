@@ -39,11 +39,46 @@
               "exile_potion_id": "beneficial/2",
               "potion_action": "GIVE_STACKS",
               "count": 1.0,
-              "potion_dur": 600.0
+              "potion_dur": 7200.0
             }
           }
         ],
         "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ]
+      },
+      {
+        "targets": [
+          {
+            "type": "aoe",
+            "map": {
+              "selection_type": "RADIUS",
+              "en_predicate": "ALLIES",
+              "radius": 8.0
+            }
+          }
+        ],
+        "acts": [
+          {
+            "type": "exile_effect",
+            "map": {
+              "exile_potion_id": "beneficial/16",
+              "potion_action": "GIVE_STACKS",
+              "count": 1.0,
+              "potion_dur": 7200.0
+            }
+          }
+        ],
+        "ifs": [
+          {
+            "type": "caster_has_stat",
+            "map": {
+              "spell_mod": "improved_auras"
+            }
+          },
           {
             "type": "on_spell_cast",
             "map": {}
@@ -80,7 +115,7 @@
     "castingWeapon": "ANY_WEAPON",
     "mana_cost": 24,
     "times_to_cast": 1,
-    "cast_time_ticks": 40,
+    "cast_time_ticks": 80,
     "cooldown_ticks": 3600,
     "is_starter": false,
     "style": "MAGIC",

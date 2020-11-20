@@ -18,12 +18,36 @@
       "type": "FLAT"
     },
     {
-      "first_min": 40.0,
-      "first_max": 50.0,
+      "first_min": 10.0,
+      "first_max": 20.0,
       "second_min": 0.0,
       "second_max": 0.0,
       "stat": "increase_healing",
       "type": "LOCAL_INCREASE"
+    },
+    {
+      "first_min": 1.0,
+      "first_max": 1.0,
+      "second_min": 0.0,
+      "second_max": 0.0,
+      "stat": "unlock_bravery",
+      "type": "FLAT"
+    },
+    {
+      "first_min": 1.0,
+      "first_max": 1.0,
+      "second_min": 0.0,
+      "second_max": 0.0,
+      "stat": "unlock_trickery",
+      "type": "FLAT"
+    },
+    {
+      "first_min": 1.0,
+      "first_max": 1.0,
+      "second_min": 0.0,
+      "second_max": 0.0,
+      "stat": "unlock_wizardry",
+      "type": "FLAT"
     },
     {
       "first_min": 30.0,

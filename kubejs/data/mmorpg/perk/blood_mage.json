@@ -1,0 +1,46 @@
+{
+  "type": "MAJOR",
+  "identifier": "blood_mage",
+  "spell": "",
+  "lock_under_adv": "",
+  "icon": "mmorpg:textures/gui/stat_icons/game_changers/blood_mage.png",
+  "is_entry": false,
+  "lvl_req": 1,
+  "stats": [
+    {
+      "first": -15.0,
+      "second": 0.0,
+      "stat": "health",
+      "type": "GLOBAL_INCREASE",
+      "scaleToLevel": false
+    },
+    {
+      "first": -15.0,
+      "second": 0.0,
+      "stat": "health_regen",
+      "type": "GLOBAL_INCREASE",
+      "scaleToLevel": false
+    },
+    {
+      "first": 50.0,
+      "second": 0.0,
+      "stat": "health_to_mana",
+      "type": "FLAT",
+      "scaleToLevel": false
+    },
+    {
+      "first": 50.0,
+      "second": 0.0,
+      "stat": "healthregen_to_manaregen",
+      "type": "FLAT",
+      "scaleToLevel": false
+    },
+    {
+      "first": -100.0,
+      "second": 0.0,
+      "stat": "mana",
+      "type": "LOCAL_INCREASE",
+      "scaleToLevel": false
+    }
+  ]
+}

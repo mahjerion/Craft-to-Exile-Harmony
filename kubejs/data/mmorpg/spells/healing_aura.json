@@ -84,11 +84,46 @@
               "scaling_values": [],
               "base_scaling": "NORMAL",
               "attack_scaling": 0.0,
-              "base_val": 2.0
+              "base_val": 3.0
             }
           }
         ],
         "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ]
+      },
+      {
+        "targets": [
+          {
+            "type": "aoe",
+            "map": {
+              "selection_type": "RADIUS",
+              "en_predicate": "ALLIES",
+              "radius": 8.0
+            }
+          }
+        ],
+        "acts": [
+          {
+            "type": "exile_effect",
+            "map": {
+              "exile_potion_id": "beneficial/15",
+              "potion_action": "GIVE_STACKS",
+              "count": 1.0,
+              "potion_dur": 200.0
+            }
+          }
+        ],
+        "ifs": [
+          {
+            "type": "caster_has_stat",
+            "map": {
+              "spell_mod": "improved_auras"
+            }
+          },
           {
             "type": "on_spell_cast",
             "map": {}

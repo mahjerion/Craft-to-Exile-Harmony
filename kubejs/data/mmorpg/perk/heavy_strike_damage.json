@@ -1,0 +1,32 @@
+{
+  "type": "SPELL_MOD",
+  "identifier": "heavy_strike_damage",
+  "spell": "",
+  "lock_under_adv": "",
+  "icon": "mmorpg:textures/gui/spells/icons/heavy_strike.png",
+  "is_entry": false,
+  "lvl_req": 1,
+  "stats": [
+    {
+      "first": 1.0,
+      "second": 0.0,
+      "stat": "mod_heavy_strike_damage",
+      "type": "FLAT",
+      "scaleToLevel": false
+    },
+    {
+      "first": 50.0,
+      "second": 0.0,
+      "stat": "heavy_strike_damage",
+      "type": "FLAT",
+      "scaleToLevel": false
+    },
+    {
+      "first": 33.0,
+      "second": 0.0,
+      "stat": "heavy_strike_cooldown",
+      "type": "FLAT",
+      "scaleToLevel": false
+    }
+  ]
+}

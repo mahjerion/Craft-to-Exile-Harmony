@@ -3,7 +3,7 @@
   "mob_tier": 0,
   "all_drop_multi": 1.0,
   "mob_lvl_per_distance": 50,
-  "unique_gear_drop_multi": 1.0,
+  "unique_gear_drop_multi": 0.65,
   "mob_strength_multi": 1.0,
   "min_lvl": 1,
   "max_lvl": 50,

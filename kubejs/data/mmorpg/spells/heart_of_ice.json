@@ -134,8 +134,8 @@
             "map": {
               "exile_potion_id": "negative/2",
               "potion_action": "GIVE_STACKS",
-              "count": 1.0,
-              "potion_dur": 200.0
+              "count": 3.0,
+              "potion_dur": 100.0
             }
           }
         ],

@@ -1,0 +1,23 @@
+{
+  "id": "beneficial/4",
+  "one_of_a_kind_id": "",
+  "type": "BENEFICIAL",
+  "max_stacks": 1,
+  "mc_stats": [],
+  "stats": [
+    {
+      "first": 33.0,
+      "second": 33.0,
+      "stat": "dodge",
+      "type": "LOCAL_INCREASE",
+      "scaleToLevel": false
+    },
+    {
+      "first": 5.0,
+      "second": 5.0,
+      "stat": "critical_hit",
+      "type": "FLAT",
+      "scaleToLevel": false
+    }
+  ]
+}

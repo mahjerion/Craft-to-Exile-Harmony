@@ -1,0 +1,25 @@
+{
+  "type": "SPELL_MOD",
+  "identifier": "thunder_spear_static",
+  "spell": "",
+  "lock_under_adv": "",
+  "icon": "mmorpg:textures/gui/spells/icons/thunder_spear.png",
+  "is_entry": false,
+  "lvl_req": 1,
+  "stats": [
+    {
+      "first": 1.0,
+      "second": 0.0,
+      "stat": "thunder_spear_static",
+      "type": "FLAT",
+      "scaleToLevel": false
+    },
+    {
+      "first": 20.0,
+      "second": 0.0,
+      "stat": "thunder_spear_mana_cost",
+      "type": "FLAT",
+      "scaleToLevel": false
+    }
+  ]
+}

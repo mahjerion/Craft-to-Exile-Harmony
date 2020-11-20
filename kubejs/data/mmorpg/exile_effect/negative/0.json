@@ -1,0 +1,16 @@
+{
+  "id": "negative/0",
+  "one_of_a_kind_id": "",
+  "type": "HARMFUL",
+  "max_stacks": 1,
+  "mc_stats": [],
+  "stats": [
+    {
+      "first": -15.0,
+      "second": -15.0,
+      "stat": "elemental_resist",
+      "type": "FLAT",
+      "scaleToLevel": false
+    }
+  ]
+}

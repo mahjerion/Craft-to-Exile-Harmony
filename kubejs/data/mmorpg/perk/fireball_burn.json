@@ -1,0 +1,26 @@
+{
+  "type": "SPELL_MOD",
+  "identifier": "fireball_burn",
+  "spell": "",
+  "lock_under_adv": "",
+  "icon": "mmorpg:textures/gui/spells/icons/fireball.png",
+  "one_of_a_kind": "fireball_mod",
+  "is_entry": false,
+  "lvl_req": 1,
+  "stats": [
+    {
+      "first": 1.0,
+      "second": 0.0,
+      "stat": "fireball_burn",
+      "type": "FLAT",
+      "scaleToLevel": false
+    },
+    {
+      "first": 20.0,
+      "second": 0.0,
+      "stat": "fireball_mana_cost",
+      "type": "FLAT",
+      "scaleToLevel": false
+    }
+  ]
+}

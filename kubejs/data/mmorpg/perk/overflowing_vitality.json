@@ -1,0 +1,25 @@
+{
+  "type": "MAJOR",
+  "identifier": "overflowing_vitality",
+  "spell": "",
+  "lock_under_adv": "",
+  "icon": "mmorpg:textures/gui/stat_icons/game_changers/overflowing_vitality.png",
+  "is_entry": false,
+  "lvl_req": 1,
+  "stats": [
+    {
+      "first": 0.2,
+      "second": 0.0,
+      "stat": "convert_hp_to_phys_dmg",
+      "type": "FLAT",
+      "scaleToLevel": false
+    },
+    {
+      "first": -20.0,
+      "second": 0.0,
+      "stat": "health",
+      "type": "GLOBAL_INCREASE",
+      "scaleToLevel": false
+    }
+  ]
+}

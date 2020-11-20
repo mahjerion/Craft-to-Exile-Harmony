@@ -105,15 +105,12 @@
           ],
           "acts": [
             {
-              "type": "damage",
+              "type": "exile_effect",
               "map": {
-                "element": "Water"
-              },
-              "calc": {
-                "scaling_values": [],
-                "base_scaling": "NORMAL",
-                "attack_scaling": 0.0,
-                "base_val": 6.0
+                "exile_potion_id": "negative/2",
+                "potion_action": "GIVE_STACKS",
+                "count": 1.0,
+                "potion_dur": 100.0
               }
             }
           ],
@@ -125,9 +122,9 @@
               }
             },
             {
-              "type": "target_has_potion",
+              "type": "chance",
               "map": {
-                "potion_id": "mmorpg:negative/2"
+                "chance": 50.0
               }
             },
             {

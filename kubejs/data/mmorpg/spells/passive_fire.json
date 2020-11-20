@@ -162,7 +162,7 @@
     "style": "MAGIC",
     "passive_config": {
       "is_passive": true,
-      "cast_when_hp_bellow": 0.3
+      "cast_when_hp_bellow": 0.25
     }
   }
 }

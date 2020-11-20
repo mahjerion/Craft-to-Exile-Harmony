@@ -124,6 +124,43 @@
               }
             }
           ]
+        },
+        {
+          "targets": [
+            {
+              "type": "aoe",
+              "map": {
+                "selection_type": "RADIUS",
+                "en_predicate": "ENEMIES",
+                "radius": 8.0
+              }
+            }
+          ],
+          "acts": [
+            {
+              "type": "exile_effect",
+			  "map": {
+			    "exile_potion_id": "negative/2",
+			    "potion_action": "GIVE_STACKS",
+			    "count": 1.0,
+			    "potion_dur": 100.0
+			  }
+			}
+          ],
+          "ifs": [
+            {
+              "type": "caster_has_stat",
+              "map": {
+                "spell_mod": "blizzard_chill"
+              }
+            },
+            {
+              "type": "x_ticks_condition",
+              "map": {
+                "tick_rate": 40.0
+              }
+            }
+          ]
         }
       ]
     }

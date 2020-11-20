@@ -99,7 +99,7 @@
           {
             "type": "caster_has_stat",
             "map": {
-              "spell_mod": "mod_imbue_phys"
+              "spell_mod": "mob_imbue_phys"
             }
           },
           {
@@ -130,7 +130,7 @@
           {
             "type": "caster_has_stat",
             "map": {
-              "spell_mod": "mod_imbue_crit"
+              "spell_mod": "mob_imbue_crit"
             }
           },
           {

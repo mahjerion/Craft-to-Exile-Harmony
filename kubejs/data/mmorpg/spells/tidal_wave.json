@@ -106,7 +106,7 @@
               "calc": {
                 "scaling_values": [],
                 "base_scaling": "NORMAL",
-                "attack_scaling": 0.15,
+                "attack_scaling": 0.3,
                 "base_val": 1.0
               }
             }
@@ -134,7 +134,7 @@
               "calc": {
                 "scaling_values": [],
                 "base_scaling": "NORMAL",
-                "attack_scaling": 0.1,
+                "attack_scaling": 0.15,
                 "base_val": 2.0
               }
             }
@@ -168,7 +168,7 @@
               "calc": {
                 "scaling_values": [],
                 "base_scaling": "NORMAL",
-                "attack_scaling": 0.1,
+                "attack_scaling": 0.15,
                 "base_val": 2.0
               }
             }
@@ -202,8 +202,8 @@
               "calc": {
                 "scaling_values": [],
                 "base_scaling": "NORMAL",
-                "attack_scaling": 0.2,
-                "base_val": 0.0
+                "attack_scaling": 0.3,
+                "base_val": 0.1
               }
             }
           ],

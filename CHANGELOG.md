@@ -10,29 +10,67 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.3.2] - 2020-XX-XX
 
 ### Updates
+Item Balance:
 - Added 57 new uniques consisting of weapons, jewelry, and shields.
 - Uniques, runewords, and regular affix items (mythic, rare, etc.) have had their stats completely refactored. In short, uniques and runewords received a substantial nerf to damage (defense remains more or less untouched), and affixes have been buffed slightly overall. Before, runewords were powerful and deterministic. I want them to still retain their power but to fall more in line with the scaling of Age of Exile. Some runewords and uniques will be meant for leveling, some will be all-around good, and some will be build enablers. Another one of my goals was to encourage crafting, and in order to do so I had to bring affix items 'up to standards' while bringing the other two down. This is a continuing work in progress - I don't think I'll get it right this time round but hopefully it's one step closer.
-- Increased attack scaling of bow skills.
-- Increased cooldown of all "basic spells" by 20 ticks.
 - Weapons now have a flat critical hit base. For instance, the axe's critical hit base has changed from 4-10% to always 5% (10% at level 50).
 - Weapons have had their base critical hit lowered overall. Axes and bows are still kings of critical hit chance, while wands and scepters have very low critical hit chance.
 - Sword damage has gone up slightly.
 - Spears have been buffed significantly. They have high base damage and armor penetration but low critical hit chance.
 - Added new affixes for weapons.
+- Added new affix for jewelry and wands.
 - Heal to spell power stat has been reduced in power. Uniques with this stat still have high values of this stat, but don't offer as much healing power anymore. This is to encourage mixing other items instead of stacking all these uniques that do the same thing.
 - Runes have had their values shifted slightly.
+- Call to Arms runeword has been reworked.
+- Rhyme runeword now grants immunity to slow.
+
+Skill Tree:
+- Skill trees have been reworked and now include more augments.
+- New storm spell: Thunder Strikes - a melee thunder spell.
+- New physical spells: Warrior's Rage - a passive for physical tree, and Taunt - debuffs nearby enemies.
+- Ground Slam has been reworked to be more utility-based. Cleave has been greatly improved in terms of damage.
+- Auras now last 6 minutes instead of 30 seconds, and have an "upgraded" version that can be obtained at the end of the Divine tree.
+- Increased cooldown of all "basic spells" by 20 ticks.
+- Imbue now scales with weapon damage when using arrow spells (before it just added flat elemental damage).
+- Physical spells have been generally improved/buffed.
+- Poison Ball base damage has increased by 20%.
+- Frostball chill augment now applies chill instead of dealing extra damage if the opponent has it.
+- Poisoned weapons has been buffed - it actually applies poison now.
+- Increased attack scaling of bow skills.
+- Burn damage has increased by 100%.
+- Wounds reduces healing by 50% instead of 25%.
+- Judgement damage has increased by 100%.
+- Static can now stack up to 10 times, up from 1, but reduces thunder resist by 3% per stack instead of 20%.
+- Thorns now scales a bit off of weapon damage and can stack up to 3 times, up from 1.
+- Chill can now stack up to 8 times, up from 1, and reduces enemy movement speed by 8% per stack instead of 5%. It reduces water resistance by 2% per stack instead of 15%.
+
+Talent Tree:
+- Reworked some of the major perks in the bottom half of the tree - there are more to choose from. Blood Mage has also been reworked (and actually works now).
+- Keystones have been buffed.
+
+Other:
 - Mobs now scale to level 50 instead of 45.
 - Increased XP gain from spawners back to 50% from 33%.
-- Reduced favor gain from chests to 25 from 50. This is anticipatory for the next update.
+- Reduced favor gain from chests to 25 from 50.
+- Drop rate of equipment has increased by about 13%.
+- Drop rate of runes has decreased by 20%.
+- Drop rate of uniques has decreased but increases as you go through the dimensions. From lowest drop rate of uniques to highest: Overworld (0.65), The Nether (0.7), The End (0.75), The Bumblezone (0.8). Values are relative to what it used to be.
 - Increased HP of Ender Dragon, Wither, and Blackstone Golem.
 - Deadeye can no longer climb but claustrophobia is 90% less effective.
 - Assassins have gone back to the old stealth instead of invisibility and now deal extra damage.
 
+### Mod Updates
+- Updated Blur, Chat Heads, Origins, Xaero's, FLAN.
+
 ### Fixes
-- Disabled Blood Mage perk for temporarily.
+- Fixed Blood Mage perk by reworking it.
 - Fixed some localization errors for uniques.
 - I accidentally removed Balance of Exile from servers. It's back in.
 - Fixed the runewords from last update not actually being possible to make.
+- Fixed Imbue not working properly.
+- Fixed Magma Flower having incorrect tooltip.
+- Fixed Orb of Ascendancy quest not being completable.
+- Fixed accidentally giving players 2 more skill and talent points than intended. Sorry.
 
 ## [1.3.1] - 2020-11-11
 

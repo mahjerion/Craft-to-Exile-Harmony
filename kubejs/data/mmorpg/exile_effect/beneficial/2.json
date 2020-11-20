@@ -1,0 +1,23 @@
+{
+  "id": "beneficial/2",
+  "one_of_a_kind_id": "",
+  "type": "BENEFICIAL",
+  "max_stacks": 1,
+  "mc_stats": [],
+  "stats": [
+    {
+      "first": 33.3,
+      "second": 33.3,
+      "stat": "health_regen",
+      "type": "LOCAL_INCREASE",
+      "scaleToLevel": false
+    },
+    {
+      "first": 33.0,
+      "second": 33.0,
+      "stat": "armor",
+      "type": "LOCAL_INCREASE",
+      "scaleToLevel": false
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "type": "SPELL_MOD",
+  "identifier": "physical_weaken",
+  "spell": "",
+  "lock_under_adv": "",
+  "icon": "mmorpg:textures/gui/spells/icons/arrow_storm.png",
+  "is_entry": false,
+  "lvl_req": 1,
+  "stats": [
+    {
+      "first": 1.0,
+      "second": 0.0,
+      "stat": "physical_weaken",
+      "type": "FLAT",
+      "scaleToLevel": false
+    },
+    {
+      "first": 20.0,
+      "second": 0.0,
+      "stat": "arrow_storm_mana_cost",
+      "type": "FLAT",
+      "scaleToLevel": false
+    }
+  ]
+}

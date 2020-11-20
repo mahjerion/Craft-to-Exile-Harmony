@@ -1,0 +1,40 @@
+{
+  "type": "MAJOR",
+  "identifier": "reckless_blows",
+  "spell": "",
+  "lock_under_adv": "",
+  "icon": "mmorpg:textures/gui/stat_icons/game_changers/reckless_blows.png",
+  "is_entry": false,
+  "lvl_req": 1,
+  "one_of_a_kind": "phys_perk",
+  "stats": [
+    {
+      "first": -30.0,
+      "second": 0.0,
+      "stat": "health_regen",
+      "type": "GLOBAL_INCREASE",
+      "scaleToLevel": false
+    },
+    {
+      "first": 25.0,
+      "second": 0.0,
+      "stat": "all_physical_damage",
+      "type": "GLOBAL_INCREASE",
+      "scaleToLevel": false
+    },
+    {
+      "first": 25.0,
+      "second": 0.0,
+      "stat": "all_elemental_damage",
+      "type": "GLOBAL_INCREASE",
+      "scaleToLevel": false
+    },
+    {
+      "first": -10.0,
+      "second": 0.0,
+      "stat": "critical_hit",
+      "type": "GLOBAL_INCREASE",
+      "scaleToLevel": false
+    }
+  ]
+}

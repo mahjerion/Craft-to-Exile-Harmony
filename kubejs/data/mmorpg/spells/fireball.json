@@ -85,11 +85,48 @@
                 "scaling_values": [],
                 "base_scaling": "NORMAL",
                 "attack_scaling": 0.0,
-                "base_val": 8.0
+                "base_val": 6.0
               }
             }
           ],
           "ifs": [
+            {
+              "type": "on_hit",
+              "map": {}
+            }
+          ]
+        },
+        {
+          "targets": [
+            {
+              "type": "target",
+              "map": {}
+            }
+          ],
+          "acts": [
+            {
+              "type": "exile_effect",
+              "map": {
+                "exile_potion_id": "negative/5",
+                "potion_action": "GIVE_STACKS",
+                "count": 1.0,
+                "potion_dur": 60.0
+              }
+            }
+          ],
+          "ifs": [
+            {
+              "type": "chance",
+              "map": {
+                "chance": 25.0
+              }
+            },
+            {
+              "type": "caster_has_stat",
+              "map": {
+                "spell_mod": "fireball_burn"
+              }
+            },
             {
               "type": "on_hit",
               "map": {}

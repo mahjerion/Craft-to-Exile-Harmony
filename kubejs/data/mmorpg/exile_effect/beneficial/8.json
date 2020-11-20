@@ -1,0 +1,23 @@
+{
+  "id": "beneficial/8",
+  "one_of_a_kind_id": "",
+  "type": "BENEFICIAL",
+  "max_stacks": 1,
+  "mc_stats": [],
+  "stats": [
+    {
+      "first": 25.0,
+      "second": 25.0,
+      "stat": "elemental_resist",
+      "type": "FLAT",
+      "scaleToLevel": false
+    },
+    {
+      "first": 75.0,
+      "second": 75.0,
+      "stat": "armor",
+      "type": "FLAT",
+      "scaleToLevel": false
+    }
+  ]
+}

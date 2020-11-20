@@ -35,7 +35,7 @@
               "exile_potion_id": "beneficial/9",
               "potion_action": "GIVE_STACKS",
               "count": 1.0,
-              "potion_dur": 600.0
+              "potion_dur": 1600.0
             }
           }
         ],

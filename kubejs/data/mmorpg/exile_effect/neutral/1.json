@@ -1,0 +1,43 @@
+{
+  "id": "neutral/1",
+  "one_of_a_kind_id": "",
+  "type": "NEUTRAL",
+  "max_stacks": 1,
+  "mc_stats": [
+    {
+      "val": -1.0,
+      "uuid": "f4d02ec5-75ea-471b-be9b-b9ecb0972d1a",
+      "id": "minecraft:generic.movement_speed",
+      "type": "GLOBAL_INCREASE"
+    }
+  ],
+  "stats": [],
+  "spell": {
+    "on_cast": [],
+    "entity_components": {
+      "default_entity_name": [
+        {
+          "targets": [],
+          "acts": [
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "particle_type": "minecraft:witch",
+                "radius": 1.0,
+                "particle_count": 10.0
+              }
+            }
+          ],
+          "ifs": [
+            {
+              "type": "x_ticks_condition",
+              "map": {
+                "tick_rate": 10.0
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

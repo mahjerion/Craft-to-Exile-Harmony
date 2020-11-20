@@ -56,7 +56,7 @@
             "calc": {
               "scaling_values": [],
               "base_scaling": "NORMAL",
-              "attack_scaling": 1.2,
+              "attack_scaling": 0.6,
               "base_val": 1.0
             }
           }
@@ -86,7 +86,83 @@
             "ifs": []
           }
         ]
-      }
+      },
+	  {
+        "targets": [
+          {
+            "type": "in_front",
+            "map": {
+              "en_predicate": "ENEMIES",
+              "distance": 4.0,
+              "width": 6.0
+            }
+          }
+        ],
+        "acts": [
+          {
+            "type": "damage",
+            "map": {
+              "element": "Physical"
+            },
+            "calc": {
+              "scaling_values": [],
+              "base_scaling": "NORMAL",
+              "attack_scaling": 1.2,
+              "base_val": 1.0
+            }
+          }
+        ],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          },
+		  {
+		    "type": "caster_has_stat",
+		    "map": {
+			  "spell_mod": "physical_cleave"
+		    }
+		  }
+		]
+	  },
+	  {
+        "targets": [
+          {
+            "type": "in_front",
+            "map": {
+              "en_predicate": "ENEMIES",
+              "distance": 4.0,
+              "width": 6.0
+            }
+          }
+        ],
+        "acts": [
+          {
+            "type": "damage",
+            "map": {
+              "element": "Elemental"
+            },
+            "calc": {
+              "scaling_values": [],
+              "base_scaling": "NORMAL",
+              "attack_scaling": 1.2,
+              "base_val": 1.0
+            }
+          }
+        ],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          },
+		  {
+		    "type": "caster_has_stat",
+		    "map": {
+			  "spell_mod": "elemental_cleave"
+		    }
+		  }
+		]
+	  }
     ],
     "entity_components": {}
   },
