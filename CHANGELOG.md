@@ -61,6 +61,7 @@ Other:
 
 ### Mod Updates
 - Updated Blur, Chat Heads, Origins, Xaero's, FLAN.
+- Added ItemFlexer - type /flex link the item you're holding in chat! 
 
 ### Fixes
 - Fixed Blood Mage perk by reworking it.
