@@ -29,7 +29,7 @@
             "map": {
               "entity_name": "default_entity_name",
               "gravity": false,
-              "life_ticks": 100.0,
+              "life_ticks": 200.0,
               "proj_en": "mmorpg:spell_projectile",
               "height": 4.0
             }
@@ -112,7 +112,7 @@
                 "scaling_values": [],
                 "base_scaling": "NORMAL",
                 "attack_scaling": 0.0,
-                "base_val": 2.0
+                "base_val": 3.0
               }
             }
           ],

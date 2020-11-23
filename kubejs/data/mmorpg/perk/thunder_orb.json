@@ -1,0 +1,19 @@
+{
+  "type": "MAJOR",
+  "identifier": "thunder_orb",
+  "spell": "thunder_orb",
+  "lock_under_adv": "",
+  "one_of_a_kind": "thunder_spell",
+  "stats": [
+    {
+      "first": 1.0,
+      "second": 0.0,
+      "stat": "unlock_thunder_orb",
+      "type": "FLAT",
+      "scaleToLevel": false
+    }
+  ],
+  "icon": "mmorpg:textures/gui/spells/icons/thunder_orb.png",
+  "is_entry": false,
+  "lvl_req": 1
+}

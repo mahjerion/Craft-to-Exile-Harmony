@@ -1,0 +1,260 @@
+{
+  "identifier": "thunder_orb",
+  "attached": {
+    "on_cast": [
+      {
+        "targets": [],
+        "acts": [
+          {
+            "type": "sound",
+            "map": {
+              "volume": 1.0,
+              "sound": "minecraft:entity.lightning_bolt.thunder",
+              "pitch": 1.0
+            }
+          }
+        ],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ]
+      },
+      {
+        "targets": [],
+        "acts": [
+          {
+            "type": "projectile",
+            "map": {
+              "proj_speed": 0.20,
+              "item": "minecraft:sunflower",
+              "entity_name": "default_entity_name",
+              "gravity": false,
+              "proj_count": 1.0,
+              "life_ticks": 100.0,
+              "proj_en": "mmorpg:spell_projectile"
+            }
+          }
+        ],
+        "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ]
+      }
+    ],
+    "entity_components": {
+      "default_entity_name": [
+        {
+          "targets": [],
+          "acts": [
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "particle_type": "mmorpg:thunder",
+                "radius": 2.5,
+                "particle_count": 200.0
+              }
+            }
+          ],
+          "ifs": [
+            {
+              "type": "x_ticks_condition",
+              "map": {
+                "tick_rate": 5.0
+              }
+            }
+          ]
+        },
+        {
+          "targets": [],
+          "acts": [
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "particle_type": "minecraft:cloud",
+                "radius": 2.5,
+                "particle_count": 10.0
+              }
+            }
+          ],
+          "ifs": [
+            {
+              "type": "x_ticks_condition",
+              "map": {
+                "tick_rate": 3.0
+              }
+            }
+          ]
+        },
+        {
+          "targets": [],
+          "acts": [
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "particle_type": "mmorpg:thunder",
+                "radius": 0.25,
+                "particle_count": 50.0
+              }
+            }
+          ],
+          "ifs": [
+            {
+              "type": "x_ticks_condition",
+              "map": {
+                "tick_rate": 3.0
+              }
+            }
+          ]
+        },
+        {
+          "targets": [
+            {
+              "type": "aoe",
+              "map": {
+                "selection_type": "RADIUS",
+                "en_predicate": "ENEMIES",
+                "radius": 2.5
+              }
+            }
+          ],
+          "acts": [
+            {
+              "type": "damage",
+              "map": {
+                "element": "Thunder"
+              },
+              "calc": {
+                "scaling_values": [],
+                "base_scaling": "NORMAL",
+                "attack_scaling": 0.0,
+                "base_val": 2.0
+              }
+            }
+          ],
+          "ifs": [
+            {
+              "type": "x_ticks_condition",
+              "map": {
+                "tick_rate": 10.0
+              }
+            }
+          ],
+          "per_entity_hit": [
+            {
+              "targets": [],
+              "acts": [
+				{
+				  "type": "sound",
+				  "map": {
+					"volume": 0.5,
+					"sound": "minecraft:entity.generic.explode",
+					"pitch": 1.5
+				  }
+				}
+              ]
+            }
+          ]
+        },
+        {
+          "targets": [
+            {
+              "type": "aoe",
+              "map": {
+                "selection_type": "RADIUS",
+                "en_predicate": "ENEMIES",
+                "radius": 4.0
+              }
+            }
+          ],
+          "acts": [
+            {
+              "type": "damage",
+              "map": {
+                "element": "Thunder"
+              },
+              "calc": {
+                "scaling_values": [],
+                "base_scaling": "NORMAL",
+                "attack_scaling": 0.0,
+                "base_val": 8.0
+              }
+            }
+          ],
+          "ifs": [
+            {
+              "type": "on_entity_expire",
+              "map": {}
+            }
+          ],
+          "per_entity_hit": [
+            {
+              "targets": [],
+              "acts": [
+                {
+                  "type": "summon_lightning_strike",
+                  "map": {}
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "targets": [],
+          "acts": [
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "particle_type": "mmorpg:thunder",
+                "radius": 4.0,
+                "particle_count": 200.0
+              }
+            }
+          ],
+          "ifs": [
+            {
+              "type": "on_entity_expire",
+              "map": {}
+            }
+          ]
+        },
+        {
+          "targets": [],
+          "acts": [
+            {
+              "type": "particles_in_radius",
+              "map": {
+                "particle_type": "minecraft:smoke",
+                "radius": 4.0,
+                "particle_count": 100.0
+              }
+            }
+          ],
+          "ifs": [
+            {
+              "type": "on_entity_expire",
+              "map": {}
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "config": {
+    "swing_arm": false,
+    "castingWeapon": "MAGE_WEAPON",
+    "mana_cost": 18,
+    "times_to_cast": 1,
+    "cast_time_ticks": 40,
+    "cooldown_ticks": 600,
+    "is_starter": false,
+    "style": "MAGIC",
+    "passive_config": {
+      "is_passive": false,
+      "cast_when_hp_bellow": 0.3
+    }
+  }
+}

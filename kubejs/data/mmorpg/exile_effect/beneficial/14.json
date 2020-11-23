@@ -1,0 +1,16 @@
+{
+  "id": "beneficial/14",
+  "one_of_a_kind_id": "",
+  "type": "BENEFICIAL",
+  "max_stacks": 1,
+  "mc_stats": [],
+  "stats": [
+    {
+      "first": 5.0,
+      "second": 5.0,
+      "stat": "magic_shield",
+      "type": "FLAT",
+      "scaleToLevel": true
+    }
+  ]
+}

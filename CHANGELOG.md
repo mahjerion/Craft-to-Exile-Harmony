@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [1.3.2] - 2020-XX-XX
+## [1.3.2] - 2020-11-23
 
 ### Updates
 Item Balance:
@@ -26,8 +26,12 @@ Item Balance:
 
 Skill Tree:
 - Skill trees have been reworked and now include more augments.
-- New storm spell: Thunder Strikes - a melee thunder spell.
-- New physical spells: Warrior's Rage - a passive for physical tree, and Taunt - debuffs nearby enemies.
+- New ice spell: Frost Shield - gives caster and nearby allies magic shield. Can be upgraded with improved auras in the Divine tree.
+- New thunder spell: Thunder Orb - an orb that does area of effect damage as it moves and explodes upon exiration.
+- New thunder spell: Thunder Strikes - a melee thunder spell that hits rapidly.
+- New physical spell: Warrior's Rage - a passive for physical tree that causes you to go into a rage. Heals you and then reduces your armor while increasing damage.
+- New physical spell: and Taunt - reduces nearby enemy defense while increasing their attack.
+- Elemental "ultimate" spells such as Thunder Storm, Blizzard, and Volcano have had their duration and damage greatly increased.
 - Ground Slam has been reworked to be more utility-based. Cleave has been greatly improved in terms of damage.
 - Auras now last 6 minutes instead of 30 seconds, and have an "upgraded" version that can be obtained at the end of the Divine tree.
 - Increased cooldown of all "basic spells" by 20 ticks.

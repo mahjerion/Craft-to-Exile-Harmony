@@ -26,7 +26,7 @@ E,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,E
 E,,,,,,,,,,,,,,,,,,,,,,,,,,,,,thunder_dash_cooldown,,,,,,passive_storm,,,,,,,,,,,,,,,,,,,,E
 E,,,,,,,,,,,,,,,,,,,,,,,,,,,,,O,,,,,,O,,,,,,,,,,,,,,,,,,,,E
 E,,,,,,,,,,,,,,,,,,,,,,,,,,,,,thunder_dash_cooldown,,,,,,O,,,,,,,,,,,,,,,,,,,,E
-E,,,,,,,,,,,,,,,,,,,,,,,,,,thunder_strikes,,,O,,,,thunder_storm_damage,O,thunder_storm,O,thunder_storm_damage,,,,,,,,,,,,,,,,,,E
+E,,,,,,,,,,,,,,,,,,,,,,,,,,thunder_strikes,,,O,,,thunder_orb,O,O,thunder_storm,O,thunder_storm_damage,O,thunder_storm_damage,,,,,,,,,,,,,,,,E
 E,,,,,,,,,,,,,,,,,,,,,,,,,,O,,,thunder_dash_cooldown,,,,,,O,,,,,,,,,,,,,,,,,,,,E
 E,,,,,,,,,,,,,,,,,,,,,,,,,,,O,,O,,,[CENTER],,,O,,,,,,,,,,,,,,,,,,,,E
 E,,,,,,,,,,,,,,,,,,,,,,,,,,,,O,thunder_dash,,,,,,thunder_spear,O,thunder_spear_static,,,,,,,,,,,,,,,,,,E
