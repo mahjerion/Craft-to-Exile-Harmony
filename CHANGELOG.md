@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.3.2b] - 2020-XX-XX
+
+### Fixes
+- Fixed Blood Mage for real this time!
+
 ## [1.3.2] - 2020-11-23
 
 ### Updates
