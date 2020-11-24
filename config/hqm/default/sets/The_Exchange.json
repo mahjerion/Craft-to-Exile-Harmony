@@ -2,6 +2,50 @@
   "name": "The Exchange",
   "quests": [
     {
+      "uuid": "b9348176-487c-4c46-8d6b-193f331b3b34",
+      "name": "Age of Exile Guidebook",
+      "description": "Purchase 1 Age of Exile Guidebook",
+      "x": 56,
+      "y": 82,
+      "icon": {
+        "id": "patchouli:guide_book",
+        "Count": 1,
+        "tag": {
+          "patchouli:book": "mmorpg:age_of_exile_guide"
+        }
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Consume Task",
+          "items": [
+            {
+              "item": {
+                "id": "mmorpg:mat/salvage/salvage0",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "patchouli:guide_book",
+          "Count": 1,
+          "tag": {
+            "patchouli:book": "mmorpg:age_of_exile_guide"
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "f4992ee1-a265-4d8f-a54e-3337ed584487",
       "name": "Rune Loot Crate",
       "description": "Purchase 1 Rune Loot Crate",
@@ -119,6 +163,9 @@
           "exp": 50
         }
       },
+      "repeat": {
+        "type": "INSTANT"
+      },
       "tasks": [
         {
           "type": "CONSUME",
@@ -160,6 +207,9 @@
         "tag": {
           "exp": 100
         }
+      },
+      "repeat": {
+        "type": "INSTANT"
       },
       "tasks": [
         {
@@ -300,6 +350,9 @@
         "tag": {
           "exp": 250
         }
+      },
+      "repeat": {
+        "type": "INSTANT"
       },
       "tasks": [
         {

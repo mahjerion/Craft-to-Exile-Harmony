@@ -170,6 +170,10 @@
         {
           "id": "mmorpg:mat/salvage/salvage2",
           "Count": 16
+        },
+        {
+          "id": "mmorpg:loot_crate/rare",
+          "Count": 1
         }
       ],
       "rewardchoice": [
@@ -242,6 +246,10 @@
         {
           "id": "mmorpg:gems/azurite/0",
           "Count": 1
+        },
+        {
+          "id": "mmorpg:loot_crate/magic",
+          "Count": 1
         }
       ],
       "rewardchoice": [
@@ -302,8 +310,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 7,
-        "hours": 0
+        "days": 0,
+        "hours": 7
       },
       "tasks": [
         {
@@ -431,8 +439,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 1,
-        "hours": 0
+        "days": 0,
+        "hours": 1
       },
       "tasks": [
         {
@@ -496,7 +504,7 @@
     {
       "uuid": "7a6decd2-ab92-467c-a693-01f138c8f1e8",
       "name": "Age of Exile",
-      "description": "Age of Exile offers integration with Patchouli to bring you a beginner\u0027s manual. The recipe for the book is a bone on a book. If you hold CTRL on any AoE item, you will also bring up the guide!",
+      "description": "Age of Exile offers integration with Patchouli to bring you a beginner\u0027s manual. The recipe for the book is a bone on a book. You can also buy the book if you ever lose it from \u0027The Exchange\u0027 chapter.",
       "x": 24,
       "y": 80,
       "icon": {
@@ -733,8 +741,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 1,
-        "hours": 0
+        "days": 0,
+        "hours": 1
       },
       "tasks": [
         {
@@ -803,8 +811,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 1,
-        "hours": 0
+        "days": 0,
+        "hours": 1
       },
       "tasks": [
         {
@@ -1035,6 +1043,10 @@
         {
           "id": "origins:orb_of_origin",
           "Count": 1
+        },
+        {
+          "id": "mmorpg:loot_crate/rare",
+          "Count": 1
         }
       ],
       "rewardchoice": [],
@@ -1080,6 +1092,10 @@
         {
           "id": "mmorpg:mat/salvage/salvage0",
           "Count": 16
+        },
+        {
+          "id": "mmorpg:loot_crate/common",
+          "Count": 1
         }
       ],
       "rewardchoice": [],
@@ -1097,8 +1113,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 1,
-        "hours": 0
+        "days": 0,
+        "hours": 1
       },
       "tasks": [
         {
@@ -1251,8 +1267,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 1,
-        "hours": 0
+        "days": 0,
+        "hours": 1
       },
       "tasks": [
         {
@@ -1406,8 +1422,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 1,
-        "hours": 0
+        "days": 0,
+        "hours": 1
       },
       "tasks": [
         {
@@ -1535,7 +1551,7 @@
     {
       "uuid": "56b6b7af-6734-4ef6-883f-94160ab09ff4",
       "name": "Skill Tree",
-      "description": "Skill are obtained by accessing the skill tree through the HUB. In [Harmony], the skill tree was highly configured into a singular tree rather than multiple trees. Press \u0027H\u0027 to access your stats and tree! Additionally, essence are used in crafting various Age of Exile equipment. These are valuable resources that can also be obtained from breaking down items in a salvage station.",
+      "description": "Skills are obtained by accessing the skill tree through the HUB. In [Harmony], the skill tree was highly configured and has many custom spells. Furthermore, a talent tree is available for you to customize your character! Press \u0027H\u0027 to access your stats and trees! Additionally, ores, leathers, and cloth are used in crafting various Age of Exile equipment. These are valuable resources that can be obtained from crafting dust which can be obtained from breaking down items in a salvage station.",
       "x": 24,
       "y": 48,
       "icon": {
@@ -1575,6 +1591,10 @@
         {
           "id": "mmorpg:mat/salvage/salvage0",
           "Count": 16
+        },
+        {
+          "id": "mmorpg:loot_crate/common",
+          "Count": 1
         }
       ],
       "rewardchoice": [],

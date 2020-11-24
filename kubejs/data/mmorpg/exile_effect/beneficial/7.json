@@ -13,8 +13,8 @@
   ],
   "stats": [
     {
-      "first": 15.0,
-      "second": 15.0,
+      "first": 5.0,
+      "second": 5.0,
       "stat": "critical_hit",
       "type": "FLAT",
       "scaleToLevel": false

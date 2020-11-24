@@ -7,6 +7,28 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Updates
+- New divine spell: Clarity - functions similar to Healing Aura except for mana.
+- New divine spell: Righteous Fire - sacrifice your own health to burn nearby enemies.
+- Due to how hard it is to come by gunpowder, I've changed the salvage station recipe to use a lava bucket instead.
+- Buffed Lightning Totem - increased damage and cast speed, and new augment allows it to apply Static.
+- Switched Thunder Spear position with Lightning Totem.
+- Increased scaling of Poison (formerly known as Thorns) by 900%.
+- Greatly buffed Fire Comet (from the unique weapon).
+- Greatly buffed The Whispering Fire.
+- Reduced cooldown of Fire Bombs.
+- Reduced mana cost and increased damage of Blazing Inferno.
+- Added more equipment rewards in early quests.
+- Improved quest description for some of the AoE stuff.
+- Added a quest in 'The Exchange' that lets you buy AoE guidebooks.
+
+### Mod Updates
+- Updated AdventureZ.
+
+### Fixes
+- Fixed the Enchanted Experience Chest quests being unrepeatable.
+- Fixed Iron Reflexes perk not applying correctly.
+
 ## [1.3.2b] - 2020-XX-XX
 
 ### Fixes

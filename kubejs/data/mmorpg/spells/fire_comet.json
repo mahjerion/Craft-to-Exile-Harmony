@@ -87,7 +87,7 @@
                 "scaling_values": [],
                 "base_scaling": "NORMAL",
                 "attack_scaling": 1.0,
-                "base_val": 4.0
+                "base_val": 6.0
               }
             }
           ],
@@ -204,10 +204,10 @@
   "config": {
     "swing_arm": false,
     "castingWeapon": "ANY_WEAPON",
-    "mana_cost": 28,
+    "mana_cost": 22,
     "times_to_cast": 1,
-    "cast_time_ticks": 0,
-    "cooldown_ticks": 600,
+    "cast_time_ticks": 20,
+    "cooldown_ticks": 100,
     "is_starter": false,
     "style": "MAGIC",
     "passive_config": {

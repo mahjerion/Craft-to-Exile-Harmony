@@ -2,7 +2,7 @@
   "id": "negative/3",
   "one_of_a_kind_id": "",
   "type": "HARMFUL",
-  "max_stacks": 3,
+  "max_stacks": 1,
   "mc_stats": [],
   "stats": [],
   "spell": {
@@ -26,7 +26,7 @@
               "calc": {
                 "scaling_values": [],
                 "base_scaling": "NORMAL",
-                "attack_scaling": 0.1,
+                "attack_scaling": 1.0,
                 "base_val": 1.0
               }
             }

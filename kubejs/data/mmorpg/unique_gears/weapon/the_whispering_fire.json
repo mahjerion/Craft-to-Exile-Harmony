@@ -24,24 +24,24 @@
       "type": "flat"
     },
     {
-      "firstMin": 28.0,
-      "firstMax": 32.0,
+      "firstMin": 30.0,
+      "firstMax": 35.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "faster_cast_rate",
       "type": "flat"
     },
     {
-      "firstMin": 48.0,
-      "firstMax": 54.0,
+      "firstMin": 150.0,
+      "firstMax": 200.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "str_to_spell_dmg",
       "type": "flat"
     },
     {
-      "firstMin": 24.0,
-      "firstMax": 36.0,
+      "firstMin": 35.0,
+      "firstMax": 50.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "strength",
