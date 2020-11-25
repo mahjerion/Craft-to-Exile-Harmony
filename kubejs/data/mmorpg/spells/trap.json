@@ -1,5 +1,5 @@
 {
-  "identifier": "thorn_bush",
+  "identifier": "trap",
   "attached": {
     "on_cast": [
       {
@@ -28,7 +28,7 @@
             "type": "projectile",
             "map": {
               "proj_speed": 1.0,
-              "item": "minecraft:melon_seeds",
+              "item": "minecraft:tripwire_hook",
               "entity_name": "projectile",
               "gravity": true,
               "proj_count": 1.0,
@@ -51,32 +51,11 @@
           "targets": [],
           "acts": [
             {
-              "type": "particles_in_radius",
-              "map": {
-                "particle_type": "minecraft:happy_villager",
-                "radius": 0.15,
-                "particle_count": 3.0
-              }
-            }
-          ],
-          "ifs": [
-            {
-              "type": "x_ticks_condition",
-              "map": {
-                "tick_rate": 3.0
-              }
-            }
-          ]
-        },
-        {
-          "targets": [],
-          "acts": [
-            {
               "type": "summon_block",
               "map": {
                 "entity_name": "default_entity_name",
-                "life_ticks": 160.0,
-                "block": "minecraft:bubble_coral"
+                "life_ticks": 60.0,
+                "block": "minecraft:tripwire_hook"
               }
             }
           ],
@@ -95,9 +74,9 @@
             {
               "type": "particles_in_radius",
               "map": {
-                "particle_type": "minecraft:item_slime",
-                "radius": 3.0,
-                "particle_count": 60.0
+                "particle_type": "minecraft:smoke",
+                "radius": 0.15,
+                "particle_count": 2.0
               }
             }
           ],
@@ -105,28 +84,7 @@
             {
               "type": "x_ticks_condition",
               "map": {
-                "tick_rate": 30.0
-              }
-            }
-          ]
-        },
-        {
-          "targets": [],
-          "acts": [
-            {
-              "type": "particles_in_radius",
-              "map": {
-                "particle_type": "minecraft:witch",
-                "radius": 3.0,
-                "particle_count": 15.0
-              }
-            }
-          ],
-          "ifs": [
-            {
-              "type": "x_ticks_condition",
-              "map": {
-                "tick_rate": 30.0
+                "tick_rate": 3.0
               }
             }
           ]
@@ -145,10 +103,8 @@
           ],
           "ifs": [
             {
-              "type": "x_ticks_condition",
-              "map": {
-                "tick_rate": 30.0
-              }
+              "type": "on_entity_expire",
+              "map": {}
             }
           ]
         },
@@ -167,7 +123,7 @@
             {
               "type": "damage",
               "map": {
-                "element": "Nature"
+                "element": "Physical"
               },
               "calc": {
                 "scaling_values": [],
@@ -179,10 +135,8 @@
           ],
           "ifs": [
             {
-              "type": "x_ticks_condition",
-              "map": {
-                "tick_rate": 30.0
-              }
+              "type": "on_entity_expire",
+              "map": {}
             }
           ]
         },
