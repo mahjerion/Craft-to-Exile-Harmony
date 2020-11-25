@@ -8,26 +8,44 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Updates
-- New divine spell: Clarity - functions similar to Healing Aura except for mana.
-- New divine spell: Righteous Fire - sacrifice your own health to burn nearby enemies.
 - Due to how hard it is to come by gunpowder, I've changed the salvage station recipe to use a lava bucket instead.
-- Buffed Lightning Totem - increased damage and cast speed, and new augment allows it to apply Static.
-- Switched Thunder Spear position with Lightning Totem.
-- Increased scaling of Poison (formerly known as Thorns) by 900%.
-- Greatly buffed Fire Comet (from the unique weapon).
-- Greatly buffed The Whispering Fire.
-- Reduced cooldown of Fire Bombs.
-- Reduced mana cost and increased damage of Blazing Inferno.
 - Added more equipment rewards in early quests.
 - Improved quest description for some of the AoE stuff.
 - Added a quest in 'The Exchange' that lets you buy AoE guidebooks.
 
+Skill Tree:
+- New divine spell: Clarity - functions similar to Healing Aura except for mana.
+- New divine spell: Righteous Fire - sacrifice your own health to burn nearby enemies.
+- New fire spell: Combust - sacrifice some of your health to deal fire damage in a very large area.
+- Greatly improved the nature tree! Lots of new augments and damage/cooldown buffs.
+- Buffed Lightning Totem - increased damage and cast speed, and new augment allows it to apply Static.
+- Switched Thunder Spear position with Lightning Totem.
+- Increased scaling of Poison (formerly known as Thorns) by 900%.
+- Enrage effect from Taunt now applies a speed buff.
+- Greatly buffed Fire Comet (from the unique weapon) - it also now also actually a fire comet.
+- Greatly buffed The Whispering Fire.
+- Fire Bombs now deals damage upon impact and then explodes rather than just doing straight up area of effect damage. This is to encourage accurate projectile shooting.
+- Fire Bombs releases an additional bomb now.
+- Fire Bombs has new augments.
+- Reduced cooldown of Fire Bombs.
+- Blazing Inferno has been reworked slightly to be match the power of Combust.
+- Increased damage output of the storm spells.
+- Increased damage of Poison Ball.
+- Increased scaling of Tidal Wave.
+- Reduced cooldown of Whirlpool and Magma Flower.
+- Reduced cooldown of Heart of Ice.
+- Increased scaling of Purifying Fires.
+- Having more than 1 stack isn't currently available in AoE, so changes have been made to the existing effects such as Poison, Static, and Chill. They now just have 1 stack but are a little harder to apply.
+
 ### Mod Updates
 - Updated AdventureZ.
+- Added Art of Alchemy: Memoriam.
+- Added Item Scroller.
 
 ### Fixes
 - Fixed the Enchanted Experience Chest quests being unrepeatable.
 - Fixed Iron Reflexes perk not applying correctly.
+- Fixed the big mana node at the top being unaccessible.
 
 ## [1.3.2b] - 2020-XX-XX
 

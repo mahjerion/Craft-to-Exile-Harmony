@@ -120,6 +120,12 @@
               }
             },
             {
+              "type": "chance",
+              "map": {
+                "chance": 33.0
+              }
+            },
+            {
               "type": "on_hit",
               "map": {}
             }

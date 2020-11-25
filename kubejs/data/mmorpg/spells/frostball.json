@@ -124,7 +124,7 @@
             {
               "type": "chance",
               "map": {
-                "chance": 50.0
+                "chance": 25.0
               }
             },
             {

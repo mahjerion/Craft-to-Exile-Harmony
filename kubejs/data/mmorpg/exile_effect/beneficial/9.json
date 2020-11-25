@@ -6,6 +6,13 @@
   "mc_stats": [],
   "stats": [
     {
+      "first": 2.0,
+      "second": 2.0,
+      "stat": "nature_weapon_damage",
+      "type": "FLAT",
+      "scaleToLevel": false
+    }
+    {
       "first": 25.0,
       "second": 25.0,
       "stat": "convert_nature_to_phys",

@@ -155,6 +155,12 @@
               }
             },
             {
+              "type": "chance",
+              "map": {
+                "chance": 20.0
+              }
+            },
+            {
               "type": "x_ticks_condition",
               "map": {
                 "tick_rate": 40.0

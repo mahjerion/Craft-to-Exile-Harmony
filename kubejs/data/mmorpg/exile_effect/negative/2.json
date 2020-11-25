@@ -2,10 +2,10 @@
   "id": "negative/2",
   "one_of_a_kind_id": "",
   "type": "HARMFUL",
-  "max_stacks": 8,
+  "max_stacks": 1,
   "mc_stats": [
     {
-      "val": -0.08,
+      "val": -0.4,
       "uuid": "bd9d32fa-c8c2-455c-92aa-4a94c2a70cd8",
       "id": "minecraft:generic.movement_speed",
       "type": "GLOBAL_INCREASE"
@@ -13,8 +13,8 @@
   ],
   "stats": [
     {
-      "first": -2.0,
-      "second": -2.0,
+      "first": -15.0,
+      "second": -15.0,
       "stat": "water_resist",
       "type": "FLAT",
       "scaleToLevel": false

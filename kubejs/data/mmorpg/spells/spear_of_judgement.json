@@ -153,7 +153,7 @@
     "mana_cost": 12,
     "times_to_cast": 1,
     "cast_time_ticks": 40,
-    "cooldown_ticks": 900,
+    "cooldown_ticks": 600,
     "is_starter": false,
     "style": "MAGIC",
     "passive_config": {

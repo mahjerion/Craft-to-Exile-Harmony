@@ -186,7 +186,7 @@
                 "is_falling_block": true,
                 "block_fall_speed": -0.02,
                 "life_ticks": 200.0,
-                "block": "minecraft:bubble_coral_block",
+                "block": "minecraft:magma_block",
                 "find_surface": false
               }
             }

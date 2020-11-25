@@ -3,7 +3,14 @@
   "one_of_a_kind_id": "",
   "type": "HARMFUL",
   "max_stacks": 1,
-  "mc_stats": [],
+  "mc_stats": [
+    {
+      "val": 0.2,
+      "uuid": "bd9d32fa-c8c2-455c-92aa-4a94c2a70cd5",
+      "id": "minecraft:generic.movement_speed",
+      "type": "GLOBAL_INCREASE"
+    }
+  ],
   "stats": [
     {
       "first": 20.0,

@@ -1,0 +1,33 @@
+{
+  "type": "SPELL_MOD",
+  "identifier": "fire_bombs_projectiles",
+  "spell": "",
+  "lock_under_adv": "",
+  "icon": "mmorpg:textures/gui/spells/icons/fire_bombs.png",
+  "one_of_a_kind": "fire_bombs_mod",
+  "is_entry": false,
+  "lvl_req": 1,
+  "stats": [
+    {
+      "first": 1.0,
+      "second": 0.0,
+      "stat": "mod_fire_bombs_cooldown",
+      "type": "FLAT",
+      "scaleToLevel": false
+    },
+    {
+      "first": -50.0,
+      "second": 0.0,
+      "stat": "fire_bombs_cooldown",
+      "type": "FLAT",
+      "scaleToLevel": false
+    },
+    {
+      "first": 20.0,
+      "second": 0.0,
+      "stat": "fire_bombs_mana_cost",
+      "type": "FLAT",
+      "scaleToLevel": false
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "ser": "mana_cost",
+  "data": {
+    "id": "fire_bombs_mana_cost",
+    "min": -1000.0,
+    "max": 2.14748365E9,
+    "base": 0.0,
+    "perc": true,
+    "sec_val": false,
+    "ele": "Physical",
+    "scale": "SLOW",
+    "spell": "fire_bombs"
+  }
+}

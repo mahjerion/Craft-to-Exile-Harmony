@@ -131,7 +131,19 @@
                 {
                   "type": "summon_lightning_strike",
                   "map": {}
-                }
+                },
+				{
+				  "type": "damage",
+				  "map": {
+					"element": "Thunder"
+				  },
+				  "calc": {
+					"scaling_values": [],
+					"base_scaling": "NORMAL",
+					"attack_scaling": 0.0,
+					"base_val": 3.0
+				  }
+				}
               ],
               "ifs": [
                 {
@@ -152,7 +164,7 @@
     "castingWeapon": "MAGE_WEAPON",
     "mana_cost": 24,
     "times_to_cast": 1,
-    "cast_time_ticks": 110,
+    "cast_time_ticks": 100,
     "cooldown_ticks": 2400,
     "is_starter": false,
     "style": "MAGIC",

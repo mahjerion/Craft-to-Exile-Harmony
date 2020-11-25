@@ -134,7 +134,7 @@
             "map": {
               "exile_potion_id": "negative/2",
               "potion_action": "GIVE_STACKS",
-              "count": 3.0,
+              "count": 1.0,
               "potion_dur": 100.0
             }
           }
@@ -158,10 +158,10 @@
   "config": {
     "swing_arm": false,
     "castingWeapon": "ANY_WEAPON",
-    "mana_cost": 12,
+    "mana_cost": 13,
     "times_to_cast": 1,
     "cast_time_ticks": 0,
-    "cooldown_ticks": 3200,
+    "cooldown_ticks": 2400,
     "is_starter": false,
     "style": "MAGIC",
     "passive_config": {

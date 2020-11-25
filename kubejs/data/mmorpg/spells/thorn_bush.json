@@ -32,7 +32,7 @@
               "entity_name": "projectile",
               "gravity": true,
               "proj_count": 1.0,
-              "life_ticks": 60.0,
+              "life_ticks": 80.0,
               "proj_en": "mmorpg:spell_projectile"
             }
           }
@@ -172,8 +172,8 @@
               "calc": {
                 "scaling_values": [],
                 "base_scaling": "NORMAL",
-                "attack_scaling": 0.0,
-                "base_val": 1.0
+                "attack_scaling": 0.6,
+                "base_val": 2.0
               }
             }
           ],
@@ -268,7 +268,7 @@
               "calc": {
                 "scaling_values": [],
                 "base_scaling": "NORMAL",
-                "attack_scaling": 0.0,
+                "attack_scaling": 1.0,
                 "base_val": 1.0
               }
             }

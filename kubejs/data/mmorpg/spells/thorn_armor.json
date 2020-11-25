@@ -35,11 +35,101 @@
               "exile_potion_id": "beneficial/6",
               "potion_action": "GIVE_STACKS",
               "count": 1.0,
-              "potion_dur": 900.0
+              "potion_dur": 1200.0
             }
           }
         ],
         "ifs": [
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ]
+      },
+      {
+        "targets": [
+          {
+            "type": "self",
+            "map": {}
+          }
+        ],
+        "acts": [
+          {
+            "type": "potion",
+            "map": {
+              "potion_action": "REMOVE_STACKS",
+              "potion_id": "minecraft:poison",
+              "count": 1.0
+            }
+          }
+        ],
+        "ifs": [
+          {
+            "type": "caster_has_stat",
+            "map": {
+              "spell_mod": "mod_thorn_armor_armor"
+            }
+          },
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ]
+      },
+      {
+        "targets": [
+          {
+            "type": "self",
+            "map": {}
+          }
+        ],
+        "acts": [
+          {
+            "type": "potion",
+            "map": {
+              "potion_action": "REMOVE_STACKS",
+              "potion_id": "minecraft:wither",
+              "count": 1.0
+            }
+          }
+        ],
+        "ifs": [
+          {
+            "type": "caster_has_stat",
+            "map": {
+              "spell_mod": "mod_thorn_armor_armor"
+            }
+          },
+          {
+            "type": "on_spell_cast",
+            "map": {}
+          }
+        ]
+      },
+      {
+        "targets": [
+          {
+            "type": "self",
+            "map": {}
+          }
+        ],
+        "acts": [
+          {
+            "type": "potion",
+            "map": {
+              "potion_action": "REMOVE_STACKS",
+              "potion_id": "minecraft:slowness",
+              "count": 1.0
+            }
+          }
+        ],
+        "ifs": [
+          {
+            "type": "caster_has_stat",
+            "map": {
+              "spell_mod": "mod_thorn_armor_armor"
+            }
+          },
           {
             "type": "on_spell_cast",
             "map": {}

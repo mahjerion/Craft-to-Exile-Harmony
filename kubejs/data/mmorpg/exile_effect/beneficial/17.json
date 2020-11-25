@@ -6,17 +6,10 @@
   "mc_stats": [],
   "stats": [
     {
-      "first": 50.0,
-      "second": 50.0,
+      "first": 25.0,
+      "second": 25.0,
       "stat": "fire_resist",
       "type": "FLAT",
-      "scaleToLevel": false
-    },
-    {
-      "first": -33.0,
-      "second": -33.0,
-      "stat": "health",
-      "type": "GLOBAL_INCREASE",
       "scaleToLevel": false
     },
     {
@@ -56,7 +49,7 @@
                 "exile_potion_id": "negative/8",
                 "potion_action": "GIVE_STACKS",
                 "count": 1.0,
-                "potion_dur": 20.0
+                "potion_dur": 40.0
               }
             }
           ],
@@ -78,6 +71,37 @@
                 "particle_type": "minecraft:flame",
                 "radius": 1.5,
                 "particle_count": 20.0
+              }
+            }
+          ],
+          "ifs": [
+            {
+              "type": "x_ticks_condition",
+              "map": {
+                "tick_rate": 20.0
+              }
+            }
+          ]
+        }
+        {
+          "targets": [
+            {
+              "type": "target",
+              "map": {}
+            }
+          ],
+          "acts": [
+            {
+              "type": "damage",
+              "map": {
+                "dmg_effect_type": "DOT_DMG",
+                "element": "Fire"
+              },
+              "calc": {
+                "scaling_values": [],
+                "base_scaling": "NORMAL",
+                "attack_scaling": 0.0,
+                "base_val": 10.0
               }
             }
           ],
