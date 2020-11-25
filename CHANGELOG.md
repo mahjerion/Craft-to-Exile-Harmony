@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Updates
+- Nerfed EXP gain from Endermen.
+
 ### Fixes
 - Fixed Assassin ascendancy not being available.
 
@@ -41,7 +44,7 @@ Skill Tree:
 - Switched Thunder Spear position with Lightning Totem.
 - Increased scaling of Toxin (formerly known as Thorns) by 900%.
 - Enrage effect from Taunt now applies a speed buff.
-- Greatly buffed Fire Comet (from The Whispering Fire) - it also now also actually a fire comet.
+- Greatly buffed Fire Comet (from The Whispering Fire) - it also is now actually a fire comet.
 - Greatly buffed The Whispering Fire.
 - Fire Bombs now deals damage upon impact and then explodes rather than just doing straight up area of effect damage. This is to encourage accurate projectile shooting.
 - Fire Bombs releases an additional bomb now.
