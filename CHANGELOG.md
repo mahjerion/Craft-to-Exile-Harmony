@@ -13,7 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.3.3] - 2020-11-25
 
 ### Updates
-- Technology! Art of Alchemy has been added. It's a relatively complex magic-based mod. Check the wiki for more information!
+- Technology! Art of Alchemy has been added. It's a relatively complex magic-based tech mod. Check the wiki for more information!
 - A quest entry for Art of Alchemy has been added.
 - Added 7 new unique items - 6 of which are catered towards trappers and 1 of which is catered towards Righteous Fire.
 - Due to how hard it is to come by gunpowder, I've changed the salvage station recipe to use a lava bucket instead.
