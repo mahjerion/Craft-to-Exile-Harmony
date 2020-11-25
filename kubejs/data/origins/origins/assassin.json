@@ -3,7 +3,7 @@
 		"origins-classes:sneaky",
 		"origins-classes:stealth",
 		"origins-classes:stealth-descriptor",
-		"origins:more_attack_damage",
+		"origins-classes:more_attack_damage",
 		"origins:fragile",
 		"origins:translucent"
 	],
