@@ -310,8 +310,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 0,
-        "hours": 7
+        "days": 7,
+        "hours": 0
       },
       "tasks": [
         {
@@ -387,6 +387,54 @@
       "commandrewards": []
     },
     {
+      "uuid": "c9c81a94-3d09-41c0-996b-3c042bbca348",
+      "name": "Equal Exchange",
+      "description": "Art of Alchemy is a fantastic magic-based technology mod that is very complex. To start, craft the journal. It is recommended that you visit the Art of Alchemy wiki for more information. The link can be found in the sidebar of the [Harmony] wiki.",
+      "x": 148,
+      "y": 16,
+      "icon": {
+        "id": "artofalchemy:alchemical_journal",
+        "Count": 1,
+        "tag": {
+          "entries": []
+        }
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Detection Task",
+          "items": [
+            {
+              "item": {
+                "id": "artofalchemy:alchemical_journal",
+                "Count": 1,
+                "tag": {
+                  "entries": []
+                }
+              },
+              "precision": "TAG_NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5131fb94-f3d9-4f4d-a253-10cc8bbc5345"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:loot_crate/gem",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:quartz",
+          "Count": 32
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "c4a504f1-74f5-4c6d-8386-a317ae4b7586",
       "name": "Waystones",
       "description": "Waystones are a fantastic way to quickly get from point A to point B. They are naturally occurring in villages. They are also craftable!",
@@ -439,8 +487,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 0,
-        "hours": 1
+        "days": 1,
+        "hours": 0
       },
       "tasks": [
         {
@@ -741,8 +789,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 0,
-        "hours": 1
+        "days": 1,
+        "hours": 0
       },
       "tasks": [
         {
@@ -811,8 +859,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 0,
-        "hours": 1
+        "days": 1,
+        "hours": 0
       },
       "tasks": [
         {
@@ -869,7 +917,7 @@
     {
       "uuid": "5131fb94-f3d9-4f4d-a253-10cc8bbc5345",
       "name": "Trading Post",
-      "description": "Craft a trading post to set up a shop for other players to use!",
+      "description": "Craft a trading post to set up a shop for other players to use! Note: currently it\u0027s impossible to destroy the trading post without going into creative...",
       "x": 116,
       "y": 16,
       "icon": {
@@ -1113,8 +1161,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 0,
-        "hours": 1
+        "days": 1,
+        "hours": 0
       },
       "tasks": [
         {
@@ -1267,8 +1315,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 0,
-        "hours": 1
+        "days": 1,
+        "hours": 0
       },
       "tasks": [
         {
@@ -1422,8 +1470,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 0,
-        "hours": 1
+        "days": 1,
+        "hours": 0
       },
       "tasks": [
         {

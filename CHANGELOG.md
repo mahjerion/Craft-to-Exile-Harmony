@@ -7,22 +7,38 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.3.3] - 2020-11-25
+
 ### Updates
+- Technology! Art of Alchemy has been added. It's a relatively complex magic-based mod. Check the wiki for more information!
+- A quest entry for Art of Alchemy has been added.
+- Added 7 new unique items - 6 of which are catered towards trappers and 1 of which is catered towards Righteous Fire.
 - Due to how hard it is to come by gunpowder, I've changed the salvage station recipe to use a lava bucket instead.
 - Added more equipment rewards in early quests.
 - Improved quest description for some of the AoE stuff.
 - Added a quest in 'The Exchange' that lets you buy AoE guidebooks.
+- Deerstalker now grants projectile speed for Trap skills.
+- Briskwrap unique now grants Sprint.
+- The Fetid Sprinkler now grants Holy Freeze.
+- Reduced the amount of dodge Briskwrap gave.
 
 Skill Tree:
 - New divine spell: Clarity - functions similar to Healing Aura except for mana.
 - New divine spell: Righteous Fire - sacrifice your own health to burn nearby enemies.
+- New divine spell: Holy Freeze - slow nearby enemies and reduce their ice resist by applying chill to them.
 - New fire spell: Combust - sacrifice some of your health to deal fire damage in a very large area.
+- New hunting spell: Trap - throw a trap that detonates after 3 seconds.
+- New hunting spell: Cluster Traps - same as above but throw 3 traps at a time. Has a long cooldown.
+- New hunting spell: Dash - quickly move 4 blocks.
+- New hunting spell: Poison Arrow - explodes upon impact, releasing a cloud of poison.
+- New hunting spell: Explosive Arrow - explodes upon impact, dealing a lot of damage.
+- New physical spell: Sprint - increase your movement speed for a short period of time.
 - Greatly improved the nature tree! Lots of new augments and damage/cooldown buffs.
 - Buffed Lightning Totem - increased damage and cast speed, and new augment allows it to apply Static.
 - Switched Thunder Spear position with Lightning Totem.
-- Increased scaling of Poison (formerly known as Thorns) by 900%.
+- Increased scaling of Toxin (formerly known as Thorns) by 900%.
 - Enrage effect from Taunt now applies a speed buff.
-- Greatly buffed Fire Comet (from the unique weapon) - it also now also actually a fire comet.
+- Greatly buffed Fire Comet (from The Whispering Fire) - it also now also actually a fire comet.
 - Greatly buffed The Whispering Fire.
 - Fire Bombs now deals damage upon impact and then explodes rather than just doing straight up area of effect damage. This is to encourage accurate projectile shooting.
 - Fire Bombs releases an additional bomb now.
@@ -35,7 +51,7 @@ Skill Tree:
 - Reduced cooldown of Whirlpool and Magma Flower.
 - Reduced cooldown of Heart of Ice.
 - Increased scaling of Purifying Fires.
-- Having more than 1 stack isn't currently available in AoE, so changes have been made to the existing effects such as Poison, Static, and Chill. They now just have 1 stack but are a little harder to apply.
+- Having more than 1 stack isn't currently available in AoE, so changes have been made to the existing effects such as Toxin, Static, and Chill. They now just have 1 stack but are a little harder to apply.
 
 ### Mod Updates
 - Updated AdventureZ.
@@ -47,7 +63,7 @@ Skill Tree:
 - Fixed Iron Reflexes perk not applying correctly.
 - Fixed the big mana node at the top being unaccessible.
 
-## [1.3.2b] - 2020-XX-XX
+## [1.3.2b] - 2020-11-24
 
 ### Fixes
 - Fixed Blood Mage for real this time!

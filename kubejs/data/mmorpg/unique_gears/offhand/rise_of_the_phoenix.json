@@ -1,0 +1,66 @@
+{
+  "id": "rise_of_the_phoenix",
+  "weight": 1000,
+  "rarity": 1,
+  "tier": 0,
+  "unique_stats": [
+    {
+      "firstMin": 4.0,
+      "firstMax": 4.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "elemental_resist",
+      "type": "flat"
+    },
+    {
+      "firstMin": 80.0,
+      "firstMax": 100.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "armor",
+      "type": "local_increase"
+    },
+    {
+      "firstMin": 3.0,
+      "firstMax": 5.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "health",
+      "type": "flat"
+    },
+    {
+      "firstMin": 1.0,
+      "firstMax": 1.5,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "health_per_sec",
+      "type": "flat"
+    },
+    {
+      "firstMin": 5.0,
+      "firstMax": 5.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "max_fire_resist",
+      "type": "flat"
+    },
+    {
+      "firstMin": 20.0,
+      "firstMax": 25.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "fire_resist",
+      "type": "flat"
+    },
+    {
+      "firstMin": 1.0,
+      "firstMax": 1.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "unlock_phoenix",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "tower_shield4",
+  "item_id": "minecraft:shield"
+}

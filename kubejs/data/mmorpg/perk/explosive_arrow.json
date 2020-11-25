@@ -1,0 +1,19 @@
+{
+  "type": "MAJOR",
+  "identifier": "explosive_arrow",
+  "spell": "explosive_arrow",
+  "lock_under_adv": "",
+  "one_of_a_kind": "arrow_spell",
+  "stats": [
+    {
+      "first": 1.0,
+      "second": 0.0,
+      "stat": "unlock_explosive_arrow",
+      "type": "FLAT",
+      "scaleToLevel": false
+    }
+  ],
+  "icon": "mmorpg:textures/gui/spells/icons/explosive_arrow.png",
+  "is_entry": false,
+  "lvl_req": 1
+}

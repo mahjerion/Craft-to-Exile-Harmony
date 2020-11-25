@@ -8,6 +8,14 @@
   "lang_file_desc_string": "item.mmorpg.uniques.armor.briskwrap.desc",
   "unique_stats": [
     {
+      "firstMin": 1.0,
+      "firstMax": 1.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "unlock_sprint",
+      "type": "flat"
+    },
+    {
       "firstMin": 15.0,
       "firstMax": 20.0,
       "secondMin": 0.0,
@@ -21,7 +29,7 @@
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "dodge",
-      "type": "flat"
+      "type": "local_increase"
     },
     {
       "firstMin": 20.0,

@@ -6,7 +6,15 @@
   "registry": "unique_gear",
   "lang_file_string": "item.mmorpg.uniques.weapon.the_fetid_sprinkler",
   "lang_file_desc_string": "item.mmorpg.uniques.weapon.the_fetid_sprinkler.desc",
-  "unique_stats": [
+  "unique_stats": [,
+    {
+      "firstMin": 1.0,
+      "firstMax": 1.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "unlock_holy_freeze",
+      "type": "flat"
+    },
     {
       "firstMin": 60.0,
       "firstMax": 70.0,

@@ -1,0 +1,50 @@
+{
+  "id": "fencoil",
+  "weight": 1000,
+  "rarity": 1,
+  "tier": 0,
+  "unique_stats": [
+    {
+      "firstMin": 15.0,
+      "firstMax": 30.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "physical_weapon_damage",
+      "type": "local_increase"
+    },
+    {
+      "firstMin": 15.0,
+      "firstMax": 25.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "trap_damage",
+      "type": "flat"
+    },
+    {
+      "firstMin": 15.0,
+      "firstMax": 25.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "trap_cluster_damage",
+      "type": "flat"
+    },
+    {
+      "firstMin": 10.0,
+      "firstMax": 20.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "health",
+      "type": "local_increase"
+    },
+    {
+      "firstMin": 10.0,
+      "firstMax": 20.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "mana",
+      "type": "local_increase"
+    }
+  ],
+  "gear_type": "wand2",
+  "item_id": "mmorpg:weapon/wand/wand2"
+}

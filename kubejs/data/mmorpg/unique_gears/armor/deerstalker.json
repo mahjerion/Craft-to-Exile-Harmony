@@ -4,9 +4,23 @@
   "rarity": 1,
   "tier": 0,
   "registry": "unique_gear",
-  "lang_file_string": "item.mmorpg.uniques.armor.deerstalker",
-  "lang_file_desc_string": "item.mmorpg.uniques.armor.deerstalker.desc",
   "unique_stats": [
+    {
+      "firstMin": 14.0,
+      "firstMax": 18.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "trap_proj_speed",
+      "type": "flat"
+    },
+    {
+      "firstMin": 14.0,
+      "firstMax": 18.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "trap_cluster_proj_speed",
+      "type": "flat"
+    },
     {
       "firstMin": 60.0,
       "firstMax": 80.0,

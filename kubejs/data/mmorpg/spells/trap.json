@@ -96,8 +96,8 @@
               "type": "sound",
               "map": {
                 "volume": 1.0,
-                "sound": "minecraft:entity.player.hurt_sweet_berry_bush",
-                "pitch": 2.0
+                "sound": "minecraft:block.tripwire.click_on",
+                "pitch": 1.0
               }
             }
           ],
@@ -115,7 +115,7 @@
               "map": {
                 "selection_type": "RADIUS",
                 "en_predicate": "ENEMIES",
-                "radius": 3.0
+                "radius": 2.0
               }
             }
           ],
@@ -128,8 +128,8 @@
               "calc": {
                 "scaling_values": [],
                 "base_scaling": "NORMAL",
-                "attack_scaling": 0.6,
-                "base_val": 2.0
+                "attack_scaling": 2.0,
+                "base_val": 0.25
               }
             }
           ],
@@ -158,7 +158,7 @@
                 "exile_potion_id": "negative/3",
                 "potion_action": "GIVE_STACKS",
                 "count": 1.0,
-                "potion_dur": 60.0
+                "potion_dur": 100.0
               }
             }
           ],
@@ -166,8 +166,12 @@
             {
               "type": "caster_has_stat",
               "map": {
-                "spell_mod": "mod_poison_bush"
+                "spell_mod": "trap_poison"
               }
+            },
+            {
+              "type": "on_entity_expire",
+              "map": {}
             }
           ]
         },
@@ -184,12 +188,12 @@
           ],
           "acts": [
             {
-              "type": "potion",
+              "type": "exile_effect",
               "map": {
+                "exile_potion_id": "negative/17",
                 "potion_action": "GIVE_STACKS",
-                "potion_id": "minecraft:slowness",
                 "count": 1.0,
-                "potion_dur": 60.0
+                "potion_dur": 40.0
               }
             }
           ],
@@ -197,8 +201,12 @@
             {
               "type": "caster_has_stat",
               "map": {
-                "spell_mod": "mod_slow_bush"
+                "spell_mod": "trap_stun"
               }
+            },
+            {
+              "type": "on_entity_expire",
+              "map": {}
             }
           ]
         },
@@ -209,7 +217,7 @@
               "map": {
                 "selection_type": "RADIUS",
                 "en_predicate": "ENEMIES",
-                "radius": 3.0
+                "radius": 4.0
               }
             }
           ],
@@ -222,22 +230,20 @@
               "calc": {
                 "scaling_values": [],
                 "base_scaling": "NORMAL",
-                "attack_scaling": 1.0,
-                "base_val": 1.0
+                "attack_scaling": 2.0,
+                "base_val": 0.25
               }
             }
           ],
           "ifs": [
             {
-              "type": "x_ticks_condition",
-              "map": {
-                "tick_rate": 30.0
-              }
+              "type": "on_entity_expire",
+              "map": {}
             },
             {
               "type": "caster_has_stat",
               "map": {
-                "spell_mod": "mod_slow_bush"
+                "spell_mod": "trap_explosive"
               }
             }
           ]
@@ -248,12 +254,12 @@
   "config": {
     "swing_arm": false,
     "castingWeapon": "ANY_WEAPON",
-    "mana_cost": 20,
+    "mana_cost": 12,
     "times_to_cast": 1,
     "cast_time_ticks": 0,
-    "cooldown_ticks": 1200,
+    "cooldown_ticks": 300,
     "is_starter": false,
-    "style": "MAGIC",
+    "style": "RANGED",
     "passive_config": {
       "is_passive": false,
       "cast_when_hp_bellow": 0.3

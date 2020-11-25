@@ -249,7 +249,7 @@
     "swing_arm": false,
     "castingWeapon": "RANGED",
     "mana_cost": 20,
-    "times_to_cast": 6,
+    "times_to_cast": 8,
     "cast_time_ticks": 60,
     "cooldown_ticks": 3200,
     "is_starter": false,
