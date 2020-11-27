@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#S#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:ender_pearl"
+    },
+    "S": {
+      "item": "craftable_utilities:spawn_teleport"
+    }
+  },
+  "result": {
+    "item": "heartbond:ender_heart"
+  }
+}

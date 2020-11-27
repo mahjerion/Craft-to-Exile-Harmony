@@ -7,7 +7,7 @@
   ],
   "key": {  
 	"A": {
-      "item": "minecraft:gold_block"
+      "item": "minecraft:gold_ingot"
     }, 
 	"C": {
       "item": "mmorpg:mat/salvage/salvage1"

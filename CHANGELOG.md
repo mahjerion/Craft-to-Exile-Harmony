@@ -8,10 +8,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Updates
-- Nerfed EXP gain from Endermen.
+- With the addition of Heartbond, /tpa has been removed. Heartbond is more thematically interesting than a command and functions similarly.
+- To use Heartbond, craft 2 Ender Hearts and combine them with soul sand or soul soil. This will create an Ender Soul which links the two hearts together. Using this technique, a single Ender Heart can be linked to as many other Ender Hearts as you want, as many times as you want. Use the Ender Soul by right clicking it while both players are wearing the appropriate Ender Hearts (Curios slot).
+- /home has once again been disabled. The only command remaining is /rtp. I wanted to remove /home for a while since it made the teleportation scrolls obsolete, and also caused crashes. I will continue looking for a Waystone alternative. /rtp continues to be server-only!
+- Spawn and death teleport scrolls are now much cheaper to craft.
+- Nerfed EXP gain from Endermen and Silverfish.
+- Increased minimum level of the Wither, Blackstone Golem, and Ender Dragon to be 10 levels above the minimum level of the dimension instead of the same level.
+- Increased max claim size by 100%.
+
+### Mod Updates
+- Updated ItemFlexer.
+- Added Heartbond.
+- Added Hypnos.
+- Removed Gunpowder SleepVote.
 
 ### Fixes
 - Fixed Assassin ascendancy not being available.
+- Disabled Charm barrel variants.
 
 ## [1.3.3] - 2020-11-25
 

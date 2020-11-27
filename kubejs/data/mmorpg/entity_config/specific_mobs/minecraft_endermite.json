@@ -9,7 +9,7 @@
   "max_rarity": 4,
   "min_lvl": 1,
   "max_lvl": 100,
-  "dmg_multi": 0.8,
-  "hp_multi": 0.8,
-  "stat_multi": 0.8
+  "dmg_multi": 1.0,
+  "hp_multi": 1.0,
+  "stat_multi": 1.0
 }

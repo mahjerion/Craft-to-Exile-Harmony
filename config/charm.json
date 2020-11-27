@@ -248,7 +248,7 @@
   },
   "VariantBarrels": {
     "Description": "Barrels available in all types of vanilla wood.",
-    "Enabled": true
+    "Enabled": false
   },
   "VariantBookshelves": {
     "Description": "Bookshelves available in all types of vanilla wood.",
