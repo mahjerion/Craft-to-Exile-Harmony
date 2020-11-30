@@ -21,16 +21,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Mob scaling has increased since early level mobs have been made easier also. Level 50 mobs will be 50% stronger than they currently are.
 
 ### Mod Updates
-- Updated ItemFlexer.
+- Updated ItemFlexer, FLAN, Xaero's, Player Roles.
+- Added Your Options Shall Be Respected.
 - Added Heartbond.
 - Added Hypnos.
 - Removed Gunpowder SleepVote.
+- Removed Random Configs - YOSBR replaces this mod.
 - Removed Sodium - it's a great Fabric mod but is causing some texture issues with some mods. It is still suggested you use it, but I will leave it up to user discretion.
 
 ### Fixes
 - Fixed Assassin ascendancy not being available.
 - Disabled Charm barrel variants.
 - LibGui is no longer set to dark mode by default.
+- I think attack speed should work now.
 
 ## [1.3.3] - 2020-11-25
 
