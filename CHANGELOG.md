@@ -21,7 +21,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Mob scaling has increased since early level mobs have been made easier also. Level 50 mobs will be 50% stronger than they currently are.
 
 ### Mod Updates
-- Updated ItemFlexer, FLAN, Xaero's, Player Roles.
+- Updated ItemFlexer, FLAN, Xaero's, Player Roles, Fabric Waystones.
 - Added Your Options Shall Be Respected.
 - Added Heartbond.
 - Added Hypnos.
