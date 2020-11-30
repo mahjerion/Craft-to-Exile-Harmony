@@ -15,16 +15,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Nerfed EXP gain from Endermen and Silverfish.
 - Increased minimum level of the Wither, Blackstone Golem, and Ender Dragon to be 10 levels above the minimum level of the dimension instead of the same level.
 - Increased max claim size by 100%.
+- Cursed Spawners now have a chance to drop ward blocks.
+- Added more particles to effects for better visualization.
+- Reduced difficulty of common and magic mobs, reduced overall EXP rewards from higher tier mobs.
+- Mob scaling has increased since early level mobs have been made easier also. Level 50 mobs will be 50% stronger than they currently are.
 
 ### Mod Updates
 - Updated ItemFlexer.
 - Added Heartbond.
 - Added Hypnos.
 - Removed Gunpowder SleepVote.
+- Removed Sodium - it's a great Fabric mod but is causing some texture issues with some mods. It is still suggested you use it, but I will leave it up to user discretion.
 
 ### Fixes
 - Fixed Assassin ascendancy not being available.
 - Disabled Charm barrel variants.
+- LibGui is no longer set to dark mode by default.
 
 ## [1.3.3] - 2020-11-25
 

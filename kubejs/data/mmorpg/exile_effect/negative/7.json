@@ -25,7 +25,7 @@
               "map": {
                 "particle_type": "mmorpg:thunder",
                 "radius": 1.0,
-                "particle_count": 20.0
+                "particle_count": 30.0
               }
             }
           ],

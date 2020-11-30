@@ -1,0 +1,50 @@
+{
+  "reward": "ward_blocks:health_ward_block",
+  "waves": [
+    {
+      "entities": [
+        "minecraft:zombie"
+      ],
+      "minMobCount": 5,
+      "maxMobCount": 9
+    },
+    {
+      "entities": [
+        "minecraft:zombie",
+        "minecraft:skeleton"
+      ],
+      "minMobCount": 7,
+      "maxMobCount": 11
+    },
+    {
+      "entities": [
+        "minecraft:zombie",
+        "minecraft:skeleton",
+        "minecraft:spider"
+      ],
+      "minMobCount": 7,
+      "maxMobCount": 11
+    },
+    {
+      "entities": [
+        "minecraft:zombie",
+        "minecraft:skeleton",
+        "minecraft:spider",
+        "minecraft:cave_spider"
+      ],
+      "minMobCount": 9,
+      "maxMobCount": 13
+    },
+    {
+      "entities": [
+        "minecraft:zombie",
+        "minecraft:skeleton",
+        "minecraft:spider",
+        "minecraft:cave_spider",
+        "minecraft:illusioner"
+      ],
+      "minMobCount": 9,
+      "maxMobCount": 13
+    }
+  ]
+}

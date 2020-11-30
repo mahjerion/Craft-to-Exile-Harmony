@@ -45,7 +45,7 @@
               "map": {
                 "particle_type": "minecraft:heart",
                 "radius": 1.0,
-                "particle_count": 5.0
+                "particle_count": 15.0
               }
             }
           ],

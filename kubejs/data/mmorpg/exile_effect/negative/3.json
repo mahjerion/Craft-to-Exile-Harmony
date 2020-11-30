@@ -48,7 +48,7 @@
               "map": {
                 "particle_type": "minecraft:item_slime",
                 "radius": 1.0,
-                "particle_count": 15.0
+                "particle_count": 25.0
               }
             }
           ],
