@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Updates
+- Added quests in 'The Exchange' that go over Art of Alchemy.
+- Added another quest for the Overworld.
+- Increased gear drop rate by 50%.
+- Increased rune drop rate by 25%.
+- Increased gem drop rate by 100%.
+- Increased currency drop rate by over 133%.
+
 ## [1.3.4] - 2020-11-30
 
 ### Updates

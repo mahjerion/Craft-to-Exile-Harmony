@@ -46,6 +46,433 @@
       "commandrewards": []
     },
     {
+      "uuid": "3318c7ac-8f13-4ebc-ad10-914636986e76",
+      "name": "Synthesis",
+      "description": "The Synthesis Table allows you to combine essentia and materia into useful substances, provided you already have a sample or formula to work from. With the basic version, only items up to rank C can be synthesized. To use, fill the table with essentia using an Essentia Vessel, place materia in the top slot, and place an item to be copied in the bottom \"target\" slot. You can also use a Formula in place of the target. More of the substance in the target slot will be transmuted. For certain items, like liquids, you may need to place a container in the output slot to be filled.",
+      "x": 210,
+      "y": 114,
+      "icon": {
+        "id": "artofalchemy:synthesis_table",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Crafting Task",
+          "items": [
+            {
+              "item": {
+                "id": "artofalchemy:synthesis_table",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "31c05756-e9f0-4820-96a6-c0cf9525af78",
+        "3e5a170b-f8f2-43d7-9a10-485cbffc3791"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "artofalchemy:azoth",
+          "Count": 8
+        },
+        {
+          "id": "mmorpg:currency/orb_of_discovery",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "1b22345c-e711-47fa-80d5-6bd344ac375a",
+      "name": "Enchanted Experience Chest (50)",
+      "description": "Purchase 1 Enchanted Experience Chest (50)",
+      "x": 87,
+      "y": 50,
+      "icon": {
+        "id": "mmorpg:loot_crate/ench_exp_bag",
+        "Count": 1,
+        "tag": {
+          "exp": 50
+        }
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Consume Task",
+          "items": [
+            {
+              "item": {
+                "id": "mmorpg:mat/salvage/salvage4",
+                "Count": 4
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:loot_crate/ench_exp_bag",
+          "Count": 1,
+          "tag": {
+            "exp": 50
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b2b06f06-4026-43a8-a9fa-f30bb72d1442",
+      "name": "Storing Essentia",
+      "description": "Essentia can be kept in an item with an Essentia Vessel.",
+      "x": 258,
+      "y": 82,
+      "icon": {
+        "id": "artofalchemy:essentia_vessel",
+        "Count": 1,
+        "tag": {}
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Detection Task",
+          "items": [
+            {
+              "item": {
+                "id": "artofalchemy:essentia_vessel",
+                "Count": 1,
+                "tag": {}
+              },
+              "precision": "TAG_NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "8075c9a8-db5a-4d36-98c3-22897e47890e"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:quartz",
+          "Count": 4
+        },
+        {
+          "id": "mmorpg:loot_crate/gem",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ead4b10e-e511-4a7c-882c-0ea935714da4",
+      "name": "Journalist",
+      "description": "The Alchemical Journal allows you to store an unlimited number of formulas in a single item. To use, just open it up and insert any formulas you want to save into the slot in the top left. Those formulas will then appear in the searchable list. Clicking the checkbox next to any entry will select that as the active entry for this journal; you can then place the journal in a Synthesis Table in place of a regular target to transmute that selection. Clicking the box in the top right will clear the selection. You can also place the journal in an Analysis Desk to create a copy of the selected formula.",
+      "x": 179,
+      "y": 146,
+      "icon": {
+        "id": "artofalchemy:alchemical_journal",
+        "Count": 1,
+        "tag": {}
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Crafting Task",
+          "items": [
+            {
+              "item": {
+                "id": "artofalchemy:alchemical_journal",
+                "Count": 1,
+                "tag": {}
+              },
+              "precision": "TAG_NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "82e5b8d3-4e76-434d-bbf6-44a6171e8bc8"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:gold_block",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ff1e4d39-ea2e-4c4f-b6d4-701a49d680d7",
+      "name": "Relic Item Loot Crate",
+      "description": "Purchase 1 Relic Item Loot Crate",
+      "x": 87,
+      "y": 17,
+      "icon": {
+        "id": "mmorpg:loot_crate/relic",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "INSTANT"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Consume Task",
+          "items": [
+            {
+              "item": {
+                "id": "mmorpg:mat/salvage/salvage4",
+                "Count": 64
+              },
+              "required": 64
+            },
+            {
+              "item": {
+                "id": "mmorpg:mat/salvage/salvage4",
+                "Count": 64
+              },
+              "required": 64
+            },
+            {
+              "item": {
+                "id": "mmorpg:currency/orb_of_discovery",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:loot_crate/relic",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "82e5b8d3-4e76-434d-bbf6-44a6171e8bc8",
+      "name": "Formioli Formioli",
+      "description": "The Analysis Desk allows you to create formulas for use in the Synthesis Table, obviating the need to keep a copy of every item you want to be able to transmute on hand. Formulas are items that can replace target items in the Synthesis Table. They can be created in the Analysis Desk using paper and ink. To use, place paper in the left slot, ink in the top slot, and the item you want to create a formula of in the bottom slot. You can then pull formulas out of the output slot.",
+      "x": 179,
+      "y": 114,
+      "icon": {
+        "id": "artofalchemy:alchemy_formula",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Crafting Task",
+          "items": [
+            {
+              "item": {
+                "id": "artofalchemy:analysis_desk",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "3318c7ac-8f13-4ebc-ad10-914636986e76"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:loot_crate/rare",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:quartz",
+          "Count": 12
+        },
+        {
+          "id": "artofalchemy:azoth",
+          "Count": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "37d96432-790a-4a8d-90c8-0a34f09b7d9a",
+      "name": "The Philosopher\u0027s Stone",
+      "description": "The great work, or magnum opus, of alchemy is the creation of the Philosopher\u0027s Stone. All alchemists aspire to synthesize this miraculous object, but it\u0027s not an easy task, and the exact process has been lost to time. If you seek to complete the magnum opus, finding the formula deduced by the ancient alchemists might be in your interests. Beyond that, you\u0027re on your own... The Philosopher\u0027s Stone has the power to augment your alchemical machines to be faster, more efficient, and higher capacity. It can also be used to make the Projection Altar, which allows materia to be upgraded to higher ranks.",
+      "x": 210,
+      "y": 146,
+      "icon": {
+        "id": "artofalchemy:philosophers_stone",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Crafting Task",
+          "items": [
+            {
+              "item": {
+                "id": "artofalchemy:philosophers_stone",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "3318c7ac-8f13-4ebc-ad10-914636986e76"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:loot_crate/gem",
+          "Count": 3
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "31c05756-e9f0-4820-96a6-c0cf9525af78",
+      "name": "Materia",
+      "description": "Materia is the physical material that all objects are made from. Although in principle all matter is interchangeable, in practice an alchemist will obtain poorer-quality materia from more common items, and richer materia from rare items. The Calcination Furnace allows you to burn off the essence of a substance using solid fuel, leaving behind only materia. To use, place fuel in the bottom slot and the item to be burned in the top slot. The materia will be output in the right slot.",
+      "x": 210,
+      "y": 50,
+      "icon": {
+        "id": "artofalchemy:calcination_furnace",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Crafting Task",
+          "items": [
+            {
+              "item": {
+                "id": "artofalchemy:calcination_furnace",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Detection Task",
+          "items": [
+            {
+              "item": {
+                "id": "artofalchemy:materia_f",
+                "Count": 8
+              },
+              "required": 8,
+              "precision": "TAG_NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b9ec2832-6ab4-47f9-8201-c9697a607b44"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "artofalchemy:materia_e",
+          "Count": 4
+        },
+        {
+          "id": "mmorpg:loot_crate/magic",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "mmorpg:gear_mat/ore/ore4",
+          "Count": 2
+        },
+        {
+          "id": "mmorpg:gear_mat/leather/leather4",
+          "Count": 2
+        },
+        {
+          "id": "mmorpg:gear_mat/cloth/cloth4",
+          "Count": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8075c9a8-db5a-4d36-98c3-22897e47890e",
+      "name": "Essentia",
+      "description": "Essentia is the metaphysical essence of an object. You can\u0027t interact with it directly - when not bound within an object, essentia must be dissolved into Alkahest. There are thirteen known types of essentia in this world, which have been named after the celestial spheres. The Dissolution Chamber allows you to dissolve away the materia of a substance into Alkahest, leaving the essentia in solution. To use, fill the chamber using with buckets of Alkahest, and then place the substance to be dissolved in the left slot. The essentia needs to be transferred out using an Essentia Vessel.",
+      "x": 258,
+      "y": 50,
+      "icon": {
+        "id": "artofalchemy:dissolution_chamber",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Crafting Task",
+          "items": [
+            {
+              "item": {
+                "id": "artofalchemy:dissolution_chamber",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "artofalchemy:alkahest_bucket",
+                "Count": 4
+              },
+              "required": 4,
+              "precision": "TAG_NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b9ec2832-6ab4-47f9-8201-c9697a607b44"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "artofalchemy:alkahest_bucket",
+          "Count": 2
+        },
+        {
+          "id": "minecraft:quartz",
+          "Count": 16
+        },
+        {
+          "id": "mmorpg:loot_crate/rune",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "f4992ee1-a265-4d8f-a54e-3337ed584487",
       "name": "Rune Loot Crate",
       "description": "Purchase 1 Rune Loot Crate",
@@ -89,6 +516,115 @@
         }
       ],
       "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ebbe3ea8-f871-4364-adb0-785b4c929eee",
+      "name": "Mass Storage",
+      "description": "Essentia can be stored in the world using an Essentia Tank, and transported between blocks using Essentia Conduits.",
+      "x": 289,
+      "y": 82,
+      "icon": {
+        "id": "artofalchemy:essentia_tank",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Crafting Task",
+          "items": [
+            {
+              "item": {
+                "id": "artofalchemy:essentia_tank",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "artofalchemy:essentia_pipe",
+                "Count": 4
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b2b06f06-4026-43a8-a9fa-f30bb72d1442"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "artofalchemy:essentia_pipe",
+          "Count": 2
+        },
+        {
+          "id": "mmorpg:currency/orb_of_transmutation",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2d142689-9938-499f-bab4-9e3511f81237",
+      "name": "Alchemy Genius",
+      "description": "The Calcination Furnace, Dissolation Chamber, and Synthesis Table can be upgraded using a Philosopher\u0027s Stone. In addition to improving speed, fuel efficieny, and tank size, you will unlock the full potential of each device.",
+      "x": 289,
+      "y": 179,
+      "icon": {
+        "id": "artofalchemy:synthesis_table_plus",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Crafting Task",
+          "items": [
+            {
+              "item": {
+                "id": "artofalchemy:calcination_furnace_plus",
+                "Count": 1
+              },
+              "precision": "TAG_NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "artofalchemy:dissolution_chamber_plus",
+                "Count": 1
+              },
+              "precision": "TAG_NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "artofalchemy:synthesis_table_plus",
+                "Count": 1
+              },
+              "precision": "TAG_NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "56a092c7-e9ab-4b5a-8dcb-29a13ae4d9a3"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:currency/orb_of_transmutation",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "mmorpg:loot_crate/relic",
+          "Count": 1
+        },
+        {
+          "id": "mmorpg:loot_crate/unique",
+          "Count": 1
+        }
+      ],
       "commandrewards": []
     },
     {
@@ -151,44 +687,53 @@
       "commandrewards": []
     },
     {
-      "uuid": "1b22345c-e711-47fa-80d5-6bd344ac375a",
-      "name": "Enchanted Experience Chest (50)",
-      "description": "Purchase 1 Enchanted Experience Chest (50)",
-      "x": 87,
-      "y": 50,
+      "uuid": "3e5a170b-f8f2-43d7-9a10-485cbffc3791",
+      "name": "Centrifugation",
+      "description": "Centrifuges separate mixtures of Essentia. There are two types - the Astral Centrifuge, and the Elemental Centrifuge. Either way, essentia is inserted into the top or bottom of the block, and the separated contents are output to the four cardinal directions. Complicating matters is the fact that multiple essentia are routed to each face; a complete separation system would require multiple centrifuges, though it is possible, since each essentia has a unique combination of astral and elemental attributes. Of course, a clever alchemist will limit the inputs to their system so that they can get away with less sorting.",
+      "x": 258,
+      "y": 114,
       "icon": {
-        "id": "mmorpg:loot_crate/ench_exp_bag",
-        "Count": 1,
-        "tag": {
-          "exp": 50
-        }
-      },
-      "repeat": {
-        "type": "INSTANT"
+        "id": "artofalchemy:astrological_centrifuge",
+        "Count": 1
       },
       "tasks": [
         {
-          "type": "CONSUME",
-          "description": "Consume Task",
+          "type": "CRAFT",
+          "description": "Crafting Task",
           "items": [
             {
               "item": {
-                "id": "mmorpg:mat/salvage/salvage4",
-                "Count": 4
-              },
-              "required": 4
+                "id": "artofalchemy:astrological_centrifuge",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "artofalchemy:elemental_centrifuge",
+                "Count": 1
+              }
             }
           ]
         }
       ],
-      "prerequisites": [],
+      "prerequisites": [
+        "b2b06f06-4026-43a8-a9fa-f30bb72d1442"
+      ],
       "optionlinks": [],
       "reward": [
+        {
+          "id": "minecraft:lapis_lazuli",
+          "Count": 4
+        },
+        {
+          "id": "minecraft:redstone",
+          "Count": 4
+        },
         {
           "id": "mmorpg:loot_crate/ench_exp_bag",
           "Count": 1,
           "tag": {
-            "exp": 50
+            "exp": 250
           }
         }
       ],
@@ -241,58 +786,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "ff1e4d39-ea2e-4c4f-b6d4-701a49d680d7",
-      "name": "Relic Item Loot Crate",
-      "description": "Purchase 1 Relic Item Loot Crate",
-      "x": 87,
-      "y": 17,
-      "icon": {
-        "id": "mmorpg:loot_crate/relic",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INSTANT"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "description": "Consume Task",
-          "items": [
-            {
-              "item": {
-                "id": "mmorpg:mat/salvage/salvage4",
-                "Count": 64
-              },
-              "required": 64
-            },
-            {
-              "item": {
-                "id": "mmorpg:mat/salvage/salvage4",
-                "Count": 64
-              },
-              "required": 64
-            },
-            {
-              "item": {
-                "id": "mmorpg:currency/orb_of_discovery",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "mmorpg:loot_crate/relic",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "e934ad60-4865-41f2-afb6-c892b9cb4497",
       "name": "Gem Loot Crate",
       "description": "Purchase 1 Gem Loot Crate",
@@ -333,6 +826,50 @@
         {
           "id": "mmorpg:loot_crate/gem",
           "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "56a092c7-e9ab-4b5a-8dcb-29a13ae4d9a3",
+      "name": "Projection",
+      "description": "The Projection Altar allows you to concentrate materia to higher ranks using Alkahest. It takes 8 materia of a lower rank to create 1 materia of a higher rank; the amount of alkahest required increases as the materia rank does. To use, fill the chamber using with buckets of Alkahest, and then place the materia in the left slot.",
+      "x": 210,
+      "y": 179,
+      "icon": {
+        "id": "artofalchemy:projection_altar",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Crafting Task",
+          "items": [
+            {
+              "item": {
+                "id": "artofalchemy:projection_altar",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "37d96432-790a-4a8d-90c8-0a34f09b7d9a"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:loot_crate/ench_exp_bag",
+          "Count": 2,
+          "tag": {
+            "exp": 250
+          }
+        },
+        {
+          "id": "minecraft:book",
+          "Count": 4
         }
       ],
       "rewardchoice": [],
@@ -461,6 +998,53 @@
       "reward": [
         {
           "id": "origins:orb_of_origin",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b9ec2832-6ab4-47f9-8201-c9697a607b44",
+      "name": "Alchemical Exchange",
+      "description": "Art of Alchemy is a alchemy-based technology mod that lets you practice transmutation. You can transmute substances into other, more useful substances. Fundamentally, the world is made up of two things: materia and essentia. Materia is the physical material that objects are made from, while essentia is the metaphysical essence of the object. To start off, craft Azoth - a substances used to craft many alchemical devices.",
+      "x": 234,
+      "y": 17,
+      "icon": {
+        "id": "artofalchemy:azoth",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Crafting Task",
+          "items": [
+            {
+              "item": {
+                "id": "artofalchemy:azoth",
+                "Count": 4
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "artofalchemy:azoth",
+          "Count": 2
+        },
+        {
+          "id": "mmorpg:loot_crate/ench_exp_bag",
+          "Count": 1,
+          "tag": {
+            "exp": 50
+          }
+        },
+        {
+          "id": "mmorpg:loot_crate/magic",
           "Count": 1
         }
       ],

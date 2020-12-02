@@ -58,10 +58,10 @@
     "EXTRA_INSTABILITY_MULTI_AT_MAX_LEVEL": 1.0
   },
   "DropRates": {
-    "GEAR_DROPRATE": 8.0,
-    "GEM_DROPRATE": 0.5,
-    "RUNE_DROPRATE": 0.2,
-    "CURRENCY_DROPRATE": 0.75,
+    "GEAR_DROPRATE": 12.0,
+    "GEM_DROPRATE": 1.0,
+    "RUNE_DROPRATE": 0.25,
+    "CURRENCY_DROPRATE": 2.0,
     "LVLING_REWARD_DROPRATE": 0.1
   },
   "autoCompatibleItems": {
