@@ -33,7 +33,7 @@
   "announce_in_chat": false,
   "rarity_type": "GEAR",
   "rank": 3,
-  "weight": 500,
+  "weight": 450,
   "text_format": "LIGHT_PURPLE",
   "higher_rar": "legendary",
   "guid": "epic"

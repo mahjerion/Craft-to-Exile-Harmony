@@ -33,7 +33,7 @@
   "announce_in_chat": false,
   "rarity_type": "GEAR",
   "rank": 0,
-  "weight": 5000,
+  "weight": 10000,
   "text_format": "GRAY",
   "higher_rar": "magical",
   "guid": "common"

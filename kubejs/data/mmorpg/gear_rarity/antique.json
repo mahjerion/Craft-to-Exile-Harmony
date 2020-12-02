@@ -33,7 +33,7 @@
   "announce_in_chat": false,
   "rarity_type": "GEAR",
   "rank": 6,
-  "weight": 500,
+  "weight": 300,
   "text_format": "WHITE",
   "higher_rar": "relic",
   "guid": "antique"
