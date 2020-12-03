@@ -17,6 +17,9 @@ The following drop chance changes were designed to help new players. There shoul
 - Increased currency drop rate by over 133%.
 - Increased weight of common items and reduced weight of other rarities. It is more common to get common items.
 
+### Mod Updates
+- Updated Fat Experience Orbs, Disable Custom Worlds Advice.
+
 ## [1.3.4] - 2020-11-30
 
 ### Updates
