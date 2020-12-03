@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added quests in 'The Exchange' that go over Art of Alchemy.
 The following drop chance changes were designed to help new players. There should be a greater influx of new items, but rarer items will be still just as rare. Players are also encouraged to have magic finding gear!
 - Added another quest for the Overworld.
+- Jewelry is a lot more durable now.
 - Increased gear drop rate by 150%.
 - Increased rune drop rate by 25%.
 - Increased gem drop rate by 100%.
@@ -18,7 +19,10 @@ The following drop chance changes were designed to help new players. There shoul
 - Increased weight of common items and reduced weight of other rarities. It is more common to get common items.
 
 ### Mod Updates
-- Updated Fat Experience Orbs, Disable Custom Worlds Advice.
+- Updated Fat Experience Orbs, Disable Custom Worlds Advice, Age of Exile.
+
+### Fixes
+- Various Age of Exile fixes.
 
 ## [1.3.4] - 2020-11-30
 
