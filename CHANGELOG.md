@@ -7,10 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.3.5] - 2020-12-03
+
 ### Updates
+- Age of Exile is now compatible with Art of Alchemy! You can now turn ANYTHING into Age of Exile materials! Yes, that means you don't even need to fight to farm materials! Turn your crops, ores, blocks into cloth, leather, essences, etc.! Note: gems, runes, currencies, and equipment not included. Materials only!
+- It is now possible to craft Salvage Dust a tier up. 9 dust of one tier will craft 3 of the next.
 - Added quests in 'The Exchange' that go over Art of Alchemy.
-The following drop chance changes were designed to help new players. There should be a greater influx of new items, but rarer items will be still just as rare. Players are also encouraged to have magic finding gear!
 - Added another quest for the Overworld.
+The following drop chance changes were designed to help new players. There should be a greater influx of new items, but rarer items will be still just as rare. Players are also encouraged to have magic finding gear!
 - Jewelry is a lot more durable now.
 - Increased gear drop rate by 150%.
 - Increased rune drop rate by 25%.

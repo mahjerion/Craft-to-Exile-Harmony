@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "AAA",
+    "AAA"
+  ],
+  "key": {
+	"A": {
+      "item": "mmorpg:mat/salvage/salvage3"
+    }
+  },
+  "result": {
+    "item": "mmorpg:mat/salvage/salvage4",
+	"count": 3
+  }
+}
