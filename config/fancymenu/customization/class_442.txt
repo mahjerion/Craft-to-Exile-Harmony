@@ -1,0 +1,136 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_442
+  renderorder = foreground
+}
+
+customization {
+  path = config/fancymenu/backgrounds/background.png
+  action = texturizebackground
+}
+
+customization {
+  identifier = %id=400310%
+  orientation = mid-centered
+  x = -75
+  action = movebutton
+  y = 13
+}
+
+customization {
+  identifier = %id=400310%
+  width = 150
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400358%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=604394%
+  orientation = bottom-left
+  x = 24
+  action = movebutton
+  y = -23
+}
+
+customization {
+  identifier = %id=400286%
+  orientation = mid-centered
+  x = -75
+  action = movebutton
+  y = -10
+}
+
+customization {
+  identifier = %id=400286%
+  width = 150
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400334%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400394%
+  orientation = mid-centered
+  x = -75
+  action = movebutton
+  y = 36
+}
+
+customization {
+  identifier = %id=400394%
+  width = 150
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=502394%
+  orientation = mid-centered
+  x = -75
+  action = movebutton
+  y = 59
+}
+
+customization {
+  identifier = %id=502394%
+  width = 150
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=376394%
+  orientation = bottom-left
+  x = 2
+  action = movebutton
+  y = -23
+}
+
+customization {
+  orientation = bottom-centered
+  buttonaction = openlink
+  x = 1
+  width = 93
+  action = addbutton
+  y = -33
+  backgroundhovered = config/fancymenu/images/wiki.png
+  label = 
+  backgroundnormal = config/fancymenu/images/wiki.png
+  value = https://github.com/mahjerion/Craft-to-Exile-Harmony/wiki
+  height = 30
+}
+
+customization {
+  orientation = bottom-centered
+  buttonaction = openlink
+  x = -94
+  width = 93
+  action = addbutton
+  y = -33
+  backgroundhovered = config/fancymenu/images/disc.png
+  label = 
+  backgroundnormal = config/fancymenu/images/disc.png
+  value = https://discord.gg/cJS6ZHs
+  height = 30
+}
+
+customization {
+  path = config/fancymenu/images/title.png
+  orientation = mid-centered
+  x = -278
+  width = 557
+  action = addtexture
+  y = -154
+  height = 125
+}
+

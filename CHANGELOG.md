@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Updates
+- New updated menu look!
+
+### Mod Updates
+- Added LambDynamicLights.
+- Added FancyMenu.
+- Removed Window Title Changer.
+- Removed Dark Loading Screen.
+
 ## [1.3.5] - 2020-12-03
 
 ### Updates
@@ -21,6 +30,7 @@ The following drop chance changes were designed to help new players. There shoul
 - Increased gem drop rate by 100%.
 - Increased currency drop rate by over 133%.
 - Increased weight of common items and reduced weight of other rarities. It is more common to get common items.
+- Updated Fabric Loader.
 
 ### Mod Updates
 - Updated Fat Experience Orbs, Disable Custom Worlds Advice, Age of Exile.
