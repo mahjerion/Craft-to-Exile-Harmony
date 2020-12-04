@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Updates
 - New updated menu look!
+- Doubled Vanilla Death Chest search radius and increased protection timer from 5 in-game days to 20 in-game days.
 
 ### Mod Updates
 - Added LambDynamicLights.
