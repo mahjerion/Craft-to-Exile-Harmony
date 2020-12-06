@@ -2,7 +2,7 @@
   "AnvilImprovements": {
     "Description": "Removes minimum and maximum XP costs on the anvil. Anvils are also less likely to break.",
     "Enabled": true,
-    "Remove Too Expensive": true,
+    "Remove Too Expensive": false,
     "Stronger anvils": true
   },
   "ArmorInvisibility": {
@@ -101,7 +101,7 @@
   },
   "ExtractEnchantments": {
     "Description": "Extract enchantments from any enchanted item into an empty book.",
-    "Enabled": true,
+    "Enabled": false,
     "Initial XP cost": 2,
     "Treasure XP cost": 15
   },

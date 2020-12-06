@@ -310,8 +310,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 0,
-        "hours": 7
+        "days": 7,
+        "hours": 0
       },
       "tasks": [
         {
@@ -388,16 +388,13 @@
     },
     {
       "uuid": "c9c81a94-3d09-41c0-996b-3c042bbca348",
-      "name": "Equal Exchange",
-      "description": "Art of Alchemy is a fantastic magic-based technology mod that is very complex. To start, craft the journal. It is recommended that you visit the Art of Alchemy wiki for more information. The link can be found in the sidebar of the [Harmony] wiki.",
+      "name": "Enchanter\u0027s Craft",
+      "description": "With Grind Enchantments, you can put an enchanted item and a book into the grindstone, and you will get the enchantments onto the book (and your unenchanted item back). If you put an enchanted book into the top slot and an empty (or also already enchanted) book into the bottom slot of the grindstone, the enchantment at the top of the first book will be put onto the other book.\nThis is useful if you have a book that has enchantments for different types of items (for example, a book with Efficiency and Protection), so you can seperate them.",
       "x": 148,
       "y": 16,
       "icon": {
-        "id": "artofalchemy:alchemical_journal",
-        "Count": 1,
-        "tag": {
-          "entries": []
-        }
+        "id": "minecraft:enchanting_table",
+        "Count": 1
       },
       "tasks": [
         {
@@ -406,13 +403,15 @@
           "items": [
             {
               "item": {
-                "id": "artofalchemy:alchemical_journal",
-                "Count": 1,
-                "tag": {
-                  "entries": []
-                }
-              },
-              "precision": "TAG_NBT_FUZZY"
+                "id": "minecraft:grindstone",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:enchanting_table",
+                "Count": 1
+              }
             }
           ]
         }
@@ -423,15 +422,55 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "mmorpg:loot_crate/gem",
-          "Count": 1
+          "id": "minecraft:lapis_lazuli",
+          "Count": 16
         },
         {
-          "id": "minecraft:quartz",
-          "Count": 32
+          "id": "mmorpg:loot_crate/ench_exp_bag",
+          "Count": 1,
+          "tag": {
+            "exp": 250
+          }
         }
       ],
-      "rewardchoice": [],
+      "rewardchoice": [
+        {
+          "id": "minecraft:enchanted_book",
+          "Count": 1,
+          "tag": {
+            "StoredEnchantments": [
+              {
+                "lvl": 5,
+                "id": "minecraft:efficiency"
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:enchanted_book",
+          "Count": 1,
+          "tag": {
+            "StoredEnchantments": [
+              {
+                "lvl": 3,
+                "id": "minecraft:unbreaking"
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:enchanted_book",
+          "Count": 1,
+          "tag": {
+            "StoredEnchantments": [
+              {
+                "lvl": 1,
+                "id": "minecraft:silk_touch"
+              }
+            ]
+          }
+        }
+      ],
       "commandrewards": []
     },
     {
@@ -487,8 +526,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 0,
-        "hours": 1
+        "days": 1,
+        "hours": 0
       },
       "tasks": [
         {
@@ -789,8 +828,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 0,
-        "hours": 1
+        "days": 1,
+        "hours": 0
       },
       "tasks": [
         {
@@ -859,8 +898,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 0,
-        "hours": 1
+        "days": 1,
+        "hours": 0
       },
       "tasks": [
         {
@@ -939,7 +978,7 @@
         }
       ],
       "prerequisites": [
-        "03b6069e-a4bd-4f91-9449-59e49409b70d"
+        "776e6acb-8edd-40fc-9b77-2cb07591d60d"
       ],
       "optionlinks": [],
       "reward": [
@@ -1104,7 +1143,7 @@
       "uuid": "776e6acb-8edd-40fc-9b77-2cb07591d60d",
       "name": "Storage Options",
       "description": "You will quickly find yourself running out of space due to all the loot Age of Exile brings. Iron Chests are one of the more popular storage options available in [Harmony]! Teleport and death teleport scrolls can be used to teleport to spawn and your death location, respectively.",
-      "x": 54,
+      "x": 85,
       "y": 16,
       "icon": {
         "id": "ironchest:iron_chest",
@@ -1125,7 +1164,7 @@
         }
       ],
       "prerequisites": [
-        "de27675e-9006-4d74-874d-6c2417d77562"
+        "03b6069e-a4bd-4f91-9449-59e49409b70d"
       ],
       "optionlinks": [],
       "reward": [
@@ -1161,8 +1200,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 0,
-        "hours": 1
+        "days": 1,
+        "hours": 0
       },
       "tasks": [
         {
@@ -1359,8 +1398,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 0,
-        "hours": 1
+        "days": 1,
+        "hours": 0
       },
       "tasks": [
         {
@@ -1469,7 +1508,7 @@
       "uuid": "03b6069e-a4bd-4f91-9449-59e49409b70d",
       "name": "Make Me A Sandwich!",
       "description": "Vanilla style.",
-      "x": 85,
+      "x": 54,
       "y": 16,
       "icon": {
         "id": "minecraft:bread",
@@ -1490,7 +1529,7 @@
         }
       ],
       "prerequisites": [
-        "776e6acb-8edd-40fc-9b77-2cb07591d60d"
+        "de27675e-9006-4d74-874d-6c2417d77562"
       ],
       "optionlinks": [],
       "reward": [
@@ -1514,8 +1553,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 0,
-        "hours": 1
+        "days": 1,
+        "hours": 0
       },
       "tasks": [
         {

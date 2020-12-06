@@ -1,1 +1,1 @@
-{"type":"artofalchemy:dissolution","ingredient":{"item":"mmorpg:mat/cloth/cloth1"},"result":{"item":"artofalchemy:mercury":40,"artofalchemy:neptune":40,"artofalchemy:tellus":40},"factor":1.0}
+{"type":"artofalchemy:dissolution","ingredient":{"item":"mmorpg:gear_mat/cloth/cloth1"},"result":{"artofalchemy:mercury":40,"artofalchemy:neptune":40,"artofalchemy:tellus":40},"factor":1.0}

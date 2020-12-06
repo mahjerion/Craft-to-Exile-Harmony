@@ -1,5 +1,5 @@
 {
-  "configVersion": 2,
+  "configVersion": 3,
   "sources": [
     "minecraft",
     "fabric"
@@ -9,5 +9,5 @@
   "disableUI": false,
   "loadJarsFromFolder": null,
   "overrideMainClass": null,
-  "pinFabricLoaderVersion": "0.10.6+build.214"
+  "pinFabricLoaderVersion": "0.10.8"
 }

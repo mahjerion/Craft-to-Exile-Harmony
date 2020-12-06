@@ -11,7 +11,7 @@
       "stat": "nature_weapon_damage",
       "type": "FLAT",
       "scaleToLevel": false
-    }
+    },
     {
       "first": 25.0,
       "second": 25.0,

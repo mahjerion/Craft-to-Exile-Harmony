@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IWI",
+	"WIW",
+	"IWI"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "W": {
+      "item": "minecraft:jungle_planks"
+    }
+  },
+  "result": {
+    "item": "allure:crate_jungle"
+  }
+}

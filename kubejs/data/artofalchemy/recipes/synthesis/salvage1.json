@@ -1,1 +1,1 @@
-{"type":"artofalchemy:synthesis","target":{"item":"mmorpg:mat/salvage/salvage1"},"materia":{"item":"artofalchemy:materia_c"},"essentia":{"item":"artofalchemy:apollo":40,"artofalchemy:pluto":40,"artofalchemy:diana":40},"cost":4}
+{"type":"artofalchemy:synthesis","target":{"item":"mmorpg:mat/salvage/salvage1"},"materia":{"item":"artofalchemy:materia_c"},"essentia":{"artofalchemy:apollo":40,"artofalchemy:pluto":40,"artofalchemy:diana":40},"cost":4}

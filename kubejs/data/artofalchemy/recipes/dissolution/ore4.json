@@ -1,1 +1,1 @@
-{"type":"artofalchemy:dissolution","ingredient":{"item":"mmorpg:mat/ore/ore4"},"result":{"item":"artofalchemy:mars":160,"artofalchemy:jupiter":160,"artofalchemy:ceres":160},"factor":1.0}
+{"type":"artofalchemy:dissolution","ingredient":{"item":"mmorpg:gear_mat/ore/ore4"},"result":{"artofalchemy:mars":160,"artofalchemy:jupiter":160,"artofalchemy:ceres":160},"factor":1.0}

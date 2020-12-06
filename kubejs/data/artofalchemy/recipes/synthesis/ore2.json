@@ -1,1 +1,1 @@
-{"type":"artofalchemy:synthesis","target":{"item":"mmorpg:mat/ore/ore2"},"materia":{"item":"artofalchemy:materia_b"},"essentia":{"item":"artofalchemy:mars":80,"artofalchemy:jupiter":80,"artofalchemy:ceres":80},"cost":4}
+{"type":"artofalchemy:synthesis","target":{"item":"mmorpg:gear_mat/ore/ore2"},"materia":{"item":"artofalchemy:materia_b"},"essentia":{"artofalchemy:mars":80,"artofalchemy:jupiter":80,"artofalchemy:ceres":80},"cost":4}

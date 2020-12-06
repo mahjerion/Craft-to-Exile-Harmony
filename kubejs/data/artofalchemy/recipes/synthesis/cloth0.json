@@ -1,1 +1,1 @@
-{"type":"artofalchemy:synthesis","target":{"item":"mmorpg:mat/cloth/cloth0"},"materia":{"item":"artofalchemy:materia_d"},"essentia":{"item":"artofalchemy:mercury":20,"artofalchemy:neptune":20,"artofalchemy:tellus":20},"cost":4}
+{"type":"artofalchemy:synthesis","target":{"item":"mmorpg:gear_mat/cloth/cloth0"},"materia":{"item":"artofalchemy:materia_d"},"essentia":{"artofalchemy:mercury":20,"artofalchemy:neptune":20,"artofalchemy:tellus":20},"cost":4}

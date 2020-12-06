@@ -7,15 +7,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.3.6] - 2020-12-07
+
 ### Updates
-- New updated menu look!
+- Allure Crate recipe has been slightly modified.
+- Added a new quest for the grindstone, also shifted some of the early-game quests around.
 - Doubled Vanilla Death Chest search radius and increased protection timer from 5 in-game days to 20 in-game days.
+- Disabled the separate enchantment feature of Charm - you can now use a grindstone for that.
+- New updated menu look!
+- Updated Fabric version to 0.10.8.
 
 ### Mod Updates
+- Updated Iron Chests, Dank Storage, Diggus Maximus, Edit Sign, Fabric Chunk Pregenerator, Light Overlay, Music Duration Reducer, Pet Owner, Compact Status Effects.
 - Added LambDynamicLights.
 - Added FancyMenu.
+- Added Grind Enchantments - lets you separate enchantments from weapons via grindstone.
 - Removed Window Title Changer.
 - Removed Dark Loading Screen.
+
+### Fixes
+- Fixed a bunch of datapack errors, especially in regards to Art of Alchemy.
 
 ## [1.3.5] - 2020-12-03
 

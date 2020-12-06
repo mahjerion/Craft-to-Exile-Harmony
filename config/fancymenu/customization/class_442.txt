@@ -89,6 +89,12 @@ customization {
 }
 
 customization {
+  identifier = %id=502394%
+  action = sethoverlabel
+  label = Are You Sure?
+}
+
+customization {
   identifier = %id=376394%
   orientation = bottom-left
   x = 2
@@ -99,11 +105,11 @@ customization {
 customization {
   orientation = bottom-centered
   buttonaction = openlink
-  x = 1
+  x = 49
   width = 93
   action = addbutton
   y = -33
-  backgroundhovered = config/fancymenu/images/wiki.png
+  backgroundhovered = config/fancymenu/images/wiki_hover.png
   label = 
   backgroundnormal = config/fancymenu/images/wiki.png
   value = https://github.com/mahjerion/Craft-to-Exile-Harmony/wiki
@@ -113,11 +119,11 @@ customization {
 customization {
   orientation = bottom-centered
   buttonaction = openlink
-  x = -94
+  x = -46
   width = 93
   action = addbutton
   y = -33
-  backgroundhovered = config/fancymenu/images/disc.png
+  backgroundhovered = config/fancymenu/images/disc_hover.png
   label = 
   backgroundnormal = config/fancymenu/images/disc.png
   value = https://discord.gg/cJS6ZHs
@@ -132,5 +138,21 @@ customization {
   action = addtexture
   y = -154
   height = 125
+}
+
+customization {
+  orientation = bottom-centered
+  buttonaction = openlink
+  backgroundhovered = config/fancymenu/images/akliz_hover.png
+  description = Get 20% off with this affiliate link!
+  label = 
+  hoverlabel = 
+  x = -141
+  width = 93
+  action = addbutton
+  y = -33
+  backgroundnormal = config/fancymenu/images/akliz.png
+  value = https://www.akliz.net/crafttoexile
+  height = 30
 }
 
