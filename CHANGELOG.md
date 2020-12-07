@@ -7,7 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [1.3.6] - 2020-12-07
+## [1.3.7] - 2020-12-07
+
+### Updates
+- Lowered Vanilla Death Chest search radius back to default.
+
+### Mod Updates
+- Updated Xaero's.
+- Downgraded Iron Chests.
+
+### Fixes
+- Fixed weird recipe errors.
+
+## [1.3.6] - 2020-12-06
 
 ### Updates
 - Allure Crate recipe has been slightly modified.
