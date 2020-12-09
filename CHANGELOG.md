@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Updates
+- Downgraded Fabric version on servers so they can actually upload on CF. 0.10.8 is still not accepted for some reason.
+
+### Mod Updates
+- Downgraded Fat XP Orbs temporarily.
+
 ## [1.3.7] - 2020-12-07
 
 ### Updates
