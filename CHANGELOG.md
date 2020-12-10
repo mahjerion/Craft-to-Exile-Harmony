@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Updates
+- Added Ward blocks to tower dungeon loot tables.
+
+### Fixes
+- Fixed custom spawner profiles not actually working.
+- Fixed default keybind of FancyMenu overwriting the spell bar button for new instances. If you're updating from a previous version you'll probably need to rebind it yourself.
+
 ## [1.3.7] - 2020-12-07
 
 ### Updates
