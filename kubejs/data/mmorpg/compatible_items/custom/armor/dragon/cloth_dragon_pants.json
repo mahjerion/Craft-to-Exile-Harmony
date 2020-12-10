@@ -1,0 +1,14 @@
+{
+  "item_type": "cloth_dragon_pants",
+  "item_id": "dragonloot:dragon_leggings",
+  "id": "dragonloot:cloth_dragon_pants",
+  "rarities": "non_aoe",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": true
+  },
+  "unique": {
+    "chance_to_become_unique": 0.0,
+    "unique_id": ""
+  }
+}

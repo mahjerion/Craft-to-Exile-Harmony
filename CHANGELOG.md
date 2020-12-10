@@ -8,8 +8,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Updates
+- New end-game gear: Dragon Scale armor, which can be smithed from Gilded Netherite and Dragon Scales.
 - Added Ward blocks to tower dungeon loot tables.
+- Added a new quest for DragonLoot in The End.
+- Increased number of required kills for the Endermen quest.
 - Reduced Corrupted Golem HP by half.
+
+### Mod Updates
+- Added DragonLoot.
 
 ### Fixes
 - Fixed custom spawner profiles not actually working.
