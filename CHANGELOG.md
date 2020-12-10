@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Updates
 - Added Ward blocks to tower dungeon loot tables.
+- Reduced Corrupted Golem HP by half.
 
 ### Fixes
 - Fixed custom spawner profiles not actually working.
