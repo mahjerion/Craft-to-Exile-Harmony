@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.3.7] - 2020-12-14
+
 ### Updates
 - New end-game gear: Dragon Scale armor, which can be smithed from Gilded Netherite and Dragon Scales.
 - Added Ward blocks to tower dungeon loot tables.
@@ -15,6 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Reduced Corrupted Golem HP by half.
 
 ### Mod Updates
+- Updated FLAN, Roughly Enough Resources.
 - Added DragonLoot.
 
 ### Fixes

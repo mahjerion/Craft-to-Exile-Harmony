@@ -52,6 +52,8 @@
   "claimGroupInfoHeader": "Groups: ",
   "claimGroupPerms": "    Permissions: %s",
   "claimGroupPlayers": "    Players: %s",
+  "screenEnableText": "Enabled: %s",
+  "screenUneditable": "Non Editable!",
   "EDITCLAIM.desc": "Gives permission to edit (resize, delete...) the claim",
   "EDITPERMS.desc": "Gives permission to change the claims permissions",
   "BREAK.desc": "Permission to break blocks in the claim",
@@ -89,5 +91,6 @@
   "HURTPLAYER.desc": "Permission to hurt other players",
   "EXPLOSIONS.desc": "Toggle explosions in claim",
   "WITHER.desc": "Toggle wither breaking blocks in claim",
-  "FIRESPREAD.desc": "Toggle firespread in claim"
+  "FIRESPREAD.desc": "Toggle firespread in claim",
+  "MOBSPAWN.desc": "Prevent mobspawn in claim"
 }
