@@ -22,8 +22,8 @@
         "mmorpg:nature_slime",
         "mmorpg:nature_spider"
       ],
-      "minMobCount": 7,
-      "maxMobCount": 11
+      "minMobCount": 5,
+      "maxMobCount": 9
     },
     {
       "entities": [
@@ -32,8 +32,8 @@
         "mmorpg:nature_chicken",
         "mmorpg:nature_mage"
       ],
-      "minMobCount": 9,
-      "maxMobCount": 13
+      "minMobCount": 7,
+      "maxMobCount": 11
     },
     {
       "entities": [

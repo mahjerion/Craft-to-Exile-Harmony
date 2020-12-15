@@ -15,8 +15,8 @@
         "mmorpg:thunder_slime",
         "mmorpg:nature_slime"
       ],
-      "minMobCount": 7,
-      "maxMobCount": 11
+      "minMobCount": 3,
+      "maxMobCount": 7
     },
     {
       "entities": [
@@ -75,10 +75,13 @@
     },
     {
       "entities": [
-        "mmorpg:boss_golem"
+        "mmorpg:water_zombie",
+        "mmorpg:fire_zombie",
+        "mmorpg:thunder_zombie",
+        "mmorpg:nature_zombie"
       ],
-      "minMobCount": 1,
-      "maxMobCount": 1
+      "minMobCount": 11,
+      "maxMobCount": 15
     }
   ]
 }
