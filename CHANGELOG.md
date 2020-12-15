@@ -7,7 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Updates
+- Nerfed most slimes.
+
 ### Fixes
+- Fixed custom spawner profiles not actually working.
 - Disabled /tpahere. Oversight on my part.
 
 ## [1.3.8] - 2020-12-14
@@ -25,7 +29,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added DragonLoot.
 
 ### Fixes
-- Fixed custom spawner profiles not actually working.
 - Fixed default keybind of FancyMenu overwriting the spell bar button for new instances. If you're updating from a previous version you'll probably need to rebind it yourself.
 - Fixed FancyMenu settings not being applied.
 
