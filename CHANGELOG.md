@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixes
+- Disabled /tpahere. Oversight on my part.
+
 ## [1.3.8] - 2020-12-14
 
 ### Updates
