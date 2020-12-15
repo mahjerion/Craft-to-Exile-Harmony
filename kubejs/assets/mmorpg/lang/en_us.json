@@ -1384,6 +1384,18 @@
 	"mmorpg.gear_type.cloth_ender_boots": "Ender Shoes",
 	"mmorpg.gear_type.leather_ender_boots": "Ender Boots",
 	"mmorpg.gear_type.plate_ender_boots": "Ender Footwear",
+	"mmorpg.gear_type.cloth_dragon_boots": "Dragon Shoes",
+	"mmorpg.gear_type.cloth_dragon_chest": "Dragon Robe",
+	"mmorpg.gear_type.cloth_dragon_helmet": "Dragon Hat",
+	"mmorpg.gear_type.cloth_dragon_pants": "Dragon Leggings",
+	"mmorpg.gear_type.leather_dragon_boots": "Dragon Boots",
+	"mmorpg.gear_type.leather_dragon_chest": "Dragon Tunic",
+	"mmorpg.gear_type.leather_dragon_helmet": "Dragon Cap",
+	"mmorpg.gear_type.leather_dragon_pants": "Dragon Pants",
+	"mmorpg.gear_type.plate_dragon_boots": "Dragon Footwear",
+	"mmorpg.gear_type.plate_dragon_chest": "Dragon Chestplate",
+	"mmorpg.gear_type.plate_dragon_helmet": "Dragon Helmet",
+	"mmorpg.gear_type.plate_dragon_pants": "Dragon Greaves",
 
 "_comment": " [CATEGORY]: GEAR SLOTS - NAMES",
 

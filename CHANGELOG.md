@@ -7,14 +7,27 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixes
+- Disabled /tpahere. Oversight on my part.
+
+## [1.3.8] - 2020-12-14
+
 ### Updates
+- New end-game gear: Dragon Scale armor, which can be smithed from Gilded Netherite and Dragon Scales.
 - Added Ward blocks to tower dungeon loot tables.
+- Added a new quest for DragonLoot in The End.
+- Increased number of required kills for the Endermen quest.
 - Reduced Corrupted Golem HP by half.
 - Reduced experience gain from Slimes.
+
+### Mod Updates
+- Updated FLAN, Roughly Enough Resources.
+- Added DragonLoot.
 
 ### Fixes
 - Fixed custom spawner profiles not actually working.
 - Fixed default keybind of FancyMenu overwriting the spell bar button for new instances. If you're updating from a previous version you'll probably need to rebind it yourself.
+- Fixed FancyMenu settings not being applied.
 
 ## [1.3.7] - 2020-12-07
 

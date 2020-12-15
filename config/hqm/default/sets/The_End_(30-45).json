@@ -23,7 +23,7 @@
                 "Count": 1
               },
               "mob": "minecraft:enderman",
-              "kills": 1
+              "kills": 16
             }
           ]
         }
@@ -146,6 +146,55 @@
       "commandrewards": []
     },
     {
+      "uuid": "03574ea8-705e-40da-845b-507e200bd7e8",
+      "name": "Impervious Scales",
+      "description": "DragonLoot adds a new drop for Ender Dragons. Dragon Scales can be used to craft near-end game armor! You can also craft an indestructible anvil using Dragon Scale.",
+      "x": 86,
+      "y": 50,
+      "icon": {
+        "id": "dragonloot:dragon_scale",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Detection Task",
+          "items": [
+            {
+              "item": {
+                "id": "dragonloot:dragon_scale",
+                "Count": 1
+              },
+              "precision": "TAG_NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "1fc5e416-0277-4947-b0e4-66aca79bca09"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:gear_mat/ore/ore3",
+          "Count": 4
+        },
+        {
+          "id": "mmorpg:loot_crate/ench_exp_bag",
+          "Count": 1,
+          "tag": {
+            "exp": 250
+          }
+        },
+        {
+          "id": "mmorpg:loot_crate/rare",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "02d59d20-55f9-414d-9eee-3452de1a2e49",
       "name": "Guardians Of The End (Daily)",
       "description": "In The End, you will find guardians near strongholds.",
@@ -157,8 +206,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 1,
-        "hours": 0
+        "days": 0,
+        "hours": 1
       },
       "tasks": [
         {
