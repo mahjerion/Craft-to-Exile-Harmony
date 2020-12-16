@@ -55,6 +55,6 @@
   "min_lvl": 40,
   "max_lvl": 100,
   "dmg_multi": 1.0,
-  "hp_multi": 2.0,
+  "hp_multi": 1.5,
   "stat_multi": 1.0
 }
