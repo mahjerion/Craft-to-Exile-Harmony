@@ -10,6 +10,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Updates
 - Reduced experience gain from other slime variants.
 - Reduced HP of the Wither, Ender Dragon, Blackstone Golem by about 25%.
+- Removed asset files from server. Reduces server file sizes substantially.
+
+### Mod Updates
+- Updated Phosphor.
 
 ### Fixes
 - Fixed custom spawner profiles not actually working.
