@@ -13,7 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Removed asset files from server. Reduces server file sizes substantially.
 
 ### Mod Updates
-- Updated Phosphor, DragonLoot, Xaero's.
+- Updated Phosphor, DragonLoot, Xaero's, Jumploader.
 
 ### Fixes
 - Fixed custom spawner profiles not actually working.
