@@ -239,7 +239,7 @@
     "mana_cost": 12,
     "times_to_cast": 1,
     "cast_time_ticks": 0,
-    "cooldown_ticks": 80,
+    "cooldown_ticks": 120,
     "is_starter": false,
     "style": "MELEE",
     "passive_config": {

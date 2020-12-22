@@ -8,6 +8,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Updates
+- Increased cooldown of all "basic" spells by 1-2s.
+- Inreased damage of Thunder Spear by 40%.
 - Reduced experience gain from other slime variants.
 - Reduced HP of the Wither, Ender Dragon, Blackstone Golem by about 25%.
 - Removed asset files from server. Reduces server file sizes substantially.

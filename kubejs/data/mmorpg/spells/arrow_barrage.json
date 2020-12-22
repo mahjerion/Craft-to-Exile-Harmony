@@ -163,7 +163,7 @@
     "castingWeapon": "RANGED",
     "mana_cost": 8,
     "times_to_cast": 6,
-    "cast_time_ticks": 40,
+    "cast_time_ticks": 60,
     "cooldown_ticks": 500,
     "is_starter": false,
     "style": "RANGED",
