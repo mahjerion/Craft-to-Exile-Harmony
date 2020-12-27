@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [1.3.9] - 2020-01-01
+## [1.3.9] - 2020-01-XX
 
 ### Updates
 - Reduced mob scaling by 17%.
