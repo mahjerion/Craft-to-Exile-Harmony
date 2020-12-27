@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Updates
+- Reduced mob scaling by 17%.
 - Increased cooldown of all "basic" spells by 1-2s.
 - Inreased damage of Thunder Spear by 40%.
 - Reduced experience gain from other slime variants.
