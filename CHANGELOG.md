@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.3.9] - 2020-01-XX
 
 ### Updates
+- Proper inventory sorting is now here with Iron Chests. The button sort of collides with Dank's button. Use Dank's button over Inventory Profile's button to avoid issues.
 - Reduced mob scaling by 17%.
 - Increased cooldown of all "basic" spells by 1-2s.
 - Inreased damage of Thunder Spear by 40%.
@@ -17,9 +18,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Reduced experience gain from other slime variants.
 - Reduced HP of the Wither, Ender Dragon, Blackstone Golem by about 25%.
 - Removed asset files from server. Reduces server file sizes substantially.
+- Switched currency costs of Dank 3 and Dank 4.
 
 ### Mod Updates
 - Updated Phosphor, DragonLoot, Xaero's, Jumploader, Music Duration Reducer.
+- Added Inventory Profiles.
 
 ### Fixes
 - Fixed custom spawner profiles not actually working.
