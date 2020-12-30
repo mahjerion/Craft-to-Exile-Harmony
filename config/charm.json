@@ -134,7 +134,7 @@
   },
   "InventoryTidying": {
     "Description": "Button to automatically tidy inventories.",
-    "Enabled": true
+    "Enabled": false
   },
   "Lumberjacks": {
     "Description": "Lumberjacks are villagers that trade wooden items. Their job site is the woodcutter.",

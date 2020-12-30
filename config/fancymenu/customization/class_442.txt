@@ -156,3 +156,17 @@ customization {
   height = 30
 }
 
+customization {
+  orientation = bottom-left
+  buttonaction = openlink
+  x = 46
+  width = 80
+  action = addbutton
+  y = -23
+  backgroundhovered = config/fancymenu/images/patreon_hover.png
+  label = 
+  backgroundnormal = config/fancymenu/images/patreon.png
+  value = https://www.patreon.com/crafttoexile
+  height = 20
+}
+
