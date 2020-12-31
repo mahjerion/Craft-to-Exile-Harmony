@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [1.3.9] - 2020-01-XX
+## [1.3.9] - 2020-12-31
 
 ### Updates
 - Proper inventory sorting is now here with Iron Chests. The button sort of collides with Dank's button. Use Dank's button over Inventory Profile's button to avoid issues.
