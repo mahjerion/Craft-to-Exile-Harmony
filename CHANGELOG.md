@@ -21,7 +21,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Switched currency costs of Dank 3 and Dank 4.
 
 ### Mod Updates
-- Updated Phosphor, DragonLoot, Xaero's, Jumploader, Music Duration Reducer.
+- Updated Phosphor, DragonLoot, Xaero's, Jumploader, Music Duration Reducer, RandomPatches.
 - Added Inventory Profiles.
 
 ### Fixes
