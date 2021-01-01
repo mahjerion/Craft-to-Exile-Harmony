@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.3.9b] - 2020-01-01
+
+### Fixes
+- Fixed crash with green recipe book.
+
 ## [1.3.9] - 2020-12-31
 
 ### Updates
