@@ -1,0 +1,9 @@
+//If items with a white (common) item name should get a beam
+showWhiteItems=false
+
+//How many particles to create per tick
+particleCount=1
+
+//How old the item needs to be before it gets a beam (in ticks)
+minimumAge=10
+

@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.3.9c] - 2020-01-XX
+
+### Mod Updates
+- Updated Fabric Furnaces, Fabric Waystones.
+- Added Monster of the Ocean Depths - adds a new mob to the ocean.
+- Added Go Fish - new fish! Like Terraria!
+- Added lootbeams - depending on item rarity, a coloured beam will appear over items!
+
+### Fixes
+- Waystones are fixed!!!
+
 ## [1.3.9b] - 2020-01-01
 
 ### Fixes
