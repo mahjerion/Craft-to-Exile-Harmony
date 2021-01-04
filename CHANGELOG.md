@@ -7,16 +7,35 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [1.3.9c] - 2020-01-XX
+## [2.0.0] - 2020-01-XX
+
+### Updates
+- Updated to 1.16.4 - means we can move update a bunch of mods that have fallen behind! There may be some unintended side effects, though!
+- The addition of Traverse, Terrestria, Cinderscapes, BetterEnd, and BetterNether means much more fleshed out vanilla dimensions. Find new mobs in The Nether and The End!
+- Go Fish adds a bunch of new fish that can be found in each dimension!
+- New Scrolls and Pocket Wormholes from Waystones lets you teleport to discovered waystones!
 
 ### Mod Updates
-- Updated Fabric Furnaces, Fabric Waystones.
+- Updated Adorn, Allure, AuthMe, Oh The Biomes You'll Go, Campanion, Charm, Charmonium, Clear Skies, Dank Storage, Diggus Maximus, Edit Sign, Flesh2Leather, Illuminations, Iron Chest, ItemFlexer, Light Overlay, Mod Menu, Mo' Structures, Patchouli, Roughly Enough Items, The Bumblezone, Trade, Ward Blocks, XP Storage, Fabric Furnaces, Fabric Waystones, Fabric API, Player Roles.
 - Added Monster of the Ocean Depths - adds a new mob to the ocean.
 - Added Go Fish - new fish! Like Terraria!
 - Added lootbeams - depending on item rarity, a coloured beam will appear over items!
+- Added Traverse.
+- Added Terrestria.
+- Added Cinderscapes.
+- Added BetterEnd.
+- Added BetterNether.
+- Removed Craftable Utilities.
+- Removed Less Greedy Piglins.
+- Removed Anvil Fix - Charm should cover this.
 
 ### Fixes
-- Waystones are fixed!!!
+- Waystones are fixed!
+- A bunch of issues regarding Adorn, Allure, and Charm have been fixed.
+- Dank Storage not working when upgraded has been fixed!
+- Iron Chest compatibility has been improved.
+- Patchouli unworking Age of Exile Guidebook has been fixed.
+- XP Storage losing experience when maxing out has been fixed.
 
 ## [1.3.9b] - 2020-01-01
 

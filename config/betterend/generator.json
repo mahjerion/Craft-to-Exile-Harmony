@@ -1,0 +1,6 @@
+{
+  "useNewGenerator [default: false]": false,
+  "noRingVoid [default: false]": false,
+  "biomeSizeLand [default: 256]": 256,
+  "biomeSizeVoid [default: 256]": 256
+}

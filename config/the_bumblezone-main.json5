@@ -111,15 +111,6 @@
 		*/
 		"seaLevelOrHigherExitTeleporting": true,
 		/* 
-		   If an identifier of a block is specified here,
-		    then teleporting to Bumblezone will need that block under
-		   the Bee Nest/Beehive you threw the Enderpearl at.
-		   
-		   By default, no identifier is specified so any block can
-		   be under the Bee Nest/Beehive to teleport to the dimension.
-		*/
-		"requiredBlockUnderHive": "",
-		/* 
 		   If requiredBlockUnderHive has a block specified and this config
 		    is set to true, then player will get a warning if they throw
 		   an Enderpearl at a Bee Nest/Beehive but the block under it is

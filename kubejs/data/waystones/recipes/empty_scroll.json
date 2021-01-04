@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "/P/",
+    "POP",
+    "/P/"
+  ],
+  "key": {
+    "/": {
+      "item": "minecraft:stick"
+    },
+    "P": {
+      "item": "minecraft:paper"
+    },
+	"O": {
+	  "item": "mmorpg:mat/salvage/salvage0"
+	}
+  },
+  "result": {
+    "item": "waystones:empty_scroll",
+    "count": 4
+  }
+}
