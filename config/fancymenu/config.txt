@@ -24,7 +24,7 @@ S:copyrightposition = 'bottom-right';
 B:hidebranding = 'true';
 B:hidelogo = 'true';
 B:showmainmenufooter = 'false';
-B:hiderealmsnotifications = 'false';
+B:hiderealmsnotifications = 'true';
 
 
 ##[mainmenu_splash]
