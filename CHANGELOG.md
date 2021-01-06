@@ -14,6 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - The addition of Traverse, Terrestria, Cinderscapes, BetterEnd, and BetterNether means much more fleshed out vanilla dimensions. Find new mobs in The Nether and The End!
 - Go Fish adds a bunch of new fish that can be found in each dimension!
 - New Scrolls and Pocket Wormholes from Waystones lets you teleport to discovered waystones!
+- New Transfer Chest acts as an Ender Chest but for ALL players! Easily send items interdimensionally to your friends or newbies with this new chest.
 
 ### Mod Updates
 - Updated Adorn, Allure, AuthMe, Oh The Biomes You'll Go, Campanion, Charm, Charmonium, Clear Skies, Dank Storage, Diggus Maximus, Edit Sign, Flesh2Leather, Illuminations, Iron Chest, ItemFlexer, Light Overlay, Mod Menu, Mo' Structures, Patchouli, Roughly Enough Items, The Bumblezone, Trade, Ward Blocks, XP Storage, Fabric Furnaces, Fabric Waystones, Fabric API, Player Roles, Age of Exile.
@@ -26,6 +27,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added Cinderscapes.
 - Added BetterEnd.
 - Added BetterNether.
+- Added Transfer Chest.
 - Removed Craftable Utilities.
 - Removed Less Greedy Piglins.
 - Removed Anvil Fix - Charm should cover this.
