@@ -1,6 +1,6 @@
 {
   "dimension_id": "minecraft:the_nether",
-  "mob_tier": 2,
+  "mob_tier": 1,
   "all_drop_multi": 1.0,
   "mob_lvl_per_distance": 30,
   "unique_gear_drop_multi": 0.7,
