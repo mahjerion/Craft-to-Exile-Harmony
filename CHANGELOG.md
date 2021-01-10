@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [2.0.0] - 2020-01-XX
+## [2.0.0] - 2021-01-XX
 
 ### Updates
 - Updated to 1.16.4 - means we can move update a bunch of mods that have fallen behind! There may be some unintended side effects, though!
@@ -43,7 +43,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Patchouli unworking Age of Exile Guidebook has been fixed.
 - XP Storage losing experience when maxing out has been fixed.
 
-## [1.3.9b] - 2020-01-01
+## [1.3.9b] - 2021-01-01
 
 ### Fixes
 - Fixed crash with green recipe book.
