@@ -15,6 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Go Fish adds a bunch of new fish that can be found in each dimension!
 - New Scrolls and Pocket Wormholes from Waystones lets you teleport to discovered waystones!
 - New Transfer Chest acts as an Ender Chest but for ALL players! Easily send items interdimensionally to your friends or newbies with this new chest.
+- New hammer type of weapon! From iron -> aeternium, these weapons have high base damage but virtually no critical chance. They also knock back enemies pretty far!
 - Reduced mob scaling by 20%.
 - Mobs are a bit easier in dimensions after the Overworld now.
 

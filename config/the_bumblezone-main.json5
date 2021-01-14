@@ -96,6 +96,12 @@
 		*/
 		"fogBrightnessPercentage": 100.0,
 		/* 
+		   Makes throwing Enderpearls at Bee Nests or Hives only
+		    work in the Overworld. What this means setting this to true makes it 
+		   only possible to enter The Bumblezone dimension from the Overworld
+		*/
+		"onlyOverworldHivesTeleports": false,
+		/* 
 		   Makes leaving The Bumblezone dimension always places you back
 		    at the Overworld regardless of which dimension you originally 
 		   came from. Use this option if this dimension becomes locked in 
@@ -151,7 +157,13 @@
 		   Example: Using Honey Bottle to feed Honeycomb Brood Blocks will grow the larva and 
 		   drop the Glass Bottle instead of putting it back into Dispenser if this is set to true.
 		*/
-		"dispensersDropGlassBottles": false
+		"dispensersDropGlassBottles": false,
+		/* 
+		   Brood Blocks will automatically spawn bees until the number of active bees is the value below. 
+		   Set this higher to allow Brood Blocks to spawn more bees in a smaller area or set it to 0 to turn 
+		   off automatic Brood Block bee spawning.
+		*/
+		"broodBlocksBeeSpawnCapacity": 50
 	},
 	"BZModCompatibilityConfig": { 
 		/* 

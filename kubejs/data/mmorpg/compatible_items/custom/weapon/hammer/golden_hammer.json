@@ -1,0 +1,14 @@
+{
+  "item_type": "golden_hammer",
+  "item_id": "betterend:golden_hammer",
+  "id": "betterend:golden_hammer",
+  "rarities": "non_aoe",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": true
+  },
+  "unique": {
+    "chance_to_become_unique": 0.25,
+    "unique_id": ""
+  }
+}

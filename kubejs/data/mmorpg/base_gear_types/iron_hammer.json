@@ -1,0 +1,39 @@
+{
+  "id": "iron_hammer",
+  "weight": 1000,
+  "rarity": 0,
+  "tier": 0,
+  "implicit_stats": [],
+  "base_stats": [
+    {
+      "firstMin": 3.0,
+      "firstMax": 5.0,
+      "secondMin": 6.0,
+      "secondMax": 10.0,
+      "stat": "physical_weapon_damage",
+      "type": "flat"
+    }
+  ],
+  "level_range": {
+    "start": 0.2,
+    "end": 0.4
+  },
+  "tag_list": {
+    "tags": [
+      "warrior_casting_weapon",
+      "strength",
+      "weapon_family",
+      "melee_weapon",
+      "hammer"
+    ]
+  },
+  "stat_req": {
+    "dex_req": 0.0,
+    "int_req": 0.0,
+    "str_req": 0.0
+  },
+  "item_id": "betterend:iron_hammer",
+  "gear_slot": "hammer",
+  "weapon_type": "Hammer",
+  "attack_style": "MELEE"
+}

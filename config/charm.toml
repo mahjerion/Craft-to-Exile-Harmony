@@ -157,6 +157,8 @@
 	"Stronger anvils" = true
 	#If true, an enchanted book with a level higher than the maximum enchantment level may be applied to an item.
 	"Allow higher enchantment levels" = true
+	#If true, items show their repair cost in their tooltip when looking at the anvil screen.
+	"Show item repair cost" = true
 
 [Atlas]
 	#The atlas will create maps of this size (0-4).
@@ -169,6 +171,10 @@
 	"Glowing time" = 10
 	#Range (in blocks) in which entities will glow.
 	"Viewing range" = 24
+
+[Beekeepers]
+	#Chance of a custom building to spawn. For reference, a vanilla library is 5.
+	"Beekeeper house weight" = 5
 
 [BlockOfEnderPearls]
 	#A chorus fruit will teleport you to an ender pearl block within this range (in blocks).
@@ -261,6 +267,10 @@
 	"Drop sand when killed" = true
 	#Maximum sand dropped when husk is killed.
 	"Maximum drops" = 2
+
+[Lumberjacks]
+	#Chance of a custom building to spawn. For reference, a vanilla library is 5.
+	"Lumberjack house weight" = 5
 
 [MineshaftImprovements]
 	#If true, stone, ore, lanterns and TNT will spawn inside mineshaft corridors.

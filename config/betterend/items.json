@@ -27,7 +27,18 @@
     "shadow_berry_jelly [default: true]": true,
     "umbrella_cluster_juice [default: true]": true,
     "eternal_crystal [default: true]": true,
-    "guidebook [default: true]": true
+    "guidebook [default: true]": true,
+    "enchanted_petal [default: true]": true,
+    "leather_stripe [default: true]": true,
+    "leather_wrapped_stick [default: true]": true,
+    "blossom_berry [default: true]": true,
+    "aeternium_shovel_head [default: true]": true,
+    "aeternium_pickaxe_head [default: true]": true,
+    "aeternium_axe_head [default: true]": true,
+    "aeternium_hoe_head [default: true]": true,
+    "aeternium_hammer_head [default: true]": true,
+    "aeternium_sword_blade [default: true]": true,
+    "aeternium_sword_handle [default: true]": true
   },
   "armor": {
     "terminite_helmet [default: true]": true,

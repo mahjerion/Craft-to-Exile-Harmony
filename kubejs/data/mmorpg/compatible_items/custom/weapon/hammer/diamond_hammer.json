@@ -1,0 +1,14 @@
+{
+  "item_type": "diamond_hammer",
+  "item_id": "betterend:diamond_hammer",
+  "id": "betterend:diamond_hammer",
+  "rarities": "non_aoe",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": true
+  },
+  "unique": {
+    "chance_to_become_unique": 0.0,
+    "unique_id": ""
+  }
+}
