@@ -17,10 +17,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Go Fish adds a bunch of new fish that can be found in each dimension!
 - New Scrolls and Pocket Wormholes from Waystones lets you teleport to discovered waystones!
 - New Transfer Chest acts as an Ender Chest but for ALL players! Easily send items interdimensionally to your friends or newbies with this new chest.
-- New hammer type of weapon! From iron -> aeternium, these weapons have high base damage but virtually no critical chance. They also knock back enemies pretty far!
+- New hammer type of weapon! From iron -> aeternium, these sluggish weapons have high base damage but virtually no critical chance. They also knock back enemies pretty far! Note: the lowest tier hammer is iron, and has a minimum level of 10.
 - TONS of new content in the Nether and The End now! New gear that can be found and crafted! Check the quest book for more details!
 - Tons of new quests to help guide players with the new content.
-- Gear progression has been slightly reworked. Some equips were way too difficult to find, and with the addition of new craftable equipment, some values have been shifted. More importantly, gear cannot roll as any type now. For example, in the early game, leather will always roll as leather, iron will roll as plate, and ametrine will roll as cloth. In general, it is easier to find leather gear compared to plate and cloth. For the list of craftable gear and their types, refer to the Wiki. Do keep in mind, it's still way easier to just craft Age of Exile gear which is actually slightly _stronger_ than non-AoE gear!
+- Partying now provides ADDITIONAL experience for each party member. 1 player = 100%, 2 players = 120%/2 = 60%, 3 players = 140%/3 = 46.67%, etc.
+- Gear progression has been slightly reworked. Some equips were way too difficult to find, and with the addition of new craftable equipment, some values have been shifted. More importantly, most equips cannot roll as any type now. For example, in the early game, leather will always roll as leather and iron will roll as plate. Another change: gold can only roll as cloth now. For the list of craftable gear and their types, refer to the Wiki. Do keep in mind, it's still way easier to just craft Age of Exile gear which is actually slightly _stronger_ than non-AoE gear!
 - Reduced mob scaling by 20%.
 - Mobs are a bit easier in dimensions after the Overworld now.
 - Reduced the cooldown of the "ball" spells and thunder spear. Spells felt too clunky to use early on.
@@ -28,7 +29,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Notes: with so many changes, I might have forgotten to record some...
 
 ### Mod Updates
-- Updated Adorn, Allure, AuthMe, Oh The Biomes You'll Go, Campanion, Charm, Charmonium, Clear Skies, Dank Storage, Diggus Maximus, Edit Sign, Flesh2Leather, Illuminations, Iron Chest, ItemFlexer, Light Overlay, Lithium, Mod Menu, Mo' Structures, Patchouli, Roughly Enough Items, The Bumblezone, Trade, Ward Blocks, XP Storage, Fabric Furnaces, Fabric Waystones, Fabric API, Player Roles, Age of Exile, Origins, Xaero's, Where Is It, Repurposed Structures, LambDynamicLights, KubeJS, Dynamic FPS, Chat Heads, FLAN.
+- Updated Adorn, Allure, Age of Exile, AuthMe, Oh The Biomes You'll Go, Campanion, Charm, Charmonium, Clear Skies, Dank Storage, Diggus Maximus, Edit Sign, Flesh2Leather, Illuminations, Iron Chest, ItemFlexer, Light Overlay, Lithium, Mod Menu, Mo' Structures, Patchouli, Roughly Enough Items, The Bumblezone, Trade, Ward Blocks, XP Storage, Fabric Furnaces, Fabric Waystones, Fabric API, Player Roles, Age of Exile, Origins, Xaero's, Where Is It, Repurposed Structures, LambDynamicLights, KubeJS, Dynamic FPS, Chat Heads, FLAN.
 - Added Smooth Boot - load your game faster!
 - Added Monster of the Ocean Depths - adds a new mob to the ocean.
 - Added Go Fish - new fish! Like Terraria!
@@ -52,6 +53,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Patchouli unworking Age of Exile Guidebook has been fixed.
 - XP Storage losing experience when maxing out has been fixed.
 - Problem with FLAN claims being lost upon death has been fixed.
+- Fixed party giving 0 exp at low levels.
 
 ## [1.3.9b] - 2021-01-01
 
