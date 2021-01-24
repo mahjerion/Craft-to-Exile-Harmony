@@ -10,17 +10,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [2.0.0] - 2021-01-XX
 
 ### Updates
+- THIS UPDATE WILL LIKELY BREAK YOUR EXISTING WORLDS. IT'S RECOMMENDED YOU BACK UP YOUR WORLD, AND IN THE WORST-CASE, START A NEW ONE!
 - Updated to 1.16.4 - means we can move update a bunch of mods that have fallen behind! There may be some unintended side effects, though!
 - The addition of Traverse, Terrestria, Cinderscapes, BetterEnd, and BetterNether means much more fleshed out vanilla dimensions. Find new mobs in The Nether and The End!
+- Incorporation of the End City datapack makes The End so much more interesting! Check it out!
 - Go Fish adds a bunch of new fish that can be found in each dimension!
 - New Scrolls and Pocket Wormholes from Waystones lets you teleport to discovered waystones!
 - New Transfer Chest acts as an Ender Chest but for ALL players! Easily send items interdimensionally to your friends or newbies with this new chest.
 - New hammer type of weapon! From iron -> aeternium, these weapons have high base damage but virtually no critical chance. They also knock back enemies pretty far!
+- TONS of new content in the Nether and The End now! New gear that can be found and crafted! Check the quest book for more details!
+- Gear progression has been slightly reworked. Some equips were way too difficult to find, and with the addition of new craftable equipment, some values have been shifted. More importantly, gear cannot roll as any type now. For example, in the early game, leather will always roll as leather, iron will roll as plate, and ametrine will roll as cloth. In general, it is easier to find leather gear compared to plate and cloth. For the list of craftable gear and their types, refer to the Wiki. Do keep in mind, it's still way easier to just craft Age of Exile gear which is actually slightly _stronger_ than non-AoE gear!
 - Reduced mob scaling by 20%.
 - Mobs are a bit easier in dimensions after the Overworld now.
+- Reduced the cooldown of the "ball" spells and thunder spear. Spells felt too clunky to use early on.
+- Increased the damage of Lightning Totem by 12.5%.
+- Tons of new quests to help guide players with the new content.
+- Notes: with so many changes, I might have forgotten to record some...
 
 ### Mod Updates
-- Updated Adorn, Allure, AuthMe, Oh The Biomes You'll Go, Campanion, Charm, Charmonium, Clear Skies, Dank Storage, Diggus Maximus, Edit Sign, Flesh2Leather, Illuminations, Iron Chest, ItemFlexer, Light Overlay, Mod Menu, Mo' Structures, Patchouli, Roughly Enough Items, The Bumblezone, Trade, Ward Blocks, XP Storage, Fabric Furnaces, Fabric Waystones, Fabric API, Player Roles, Age of Exile, Origins, Xaero's, Where Is It, Repurposed Structures, LambDynamicLights, KubeJS, Dynamic FPS.
+- Updated Adorn, Allure, AuthMe, Oh The Biomes You'll Go, Campanion, Charm, Charmonium, Clear Skies, Dank Storage, Diggus Maximus, Edit Sign, Flesh2Leather, Illuminations, Iron Chest, ItemFlexer, Light Overlay, Lithium, Mod Menu, Mo' Structures, Patchouli, Roughly Enough Items, The Bumblezone, Trade, Ward Blocks, XP Storage, Fabric Furnaces, Fabric Waystones, Fabric API, Player Roles, Age of Exile, Origins, Xaero's, Where Is It, Repurposed Structures, LambDynamicLights, KubeJS, Dynamic FPS, Chat Heads, FLAN.
 - Added Smooth Boot - load your game faster!
 - Added Monster of the Ocean Depths - adds a new mob to the ocean.
 - Added Go Fish - new fish! Like Terraria!
@@ -43,6 +51,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Iron Chest compatibility has been improved.
 - Patchouli unworking Age of Exile Guidebook has been fixed.
 - XP Storage losing experience when maxing out has been fixed.
+- Problem with FLAN claims being lost upon death has been fixed.
 
 ## [1.3.9b] - 2021-01-01
 

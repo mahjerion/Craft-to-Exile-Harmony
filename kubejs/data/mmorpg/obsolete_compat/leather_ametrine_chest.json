@@ -1,0 +1,14 @@
+{
+  "item_type": "leather_ametrine_chest",
+  "item_id": "byg:ametrine_chestplate",
+  "id": "byg:leather_ametrine_chest",
+  "rarities": "non_aoe",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": true
+  },
+  "unique": {
+    "chance_to_become_unique": 0.0,
+    "unique_id": ""
+  }
+}

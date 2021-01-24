@@ -1,0 +1,14 @@
+{
+  "item_type": "plate_terminite_pants",
+  "item_id": "betterend:terminite_leggings",
+  "id": "betterend:plate_terminite_pants",
+  "rarities": "non_aoe",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": true
+  },
+  "unique": {
+    "chance_to_become_unique": 0.0,
+    "unique_id": ""
+  }
+}

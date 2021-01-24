@@ -33,8 +33,8 @@
     }
   ],
   "level_range": {
-    "start": 0.3,
-    "end": 0.6
+    "start": 0.2,
+    "end": 0.4
   },
   "tag_list": {
     "tags": [

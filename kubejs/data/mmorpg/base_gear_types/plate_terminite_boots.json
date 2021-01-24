@@ -1,0 +1,41 @@
+{
+  "id": "plate_terminite_boots",
+  "weight": 0,
+  "rarity": 0,
+  "tier": 0,
+  "registry": "gear_type",
+  "lang_file_string": "mmorpg.gear_type.plate_terminite_boots",
+  "implicit_stats": [],
+  "base_stats": [
+    {
+      "firstMin": 7.0,
+      "firstMax": 25.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "armor",
+      "type": "flat"
+    }
+  ],
+  "level_range": {
+    "start": 0.7,
+    "end": 0.9
+  },
+  "tag_list": {
+    "tags": [
+      "armor_family",
+      "strength",
+      "boots",
+      "plate",
+      "armor_stat"
+    ]
+  },
+  "stat_req": {
+    "dex_req": 0.0,
+    "int_req": 0.0,
+    "str_req": 0.5
+  },
+  "item_id": "betterend:terminite_boots",
+  "gear_slot": "boots",
+  "weapon_type": "None",
+  "attack_style": "MELEE"
+}

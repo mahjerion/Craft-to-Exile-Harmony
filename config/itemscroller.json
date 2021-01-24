@@ -10,7 +10,8 @@
     "reverseScrollDirectionSingle": false,
     "reverseScrollDirectionStacks": false,
     "useSlotPositionAwareScrollDirection": false,
-    "villagerTradeListRememberPage": true
+    "villagerTradeUseGlobalFavorites": true,
+    "villagerTradeListRememberScrollPosition": true
   },
   "Hotkeys": {
     "openConfigGui": {
@@ -59,6 +60,18 @@
         "order_sensitive": false,
         "exclusive": false,
         "cancel": true
+      }
+    },
+    "modifierToggleVillagerGlobalFavorite": {
+      "keys": "LEFT_SHIFT",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "GUI",
+        "allow_empty": false,
+        "allow_extra_keys": true,
+        "order_sensitive": false,
+        "exclusive": false,
+        "cancel": false
       }
     },
     "keyMoveEverything": {
@@ -398,6 +411,6 @@
     "enableScrollingVillager": true,
     "enableShiftDropItems": true,
     "enableShiftPlaceItems": true,
-    "enableVillagerTradeList": true
+    "enableVillagerTradeFeatures": true
   }
 }

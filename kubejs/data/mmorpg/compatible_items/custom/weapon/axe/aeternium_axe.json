@@ -1,0 +1,14 @@
+{
+  "item_type": "aeternium_axe",
+  "item_id": "betternether:aeternium_axe",
+  "id": "betternether:aeternium_axe",
+  "rarities": "non_aoe",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": true
+  },
+  "unique": {
+    "chance_to_become_unique": 0.0,
+    "unique_id": ""
+  }
+}

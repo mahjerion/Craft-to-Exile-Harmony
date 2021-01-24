@@ -1,0 +1,14 @@
+{
+  "item_type": "leather_crystalite_chest",
+  "item_id": "betterend:crystalite_chestplate",
+  "id": "betterend:leather_crystalite_chest",
+  "rarities": "non_aoe",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": true
+  },
+  "unique": {
+    "chance_to_become_unique": 0.0,
+    "unique_id": ""
+  }
+}

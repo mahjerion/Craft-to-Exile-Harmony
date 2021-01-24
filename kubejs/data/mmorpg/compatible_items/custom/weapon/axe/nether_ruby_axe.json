@@ -1,0 +1,14 @@
+{
+  "item_type": "nether_ruby_axe",
+  "item_id": "betternether:nether_ruby_axe",
+  "id": "betternether:nether_ruby_axe",
+  "rarities": "non_aoe",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": true
+  },
+  "unique": {
+    "chance_to_become_unique": 0.0,
+    "unique_id": ""
+  }
+}

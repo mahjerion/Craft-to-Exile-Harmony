@@ -1,0 +1,41 @@
+{
+  "id": "cloth_crystalite_pants",
+  "weight": 0,
+  "rarity": 0,
+  "tier": 0,
+  "registry": "gear_type",
+  "lang_file_string": "mmorpg.gear_type.cloth_crystalite_pants",
+  "implicit_stats": [],
+  "base_stats": [
+    {
+      "firstMin": 3.0,
+      "firstMax": 7.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "magic_shield",
+      "type": "flat"
+    }
+  ],
+  "level_range": {
+    "start": 0.8,
+    "end": 1.0
+  },
+  "tag_list": {
+    "tags": [
+      "armor_family",
+      "pants",
+      "magic_shield_stat",
+      "cloth",
+      "intelligence"
+    ]
+  },
+  "stat_req": {
+    "dex_req": 0.0,
+    "int_req": 0.5,
+    "str_req": 0.0
+  },
+  "item_id": "betterend:crystalite_leggings",
+  "gear_slot": "pants",
+  "weapon_type": "None",
+  "attack_style": "MELEE"
+}

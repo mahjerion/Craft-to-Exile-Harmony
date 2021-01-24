@@ -2,17 +2,17 @@
 addDungeonsToModdedBiomes = true
 blacklistedDungeonBiomes = ""
 
-[RSDungeonsConfig.spawnrate]
-badlandsDungeonSpawnrate = 8
-darkForestDungeonSpawnrate = 8
-desertDungeonSpawnrate = 8
-jungleDungeonSpawnrate = 8
-mushroomDungeonSpawnrate = 8
-snowDungeonSpawnrate = 8
-swampDungeonSpawnrate = 8
-endDungeonSpawnrate = 8
-netherDungeonSpawnrate = 8
-oceanDungeonSpawnrate = 6
+[RSDungeonsConfig.attemptsPerChunk]
+badlandsDungeonAttemptsPerChunk = 8
+darkForestDungeonAttemptsPerChunk = 8
+desertDungeonAttemptsPerChunk = 8
+jungleDungeonAttemptsPerChunk = 8
+mushroomDungeonAttemptsPerChunk = 8
+snowDungeonAttemptsPerChunk = 8
+swampDungeonAttemptsPerChunk = 8
+endDungeonAttemptsPerChunk = 8
+netherDungeonAttemptsPerChunk = 8
+oceanDungeonAttemptsPerChunk = 6
 
 [RSDungeonsConfig.minHeight]
 badlandsDungeonMinHeight = 2
@@ -52,35 +52,40 @@ diamondChanceInGiantBoulders = 7000
 giantBouldersPerChunk = 1.0
 
 [RSMainConfig.jungleFortress]
-jungleFortressSpawnrate = 32
+jungleFortressMaxChunkDistance = 32
 addJungleFortressToModdedBiomes = true
 blacklistedFortressBiomes = ""
-silverfishSpawnrateJF = 0.5
-lootChestsJF = true
+silverfishSpawnrate = 0.5
+lootChests = true
 
 [RSMainConfig.igloos]
 blacklistedIglooBiomes = ""
-grassyIglooSpawnrate = 20
+grassyIglooMaxChunkDistance = 20
 addGrassyIglooToModdedBiomes = false
-stoneIglooSpawnrate = 20
+stoneIglooMaxChunkDistance = 20
 addStoneIglooToModdedBiomes = false
+
+[RSMainConfig.ruinedPortals]
+blacklistedRuinedPortalsBiomes = ""
+addRuinedPortalEndToModdedBiomes = true
+ruinedPortalEndMaxChunkDistance = 57
 [RSTemplesConfig.temples]
 blacklistedTempleBiomes = ""
-netherWastelandTempleSpawnrate = 27
+netherWastelandTempleMaxChunkDistance = 27
 addNetherWastelandTempleToModdedBiomes = false
-netherBasaltTempleSpawnrate = 27
+netherBasaltTempleMaxChunkDistance = 27
 addNetherBasaltTempleToModdedBiomes = false
-netherCrimsonTempleSpawnrate = 27
+netherCrimsonTempleMaxChunkDistance = 27
 addNetherCrimsonTempleToModdedBiomes = false
-netherWarpedTempleSpawnrate = 27
+netherWarpedTempleMaxChunkDistance = 27
 addNetherWarpedTempleToModdedBiomes = false
-netherSoulTempleSpawnrate = 27
+netherSoulTempleMaxChunkDistance = 27
 addNetherSoulTempleToModdedBiomes = false
 [RSTemplesConfig.pyramids]
 blacklistedPyramidBiomes = ""
-netherPyramidSpawnrate = 37
+netherPyramidMaxChunkDistance = 37
 addNetherPyramidToModdedBiomes = true
-badlandsPyramidSpawnrate = 20
+badlandsPyramidMaxChunkDistance = 20
 addBadlandsPyramidToModdedBiomes = true
 [RSMineshaftsConfig]
 lootChestsMS = true
@@ -135,16 +140,16 @@ lootChestsSH = true
 blacklistedStrongholdBiomes = ""
 
 [RSStrongholdsConfig.stonebrick]
-allowStonebrickStronghold = true
+allowStonebrickStrongholdToVanillaBiomes = true
 addStonebrickStrongholdToModdedBiomes = true
 silverfishSpawnrateSH = 0.8
 stonebrickStrongholdMinHeight = 0
 stonebrickStrongholdMaxHeight = 45
-stonebrickStrongholdSpawnrate = 85
+stonebrickStrongholdMaxChunkDistance = 85
 stonebrickStrongholdChainSpawnrate = 35
 
 [RSStrongholdsConfig.nether]
-netherStrongholdSpawnrate = 85
+netherStrongholdMaxChunkDistance = 85
 addNetherStrongholdToModdedBiomes = true
 netherStrongholdMinHeight = 33
 netherStrongholdMaxHeight = 36
@@ -153,43 +158,58 @@ netherStrongholdChainSpawnrate = 50
 blacklistedOutpostBiomes = ""
 
 [RSOutpostsConfig.outposts]
-netherBrickOutpostSpawnrate = 34
+netherBrickOutpostMaxChunkDistance = 34
 addNetherBrickOutpostToModdedBiomes = true
-warpedOutpostSpawnrate = 34
+warpedOutpostMaxChunkDistance = 34
 addWarpedOutpostToModdedBiomes = true
-crimsonOutpostSpawnrate = 34
+crimsonOutpostMaxChunkDistance = 34
 addCrimsonOutpostToModdedBiomes = true
+outpostBirchMaxChunkDistance = 39
+addOutpostBirchToModdedBiomes = true
+addOutpostJungleToModdedBiomes = true
+outpostJungleMaxChunkDistance = 39
+addOutpostGiantTreeTaigaToModdedBiomes = true
+outpostGiantTreeTaigaMaxChunkDistance = 37
+addOutpostDesertToModdedBiomes = true
+outpostDesertMaxChunkDistance = 39
+addOutpostBadlandsToModdedBiomes = true
+outpostBadlandsMaxChunkDistance = 31
+addOutpostSnowyToModdedBiomes = true
+outpostSnowyMaxChunkDistance = 39
+addOutpostIcyToModdedBiomes = true
+outpostIcyMaxChunkDistance = 37
 [RSVillagesConfig]
 addVillagesToModdedBiomes = true
 blacklistedVillageBiomes = ""
-badlandsVillageSpawnrate = 17
-birchVillageSpawnrate = 28
-darkForestVillageSpawnrate = 28
-jungleVillageSpawnrate = 26
-swampVillageSpawnrate = 28
-mountainsVillageSpawnrate = 28
-giantTaigaVillageSpawnrate = 26
-crimsonVillageSpawnrate = 30
-warpedVillageSpawnrate = 30
+badlandsVillageMaxChunkDistance = 23
+birchVillageMaxChunkDistance = 31
+darkForestVillageMaxChunkDistance = 31
+jungleVillageMaxChunkDistance = 29
+swampVillageMaxChunkDistance = 31
+mountainsVillageMaxChunkDistance = 31
+giantTaigaVillageMaxChunkDistance = 29
+crimsonVillageMaxChunkDistance = 30
+warpedVillageMaxChunkDistance = 30
+villageOakMaxChunkDistance = 33
 [RSWellsConfig]
 addWellsToModdedBiomes = true
 blacklistedWellBiomes = ""
 canHaveBells = true
 
-[RSWellsConfig.spawnrate]
-badlandsWellSpawnrate = 350
-netherWellSpawnrate = 350
-snowWellSpawnrate = 350
-mossyStoneWellSpawnrate = 350
-forestWellSpawnrate = 350
+[RSWellsConfig.rarityPerChunk]
+badlandsWellRarityPerChunk = 350
+netherWellRarityPerChunk = 350
+snowWellRarityPerChunk = 350
+mossyStoneWellRarityPerChunk = 350
+forestWellRarityPerChunk = 350
 [RSShipwrecksConfig.blacklist]
 blacklistedShipwreckBiomes = ""
 addEndShipwreckToModdedBiomes = true
 addNetherBricksShipwreckToModdedBiomes = true
 addCrimsonShipwreckToModdedBiomes = true
 addWarpedShipwreckToModdedBiomes = true
-[RSShipwrecksConfig.spawnrate]
-endShipwreckSpawnrate = 15
-netherBricksShipwreckSpawnrate = 51
-crimsonShipwreckSpawnrate = 41
-warpedShipwreckSpawnrate = 41
+[RSShipwrecksConfig.maxChunkDistance]
+endShipwreckMaxChunkDistance = 15
+netherBricksShipwreckMaxChunkDistance = 51
+crimsonShipwreckMaxChunkDistance = 41
+warpedShipwreckMaxChunkDistance = 41

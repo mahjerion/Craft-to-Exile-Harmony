@@ -70,6 +70,8 @@
   "NOTEBLOCK.desc": "Permission to change noteblocks",
   "REDSTONE.desc": "Permission to change redstone components",
   "JUKEBOX.desc": "Permission to insert/take music discs",
+  "ENDERCHEST.desc": "Permission to use enderchests",
+  "ENCHANTMENT.desc": "Permission to use enchanting tables",
   "ITEMFRAMEROTATE.desc": "Permission to rotate items in item frames",
   "LECTERNTAKE.desc": "Permission to change books in a lectern",
   "ENDCRYSTALPLACE.desc": "Permission to place end crystals",
@@ -92,5 +94,7 @@
   "EXPLOSIONS.desc": "Toggle explosions in claim",
   "WITHER.desc": "Toggle wither breaking blocks in claim",
   "FIRESPREAD.desc": "Toggle firespread in claim",
+  "WATERBORDER.desc": "Toggle water crossing claim borders",
+  "PISTONBORDER.desc": "Toggle piston pull/push across claim borders",
   "MOBSPAWN.desc": "Prevent mobspawn in claim"
 }

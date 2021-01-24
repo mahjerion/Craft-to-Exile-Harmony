@@ -382,5 +382,6 @@
   "infusion_pedestal [default: true]": true,
   "ivis_moss [default: true]": true,
   "ivis_vine [default: true]": true,
-  "blossom_berry_seed [default: true]": true
+  "blossom_berry_seed [default: true]": true,
+  "nightshade_moss [default: true]": true
 }

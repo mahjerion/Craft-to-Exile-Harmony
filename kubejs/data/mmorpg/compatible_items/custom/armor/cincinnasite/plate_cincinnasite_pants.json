@@ -1,0 +1,14 @@
+{
+  "item_type": "plate_cincinnasite_pants",
+  "item_id": "betternether:cincinnasite_leggings",
+  "id": "betternether:plate_cincinnasite_pants",
+  "rarities": "non_aoe",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": true
+  },
+  "unique": {
+    "chance_to_become_unique": 0.0,
+    "unique_id": ""
+  }
+}

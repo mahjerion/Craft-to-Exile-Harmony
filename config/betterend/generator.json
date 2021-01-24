@@ -8,5 +8,19 @@
   "hasDragonFights [default: true]": true,
   "swapOverworldToEnd [default: false]": false,
   "changeChorusPlant [default: true]": true,
-  "removeChorusFromVanillaBiomes [default: true]": true
+  "removeChorusFromVanillaBiomes [default: true]": true,
+  "biomeMap": {
+    "biomeSizeLand [default: 256]": 256,
+    "biomeSizeVoid [default: 256]": 256
+  },
+  "chorusPlant": {
+    "changeChorusPlant [default: true]": true,
+    "removeChorusFromVanillaBiomes [default: true]": true
+  },
+  "customGenerator": {
+    "useNewGenerator [default: false]": false,
+    "noRingVoid [default: false]": false,
+    "generateCentralIsland [default: false]": false,
+    "endCityFailChance [default: 5]": 5
+  }
 }

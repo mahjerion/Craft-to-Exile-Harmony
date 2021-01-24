@@ -115,6 +115,12 @@
       "generation_chance [default: 1.0]": 1.0,
       "has_caves [default: true]": true,
       "enabled [default: true]": true
+    },
+    "nightshade_redwoods": {
+      "fog_density [default: 1.5]": 1.5,
+      "generation_chance [default: 1.0]": 1.0,
+      "has_caves [default: true]": true,
+      "enabled [default: true]": true
     }
   },
   "byg": {

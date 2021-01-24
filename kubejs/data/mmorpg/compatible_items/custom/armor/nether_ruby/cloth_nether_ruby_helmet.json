@@ -1,0 +1,14 @@
+{
+  "item_type": "cloth_nether_ruby_helmet",
+  "item_id": "betternether:nether_ruby_helmet",
+  "id": "betternether:cloth_nether_ruby_helmet",
+  "rarities": "non_aoe",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": true
+  },
+  "unique": {
+    "chance_to_become_unique": 0.0,
+    "unique_id": ""
+  }
+}
