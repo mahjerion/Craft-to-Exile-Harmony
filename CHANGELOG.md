@@ -19,12 +19,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - New Transfer Chest acts as an Ender Chest but for ALL players! Easily send items interdimensionally to your friends or newbies with this new chest.
 - New hammer type of weapon! From iron -> aeternium, these weapons have high base damage but virtually no critical chance. They also knock back enemies pretty far!
 - TONS of new content in the Nether and The End now! New gear that can be found and crafted! Check the quest book for more details!
+- Tons of new quests to help guide players with the new content.
 - Gear progression has been slightly reworked. Some equips were way too difficult to find, and with the addition of new craftable equipment, some values have been shifted. More importantly, gear cannot roll as any type now. For example, in the early game, leather will always roll as leather, iron will roll as plate, and ametrine will roll as cloth. In general, it is easier to find leather gear compared to plate and cloth. For the list of craftable gear and their types, refer to the Wiki. Do keep in mind, it's still way easier to just craft Age of Exile gear which is actually slightly _stronger_ than non-AoE gear!
 - Reduced mob scaling by 20%.
 - Mobs are a bit easier in dimensions after the Overworld now.
 - Reduced the cooldown of the "ball" spells and thunder spear. Spells felt too clunky to use early on.
 - Increased the damage of Lightning Totem by 12.5%.
-- Tons of new quests to help guide players with the new content.
 - Notes: with so many changes, I might have forgotten to record some...
 
 ### Mod Updates
