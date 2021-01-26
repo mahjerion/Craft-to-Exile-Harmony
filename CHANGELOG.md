@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Updates
 - THIS UPDATE WILL LIKELY BREAK YOUR EXISTING WORLDS. IT'S RECOMMENDED YOU BACK UP YOUR WORLD, AND IN THE WORST-CASE, START A NEW ONE!
 - Updated to 1.16.4 - means we can move update a bunch of mods that have fallen behind! There may be some unintended side effects, though!
+- Over 50 new quests to help guide players with the new content!
 - The addition of Traverse, Terrestria, Cinderscapes, BetterEnd, and BetterNether means much more fleshed out vanilla dimensions. Find new mobs in The Nether and The End!
 - Incorporation of the End City datapack makes The End so much more interesting! Check it out!
 - Go Fish adds a bunch of new fish that can be found in each dimension!
@@ -19,7 +20,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - New Transfer Chest acts as an Ender Chest but for ALL players! Easily send items interdimensionally to your friends or newbies with this new chest.
 - New hammer type of weapon! From iron -> aeternium, these sluggish weapons have high base damage but virtually no critical chance. They also knock back enemies pretty far! Note: the lowest tier hammer is iron, and has a minimum level of 10.
 - TONS of new content in The Nether and The End now! New gear that can be found and crafted! Check the quest book for more details!
-- Tons of new quests to help guide players with the new content.
 - Partying now provides ADDITIONAL experience for each party member. 1 player = 100%, 2 players = 120%/2 = 60%, 3 players = 140%/3 = 46.67%, etc.
 - Reduced gear drop rate by 40%.
 - Gear progression has been slightly reworked. Some equips were way too difficult to find, and with the addition of new craftable equipment, some values have been shifted. More importantly, most equips cannot roll as any type now. For example, in the early game, leather will always roll as leather and iron will roll as plate. Another change: gold can only roll as cloth now. For the list of craftable gear and their types, refer to the Wiki. Do keep in mind, it's still way easier to just craft Age of Exile gear which is actually slightly _stronger_ than non-AoE gear!
