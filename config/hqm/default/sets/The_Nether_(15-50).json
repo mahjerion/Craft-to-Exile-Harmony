@@ -270,6 +270,50 @@
       "commandrewards": []
     },
     {
+      "uuid": "eb9e577e-3c4d-4ff1-9c55-11282f6b6c0c",
+      "name": "Wither Snakes Rule",
+      "description": "Naga are wither skeleton-looking creatures that also resemble snakes. Find them in The Nether! Be careful of their bite.",
+      "x": 55,
+      "y": 146,
+      "icon": {
+        "id": "byg:withering_oak_sapling",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "description": "Killing Task",
+          "mobs": [
+            {
+              "name": "Naga",
+              "icon": {
+                "id": "byg:withering_oak_sapling",
+                "Count": 1
+              },
+              "mob": "betternether:naga",
+              "kills": 4
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "362ece33-ae37-41da-9e09-3fba7fa0b0d9"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:mat/salvage/salvage2",
+          "Count": 16
+        },
+        {
+          "id": "mmorpg:gems/emerald/3",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "b3548aa9-0439-4ab3-9f9a-f5b9047e8923",
       "name": "Ametrine Sly",
       "description": "Ametrine is an ore that is found in Oh The Biomes You\u0027ll Go biomes! Combine this ore with netherite equipment and you\u0027ll make powerful armor meant for ranged weapon users!",
@@ -335,8 +379,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 0,
-        "hours": 1
+        "days": 1,
+        "hours": 0
       },
       "tasks": [
         {
@@ -371,7 +415,7 @@
       "name": "Cincinnasite",
       "description": "Cincinnasite is a beautiful-looking material used to craft weapons, tools, and armor. You can even trim it with diamonds to enhance the effects! Cincinnasite can be worn by anyone!",
       "x": 86,
-      "y": 145,
+      "y": 146,
       "icon": {
         "id": "betternether:cincinnasite_sword_diamond",
         "Count": 1,
@@ -658,6 +702,50 @@
       "commandrewards": []
     },
     {
+      "uuid": "e8dc7c77-e581-43a1-9874-97d2625902e3",
+      "name": "Tarzan Noises",
+      "description": "Thanks to Better Nether, new biomes have been introduced, and with them, new mobs! The jungle skeleton can be found in biomes resembling, well, the jungle!",
+      "x": 55,
+      "y": 178,
+      "icon": {
+        "id": "betternether:jungle_plant",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "description": "Killing Task",
+          "mobs": [
+            {
+              "name": "Jungle Skeleton",
+              "icon": {
+                "id": "betternether:jungle_plant",
+                "Count": 1
+              },
+              "mob": "betternether:jungle_skeleton",
+              "kills": 12
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "eb9e577e-3c4d-4ff1-9c55-11282f6b6c0c"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:loot_crate/rare",
+          "Count": 1
+        },
+        {
+          "id": "mmorpg:gems/tourmaline/3",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "4385807c-a937-4854-9803-a11d9bc75a1a",
       "name": "Piglin Invasion (Daily)",
       "description": "Defeat various piglins in The Nether!",
@@ -669,8 +757,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 0,
-        "hours": 1
+        "days": 1,
+        "hours": 0
       },
       "tasks": [
         {
@@ -808,8 +896,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 0,
-        "hours": 1
+        "days": 1,
+        "hours": 0
       },
       "tasks": [
         {
@@ -991,6 +1079,71 @@
       "commandrewards": []
     },
     {
+      "uuid": "19ec353d-e1a8-4e8c-b8fc-640ba05eb481",
+      "name": "Better Nether! (Daily)",
+      "description": "Defeat naga and jungle skeletons which can be found in new biomes introduced by Better Nether!",
+      "x": 188,
+      "y": 50,
+      "icon": {
+        "id": "betternether:black_apple",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "TIME",
+        "days": 1,
+        "hours": 0
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "description": "Killing Task",
+          "mobs": [
+            {
+              "name": "Naga",
+              "icon": {
+                "id": "byg:withering_oak_sapling",
+                "Count": 1
+              },
+              "mob": "betternether:naga",
+              "kills": 3
+            },
+            {
+              "name": "Jungle Skeleton",
+              "icon": {
+                "id": "betternether:jungle_plant",
+                "Count": 1
+              },
+              "mob": "betternether:jungle_skeleton",
+              "kills": 3
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:mat/salvage/salvage2",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "byg:ametrine_gems",
+          "Count": 8
+        },
+        {
+          "id": "betternether:nether_ruby",
+          "Count": 8
+        },
+        {
+          "id": "adventurez:gilded_netherite_fragment",
+          "Count": 4
+        }
+      ],
+      "commandrewards": []
+    },
+    {
       "uuid": "6eb0f802-2cf2-4a27-9fac-3271ece9c9cd",
       "name": "Nether Regions",
       "description": "Ready to take on The Nether? Craft a portal and check out the zone! It\u0027s recommended that you\u0027re at least level 15.",
@@ -1041,8 +1194,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 0,
-        "hours": 1
+        "days": 1,
+        "hours": 0
       },
       "tasks": [
         {

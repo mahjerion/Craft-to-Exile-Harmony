@@ -21,6 +21,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - TONS of new content in The Nether and The End now! New gear that can be found and crafted! Check the quest book for more details!
 - Tons of new quests to help guide players with the new content.
 - Partying now provides ADDITIONAL experience for each party member. 1 player = 100%, 2 players = 120%/2 = 60%, 3 players = 140%/3 = 46.67%, etc.
+- Reduced gear drop rate by 40%.
 - Gear progression has been slightly reworked. Some equips were way too difficult to find, and with the addition of new craftable equipment, some values have been shifted. More importantly, most equips cannot roll as any type now. For example, in the early game, leather will always roll as leather and iron will roll as plate. Another change: gold can only roll as cloth now. For the list of craftable gear and their types, refer to the Wiki. Do keep in mind, it's still way easier to just craft Age of Exile gear which is actually slightly _stronger_ than non-AoE gear!
 - Reduced mob scaling by 20%.
 - Mobs are a bit easier in dimensions after the Overworld now.

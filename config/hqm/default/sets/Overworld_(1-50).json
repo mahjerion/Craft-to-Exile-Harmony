@@ -5,8 +5,8 @@
       "uuid": "35178b05-9dfd-4fee-beab-0c1cf49fcf2a",
       "name": "I Summon Thee!",
       "description": "Summoners are powerful creatures that can be found randomly in the Overworld. They usually spawn where a storm is brewing...",
-      "x": 54,
-      "y": 144,
+      "x": 116,
+      "y": 112,
       "icon": {
         "id": "adventurez:spawn_summoner",
         "Count": 1
@@ -310,8 +310,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 0,
-        "hours": 7
+        "days": 7,
+        "hours": 0
       },
       "tasks": [
         {
@@ -536,8 +536,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 0,
-        "hours": 1
+        "days": 1,
+        "hours": 0
       },
       "tasks": [
         {
@@ -847,8 +847,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 0,
-        "hours": 1
+        "days": 1,
+        "hours": 0
       },
       "tasks": [
         {
@@ -917,8 +917,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 0,
-        "hours": 1
+        "days": 1,
+        "hours": 0
       },
       "tasks": [
         {
@@ -1159,9 +1159,50 @@
       "commandrewards": []
     },
     {
+      "uuid": "691932b9-ab62-4ae3-b3e7-490714a3543c",
+      "name": "Runewords",
+      "description": "Runewords are a powerful type of equipment that can be used help with the leveling process. In some cases, runewords can even be used in the end game. Find a piece of equipment with sockets, and insert the runes in a specific order. You can refer to the REI for what runewords are available and how to make them. You must insert the runes using a socketing station. Try making the Scholar runeword, which can only be applied to jewelry. Your jewelry must have at LEAST 2 sockets and be at least level 10. Look at the REI for more details!",
+      "x": 54,
+      "y": 144,
+      "icon": {
+        "id": "mmorpg:runes/ano",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Detection Task",
+          "items": [
+            {
+              "item": {
+                "id": "mmorpg:socket_station",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "742fee6b-7d8a-4250-acd7-cf15f06dff3a"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:runes/ita",
+          "Count": 1
+        },
+        {
+          "id": "mmorpg:runes/mos",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "776e6acb-8edd-40fc-9b77-2cb07591d60d",
       "name": "Storage Options",
-      "description": "You will quickly find yourself running out of space due to all the loot Age of Exile brings. Iron Chests are one of the more popular storage options available in [Harmony]! Teleport and death teleport scrolls can be used to teleport to spawn and your death location, respectively.",
+      "description": "You will quickly find yourself running out of space due to all the loot Age of Exile brings. Iron Chests are one of the more popular storage options available in [Harmony]! Additionally, Dank Storage is an extremely versatile storage option. They can be used as backpacks, and chests, and ignore the standard limit of 64 per stack!",
       "x": 85,
       "y": 16,
       "icon": {
@@ -1176,6 +1217,18 @@
             {
               "item": {
                 "id": "ironchest:iron_chest",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "dankstorage:dank_1",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "dankstorage:dock",
                 "Count": 1
               }
             }
@@ -1211,8 +1264,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 0,
-        "hours": 1
+        "days": 1,
+        "hours": 0
       },
       "tasks": [
         {
@@ -1264,8 +1317,8 @@
       "uuid": "36736f21-0fae-434f-beb9-364db8e1ffc5",
       "name": "XP Storage",
       "description": "XP books are a cheap and efficient method for storing vanilla XP. You can even upgrade them to store more!",
-      "x": 116,
-      "y": 112,
+      "x": 148,
+      "y": 80,
       "icon": {
         "id": "xp_storage:xp_book",
         "Count": 1,
@@ -1408,8 +1461,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 0,
-        "hours": 1
+        "days": 1,
+        "hours": 0
       },
       "tasks": [
         {
@@ -1526,8 +1579,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 0,
-        "hours": 1
+        "days": 1,
+        "hours": 0
       },
       "tasks": [
         {

@@ -2,6 +2,158 @@
   "name": "The End (30-50)",
   "quests": [
     {
+      "uuid": "cb42f406-aaef-4d38-8bd1-1e264b9a3c3a",
+      "name": "From The Shadows",
+      "description": "Shadow walkers can be found in The End... Good luck beating these things!",
+      "x": 118,
+      "y": 81,
+      "icon": {
+        "id": "betterend:shadow_plant",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "description": "Killing Task",
+          "mobs": [
+            {
+              "name": "Shadow Walker",
+              "icon": {
+                "id": "betterend:shadow_plant",
+                "Count": 1
+              },
+              "mob": "betterend:shadow_walker",
+              "kills": 4
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "27eb82e9-e9f1-418a-ba99-1bb190fd527e"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:runes/xer",
+          "Count": 1
+        },
+        {
+          "id": "mmorpg:runes/cen",
+          "Count": 1
+        },
+        {
+          "id": "mmorpg:runes/oru",
+          "Count": 1
+        },
+        {
+          "id": "mmorpg:runes/mos",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "59fda7f7-dd42-4183-a6d9-bbfa723d64f2",
+      "name": "Fusion, Ha!",
+      "description": "The infusion table is a very powerful device that can modify your terminite gear, and create powerful echanting books! If you\u0027re not sure how to set it up, refer to the Better End book for dummies.",
+      "x": 55,
+      "y": 145,
+      "icon": {
+        "id": "betterend:infusion_pedestal",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Detection Task",
+          "items": [
+            {
+              "item": {
+                "id": "betterend:infusion_pedestal",
+                "Count": 1
+              },
+              "precision": "TAG_NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "6d05ff6e-2b42-44fb-886b-2242164bb4ab"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:mat/salvage/salvage4",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "mmorpg:runes/ano",
+          "Count": 1
+        },
+        {
+          "id": "mmorpg:runes/toq",
+          "Count": 1
+        },
+        {
+          "id": "mmorpg:runes/cen",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "02d59d20-55f9-414d-9eee-3452de1a2e49",
+      "name": "Guardians Of The End (Daily)",
+      "description": "In The End, you will find guardians near strongholds.",
+      "x": 86,
+      "y": 17,
+      "icon": {
+        "id": "endreborn:purpur_eye",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "TIME",
+        "days": 1,
+        "hours": 0
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "description": "Killing Task",
+          "mobs": [
+            {
+              "name": "Purpur Guardian",
+              "icon": {
+                "id": "endreborn:purpur_eye",
+                "Count": 1
+              },
+              "mob": "endreborn:endguard",
+              "kills": 5
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "c634f85c-5542-4e92-b294-88af7a781249"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:ender_pearl",
+          "Count": 8
+        },
+        {
+          "id": "mmorpg:potions/add_reset_perk_points",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "c634f85c-5542-4e92-b294-88af7a781249",
       "name": "Oh, Man!",
       "description": "In The End, you will find many creatures - one of which you\u0027re probably familiar with already!",
@@ -39,6 +191,219 @@
           "tag": {
             "Damage": 0
           }
+        },
+        {
+          "id": "mmorpg:mat/salvage/salvage3",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "27eb82e9-e9f1-418a-ba99-1bb190fd527e",
+      "name": "Magic Ingots",
+      "description": "Aeternium cannot be found in The End. Rather, it is crafted from terminite. Additionally, tools using aeternium also require special leather-wrapped sticks! Aeternium is meant for mages.",
+      "x": 86,
+      "y": 81,
+      "icon": {
+        "id": "betterend:aeternium_ingot",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Crafting Task",
+          "items": [
+            {
+              "item": {
+                "id": "betterend:leather_wrapped_stick",
+                "Count": 4
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "betterend:aeternium_pickaxe",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "bfb79a26-0276-4afc-8b2c-e7bef2564d44"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:currency/crystal_of_purification",
+          "Count": 4
+        },
+        {
+          "id": "mmorpg:loot_crate/ench_exp_bag",
+          "Count": 1,
+          "tag": {
+            "exp": 250
+          }
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "mmorpg:gear_mat/ore/ore3",
+          "Count": 8
+        },
+        {
+          "id": "mmorpg:gear_mat/leather/leather3",
+          "Count": 8
+        },
+        {
+          "id": "mmorpg:gear_mat/cloth/cloth3",
+          "Count": 8
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "dfb92599-7ce8-40f9-9fb3-10d3d3910092",
+      "name": "Eternal Ritual",
+      "description": "By performing the eternal ritual, you can create a portal linking The End with the Overworld. If you\u0027re not sure how to set up the ritual, refer to the guidebook from Better End!",
+      "x": 86,
+      "y": 113,
+      "icon": {
+        "id": "betterend:eternal_pedestal",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Detection Task",
+          "items": [
+            {
+              "item": {
+                "id": "betterend:eternal_pedestal",
+                "Count": 1
+              },
+              "precision": "TAG_NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "6d05ff6e-2b42-44fb-886b-2242164bb4ab"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:runes/yun",
+          "Count": 1
+        },
+        {
+          "id": "betterend:terminite_ingot",
+          "Count": 4
+        },
+        {
+          "id": "mmorpg:mat/salvage/salvage4",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4f6b513c-9949-41d8-8f5a-f294a3827e1f",
+      "name": "Crystals In The End!",
+      "description": "Crystalite is truly an spectacle to behold! Infusing your terminite using an altar can give it special properties. Crystalite is meant for any specialization. However, do note that Age of Exile-crafted equipment is still better than crystalite.",
+      "x": 55,
+      "y": 178,
+      "icon": {
+        "id": "betterend:crystalite_helmet",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Crafting Task",
+          "items": [
+            {
+              "item": {
+                "id": "betterend:crystalite_chestplate",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "precision": "TAG_NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "59fda7f7-dd42-4183-a6d9-bbfa723d64f2"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:currency/orb_of_discovery",
+          "Count": 1
+        },
+        {
+          "id": "mmorpg:loot_crate/rune",
+          "Count": 1
+        },
+        {
+          "id": "mmorpg:mat/salvage/salvage4",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "bf0ecd20-c12e-45a6-80e2-cee6deb03125",
+      "name": "Respawning In The End",
+      "description": "Just like the respawner from before, the respawn obelisk allows you to set a respawn point in The End!",
+      "x": 87,
+      "y": 145,
+      "icon": {
+        "id": "betterend:respawn_obelisk",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Crafting Task",
+          "items": [
+            {
+              "item": {
+                "id": "betterend:respawn_obelisk",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "59fda7f7-dd42-4183-a6d9-bbfa723d64f2"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:loot_crate/ench_exp_bag",
+          "Count": 1,
+          "tag": {
+            "exp": 250
+          }
+        },
+        {
+          "id": "mmorpg:mat/salvage/salvage4",
+          "Count": 8
         }
       ],
       "rewardchoice": [],
@@ -90,9 +455,9 @@
     {
       "uuid": "1fc5e416-0277-4947-b0e4-66aca79bca09",
       "name": "Rebellion",
-      "description": "End: Rebellion brings new ores and armors to [Harmony]. Try making some gear!",
-      "x": 55,
-      "y": 50,
+      "description": "End: Rebellion brings new ores and armors to [Harmony]. Tungsten armor is specifically meant for warriors, where Endorium can be used by anyone.",
+      "x": 86,
+      "y": 49,
       "icon": {
         "id": "endreborn:tungsten_chestplate",
         "Count": 1,
@@ -129,7 +494,7 @@
         }
       ],
       "prerequisites": [
-        "c634f85c-5542-4e92-b294-88af7a781249"
+        "03574ea8-705e-40da-845b-507e200bd7e8"
       ],
       "optionlinks": [],
       "reward": [
@@ -146,11 +511,98 @@
       "commandrewards": []
     },
     {
+      "uuid": "bfb79a26-0276-4afc-8b2c-e7bef2564d44",
+      "name": "Rogue\u0027s Reflexes",
+      "description": "Better End adds new armor types to The End. Terminite, Aeternium, and Crystalite are new materials that can be used to make new sets of armor, and in some cases, weapons and tools. However, only Terminite can be found naturally in the End. Terminite is meant for rangers.",
+      "x": 55,
+      "y": 81,
+      "icon": {
+        "id": "betterend:terminite_ingot",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Detection Task",
+          "items": [
+            {
+              "item": {
+                "id": "betterend:terminite_ingot",
+                "Count": 24
+              },
+              "required": 24
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "03574ea8-705e-40da-845b-507e200bd7e8"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:mat/salvage/salvage3",
+          "Count": 16
+        },
+        {
+          "id": "mmorpg:runes/wir",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6d05ff6e-2b42-44fb-886b-2242164bb4ab",
+      "name": "A Better Ending",
+      "description": "Craft the guidebook to view the basics of how to set up the Better End rituals! You can teleport back to the Overworld by performing the eternal ritual, and enhance your terminite gear with the infusion ritual. You can also use the infusion table to create enchantments such as Infinity and Silk Touch!",
+      "x": 55,
+      "y": 113,
+      "icon": {
+        "id": "betterend:guidebook",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Crafting Task",
+          "items": [
+            {
+              "item": {
+                "id": "betterend:guidebook",
+                "Count": 1
+              },
+              "precision": "TAG_NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "betterend:crystal_shards",
+                "Count": 16
+              },
+              "required": 16
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "bfb79a26-0276-4afc-8b2c-e7bef2564d44"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:loot_crate/gem",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "03574ea8-705e-40da-845b-507e200bd7e8",
       "name": "Impervious Scales",
-      "description": "DragonLoot adds a new drop for Ender Dragons. Dragon Scales can be used to craft near-end game armor! You can also craft an indestructible anvil using Dragon Scale.",
-      "x": 86,
-      "y": 50,
+      "description": "DragonLoot adds a new drop for Ender Dragons. Dragon Scales can be used to craft new armor usable by any class! You can also craft an indestructible anvil using Dragon Scale.",
+      "x": 55,
+      "y": 49,
       "icon": {
         "id": "dragonloot:dragon_scale",
         "Count": 1
@@ -171,7 +623,7 @@
         }
       ],
       "prerequisites": [
-        "1fc5e416-0277-4947-b0e4-66aca79bca09"
+        "ee5aa080-a916-4de6-aadb-72b37034b76f"
       ],
       "optionlinks": [],
       "reward": [
@@ -195,19 +647,14 @@
       "commandrewards": []
     },
     {
-      "uuid": "02d59d20-55f9-414d-9eee-3452de1a2e49",
-      "name": "Guardians Of The End (Daily)",
-      "description": "In The End, you will find guardians near strongholds.",
-      "x": 86,
-      "y": 17,
+      "uuid": "16e8f381-ff1e-4106-bae0-d7c410ac0967",
+      "name": "The Last Split",
+      "description": "The end slimes are added by Better End and are basically the same as your standard slime.",
+      "x": 118,
+      "y": 49,
       "icon": {
-        "id": "endreborn:purpur_eye",
+        "id": "minecraft:slime_ball",
         "Count": 1
-      },
-      "repeat": {
-        "type": "TIME",
-        "days": 0,
-        "hours": 1
       },
       "tasks": [
         {
@@ -215,29 +662,25 @@
           "description": "Killing Task",
           "mobs": [
             {
-              "name": "Purpur Guardian",
+              "name": "End Slime",
               "icon": {
-                "id": "endreborn:purpur_eye",
+                "id": "minecraft:slime_ball",
                 "Count": 1
               },
-              "mob": "endreborn:endguard",
-              "kills": 5
+              "mob": "betterend:end_slime",
+              "kills": 16
             }
           ]
         }
       ],
       "prerequisites": [
-        "c634f85c-5542-4e92-b294-88af7a781249"
+        "1fc5e416-0277-4947-b0e4-66aca79bca09"
       ],
       "optionlinks": [],
       "reward": [
         {
-          "id": "minecraft:ender_pearl",
-          "Count": 8
-        },
-        {
-          "id": "mmorpg:potions/add_reset_perk_points",
-          "Count": 1
+          "id": "mmorpg:mat/salvage/salvage4",
+          "Count": 2
         }
       ],
       "rewardchoice": [],

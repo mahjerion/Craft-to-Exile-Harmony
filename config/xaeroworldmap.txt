@@ -17,5 +17,6 @@ waypoints:true
 renderArrow:true
 displayZoom:true
 ignoreHeightmaps:false
-waypointScale:1.0
-globalVersion:15
+worldmapWaypointsScale:1.0
+openMapAnimation:true
+globalVersion:47
