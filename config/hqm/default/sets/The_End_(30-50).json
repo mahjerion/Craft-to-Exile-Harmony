@@ -2,6 +2,45 @@
   "name": "The End (30-50)",
   "quests": [
     {
+      "uuid": "8f8a05e1-dbd3-4625-b117-b5d9bb395eab",
+      "name": "The End Fish",
+      "description": "You\u0027ll find this fish in The End (duh)!",
+      "x": 185,
+      "y": 17,
+      "icon": {
+        "id": "gofish:endfish",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Consume Task",
+          "items": [
+            {
+              "item": {
+                "id": "gofish:endfish",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:ender_pearl",
+          "Count": 2
+        },
+        {
+          "id": "mmorpg:runes/eno",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "cb42f406-aaef-4d38-8bd1-1e264b9a3c3a",
       "name": "From The Shadows",
       "description": "Shadow walkers can be found in The End... Good luck beating these things!",
@@ -147,6 +186,41 @@
         },
         {
           "id": "mmorpg:potions/add_reset_perk_points",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "0aad4c7f-0b42-448c-b594-2d5cd13256a9",
+      "name": "The End Slithers",
+      "description": "You will also find this eel in The End.",
+      "x": 247,
+      "y": 17,
+      "icon": {
+        "id": "gofish:ender_eel",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Consume Task",
+          "items": [
+            {
+              "item": {
+                "id": "gofish:ender_eel",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:runes/dos",
           "Count": 1
         }
       ],
@@ -640,6 +714,41 @@
         },
         {
           "id": "mmorpg:loot_crate/rare",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "de69ebc0-768b-4a12-a3f1-fc2726e2b299",
+      "name": "Entering The Matrix",
+      "description": "This fish can also be used to craft various items!",
+      "x": 216,
+      "y": 17,
+      "icon": {
+        "id": "gofish:matrix_fish",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Consume Task",
+          "items": [
+            {
+              "item": {
+                "id": "gofish:matrix_fish",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:runes/nos",
           "Count": 1
         }
       ],

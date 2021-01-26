@@ -49,7 +49,7 @@
       "uuid": "75c6970b-2356-463e-8cc9-aa00440042a4",
       "name": "Next Steps",
       "description": "Defeat the Wither to access these daily quests.",
-      "x": 233,
+      "x": 201,
       "y": 45,
       "bigicon": true,
       "icon": {
@@ -193,6 +193,46 @@
       "commandrewards": []
     },
     {
+      "uuid": "1a00d8f2-b6e2-4ef4-8fdc-6879d864b6af",
+      "name": "Not Chocolate",
+      "description": "TERRA fish... I wonder where you\u0027ll find this one.",
+      "x": 220,
+      "y": 176,
+      "icon": {
+        "id": "gofish:oakfish",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Consume Task",
+          "items": [
+            {
+              "item": {
+                "id": "gofish:terrafish",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "e8cec9ea-a556-4183-bdef-ff9ac78def51"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:loot_crate/ench_exp_bag",
+          "Count": 1,
+          "tag": {
+            "exp": 100
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "742fee6b-7d8a-4250-acd7-cf15f06dff3a",
       "name": "Stations, Everyone!",
       "description": "Gear obtained across dimensions tends to pile up i your inventory. In fact, what even are runes and gems? Stations are available for you to craft to give you options on ehancing your gear or salvaging them. The modify station allows you to apply \"currencies\", valuable orbs, to your gear to reroll or completely change its stats. The salvage station breaks down gear into crafting components such as essence, and the repair station repairs your gear. Lastly, the socket station lets you insert runes and gems into your socket-able gear to enhance its stats!",
@@ -268,8 +308,8 @@
       "uuid": "36d80ef2-0316-497f-a2a8-e5de92d2f62b",
       "name": "Epilogue",
       "description": "Defeat the Ender Dragon to access this weekly quest.",
-      "x": 233,
-      "y": 109,
+      "x": 263,
+      "y": 45,
       "bigicon": true,
       "icon": {
         "id": "minecraft:dragon_head",
@@ -299,11 +339,51 @@
       "commandrewards": []
     },
     {
+      "uuid": "dc35dbe5-3f2b-4018-8098-26e15fce5ad8",
+      "name": "Tastes Like One Though",
+      "description": "Many of the fish in Go Fish are cookable into unique dishes. Check out the REI for more information! Just search \"@gofish\".",
+      "x": 283,
+      "y": 176,
+      "icon": {
+        "id": "gofish:baked_carrot_carp",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Crafting Task",
+          "items": [
+            {
+              "item": {
+                "id": "gofish:baked_carrot_carp",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "ae4fbd23-06fe-4de0-9d0a-a8144f0a4d83"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:loot_crate/ench_exp_bag",
+          "Count": 1,
+          "tag": {
+            "exp": 250
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "8330ae49-0754-4e25-91dc-d5ed15704747",
       "name": "Boss Me Around! (Weekly)",
       "description": "Defeat all the bosses for an awesome reward!",
-      "x": 236,
-      "y": 144,
+      "x": 266,
+      "y": 80,
       "icon": {
         "id": "origins:orb_of_origin",
         "Count": 1
@@ -909,7 +989,7 @@
       "uuid": "74f91020-2714-478c-b0ee-6bc62e44abfa",
       "name": "Arcana Attribute (Daily)",
       "description": "Kill arcana mobs. You will find them throughout the world.",
-      "x": 220,
+      "x": 189,
       "y": 80,
       "icon": {
         "id": "mmorpg:gear_mat/essences/arcana",
@@ -1059,6 +1139,49 @@
       "commandrewards": []
     },
     {
+      "uuid": "e8cec9ea-a556-4183-bdef-ff9ac78def51",
+      "name": "Improved Fishing",
+      "description": "Reinforcing your plain old wooden fishing rod with diamond is a sure-fire way to improve its sturdiness! You\u0027ll have better chances of finding rarer fish!",
+      "x": 220,
+      "y": 144,
+      "icon": {
+        "id": "gofish:diamond_reinforced_rod",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Crafting Task",
+          "items": [
+            {
+              "item": {
+                "id": "gofish:diamond_reinforced_rod",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "40653f33-9d85-4926-be08-f90d0e5f5b30"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:tropical_fish",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "63cc6cfd-2fcd-4917-bf33-b2e3060356e4",
       "name": "Mistakes Were Made",
       "description": "You can reset your stats and skills via potions in [Harmony]. So don\u0027t be afraid to test things out!",
@@ -1159,14 +1282,58 @@
       "commandrewards": []
     },
     {
+      "uuid": "6bf99482-52b6-4f97-b718-7a9b3434f0f1",
+      "name": "Frozen Crates",
+      "description": "Find these in cold biomes... Their loot is super COOL!",
+      "x": 251,
+      "y": 144,
+      "icon": {
+        "id": "gofish:frosted_crate",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Detection Task",
+          "items": [
+            {
+              "item": {
+                "id": "gofish:frosted_crate",
+                "Count": 1
+              },
+              "precision": "TAG_NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "e8cec9ea-a556-4183-bdef-ff9ac78def51"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:loot_crate/ench_exp_bag",
+          "Count": 1,
+          "tag": {
+            "exp": 250
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "691932b9-ab62-4ae3-b3e7-490714a3543c",
       "name": "Runewords",
       "description": "Runewords are a powerful type of equipment that can be used help with the leveling process. In some cases, runewords can even be used in the end game. Find a piece of equipment with sockets, and insert the runes in a specific order. You can refer to the REI for what runewords are available and how to make them. You must insert the runes using a socketing station. Try making the Scholar runeword, which can only be applied to jewelry. Your jewelry must have at LEAST 2 sockets and be at least level 10. Look at the REI for more details!",
       "x": 54,
       "y": 144,
       "icon": {
-        "id": "mmorpg:runes/ano",
-        "Count": 1
+        "id": "mmorpg:runeword",
+        "Count": 1,
+        "tag": {
+          "runeword": "enigma"
+        }
       },
       "tasks": [
         {
@@ -1253,6 +1420,85 @@
       "commandrewards": []
     },
     {
+      "uuid": "40653f33-9d85-4926-be08-f90d0e5f5b30",
+      "name": "Go Fishing, NOW!",
+      "description": "Go Fish is a fantastic mod that brings about many different fishing rods, fishes, food, and crates! Think Terraria fishing, now in Minecraft. Isn\u0027t that awesome! Try collecting all the fish! There are quests for 90%+ of the fish, so complete the quests to complete your Pokede- I mean fishing journal!",
+      "x": 189,
+      "y": 144,
+      "icon": {
+        "id": "minecraft:fishing_rod",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Crafting Task",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:fishing_rod",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:bucket",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e9e25601-21ec-4fee-b2c3-46ef868a3cd8",
+      "name": "Loot Crates!",
+      "description": "While fishing, you may occasionally find crates! These crates are filled with fish, fishing rods, and occasionally, rare loot. Some crates are bound to certain biomes!",
+      "x": 189,
+      "y": 112,
+      "icon": {
+        "id": "gofish:wooden_crate",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Detection Task",
+          "items": [
+            {
+              "item": {
+                "id": "gofish:wooden_crate",
+                "Count": 1
+              },
+              "precision": "TAG_NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "40653f33-9d85-4926-be08-f90d0e5f5b30"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "gofish:wooden_crate",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "96998146-a007-4dba-9620-6bfe9fa43c7a",
       "name": "Water Attribute (Daily)",
       "description": "Kill water mobs. These can be found more commonly in water and cold biomes.",
@@ -1307,6 +1553,43 @@
       "reward": [
         {
           "id": "mmorpg:gear_mat/essences/water",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ace0a8f6-7c42-4826-be07-83cb9e97044b",
+      "name": "Trash Collector",
+      "description": "Aw darn! You got seaweed... Hopefully this quest makes the first seaweed not so bad!",
+      "x": 189,
+      "y": 176,
+      "icon": {
+        "id": "gofish:seaweed",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Consume Task",
+          "items": [
+            {
+              "item": {
+                "id": "gofish:seaweed",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "40653f33-9d85-4926-be08-f90d0e5f5b30"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "gofish:wooden_crate",
           "Count": 1
         }
       ],
@@ -1450,6 +1733,86 @@
       "commandrewards": []
     },
     {
+      "uuid": "17ba4335-e2f8-4882-89a8-1f335214fe1f",
+      "name": "Snowed In",
+      "description": "Like many fish, some are biome specific. Can you guess where to get this one?",
+      "x": 282,
+      "y": 144,
+      "icon": {
+        "id": "gofish:snowball_fish",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Consume Task",
+          "items": [
+            {
+              "item": {
+                "id": "gofish:snowball_fish",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "6bf99482-52b6-4f97-b718-7a9b3434f0f1"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:loot_crate/ench_exp_bag",
+          "Count": 1,
+          "tag": {
+            "exp": 100
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ae4fbd23-06fe-4de0-9d0a-a8144f0a4d83",
+      "name": "That Ain\u0027t A Veggie",
+      "description": "You\u0027ll find these carrot fish all over the Overworld!",
+      "x": 251,
+      "y": 176,
+      "icon": {
+        "id": "gofish:carrot_carp",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Consume Task",
+          "items": [
+            {
+              "item": {
+                "id": "gofish:carrot_carp",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "e8cec9ea-a556-4183-bdef-ff9ac78def51"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:loot_crate/ench_exp_bag",
+          "Count": 1,
+          "tag": {
+            "exp": 100
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "9cf8031e-688f-4834-9cb3-bc4afc561e9e",
       "name": "Flame Attribute (Daily)",
       "description": "Kill flame mobs. These can be found more commonly in hotter biomes.",
@@ -1571,7 +1934,7 @@
       "uuid": "7ac3735e-6604-44c8-86ef-7f538d1d64de",
       "name": "Slimey Mobs (Daily)",
       "description": "Even slimes have alternate attributes!",
-      "x": 251,
+      "x": 220,
       "y": 80,
       "icon": {
         "id": "mmorpg:gear_mat/essences/elemental",
@@ -1640,6 +2003,50 @@
       "commandrewards": []
     },
     {
+      "uuid": "b0ba95c0-3464-4ea3-8795-ebdcb786c783",
+      "name": "Slippery Catch",
+      "description": "Wow! How\u0027re you gonna get an frozen fish?!",
+      "x": 282,
+      "y": 112,
+      "icon": {
+        "id": "gofish:icicle_fish",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Consume Task",
+          "items": [
+            {
+              "item": {
+                "id": "gofish:icicle_fish",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "6bf99482-52b6-4f97-b718-7a9b3434f0f1"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "trapexpansion:slippery_stone",
+          "Count": 1
+        },
+        {
+          "id": "mmorpg:loot_crate/ench_exp_bag",
+          "Count": 1,
+          "tag": {
+            "exp": 250
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "abd23147-72bf-4d87-9c79-ac87a18c7c2c",
       "name": "Monster From The Depths",
       "description": "Find a new type of mob deep in the ocean... To some, it may seem familiar. Once proposed as a plausible Minecraft mob and rejected due to a popularity vote, the lurker has come to seek revenge in Craft to Exile [Harmony]!",
@@ -1680,6 +2087,43 @@
         },
         {
           "id": "mmorpg:loot_crate/rune",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e5a5cea4-e503-46dc-a023-85d2df53600f",
+      "name": "Improved Fishing II",
+      "description": "Lures can improve your fishing luck! Just have them in your inventory.",
+      "x": 251,
+      "y": 112,
+      "icon": {
+        "id": "gofish:simple_lure",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Crafting Task",
+          "items": [
+            {
+              "item": {
+                "id": "gofish:simple_lure",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "e8cec9ea-a556-4183-bdef-ff9ac78def51"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:mat/infused_iron",
           "Count": 1
         }
       ],
@@ -1799,6 +2243,46 @@
         {
           "id": "mmorpg:loot_crate/common",
           "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b59caa17-e666-4e5a-9034-078c711632ee",
+      "name": "Lilypad or Fish?",
+      "description": "You\u0027ll probably have better luck in swamps...",
+      "x": 220,
+      "y": 112,
+      "icon": {
+        "id": "gofish:lilyfish",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Consume Task",
+          "items": [
+            {
+              "item": {
+                "id": "gofish:lilyfish",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "e8cec9ea-a556-4183-bdef-ff9ac78def51"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:loot_crate/ench_exp_bag",
+          "Count": 1,
+          "tag": {
+            "exp": 100
+          }
         }
       ],
       "rewardchoice": [],

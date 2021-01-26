@@ -82,144 +82,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "a4ae0d8b-38fd-491e-a801-0d8fe65664bc",
-      "name": "The Wither",
-      "description": "Defeat the Wither!",
-      "x": 114,
-      "y": 174,
-      "bigicon": true,
-      "icon": {
-        "id": "minecraft:wither_rose",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "KILL",
-          "description": "Killing Task",
-          "mobs": [
-            {
-              "name": "Wither",
-              "icon": {
-                "id": "minecraft:wither_rose",
-                "Count": 1
-              },
-              "mob": "minecraft:wither",
-              "kills": 1
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "cb524817-c098-4643-b7c8-7bdbfe14c113",
-        "4fd917cd-ec6b-4d46-b2bd-859af597ed95",
-        "80e98aaa-3a29-42e5-9099-c272ea823a2b"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "mmorpg:mat/salvage/salvage2",
-          "Count": 16
-        }
-      ],
-      "rewardchoice": [
-        {
-          "id": "mmorpg:gear_mat/ore/ore3",
-          "Count": 16
-        },
-        {
-          "id": "mmorpg:gear_mat/leather/leather3",
-          "Count": 16
-        },
-        {
-          "id": "mmorpg:gear_mat/cloth/cloth3",
-          "Count": 16
-        }
-      ],
-      "commandrewards": []
-    },
-    {
-      "uuid": "f933b3de-9f87-4166-854d-032a45b6e039",
-      "name": "Locked On",
-      "description": "Don\u0027t forget that we\u0027re in 1.16.X! Find targes in The Nether and get a bullseye!",
-      "x": 24,
-      "y": 50,
-      "icon": {
-        "id": "minecraft:target",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "DETECT",
-          "description": "Detection Task",
-          "items": [
-            {
-              "item": {
-                "id": "minecraft:target",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "6eb0f802-2cf2-4a27-9fac-3271ece9c9cd"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:target",
-          "Count": 1
-        },
-        {
-          "id": "minecraft:redstone_block",
-          "Count": 1
-        },
-        {
-          "id": "mmorpg:mat/salvage/salvage2",
-          "Count": 8
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "ecb4f28a-eb57-4d95-8ecb-be9ceb49e4c6",
-      "name": "Over 9000!",
-      "description": "Gilded netherite is a very powerful ore that only drops from the Blackstone Golem. Infuse your netherite armor with it! See what happens when you equip a full set of gilded netherite... Gilded netherite is meant for warriors.",
-      "x": 86,
-      "y": 82,
-      "icon": {
-        "id": "adventurez:gilded_netherite_fragment",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "DETECT",
-          "description": "Detection Task",
-          "items": [
-            {
-              "item": {
-                "id": "adventurez:gilded_netherite_fragment",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "89ffecee-1df0-443d-8e20-6d2ea7f7bbda"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "mmorpg:loot_crate/gem",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "a6fca52e-1b72-404a-9a5e-1e8430b68903",
       "name": "Instantaneous Transfer",
       "description": "Transfer chests are a new type of chest that allows for instant inter-dimensional item transfer! Think of it as an ender chest, but shared between everyone!",
@@ -368,49 +230,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "18d211d5-f65c-45e7-9a6b-78304f20836d",
-      "name": "Ghastly Foe (Daily)",
-      "description": "Defeat ghasts which can be found in The Nether!",
-      "x": 188,
-      "y": 18,
-      "icon": {
-        "id": "minecraft:ghast_tear",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "TIME",
-        "days": 1,
-        "hours": 0
-      },
-      "tasks": [
-        {
-          "type": "KILL",
-          "description": "Killing Task",
-          "mobs": [
-            {
-              "name": "Ghast",
-              "icon": {
-                "id": "minecraft:ghast_tear",
-                "Count": 1
-              },
-              "mob": "minecraft:ghast",
-              "kills": 3
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:ghast_tear",
-          "Count": 3
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "cb524817-c098-4643-b7c8-7bdbfe14c113",
       "name": "Cincinnasite",
       "description": "Cincinnasite is a beautiful-looking material used to craft weapons, tools, and armor. You can even trim it with diamonds to enhance the effects! Cincinnasite can be worn by anyone!",
@@ -548,76 +367,46 @@
       "commandrewards": []
     },
     {
-      "uuid": "01be0dca-f1cd-49ed-a145-7a8ff2296b9a",
-      "name": "Rubies...",
-      "description": "Nether rubies are a newly generating ore introduced by Better Nether. Crafting armor from these rubies will yield mage armor!",
-      "x": 86,
-      "y": 50,
+      "uuid": "767e85e0-eca0-4a11-8be1-3197f407fe91",
+      "name": "Blackstone Fish",
+      "description": "In the Basalt Deltas, you\u0027ll find the blackstone trout and gilded blackstone carp!",
+      "x": 219,
+      "y": 146,
       "icon": {
-        "id": "betternether:nether_ruby",
+        "id": "gofish:blackstone_trout",
         "Count": 1
       },
       "tasks": [
         {
-          "type": "CRAFT",
-          "description": "Crafting Task",
+          "type": "CONSUME",
+          "description": "Consume Task",
           "items": [
             {
               "item": {
-                "id": "betternether:nether_ruby_chestplate",
-                "Count": 1,
-                "tag": {
-                  "Damage": 0
-                }
-              },
-              "precision": "TAG_NBT_FUZZY"
+                "id": "gofish:blackstone_trout",
+                "Count": 1
+              }
             },
             {
               "item": {
-                "id": "betternether:nether_ruby_leggings",
-                "Count": 1,
-                "tag": {
-                  "Damage": 0
-                }
-              },
-              "precision": "TAG_NBT_FUZZY"
+                "id": "gofish:gilded_blackstone_carp",
+                "Count": 1
+              }
             }
           ]
         }
       ],
       "prerequisites": [
-        "89ffecee-1df0-443d-8e20-6d2ea7f7bbda"
+        "db6d3f7f-9e01-48ea-b7eb-76aee604f49f"
       ],
       "optionlinks": [],
       "reward": [
         {
-          "id": "mmorpg:gems/ruby/3",
-          "Count": 2
-        },
-        {
-          "id": "betternether:nether_ruby_helmet",
-          "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
+          "id": "gofish:gilded_blackstone_crate",
+          "Count": 1
         }
       ],
-      "rewardchoice": [
-        {
-          "id": "betternether:nether_ruby_pickaxe",
-          "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
-        },
-        {
-          "id": "betternether:nether_ruby_shovel",
-          "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
-        }
-      ],
+      "rewardchoice": [],
       "commandrewards": []
     },
     {
@@ -696,6 +485,49 @@
         {
           "id": "mmorpg:mat/salvage/salvage2",
           "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "53c2dcd5-73f1-486f-bec8-3514ca39f93d",
+      "name": "Soul Catcher",
+      "description": "This rare fishing rod is fantastic at TAKING YOUR SOULLLL. Just kidding. It\u0027s pretty good though!",
+      "x": 250,
+      "y": 82,
+      "icon": {
+        "id": "gofish:soul_rod",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Detection Task",
+          "items": [
+            {
+              "item": {
+                "id": "gofish:soul_rod",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "200aaab9-da0a-409f-a5e2-5e585585bcbb"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "gofish:diamond_crate",
+          "Count": 1
         }
       ],
       "rewardchoice": [],
@@ -817,154 +649,6 @@
         }
       ],
       "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "362ece33-ae37-41da-9e09-3fba7fa0b0d9",
-      "name": "Pendora",
-      "description": "Welcome, looking for the vaults? Oh wait, wrong game. BYG also adds new pendorite-class weapons and tools for you to use. Similar to ametrine, combine them with netherite and craft new tools!",
-      "x": 55,
-      "y": 114,
-      "icon": {
-        "id": "byg:pendorite_battleaxe",
-        "Count": 1,
-        "tag": {
-          "Damage": 0
-        }
-      },
-      "tasks": [
-        {
-          "type": "CRAFT",
-          "description": "Crafting Task",
-          "items": [
-            {
-              "item": {
-                "id": "byg:pendorite_pickaxe",
-                "Count": 1,
-                "tag": {
-                  "Damage": 0
-                }
-              }
-            },
-            {
-              "item": {
-                "id": "byg:pendorite_axe",
-                "Count": 1,
-                "tag": {
-                  "Damage": 0
-                }
-              }
-            },
-            {
-              "item": {
-                "id": "byg:pendorite_battleaxe",
-                "Count": 1,
-                "tag": {
-                  "Damage": 0
-                }
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "b3548aa9-0439-4ab3-9f9a-f5b9047e8923"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "byg:pendorite_scraps",
-          "Count": 8
-        },
-        {
-          "id": "mmorpg:runes/wir",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "5b1db2b0-8434-4125-acc3-765c4efe3066",
-      "name": "Golems (Daily)",
-      "description": "Defeat all the golems and receive great rewards!",
-      "x": 281,
-      "y": 18,
-      "icon": {
-        "id": "adventurez:stone_golem_heart",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "TIME",
-        "days": 1,
-        "hours": 0
-      },
-      "tasks": [
-        {
-          "type": "KILL",
-          "description": "Killing Task",
-          "mobs": [
-            {
-              "name": "Iron Golem",
-              "icon": {
-                "id": "mmorpg:mat/infused_iron",
-                "Count": 1
-              },
-              "mob": "minecraft:iron_golem",
-              "kills": 1
-            },
-            {
-              "name": "Snow Golem",
-              "icon": {
-                "id": "minecraft:snowball",
-                "Count": 1
-              },
-              "mob": "minecraft:snow_golem",
-              "kills": 1
-            },
-            {
-              "name": "Corrupted Golem",
-              "icon": {
-                "id": "mmorpg:mat/modify_part",
-                "Count": 1
-              },
-              "mob": "mmorpg:boss_golem",
-              "kills": 1
-            },
-            {
-              "name": "Blackstone Golem",
-              "icon": {
-                "id": "adventurez:stone_golem_heart",
-                "Count": 1
-              },
-              "mob": "adventurez:stone_golem",
-              "kills": 1
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "mmorpg:mat/salvage/salvage3",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [
-        {
-          "id": "mmorpg:loot_crate/rare",
-          "Count": 1
-        },
-        {
-          "id": "mmorpg:loot_crate/rune",
-          "Count": 1
-        },
-        {
-          "id": "mmorpg:loot_crate/gem",
-          "Count": 1
-        }
-      ],
       "commandrewards": []
     },
     {
@@ -1224,6 +908,705 @@
         {
           "id": "mmorpg:potions/add_reset_perk_points",
           "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "a4ae0d8b-38fd-491e-a801-0d8fe65664bc",
+      "name": "The Wither",
+      "description": "Defeat the Wither!",
+      "x": 114,
+      "y": 174,
+      "bigicon": true,
+      "icon": {
+        "id": "minecraft:wither_rose",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "description": "Killing Task",
+          "mobs": [
+            {
+              "name": "Wither",
+              "icon": {
+                "id": "minecraft:wither_rose",
+                "Count": 1
+              },
+              "mob": "minecraft:wither",
+              "kills": 1
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "cb524817-c098-4643-b7c8-7bdbfe14c113",
+        "4fd917cd-ec6b-4d46-b2bd-859af597ed95",
+        "80e98aaa-3a29-42e5-9099-c272ea823a2b"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:mat/salvage/salvage2",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "mmorpg:gear_mat/ore/ore3",
+          "Count": 16
+        },
+        {
+          "id": "mmorpg:gear_mat/leather/leather3",
+          "Count": 16
+        },
+        {
+          "id": "mmorpg:gear_mat/cloth/cloth3",
+          "Count": 16
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "200aaab9-da0a-409f-a5e2-5e585585bcbb",
+      "name": "Soul Searching",
+      "description": "Some crates and fish can only be found in certain biomes. This crate can only be found in the Soul Sand Valley",
+      "x": 250,
+      "y": 114,
+      "icon": {
+        "id": "gofish:soul_crate",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Detection Task",
+          "items": [
+            {
+              "item": {
+                "id": "gofish:soul_crate",
+                "Count": 1
+              },
+              "precision": "TAG_NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "db6d3f7f-9e01-48ea-b7eb-76aee604f49f"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:soul_campfire",
+          "Count": 1
+        },
+        {
+          "id": "mmorpg:gems/azurite/3",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f933b3de-9f87-4166-854d-032a45b6e039",
+      "name": "Locked On",
+      "description": "Don\u0027t forget that we\u0027re in 1.16.X! Find targes in The Nether and get a bullseye!",
+      "x": 24,
+      "y": 50,
+      "icon": {
+        "id": "minecraft:target",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Detection Task",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:target",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "6eb0f802-2cf2-4a27-9fac-3271ece9c9cd"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:target",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:redstone_block",
+          "Count": 1
+        },
+        {
+          "id": "mmorpg:mat/salvage/salvage2",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ecb4f28a-eb57-4d95-8ecb-be9ceb49e4c6",
+      "name": "Over 9000!",
+      "description": "Gilded netherite is a very powerful ore that only drops from the Blackstone Golem. Infuse your netherite armor with it! See what happens when you equip a full set of gilded netherite... Gilded netherite is meant for warriors.",
+      "x": 86,
+      "y": 82,
+      "icon": {
+        "id": "adventurez:gilded_netherite_fragment",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Detection Task",
+          "items": [
+            {
+              "item": {
+                "id": "adventurez:gilded_netherite_fragment",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "89ffecee-1df0-443d-8e20-6d2ea7f7bbda"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:loot_crate/gem",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d8ebae10-9bf0-42ed-9260-3cebdb13961b",
+      "name": "Lucky Catch",
+      "description": "The golden crate can drop in The Nether. If you catch this, you\u0027ll be rich!",
+      "x": 219,
+      "y": 82,
+      "icon": {
+        "id": "gofish:golden_crate",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Detection Task",
+          "items": [
+            {
+              "item": {
+                "id": "gofish:golden_crate",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "2392d73d-c9cb-4976-bf45-f370d2c9a218"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:gold_block",
+          "Count": 1
+        },
+        {
+          "id": "mmorpg:mat/golden_orb",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "48e41073-75de-4da2-b0c0-3da9a82ee5ca",
+      "name": "Cold Stare",
+      "description": "These fish can only be found in the Soul Sand Valley.",
+      "x": 281,
+      "y": 114,
+      "icon": {
+        "id": "gofish:soul_salmon",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Consume Task",
+          "items": [
+            {
+              "item": {
+                "id": "gofish:soul_salmon",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "200aaab9-da0a-409f-a5e2-5e585585bcbb"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:loot_crate/ench_exp_bag",
+          "Count": 1,
+          "tag": {
+            "exp": 250
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "db6d3f7f-9e01-48ea-b7eb-76aee604f49f",
+      "name": "Rock Solid",
+      "description": "The obsidian halibut, believe it or not, can be eaten. You\u0027ll find it commonly in The Nether.",
+      "x": 219,
+      "y": 114,
+      "icon": {
+        "id": "gofish:obsidian_halibut",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Consume Task",
+          "items": [
+            {
+              "item": {
+                "id": "gofish:obsidian_halibut",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "2392d73d-c9cb-4976-bf45-f370d2c9a218"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:obsidian",
+          "Count": 1
+        },
+        {
+          "id": "mmorpg:loot_crate/ench_exp_bag",
+          "Count": 1,
+          "tag": {
+            "exp": 100
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "18d211d5-f65c-45e7-9a6b-78304f20836d",
+      "name": "Ghastly Foe (Daily)",
+      "description": "Defeat ghasts which can be found in The Nether!",
+      "x": 188,
+      "y": 18,
+      "icon": {
+        "id": "minecraft:ghast_tear",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "TIME",
+        "days": 1,
+        "hours": 0
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "description": "Killing Task",
+          "mobs": [
+            {
+              "name": "Ghast",
+              "icon": {
+                "id": "minecraft:ghast_tear",
+                "Count": 1
+              },
+              "mob": "minecraft:ghast",
+              "kills": 3
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:ghast_tear",
+          "Count": 3
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "01be0dca-f1cd-49ed-a145-7a8ff2296b9a",
+      "name": "Rubies...",
+      "description": "Nether rubies are a newly generating ore introduced by Better Nether. Crafting armor from these rubies will yield mage armor!",
+      "x": 86,
+      "y": 50,
+      "icon": {
+        "id": "betternether:nether_ruby",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Crafting Task",
+          "items": [
+            {
+              "item": {
+                "id": "betternether:nether_ruby_chestplate",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "precision": "TAG_NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "betternether:nether_ruby_leggings",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "precision": "TAG_NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "89ffecee-1df0-443d-8e20-6d2ea7f7bbda"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:gems/ruby/3",
+          "Count": 2
+        },
+        {
+          "id": "betternether:nether_ruby_helmet",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "betternether:nether_ruby_pickaxe",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "betternether:nether_ruby_shovel",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2392d73d-c9cb-4976-bf45-f370d2c9a218",
+      "name": "Hot Rod",
+      "description": "They same some rods are more effective than others in certain biomes.",
+      "x": 188,
+      "y": 82,
+      "icon": {
+        "id": "gofish:blaze_rod",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Crafting Task",
+          "items": [
+            {
+              "item": {
+                "id": "gofish:blaze_rod",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:blaze_rod",
+          "Count": 1
+        },
+        {
+          "id": "gofish:iron_crate",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "362ece33-ae37-41da-9e09-3fba7fa0b0d9",
+      "name": "Pendora",
+      "description": "Welcome, looking for the vaults? Oh wait, wrong game. BYG also adds new pendorite-class weapons and tools for you to use. Similar to ametrine, combine them with netherite and craft new tools!",
+      "x": 55,
+      "y": 114,
+      "icon": {
+        "id": "byg:pendorite_battleaxe",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Crafting Task",
+          "items": [
+            {
+              "item": {
+                "id": "byg:pendorite_pickaxe",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            },
+            {
+              "item": {
+                "id": "byg:pendorite_axe",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            },
+            {
+              "item": {
+                "id": "byg:pendorite_battleaxe",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b3548aa9-0439-4ab3-9f9a-f5b9047e8923"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "byg:pendorite_scraps",
+          "Count": 8
+        },
+        {
+          "id": "mmorpg:runes/wir",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "5b1db2b0-8434-4125-acc3-765c4efe3066",
+      "name": "Golems (Daily)",
+      "description": "Defeat all the golems and receive great rewards!",
+      "x": 281,
+      "y": 18,
+      "icon": {
+        "id": "adventurez:stone_golem_heart",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "TIME",
+        "days": 1,
+        "hours": 0
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "description": "Killing Task",
+          "mobs": [
+            {
+              "name": "Iron Golem",
+              "icon": {
+                "id": "mmorpg:mat/infused_iron",
+                "Count": 1
+              },
+              "mob": "minecraft:iron_golem",
+              "kills": 1
+            },
+            {
+              "name": "Snow Golem",
+              "icon": {
+                "id": "minecraft:snowball",
+                "Count": 1
+              },
+              "mob": "minecraft:snow_golem",
+              "kills": 1
+            },
+            {
+              "name": "Corrupted Golem",
+              "icon": {
+                "id": "mmorpg:mat/modify_part",
+                "Count": 1
+              },
+              "mob": "mmorpg:boss_golem",
+              "kills": 1
+            },
+            {
+              "name": "Blackstone Golem",
+              "icon": {
+                "id": "adventurez:stone_golem_heart",
+                "Count": 1
+              },
+              "mob": "adventurez:stone_golem",
+              "kills": 1
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:mat/salvage/salvage3",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "mmorpg:loot_crate/rare",
+          "Count": 1
+        },
+        {
+          "id": "mmorpg:loot_crate/rune",
+          "Count": 1
+        },
+        {
+          "id": "mmorpg:loot_crate/gem",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "15a30dd9-8b39-43c2-98b6-961169f83ae2",
+      "name": "Wheeling The Hot Ones",
+      "description": "Catch this fiery fish in The Nether!",
+      "x": 188,
+      "y": 114,
+      "icon": {
+        "id": "gofish:magma_cod",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Consume Task",
+          "items": [
+            {
+              "item": {
+                "id": "gofish:magma_cod",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "2392d73d-c9cb-4976-bf45-f370d2c9a218"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:gear_mat/essences/fire",
+          "Count": 8
+        },
+        {
+          "id": "mmorpg:gems/ruby/3",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f9a3f460-adb9-4af7-a33b-4f9a3aeaad7b",
+      "name": "The Opposite Of Fillet",
+      "description": "Yeah this one isn\u0027t really suitable for consumption.",
+      "x": 187,
+      "y": 146,
+      "icon": {
+        "id": "gofish:bonefish",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Consume Task",
+          "items": [
+            {
+              "item": {
+                "id": "gofish:bonefish",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "15a30dd9-8b39-43c2-98b6-961169f83ae2"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:bone",
+          "Count": 12
+        },
+        {
+          "id": "mmorpg:loot_crate/ench_exp_bag",
+          "Count": 1,
+          "tag": {
+            "exp": 100
+          }
         }
       ],
       "rewardchoice": [],
