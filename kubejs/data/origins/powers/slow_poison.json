@@ -1,0 +1,17 @@
+{
+	"type": "origins:target_action_on_hit",
+
+	"entity_action": {
+		"type": "origins:apply_effect",
+
+		"effect": {
+      			"effect": "minecraft:slowness",
+    			  "amplifier": 3,
+     			 "duration": 100
+		}
+	},
+	"cooldown": 1200,
+	"interval": 1,
+  	"name": "Tipped Blade",
+  	"description": "Your attacks slow enemies on hit. This effect can occur once every minute."
+}

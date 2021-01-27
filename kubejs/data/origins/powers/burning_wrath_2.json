@@ -1,0 +1,14 @@
+{
+  "type": "origins:conditioned_attribute",
+  "condition": {
+    "type": "origins:on_fire"
+  },
+  "modifier": {
+    "name": "Additional move speed while on fire",
+    "attribute": "minecraft:generic.movement_speed",
+    "value": 0.2,
+    "operation": "multiply_total"
+  },
+	"name": "Running Hot",
+  	"description": "You move 20 percent faster while you're burning."
+}

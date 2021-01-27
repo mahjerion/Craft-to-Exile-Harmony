@@ -7,16 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [2.0.0] - 2021-01-XX
+## [2.0.1] - 2021-01-XX
 
 ### Updates
 - THIS UPDATE WILL LIKELY BREAK YOUR EXISTING WORLDS. IT'S RECOMMENDED YOU BACK UP YOUR WORLD, AND IN THE WORST-CASE, START A NEW ONE!
-- Updated to 1.16.4 - means we can move update a bunch of mods that have fallen behind! There may be some unintended side effects, though!
+- Updated to 1.16.4 - means we can move update a bunch of mods that have fallen behind! There may be some unintended side effects, though.
 - Over 50 new quests to help guide players with the new content!
 - The addition of Traverse, Terrestria, Cinderscapes, BetterEnd, and BetterNether means much more fleshed out vanilla dimensions. Find new mobs in The Nether and The End!
 - Incorporation of the End City datapack makes The End so much more interesting! Check it out!
 - Go Fish adds a bunch of new fish that can be found in each dimension!
 - New Scrolls and Pocket Wormholes from Waystones lets you teleport to discovered waystones!
+- Ascendancies have been reworked slighly.
 - New Transfer Chest acts as an Ender Chest but for ALL players! Easily send items interdimensionally to your friends or newbies with this new chest.
 - New hammer type of weapon! From iron -> aeternium, these sluggish weapons have high base damage but virtually no critical chance. They also knock back enemies pretty far! Note: the lowest tier hammer is iron, and has a minimum level of 10.
 - TONS of new content in The Nether and The End now! New gear that can be found and crafted! Check the quest book for more details!
@@ -30,7 +31,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Notes: with so many changes, I might have forgotten to record some...
 
 ### Mod Updates
-- Updated Adorn, Allure, Age of Exile, AuthMe, Oh The Biomes You'll Go, Campanion, Charm, Charmonium, Clear Skies, Dank Storage, Diggus Maximus, Edit Sign, Flesh2Leather, Illuminations, Iron Chest, ItemFlexer, Light Overlay, Lithium, Mod Menu, Mo' Structures, Patchouli, Roughly Enough Items, The Bumblezone, Trade, Ward Blocks, XP Storage, Fabric Furnaces, Fabric Waystones, Fabric API, Player Roles, Age of Exile, Origins, Xaero's, Where Is It, Repurposed Structures, LambDynamicLights, KubeJS, Dynamic FPS, Chat Heads, FLAN.
+- Updated Adorn, Allure, Age of Exile, AuthMe, Oh The Biomes You'll Go, Campanion, Charm, Charmonium, Clear Skies, Dank Storage, Diggus Maximus, Edit Sign, Flesh2Leather, Illuminations, Iron Chest, ItemFlexer, Light Overlay, Lithium, Mod Menu, Mo' Structures, Patchouli, Roughly Enough Items, The Bumblezone, Trade, Ward Blocks, XP Storage, Fabric Furnaces, Fabric Waystones, Fabric API, Player Roles, Age of Exile, Origins, Xaero's, Where Is It, Repurposed Structures, LambDynamicLights, KubeJS, Dynamic FPS, Chat Heads, FLAN, Dynamic Sound Filters.
 - Added Smooth Boot - load your game faster!
 - Added Monster of the Ocean Depths - adds a new mob to the ocean.
 - Added Go Fish - new fish! Like Terraria!
@@ -42,6 +43,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added BetterNether.
 - Added Transfer Chest.
 - Added Enchantment Descriptions.
+- Added Project: Save the Pets!
 - Removed Craftable Utilities.
 - Removed Less Greedy Piglins.
 - Removed Anvil Fix - Charm should cover this.
@@ -55,6 +57,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - XP Storage losing experience when maxing out has been fixed.
 - Problem with FLAN claims being lost upon death has been fixed.
 - Fixed party giving 0 exp at low levels.
+- Bumblezone crashes should be fixed!
 
 ## [1.3.9b] - 2021-01-01
 

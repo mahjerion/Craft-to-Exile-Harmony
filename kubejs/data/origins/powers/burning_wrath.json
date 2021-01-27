@@ -5,7 +5,9 @@
   },
   "modifier": {
     "name": "Additional damage while on fire",
-    "value": 3,
-    "operation": "addition"
-  }
+    "value": 0.5,
+    "operation": "multiply_total"
+  },
+	"name": "Flame Seeker",
+  	"description": "You do 50 percent more damage while you're burning."
 }

@@ -1,0 +1,13 @@
+{
+  "type": "origins:modify_damage_dealt",
+  "condition": {
+    "type": "origins:in_rain"
+  },
+  "modifier": {
+    "name": "Additional damage while in rain",
+    "value": 0.1,
+    "operation": "multiply_total"
+  },
+	"name": "Soothing Rain",
+  	"description": "You deal 10 percent more damage while in the rain."
+}

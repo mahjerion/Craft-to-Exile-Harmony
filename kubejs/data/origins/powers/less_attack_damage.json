@@ -2,7 +2,9 @@
   "type": "origins:modify_damage_dealt",
   "modifier": {
     "name": "Warrior attack damage bonus",
-    "value": 0.1,
+    "value": -0.2,
     "operation": "multiply_total"
-  }
+  },
+  	"name": "Agnostic",
+  	"description": "You deal 20 percent less damage."
 }

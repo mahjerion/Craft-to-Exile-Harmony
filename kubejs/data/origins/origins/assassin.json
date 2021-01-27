@@ -1,9 +1,9 @@
 {
 	"powers": [
+		"origins:slow_poison",
 		"origins-classes:sneaky",
 		"origins-classes:stealth",
 		"origins-classes:stealth_descriptor",
-		"origins-classes:more_attack_damage",
 		"origins:fragile",
 		"origins:translucent"
 	],

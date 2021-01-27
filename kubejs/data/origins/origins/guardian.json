@@ -1,9 +1,9 @@
 {
 	"powers": [
-		"origins:shulker_inventory",
-		"origins:natural_armor",
+		"origins:extra_life",
+		"origins:thick_skin",
 		"origins-classes:less_shield_slowdown",
-		"origins:nine_lives"
+		"origins:less_attack_damage"
 	],
 	"icon": "minecraft:shield",
 	"order": 2,

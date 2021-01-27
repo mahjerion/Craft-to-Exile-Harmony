@@ -1,8 +1,9 @@
 {
 	"powers": [
 		"origins:burning_wrath",
-		"origins:aqua_affinity",
-		"origins:swim_speed",
+		"origins:burning_wrath_2",
+		"origins:water_affinity",
+		"origins:water_affinity_2",
 		"origins:hotblooded",
 		"origins:flame_particles",
 		"origins:frail"
