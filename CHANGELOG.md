@@ -28,6 +28,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Mobs are a bit easier in dimensions after the Overworld now.
 - Reduced the cooldown of the "ball" spells and thunder spear. Spells felt too clunky to use early on.
 - Increased the damage of Lightning Totem by 12.5%.
+- The new biome locator will help you locate specific biomes - it's basically Nature's Compass.
 - Notes: with so many changes, I might have forgotten to record some...
 
 ### Mod Updates
@@ -44,6 +45,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added Transfer Chest.
 - Added Enchantment Descriptions.
 - Added Project: Save the Pets!
+- Added Biome Locator.
 - Removed Craftable Utilities.
 - Removed Less Greedy Piglins.
 - Removed Anvil Fix - Charm should cover this.

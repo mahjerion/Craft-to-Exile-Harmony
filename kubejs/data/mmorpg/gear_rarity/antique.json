@@ -6,7 +6,7 @@
   },
   "sockets": {
     "min_amount": 1,
-    "max_amount": 5,
+    "max_amount": 4,
     "chance_for_more": 50
   },
   "max_worn_at_once": -1,
