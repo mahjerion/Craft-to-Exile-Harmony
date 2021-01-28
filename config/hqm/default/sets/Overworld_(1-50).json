@@ -390,8 +390,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 7,
-        "hours": 0
+        "days": 0,
+        "hours": 7
       },
       "tasks": [
         {
@@ -570,12 +570,6 @@
           "items": [
             {
               "item": {
-                "id": "waystones:waystone",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
                 "id": "waystones:empty_scroll",
                 "Count": 4
               },
@@ -597,7 +591,7 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "mmorpg:loot_crate/rare",
+          "id": "waystones:waystone",
           "Count": 1
         }
       ],
@@ -616,8 +610,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 1,
-        "hours": 0
+        "days": 0,
+        "hours": 1
       },
       "tasks": [
         {
@@ -814,7 +808,8 @@
                 "tag": {
                   "Damage": 0
                 }
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             }
           ]
         }
@@ -927,8 +922,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 1,
-        "hours": 0
+        "days": 0,
+        "hours": 1
       },
       "tasks": [
         {
@@ -997,8 +992,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 1,
-        "hours": 0
+        "days": 0,
+        "hours": 1
       },
       "tasks": [
         {
@@ -1510,8 +1505,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 1,
-        "hours": 0
+        "days": 0,
+        "hours": 1
       },
       "tasks": [
         {
@@ -1824,8 +1819,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 1,
-        "hours": 0
+        "days": 0,
+        "hours": 1
       },
       "tasks": [
         {
@@ -1942,8 +1937,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 1,
-        "hours": 0
+        "days": 0,
+        "hours": 1
       },
       "tasks": [
         {
@@ -2124,6 +2119,47 @@
       "reward": [
         {
           "id": "mmorpg:mat/infused_iron",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b283f089-9726-4e76-a691-f0848a6e8695",
+      "name": "X Marks The Spot",
+      "description": "The Biome Locator is an item that allows you to find those pesky, rare biomes!",
+      "x": 148,
+      "y": 112,
+      "icon": {
+        "id": "biome_locator:compass",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Crafting Task",
+          "items": [
+            {
+              "item": {
+                "id": "biome_locator:compass",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "35178b05-9dfd-4fee-beab-0c1cf49fcf2a"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "waystones:waystone",
+          "Count": 1
+        },
+        {
+          "id": "mmorpg:mat/crystallized_essence",
           "Count": 1
         }
       ],

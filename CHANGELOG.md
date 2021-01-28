@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [2.0.1] - 2021-01-XX
+## [2.0.1] - 2021-01-27
 
 ### Updates
 - THIS UPDATE WILL LIKELY BREAK YOUR EXISTING WORLDS. IT'S RECOMMENDED YOU BACK UP YOUR WORLD, AND IN THE WORST-CASE, START A NEW ONE!
@@ -28,7 +28,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Mobs are a bit easier in dimensions after the Overworld now.
 - Reduced the cooldown of the "ball" spells and thunder spear. Spells felt too clunky to use early on.
 - Increased the damage of Lightning Totem by 12.5%.
-- The new biome locator will help you locate specific biomes - it's basically Nature's Compass.
+- The new biome locator will help you locate specific biomes - it's basically Nature's Compass. There is also a quest showcasing this.
+- Crafting cost of waystones has been lowered from tier 3 to crystallized essence.
 - Notes: with so many changes, I might have forgotten to record some...
 
 ### Mod Updates

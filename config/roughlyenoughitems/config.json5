@@ -124,7 +124,8 @@
 		// Declares whether entry panel is scrolled.
 		"scrollingEntryListWidget": false,
 		"horizontalEntriesBoundaries": 1.0,
-		"verticalEntriesBoundaries": 1.0
+		"verticalEntriesBoundaries": 1.0,
+		"syntaxHighlightingMode": "COLORFUL"
 	},
 	"functionality": { 
 		// Declares whether REI should remove the recipe book.
