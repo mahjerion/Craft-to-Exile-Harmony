@@ -1,4 +1,4 @@
-version:2578
+version:2584
 autoJump:false
 autoSuggestions:true
 chatColors:true
@@ -33,9 +33,9 @@ graphicsMode:1
 ao:2
 biomeBlendRadius:1
 renderClouds:true
-resourcePacks:["fabric/fabric-keybindings-v0","fabric/dynamicsoundfilters","fabric/fabricloader","fabric/satin","fabric/adventurez","fabric/fabric-game-rule-api-v1","fabric/fabric-api-base","fabric/controlling","fabric/xaeroworldmap","fabric/diggusmaximus","fabric/randompatches","fabric/roughlyenoughresources","fabric/waila","fabric/fabric-blockrenderlayer-v1","fabric/libblockattributes_items","fabric/fabric","fabric/fabric-networking-v0","fabric/cleancut","fabric/fabric-screen-handler-api-v1","fabric/repurposed_structures","fabric/modmenu","fabric/musicdr","fabric/blur","fabric/fabric-tool-attribute-api-v1","fabric/roughlyenoughitems-runtime","fabric/structure-helpers","fabric/fabric-crash-report-info-v1","fabric/fabric-events-interaction-v0","fabric/whereisit","fabric/curios","fabric/fabric-language-kotlin","fabric/nbtcrafting","fabric/fabric-key-binding-api-v1","fabric/cloth-config2","fabric/endreborn","fabric/fabric-resource-loader-v0","fabric/compactstatuseffects","fabric/trapexpansion","fabric/clear-skies","fabric/libblockattributes_fluids","fabric/authme","fabric/fabric-registry-sync-v0","fabric/adorn","fabric/fabric-mining-levels-v0","fabric/the_bumblezone","fabric/fabric-item-groups-v0","fabric/fabric-models-v0","fabric/fabric-renderer-api-v1","fabric/parchment","fabric/libcd","fabric/flesh2leather","fabric/cavebiomes","fabric/allure","fabric/mmorpg","fabric/lithium","fabric/fabric-containers-v0","fabric/fabric-object-builder-api-v1","fabric/libblockattributes","fabric/fabric-rendering-data-attachment-v1","fabric/campanion","fabric/fabric-textures-v0","fabric/fabric-rendering-fluids-v1","fabric/fabric-lifecycle-events-v1","fabric/fabric-renderer-registries-v1","fabric/fabric-loot-tables-v1","fabric/dynamicfps","fabric/libblockattributes_core","fabric/fabric-networking-blockentity-v0","fabric/jankson","fabric/invtrashslot","fabric/betterdroppeditems","fabric/fabric-renderer-indigo","fabric/roughlyenoughitems","fabric/fabric-item-api-v1","fabric/libgui","fabric/xaerominimap","fabric/fabric-rendering-v0","fabric/fabric-rendering-v1","fabric/autoconfig1u","fabric/fabric-content-registries-v0","fabric/fabric-tag-extensions-v0","fabric/fastfurnace","fabric/fabric-events-lifecycle-v0","fabric/fabric-object-builders-v0"]
+resourcePacks:["Fabric Mods"]
 incompatibleResourcePacks:[]
-lastServer:
+lastServer:127.0.0.1
 lang:en_us
 chatVisibility:0
 chatOpacity:1.0
@@ -43,7 +43,7 @@ chatLineSpacing:0.0
 textBackgroundOpacity:0.5
 backgroundForChatOnly:true
 hideServerAddress:false
-advancedItemTooltips:true
+advancedItemTooltips:false
 pauseOnLostFocus:true
 overrideWidth:0
 overrideHeight:0
@@ -63,6 +63,8 @@ mouseWheelSensitivity:1.0
 rawMouseInput:true
 glDebugVerbosity:1
 skipMultiplayerWarning:true
+hideMatchedNames:true
+joinedFirstServer:true
 syncChunkWrites:true
 key_key.attack:key.mouse.left
 key_key.use:key.mouse.right
@@ -79,6 +81,7 @@ key_key.chat:key.keyboard.t
 key_key.playerlist:key.keyboard.tab
 key_key.pickItem:key.mouse.middle
 key_key.command:key.keyboard.slash
+key_key.socialInteractions:key.keyboard.p
 key_key.screenshot:key.keyboard.f2
 key_key.togglePerspective:key.keyboard.f5
 key_key.smoothCamera:key.keyboard.unknown
@@ -97,20 +100,20 @@ key_key.hotbar.6:key.keyboard.6
 key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
-key_key.charm.openEnderChest:key.keyboard.b
-key_key.charm.openCraftingTable:key.keyboard.v
-key_key.dynamicfps.toggle:key.keyboard.unknown
-key_Reload Menu | CTRL + :key.keyboard.n
-key_Toggle Customization Overlay | CTRL + :key.keyboard.c
+key_key.dynamicfps.toggle_forced:key.keyboard.unknown
+key_key.dynamicfps.toggle_disabled:key.keyboard.unknown
 key_key.adventurez.activatearmor:key.keyboard.v
 key_key.waila.config:key.keyboard.keypad.0
 key_key.waila.show_overlay:key.keyboard.keypad.1
 key_key.waila.toggle_liquid:key.keyboard.keypad.2
-key_key.curios.open.desc:key.keyboard.g
+key_key.curios.open.desc:key.keyboard.unknown
 key_key.origins.active_power:key.keyboard.g
-key_key.origins.view_origin:key.keyboard.o
+key_key.origins.view_origin:key.keyboard.unknown
+key_key.charm.openCraftingTable:key.keyboard.v
+key_key.charm.openEnderChest:key.keyboard.b
 key_Main Hub Screen:key.keyboard.h
-key_Choose Spell:key.keyboard.r
+key_Choose Spell:key.keyboard.left.alt
+key_Use Spell:key.keyboard.r
 key_key.invtrashslot.delete:key.keyboard.delete
 key_gui.xaero_switch_waypoint_set:key.keyboard.unknown
 key_gui.xaero_instant_waypoint:key.keyboard.keypad.add
@@ -137,8 +140,8 @@ key_key.whereisit.finditem:key.keyboard.y
 key_key.lightoverlay.enable_overlay:key.keyboard.f7
 key_key.campanion.open_backpack:key.keyboard.b
 key_key.trade:key.keyboard.v
-soundCategory_master:0.35596028
-soundCategory_music:0.20422535
+soundCategory_master:0.105960265
+soundCategory_music:0.25704226
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0
