@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.0.1b] - 2021-01-29
+
+### Fixes
+- Fixed missing Biome Locator mod.
+
 ## [2.0.1] - 2021-01-29
 
 ### Updates
