@@ -1,0 +1,4 @@
+{ 
+	// Required item to edit signs
+	"requiredItemId": "minecraft:gold_ingot"
+}

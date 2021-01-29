@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [2.0.1] - 2021-01-27
+## [2.0.1] - 2021-01-29
 
 ### Updates
 - THIS UPDATE WILL LIKELY BREAK YOUR EXISTING WORLDS. IT'S RECOMMENDED YOU BACK UP YOUR WORLD, AND IN THE WORST-CASE, START A NEW ONE!
@@ -30,6 +30,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Increased the damage of Lightning Totem by 12.5%.
 - The new biome locator will help you locate specific biomes - it's basically Nature's Compass. There is also a quest showcasing this.
 - Crafting cost of waystones has been lowered from tier 3 to crystallized essence.
+- You must now hold a gold ingot in order to edit signs.
 - Notes: with so many changes, I might have forgotten to record some...
 
 ### Mod Updates
