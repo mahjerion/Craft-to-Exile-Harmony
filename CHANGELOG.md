@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Mod Updates
+- Updated KubeJS.
+
+### Fixes
+- Fixed chainmail being too high level.
+
 ## [2.0.1b] - 2021-01-29
 
 ### Fixes
