@@ -9,8 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [2.0.1c] - 2021-01-29
 
+### Updates
+- You can now rebind your spell casting button. Changing spells has been changed from R to V, and spellcasting is now default R. You can still re-enable right click to cast in the configuration menu.
+- You can no longer cast spells while blocking!
+
 ### Mod Updates
-- Updated KubeJS.
+- Updated KubeJS, Age of Exile.
 
 ### Fixes
 - Fixed chainmail being too high level.
