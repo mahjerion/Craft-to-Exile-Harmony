@@ -1,7 +1,7 @@
 {
   "item_type": "pendorite_axe",
-  "item_id": "betternether:pendorite_axe",
-  "id": "betternether:pendorite_axe",
+  "item_id": "byg:pendorite_axe",
+  "id": "byg:pendorite_axe",
   "rarities": "non_aoe",
   "misc": {
     "weight": 1000,

@@ -1,7 +1,7 @@
 {
   "item_type": "aeternium_axe",
-  "item_id": "betternether:aeternium_axe",
-  "id": "betternether:aeternium_axe",
+  "item_id": "betterend:aeternium_axe",
+  "id": "betterend:aeternium_axe",
   "rarities": "non_aoe",
   "misc": {
     "weight": 1000,

@@ -127,4 +127,7 @@ events.listen('rei.hide.items', function (event) {
   event.hide('betterend:spawn_egg_shadow_walker')
   event.hide('betterend:spawn_egg_cubozoa')
   event.hide('zoob:spawn_monster_of_the_ocean_depths')
+  event.hide('campanion:day_pack')
+  event.hide('campanion:camping_pack')
+  event.hide('campanion:hiking_pack')
 })

@@ -647,13 +647,19 @@
                 "Count": 1
               },
               "precision": "TAG_NBT_FUZZY"
-            },
+            }
+          ]
+        },
+        {
+          "type": "CONSUME",
+          "description": "Consume Task",
+          "items": [
             {
               "item": {
                 "id": "betterend:crystal_shards",
-                "Count": 16
+                "Count": 8
               },
-              "required": 16
+              "required": 8
             }
           ]
         }

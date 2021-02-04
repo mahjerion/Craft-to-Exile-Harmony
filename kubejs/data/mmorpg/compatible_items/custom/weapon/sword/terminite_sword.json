@@ -1,7 +1,7 @@
 {
   "item_type": "terminite_sword",
-  "item_id": "betternether:terminite_sword",
-  "id": "betternether:terminite_sword",
+  "item_id": "betterend:terminite_sword",
+  "id": "betterend:terminite_sword",
   "rarities": "non_aoe",
   "misc": {
     "weight": 1000,

@@ -1,13 +1,16 @@
 {
-  "configVersion": "0.5.1",
+  "configVersion": "0.6.1",
   "generateOreCaves": true,
   "generateFullObsidianCaves": true,
+  "generateWebCaves": true,
   "whitelistedDimensions": [
     "minecraft:overworld"
   ],
   "caveLayerThreshold": 28,
+  "caveBiomeSize": 7,
   "generateNewCaves": true,
   "generateLocalWaterLevels": true,
+  "generateOreNodules": true,
   "generateUndergroundLootChests": true,
   "generateNetherLootChests": true,
   "generateUndergroundSpawners": true,

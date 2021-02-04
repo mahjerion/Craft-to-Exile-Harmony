@@ -1,7 +1,7 @@
 {
   "item_type": "pendorite_sword",
-  "item_id": "betternether:pendorite_sword",
-  "id": "betternether:pendorite_sword",
+  "item_id": "byg:pendorite_sword",
+  "id": "byg:pendorite_sword",
   "rarities": "non_aoe",
   "misc": {
     "weight": 1000,

@@ -1,9 +1,11 @@
 {
-  "type": "origins:attribute",
+  "type": "origins:modify_damage_taken",
   "modifier": {
-    "name": "Fragile health reduction",
-    "attribute": "minecraft:generic.max_health",
-    "value": -0.25,
+    "name": "Fragile",
+    "value": -0.15,
     "operation": "multiply_total"
-  }
+  },
+	"name": "Fragile",
+  	"description": "You receive 15 percent more damage."
+	
 }

@@ -1,7 +1,7 @@
 {
   "item_type": "aeternium_sword",
-  "item_id": "betternether:aeternium_sword",
-  "id": "betternether:aeternium_sword",
+  "item_id": "betterend:aeternium_sword",
+  "id": "betterend:aeternium_sword",
   "rarities": "non_aoe",
   "misc": {
     "weight": 1000,

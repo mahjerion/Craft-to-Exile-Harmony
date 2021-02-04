@@ -138,7 +138,7 @@
   },
   "config": {
     "swing_arm": false,
-    "castingWeapon": "MAGE_WEAPON",
+    "castingWeapon": ANY_WEAPON",
     "mana_cost": 5,
     "times_to_cast": 1,
     "cast_time_ticks": 0,

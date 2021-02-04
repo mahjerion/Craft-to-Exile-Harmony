@@ -1,0 +1,31 @@
+{ 
+	/* 
+	   
+	   ***********************
+	   Enable-Disable Blocks
+	   ***********************
+	*/
+	"enableGrowthBlock": true,
+	"enableHealthBlock": true,
+	"enableDefenseBlock": true,
+	"enableExpBlock": false,
+	"enableAttackBlock": false,
+	"enableLootBlock": false,
+	/* 
+	   
+	   ***********************
+	   Block Settings
+	   ***********************
+	*/
+	"growthRange": 10,
+	"healthRadius": 12,
+	"healthLevel": 0,
+	"healthYellowHearts": 14.0,
+	"defenseRadius": 12,
+	"defenseLevel": 1,
+	"expRadius": 12,
+	"expLevel": 1,
+	"attackRadius": 16,
+	"damageAmount": 3,
+	"lootRadius": 16
+}

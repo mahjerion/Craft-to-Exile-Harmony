@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "biome_locator:compass"
+    }
+  ],
+  "result": {
+    "item": "minecraft:compass",
+    "count": 1
+  }
+}

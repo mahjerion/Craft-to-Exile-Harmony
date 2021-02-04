@@ -1,6 +1,7 @@
 {
 	"powers": [
 		"origins-classes:more_attack_damage",
+		"origins:thick_skin",
 		"origins-classes:less_shield_slowdown"
 	],
 	"icon": "mmorpg:armor/plate/helmet/plate_helmet2",

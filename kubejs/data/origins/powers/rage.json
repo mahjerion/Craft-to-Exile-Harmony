@@ -1,0 +1,11 @@
+{
+  "type": "origins:modify_damage_taken",
+  "modifier": {
+    "name": "Rage",
+    "value": -0.1,
+    "operation": "multiply_total"
+  },
+	"name": "Enraged",
+  	"description": "You receive 10 percent more damage."
+	
+}

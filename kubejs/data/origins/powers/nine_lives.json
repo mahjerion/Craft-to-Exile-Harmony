@@ -1,9 +1,11 @@
 {
-  "type": "origins:attribute",
+  "type": "origins:modify_damage_taken",
   "modifier": {
-    "name": "Nine lives health reduction",
-    "attribute": "minecraft:generic.max_health",
-    "value": -0.1,
+    "name": "Soft",
+    "value": -0.05,
     "operation": "multiply_total"
-  }
+  },
+	"name": "Soft",
+  	"description": "You receive 5 percent more damage."
+	
 }

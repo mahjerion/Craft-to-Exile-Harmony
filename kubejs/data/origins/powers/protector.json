@@ -1,0 +1,11 @@
+{
+  "type": "origins:modify_damage_taken",
+  "modifier": {
+    "name": "Protector",
+    "value": 0.25,
+    "operation": "multiply_total"
+  },
+	"name": "Protector",
+  	"description": "You receive 25 percent less damage."
+	
+}

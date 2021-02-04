@@ -1,8 +1,8 @@
 {
 	"powers": [
-		"origins:extra_life",
-		"origins:thick_skin",
+		"origins:protector",
 		"origins-classes:less_shield_slowdown",
+		"origins-classes:better_enchanting",
 		"origins:less_attack_damage"
 	],
 	"icon": "minecraft:shield",

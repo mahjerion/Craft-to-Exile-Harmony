@@ -1,9 +1,11 @@
 {
-  "type": "origins:attribute",
+  "type": "origins:modify_damage_taken",
   "modifier": {
-    "name": "Frail health reduction",
-    "attribute": "minecraft:generic.max_health",
-    "value": -0.33,
+    "name": "Frail",
+    "value": -0.25,
     "operation": "multiply_total"
-  }
+  },
+	"name": "Frail",
+  	"description": "You receive 25 percent more damage."
+	
 }

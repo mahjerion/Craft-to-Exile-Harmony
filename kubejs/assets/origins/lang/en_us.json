@@ -69,7 +69,7 @@
   "power.origins.like_water.description": "When underwater, you do not sink to the ground unless you want to.",
 
   "power.origins.fragile.name": "Fragile",
-  "power.origins.fragile.description": "You have 25 percent less health.",
+  "power.origins.fragile.description": "You receive 15 percent more damage.",
 
   "power.origins.webbing.name": "Webbing",
   "power.origins.webbing.description": "When you hit an enemy in melee, they get stuck in cobweb.",
@@ -86,8 +86,8 @@
   "power.origins.nether_spawn.name": "Nether Inhabitant",
   "power.origins.nether_spawn.description": "Your natural spawn will be in the Nether.",
 
-  "power.origins.burning_wrath.name": "Burning Wrath",
-  "power.origins.burning_wrath.description": "When on fire, you deal additional damage with your attacks.",
+  "power.origins.burning_wrath.name": "Flame Seeker",
+  "power.origins.burning_wrath.description": "You do 50 percent more damage while you're burning.",
 
   "power.origins.hotblooded.name": "Poison Immunity",
   "power.origins.hotblooded.description": "You are immune to poison effects.",
@@ -126,7 +126,7 @@
   "power.origins.sprint_jump.description": "You are able to jump higher by jumping while sprinting.",
 
   "power.origins.nine_lives.name": "Soft",
-  "power.origins.nine_lives.description": "You have 10 percent less health.",
+  "power.origins.nine_lives.description": "You receive 5 percent more damage.",
 
   "power.origins.cat_vision.name": "Nocturnal",
   "power.origins.cat_vision.description": "You can slightly see in the dark when not in water.",
@@ -183,7 +183,7 @@
   "power.origins.translucent.description": "Your skin is translucent.",
   
   "power.origins.frail.name": "Frail",
-  "power.origins.frail.description": "You have 33 percent less health.",
+  "power.origins.frail.description": "You receive 25 percent more damage.",
 
   "category.origins": "Ascendancy",
   "key.origins.active_power": "Active Power",

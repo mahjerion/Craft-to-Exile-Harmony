@@ -2,10 +2,10 @@
   "type": "origins:modify_damage_taken",
   "modifier": {
     "name": "Thick skin",
-    "value": 0.1,
+    "value": 0.05,
     "operation": "multiply_total"
   },
 	"name": "Thick Skinned",
-  	"description": "You receive 10 percent less damage."
+  	"description": "You receive 5 percent less damage."
 	
 }

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#W#",
+    "WMW",
+    "#W#"
+  ],
+  "key": {
+    "#": {
+      "tag": "minecraft:saplings"
+    },
+    "W": {
+      "tag": "minecraft:logs"
+    },
+    "M": {
+      "item": "minecraft:compass"
+    }
+  },
+  "result": {
+    "item": "biome_locator:compass",
+    "count": 1
+  }
+}

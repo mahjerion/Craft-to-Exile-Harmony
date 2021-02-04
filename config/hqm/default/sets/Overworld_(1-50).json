@@ -1393,6 +1393,13 @@
                 "id": "dankstorage:dock",
                 "Count": 1
               }
+            },
+            {
+              "item": {
+                "id": "inmis:frayed_backpack",
+                "Count": 1
+              },
+              "precision": "TAG_NBT_FUZZY"
             }
           ]
         }

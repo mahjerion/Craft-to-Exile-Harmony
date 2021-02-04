@@ -4,6 +4,7 @@
 		"origins:tailwind",
 		"origins:sprint_jump",
 		"origins:no_shield",
+		"origins:rage",
 		"origins:more_exhaustion"
 	],
 	"icon": "mmorpg:weapon/axe/axe4",

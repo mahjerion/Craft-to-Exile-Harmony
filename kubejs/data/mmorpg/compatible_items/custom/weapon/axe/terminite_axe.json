@@ -1,7 +1,7 @@
 {
   "item_type": "terminite_axe",
-  "item_id": "betternether:terminite_axe",
-  "id": "betternether:terminite_axe",
+  "item_id": "betterend:terminite_axe",
+  "id": "betterend:terminite_axe",
   "rarities": "non_aoe",
   "misc": {
     "weight": 1000,

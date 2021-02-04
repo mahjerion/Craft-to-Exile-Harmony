@@ -1,0 +1,17 @@
+{
+  "type": "origins:starting_equipment",
+  "stacks": [
+    {
+      "item": "minecraft:compass"
+    },
+    {
+      "item": "minecraft:clock"
+    },
+    {
+      "item": "minecraft:map",
+      "amount": 9
+    }
+  ],
+	"name": "Explorer",
+  	"description": "You start with a backpack"
+}

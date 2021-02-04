@@ -7,6 +7,37 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.0.2] - 2021-02-04
+
+### Updates
+- Inmis adds craftable backpacks!
+- You can now cast magic spells using any weapon, not just mage weapons. Who said swordsmen couldn't cast fire balls?
+- Assassins now deal 10% more damage.
+- Berserkers now receive 10% more damage.
+- Deadeye now feels a little less claustrophobic, but receives 15% more damage.
+- Pathfinder can now use their arrow craft ability every minute instead of every hour, but only crafts 4 instead of 64.
+- Guardians now have better enchanting.
+- Made the Biome Locator recipe easier.
+- Ascendancies no longer start with less health, but instead take extra damage. The health modifiers were not working due to how AoE changes the health.
+- You no longer get penalized for using XP books.
+- Campanion tents have been reenabled. This is a test.
+- Changed the recipes of Netherite, Ametrine/Pendorite, Cincinnasite-Diamond, and Crystalite so they can actually gain stats.
+
+### Mod Updates
+- Updated Hardcore Questing Mode, Cave Biomes, KubeJS, Enchantment Descriptions, Rhino, Architectury, Terrestria, Cinderscapes, Fabric API, Campanion,////Lithium, Xaero's, Mod Menu, Ward Blocks.
+- Added Inmis.
+- Added Anvil Fix.
+
+### Fixes
+- Fixed incorrect Elementalist description.
+- Disabled Campanion packs. The new Inmis packs are better.
+- Fixed Ender Hearts being uncraftable.
+- Dark Dungeon houses should no longer be infested.
+- Disabled the Copper to Silver Upgrade recipe.
+- Fixed Aeternium and Pendorite not applying stats properly.
+- Fixed an uncompletable End quest.
+- Fixed Pathfinder arrow ability not working.
+
 ## [2.0.1c] - 2021-01-29
 
 ### Updates

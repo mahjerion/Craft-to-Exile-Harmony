@@ -2,17 +2,17 @@
 	"type": "origins:active_self",
 	"entity_action": {
  		"type": "origins:execute_command",
-  		"command": "/give @s minecraft:arrow 64",
+  		"command": "/give @p minecraft:arrow 4",
  		"permission_level": 4
 
 	},
 	
-	"cooldown": 72000,
+	"cooldown": 1200,
 	"hud_render": {
 		"should_render": false,
 		"bar_index": 5
 	},
 
   	"name": "Material Forager",
-  	"description": "Create a bundle of arrows. This can be done every hour. (Default: G)."
+  	"description": "Create a small bundle of arrows. This can be done every minute. (Default: G)."
 }
