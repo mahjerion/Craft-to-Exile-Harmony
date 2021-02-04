@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.0.2d] - 2021-02-04
+
+### Updates
+- Reduced max sockets of common items to 4.
+
+### Mod Updates
+- Updated Rhino, KubeJS.
+
+### Fixes
+- Removed duplicate mod for server files.
+- Fixed crash on start.
+
 ## [2.0.2] - 2021-02-04
 
 ### Updates

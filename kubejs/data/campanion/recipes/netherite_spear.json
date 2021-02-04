@@ -1,10 +1,17 @@
 {
-  "type": "minecraft:smithing",
-  "base": {
-    "item": "campanion:diamond_spear"
-  },
-  "addition": {
-    "item": "minecraft:netherite_ingot"
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  X",
+    " # ",
+	"#  "
+  ],
+  "key": {
+    "#": {
+      "item": "campanion:wooden_rod"
+    },
+    "X": {
+      "item": "minecraft:netherite_ingot"
+    }
   },
   "result": {
     "item": "campanion:netherite_spear"
