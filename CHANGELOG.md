@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Mod Updates
+- Updated REI, Terrestria.
+
+### Fixes
+- Fixed some weird copper recipe.
+- Fixed an uncompletable crystalite quest.
+
+## [2.0.2e] - 2021-02-04
+
+### Fixes
+- Fixed a bunch of spells just not working.
+
 ## [2.0.2d] - 2021-02-04
 
 ### Updates
@@ -36,7 +48,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Changed the recipes of Netherite, Ametrine/Pendorite, Cincinnasite-Diamond, and Crystalite so they can actually gain stats.
 
 ### Mod Updates
-- Updated Hardcore Questing Mode, Cave Biomes, KubeJS, Enchantment Descriptions, Rhino, Architectury, Terrestria, Cinderscapes, Fabric API, Campanion,////Lithium, Xaero's, Mod Menu, Ward Blocks.
+- Updated Hardcore Questing Mode, Cave Biomes, KubeJS, Enchantment Descriptions, Rhino, Architectury, Terrestria, Cinderscapes, Fabric API, Campanion, Lithium, Xaero's, Mod Menu, Ward Blocks.
 - Added Inmis.
 - Added Anvil Fix.
 

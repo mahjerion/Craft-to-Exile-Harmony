@@ -155,8 +155,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 0,
-        "hours": 1
+        "days": 1,
+        "hours": 0
       },
       "tasks": [
         {
@@ -402,12 +402,42 @@
       },
       "tasks": [
         {
-          "type": "CRAFT",
-          "description": "Crafting Task",
+          "type": "DETECT",
+          "description": "Detection Task",
           "items": [
             {
               "item": {
+                "id": "betterend:crystalite_helmet",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "precision": "TAG_NBT_FUZZY"
+            },
+            {
+              "item": {
                 "id": "betterend:crystalite_chestplate",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "precision": "TAG_NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "betterend:crystalite_leggings",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "precision": "TAG_NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "betterend:crystalite_boots",
                 "Count": 1,
                 "tag": {
                   "Damage": 0
@@ -433,7 +463,7 @@
         },
         {
           "id": "mmorpg:mat/salvage/salvage4",
-          "Count": 4
+          "Count": 8
         }
       ],
       "rewardchoice": [],
