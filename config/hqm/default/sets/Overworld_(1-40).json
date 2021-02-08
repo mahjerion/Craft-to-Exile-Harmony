@@ -310,8 +310,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 0,
-        "hours": 7
+        "days": 7,
+        "hours": 0
       },
       "tasks": [
         {
@@ -536,8 +536,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 0,
-        "hours": 1
+        "days": 1,
+        "hours": 0
       },
       "tasks": [
         {
@@ -847,8 +847,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 0,
-        "hours": 1
+        "days": 1,
+        "hours": 0
       },
       "tasks": [
         {
@@ -917,8 +917,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 0,
-        "hours": 1
+        "days": 1,
+        "hours": 0
       },
       "tasks": [
         {
@@ -1211,8 +1211,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 0,
-        "hours": 1
+        "days": 1,
+        "hours": 0
       },
       "tasks": [
         {
@@ -1408,8 +1408,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 0,
-        "hours": 1
+        "days": 1,
+        "hours": 0
       },
       "tasks": [
         {
@@ -1563,8 +1563,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 0,
-        "hours": 1
+        "days": 1,
+        "hours": 0
       },
       "tasks": [
         {

@@ -7,8 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.0.3] - 2021-02-XX
+
 ### Mod Updates
-- Updated REI, Terrestria.
+- Updated REI, Terrestria, Mod Menu, Architectury, Go Fish, KubeJS, Illuminations, Where Is It.
+- Added WTHIT - fork of HWYLA with bug fixes.
+- Removed HWYLA - deprecated.
 
 ### Fixes
 - Fixed some weird copper recipe.

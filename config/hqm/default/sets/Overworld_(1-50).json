@@ -1386,7 +1386,8 @@
               "item": {
                 "id": "dankstorage:dank_1",
                 "Count": 1
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             },
             {
               "item": {
