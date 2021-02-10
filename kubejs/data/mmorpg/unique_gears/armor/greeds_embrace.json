@@ -1,0 +1,50 @@
+{
+  "id": "greeds_embrace",
+  "weight": 250,
+  "rarity": 3,
+  "tier": 0,
+  "unique_stats": [
+    {
+      "firstMin": 15.0,
+      "firstMax": 20.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "magic_find",
+      "type": "flat"
+    },
+    {
+      "firstMin": -5.0,
+      "firstMax": -5.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "fire_resist",
+      "type": "flat"
+    },
+    {
+      "firstMin": 14.0,
+      "firstMax": 18.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "water_resist",
+      "type": "flat"
+    },
+    {
+      "firstMin": -7.0,
+      "firstMax": -7.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "thunder_resist",
+      "type": "flat"
+    },
+    {
+      "firstMin": 0.1,
+      "firstMax": 0.1,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "strength",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "plate_chest3",
+  "item_id": "mmorpg:armor/plate/chest/plate_chest3"
+}

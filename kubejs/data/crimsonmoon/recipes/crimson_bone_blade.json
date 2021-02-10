@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  s",
+    " s ",
+    "b  "
+  ],
+  "key": {
+    "s": {
+      "item": "crimsonmoon:scarlet_gem"
+    },
+    "b": {
+      "item": "minecraft:bone"
+    }
+  },
+  "result": {
+    "item": "crimsonmoon:crimson_bone_blade"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "id": "ormus_robes_thunder_orb",
+  "weight": 100,
+  "rarity": 1,
+  "tier": 0,
+  "unique_stats": [
+    {
+      "firstMin": 10.0,
+      "firstMax": 10.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "faster_cast_rate",
+      "type": "flat"
+    },
+    {
+      "firstMin": 5.0,
+      "firstMax": 10.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "spell_water_damage",
+      "type": "flat"
+    },
+    {
+      "firstMin": 5.0,
+      "firstMax": 10.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "spell_fire_damage",
+      "type": "flat"
+    },
+    {
+      "firstMin": 5.0,
+      "firstMax": 10.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "spell_thunder_damage",
+      "type": "flat"
+    },
+    {
+      "firstMin": 20.0,
+      "firstMax": 20.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "thunder_orb_damage",
+      "type": "flat"
+    },
+    {
+      "firstMin": 1.0,
+      "firstMax": 1.5,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "mana_regen",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "cloth_chest4",
+  "item_id": "mmorpg:armor/cloth/chest/cloth_chest4"
+}

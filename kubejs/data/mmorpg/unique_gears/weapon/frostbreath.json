@@ -1,0 +1,58 @@
+{
+  "id": "frostbreath",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 0,
+  "unique_stats": [
+    {
+      "firstMin": 0.5,
+      "firstMax": 1.0,
+      "secondMin": 1.5,
+      "secondMax": 2.0,
+      "stat": "physical_weapon_damage",
+      "type": "flat"
+    },
+    {
+      "firstMin": 0.5,
+      "firstMax": 1.0,
+      "secondMin": 1.5,
+      "secondMax": 2.0,
+      "stat": "water_weapon_damage",
+      "type": "flat"
+    },
+    {
+      "firstMin": 5,
+      "firstMax": 10,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "attack_speed",
+      "type": "flat"
+    },
+    {
+      "firstMin": 20,
+      "firstMax": 25,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "fire_resist",
+      "type": "flat"
+    },
+    {
+      "firstMin": 10,
+      "firstMax": 20,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "chance_of_frost",
+      "type": "flat"
+    },
+    {
+      "firstMin": 50,
+      "firstMax": 50,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "frost_bonus_damage",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "diamond_hammer",
+  "item_id": "betterend:diamond_hammer"
+}

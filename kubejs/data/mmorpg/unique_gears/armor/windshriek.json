@@ -1,0 +1,34 @@
+{
+  "id": "windshriek",
+  "weight": 1000,
+  "rarity": 1,
+  "tier": 0,
+  "unique_stats": [
+    {
+      "firstMin": 80.0,
+      "firstMax": 100.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "armor",
+      "type": "local_increase"
+    },
+    {
+      "firstMin": 10.0,
+      "firstMax": 14.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "elemental_resist",
+      "type": "flat"
+    },
+    {
+      "firstMin": 10.0,
+      "firstMax": 14.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "all_elemental_damage",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "plate_boots4",
+  "item_id": "mmorpg:armor/plate/boots/plate_boots4"
+}

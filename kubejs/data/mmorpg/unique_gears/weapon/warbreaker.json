@@ -1,0 +1,58 @@
+{
+  "id": "warbreaker",
+  "weight": 250,
+  "rarity": 3,
+  "tier": 0,
+  "unique_stats": [
+    {
+      "firstMin": 1.0,
+      "firstMax": 3.0,
+      "secondMin": 5.0,
+      "secondMax": 7.0,
+      "stat": "physical_weapon_damage",
+      "type": "flat"
+    },
+    {
+      "firstMin": 30.0,
+      "firstMax": 60.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "physical_weapon_damage",
+      "type": "local_increase"
+    },
+    {
+      "firstMin": -10,
+      "firstMax": -5,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "attack_speed",
+      "type": "flat"
+    },
+    {
+      "firstMin": 0.2,
+      "firstMax": 0.3,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "strength",
+      "type": "flat"
+    },
+    {
+      "firstMin": -0.1,
+      "firstMax": -0.05,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "intelligence",
+      "type": "flat"
+    },
+    {
+      "firstMin": -0.1,
+      "firstMax": -0.05,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "dexterity",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "aeternium_hammer",
+  "item_id": "betterend:aeternium_hammer"
+}

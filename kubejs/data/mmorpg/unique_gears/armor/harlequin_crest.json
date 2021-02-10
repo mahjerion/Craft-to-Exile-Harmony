@@ -1,0 +1,50 @@
+{
+  "id": "harlequin_crest",
+  "weight": 50,
+  "rarity": 4,
+  "tier": 0,
+  "unique_stats": [
+    {
+      "firstMin": 60.0,
+      "firstMax": 80.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "dodge",
+      "type": "local_increase"
+    },
+    {
+      "firstMin": 15.0,
+      "firstMax": 20.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "spell_damage",
+      "type": "flat"
+    },
+    {
+      "firstMin": 1.0,
+      "firstMax": 3.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "health",
+      "type": "flat"
+    },
+    {
+      "firstMin": 1.0,
+      "firstMax": 3.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "mana",
+      "type": "flat"
+    },
+    {
+      "firstMin": 10.0,
+      "firstMax": 20.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "magic_find",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "leather_helmet3",
+  "item_id": "mmorpg:armor/leather/helmet/leather_helmet3"
+}

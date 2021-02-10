@@ -1,0 +1,42 @@
+{
+  "id": "shavronnes_wrappings",
+  "weight": 50,
+  "rarity": 4,
+  "tier": 0,
+  "unique_stats": [
+    {
+      "firstMin": 160.0,
+      "firstMax": 220.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "magic_shield",
+      "type": "local_increase"
+    },
+    {
+      "firstMin": 4.0,
+      "firstMax": 6.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "magic_shield_per_sec",
+      "type": "flat"
+    },
+    {
+      "firstMin": 10.0,
+      "firstMax": 15.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "thunder_resist",
+      "type": "flat"
+    },
+    {
+      "firstMin": 1.0,
+      "firstMax": 1.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "poison_immunity",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "cloth_chest4",
+  "item_id": "mmorpg:armor/cloth/chest/cloth_chest4"
+}

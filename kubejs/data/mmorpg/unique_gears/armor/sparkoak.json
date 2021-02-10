@@ -1,0 +1,50 @@
+{
+  "id": "sparkoak",
+  "weight": 1000,
+  "rarity": 1,
+  "tier": 0,
+  "unique_stats": [
+    {
+      "firstMin": 1.0,
+      "firstMax": 1.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "unlock_lightning_totem",
+      "type": "flat"
+    },
+    {
+      "firstMin": 50.0,
+      "firstMax": 70.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "armor",
+      "type": "local_increase"
+    },
+    {
+      "firstMin": 30.0,
+      "firstMax": 35.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "lightning_totem_damage",
+      "type": "flat"
+    },
+    {
+      "firstMin": -3.0,
+      "firstMax": -1.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "spell_thunder_damage",
+      "type": "flat"
+    },
+    {
+      "firstMin": -3.0,
+      "firstMax": -1.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "health",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "plate_boots2",
+  "item_id": "mmorpg:armor/plate/boots/plate_boots2"
+}

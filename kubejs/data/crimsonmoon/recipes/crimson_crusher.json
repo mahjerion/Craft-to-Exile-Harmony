@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aaa",
+    "aaa",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "crimsonmoon:scarlet_gem"
+    }
+  },
+  "result": {
+    "item": "crimsonmoon:crimson_crusher"
+  }
+}

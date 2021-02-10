@@ -1,0 +1,42 @@
+{
+  "id": "the_iron_fortress",
+  "weight": 250,
+  "rarity": 3,
+  "tier": 0,
+  "unique_stats": [
+    {
+      "firstMin": 160.0,
+      "firstMax": 180.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "armor",
+      "type": "local_increase"
+    },
+    {
+      "firstMin": 0.2,
+      "firstMax": 0.4,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "strength",
+      "type": "flat"
+    },
+    {
+      "firstMin": 30.0,
+      "firstMax": 50.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "str_to_phys_dmg",
+      "type": "flat"
+    },
+    {
+      "firstMin": -20.0,
+      "firstMax": -15.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "elemental_resist",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "plate_chest4",
+  "item_id": "mmorpg:armor/plate/chest/plate_chest4"
+}

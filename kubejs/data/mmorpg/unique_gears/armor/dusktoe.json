@@ -1,0 +1,50 @@
+{
+  "id": "dusktoe",
+  "weight": 1000,
+  "rarity": 1,
+  "tier": 0,
+  "unique_stats": [
+    {
+      "firstMin": 40.0,
+      "firstMax": 60.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "dodge",
+      "type": "local_increase"
+    },
+    {
+      "firstMin": 3.0,
+      "firstMax": 5.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "armor",
+      "type": "flat"
+    },
+    {
+      "firstMin": 0.5,
+      "firstMax": 0.7,
+      "secondMin": 1.0,
+      "secondMax": 1.2,
+      "stat": "nature_weapon_damage",
+      "type": "flat"
+    },
+    {
+      "firstMin": 1.0,
+      "firstMax": 3.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "health",
+      "type": "flat"
+    },
+    {
+      "firstMin": 5.0,
+      "firstMax": 10.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "nature_resist",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "leather_boots0",
+  "item_id": "mmorpg:armor/leather/boots/leather_boots0"
+}

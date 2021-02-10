@@ -1,0 +1,15 @@
+{
+  "ser": "one_to_other",
+  "data": {
+    "id": "str_to_phys_dmg",
+    "min": 0.0,
+    "max": 2.14748365E9,
+    "base": 0.0,
+    "perc": true,
+    "sec_val": false,
+    "ele": "Physical",
+    "scale": "NONE",
+    "adder_stat": "strength",
+    "add_to": "physical_weapon_damage"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "gorebreaker",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 0,
+  "unique_stats": [
+    {
+      "firstMin": 1.0,
+      "firstMax": 3.0,
+      "secondMin": 5.0,
+      "secondMax": 7.0,
+      "stat": "physical_weapon_damage",
+      "type": "flat"
+    },
+    {
+      "firstMin": 20.0,
+      "firstMax": 30.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "physical_weapon_damage",
+      "type": "local_increase"
+    },
+    {
+      "firstMin": 0.05,
+      "firstMax": 0.1,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "strength",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "iron_hammer",
+  "item_id": "betterend:iron_hammer"
+}

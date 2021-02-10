@@ -9,14 +9,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [2.0.3] - 2021-02-XX
 
+### Updates
+- New Patreon-designed unique hammer by Jubban: Warbreaker! Pure, raw, physical damage is embodied in this new unique. Thanks for your support Jubban!
+- Added over 40 new uniques!
+- Find new materials during Crimson Moons and craft new weapons! The latest Crimson Moon update makes mobs more difficult based on your game progression.
+
 ### Mod Updates
-- Updated REI, Terrestria, Mod Menu, Architectury, Go Fish, KubeJS, Illuminations, Where Is It.
+- Updated REI, Terrestria, Mod Menu, Architectury, Go Fish, KubeJS, Illuminations, Where Is It, Konkrete, FancyMenu, Biome Locator, Crimson Moon.
 - Added WTHIT - fork of HWYLA with bug fixes.
+- Added Player Events.
+- Added FlytreLib.
 - Removed HWYLA - deprecated.
+- Removed Join Messages.
 
 ### Fixes
 - Fixed some weird copper recipe.
 - Fixed an uncompletable crystalite quest.
+- Mac users crashing upon start up has been fixed.
+- Crimson Moon not happening bug should be fixed.
 
 ## [2.0.2e] - 2021-02-04
 

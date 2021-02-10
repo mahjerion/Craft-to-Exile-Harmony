@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " as",
+    "a s",
+    " as"
+  ],
+  "key": {
+    "a": {
+      "item": "crimsonmoon:scarlet_gem"
+    },
+    "s": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "crimsonmoon:bloodthirsty_bow"
+  }
+}

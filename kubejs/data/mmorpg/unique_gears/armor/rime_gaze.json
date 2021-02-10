@@ -1,0 +1,42 @@
+{
+  "id": "rime_gaze",
+  "weight": 250,
+  "rarity": 3,
+  "tier": 0,
+  "unique_stats": [
+    {
+      "firstMin": 60.0,
+      "firstMax": 80.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "magic_shield",
+      "type": "local_increase"
+    },
+    {
+      "firstMin": 25.0,
+      "firstMax": 30.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "spell_water_damage",
+      "type": "flat"
+    },
+    {
+      "firstMin": 0.4,
+      "firstMax": 0.6,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "mana",
+      "type": "flat"
+    },
+    {
+      "firstMin": 1.0,
+      "firstMax": 1.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "magic_shield_per_sec",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "cloth_helmet4",
+  "item_id": "mmorpg:armor/cloth/helmet/cloth_helmet4"
+}

@@ -1,0 +1,66 @@
+{
+  "id": "the_visage",
+  "weight": 1000,
+  "rarity": 1,
+  "tier": 0,
+  "unique_stats": [
+    {
+      "firstMin": 100.0,
+      "firstMax": 120.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "dodge",
+      "type": "local_increase"
+    },
+    {
+      "firstMin": 15.0,
+      "firstMax": 20.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "bow_damage",
+      "type": "flat"
+    },
+    {
+      "firstMin": 15.0,
+      "firstMax": 20.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "crossbow_damage",
+      "type": "flat"
+    },
+    {
+      "firstMin": 4.0,
+      "firstMax": 4.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "lifesteal",
+      "type": "flat"
+    },
+    {
+      "firstMin": 3.0,
+      "firstMax": 5.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "max_nature_resist",
+      "type": "flat"
+    },
+    {
+      "firstMin": 35.0,
+      "firstMax": 40.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "nature_resist",
+      "type": "flat"
+    },
+    {
+      "firstMin": -10.0,
+      "firstMax": -10.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "fire_resist",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "leather_helmet3",
+  "item_id": "mmorpg:armor/leather/helmet/leather_helmet3"
+}

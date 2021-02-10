@@ -1,0 +1,42 @@
+{
+  "id": "crystal_shroud",
+  "weight": 1000,
+  "rarity": 1,
+  "tier": 0,
+  "unique_stats": [
+    {
+      "firstMin": 110.0,
+      "firstMax": 120.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "magic_shield",
+      "type": "local_increase"
+    },
+    {
+      "firstMin": 40.0,
+      "firstMax": 60.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "magic_shield_regen",
+      "type": "local_increase"
+    },
+    {
+      "firstMin": -30.0,
+      "firstMax": -20.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "health_regen",
+      "type": "local_increase"
+    },
+    {
+      "firstMin": 8.0,
+      "firstMax": 8.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "mana",
+      "type": "local_increase"
+    }
+  ],
+  "gear_type": "cloth_boots4",
+  "item_id": "mmorpg:armor/cloth/boots/cloth_boots4"
+}

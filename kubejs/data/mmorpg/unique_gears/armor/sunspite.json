@@ -1,0 +1,51 @@
+{
+  "id": "sunspite",
+  "weight": 1000,
+  "rarity": 1,
+  "tier": 0,
+  "registry": "unique_gear",
+  "unique_stats": [
+    {
+      "firstMin": 3.0,
+      "firstMax": 5.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "attack_speed",
+      "type": "flat"
+    },
+    {
+      "firstMin": 30.0,
+      "firstMax": 50.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "dodge",
+      "type": "local_increase"
+    },
+    {
+      "firstMin": 12.0,
+      "firstMax": 18.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "magic_find",
+      "type": "flat"
+    },
+    {
+      "firstMin": 10.0,
+      "firstMax": 20.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "fire_resist",
+      "type": "flat"
+    },
+    {
+      "firstMin": 5.0,
+      "firstMax": 10.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "chance_of_burn",
+      "type": "flat"
+    }
+  ],
+  "gear_type": "leather_boots2",
+  "item_id": "mmorpg:armor/leather/boots/leather_boots2"
+}
