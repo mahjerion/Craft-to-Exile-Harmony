@@ -13,12 +13,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - New Patreon-designed unique hammer by Jubban: Warbreaker! Pure, raw, physical damage is embodied in this new unique. Thanks for your support Jubban!
 - Added over 40 new uniques!
 - Find new materials during Crimson Moons and craft new weapons! The latest Crimson Moon update makes mobs more difficult based on your game progression.
+- Introducing Mechanical Tech! It's basically a new, very low-tech mod that introduces the possibility of ore doubling and wood doubling.
 
 ### Mod Updates
-- Updated REI, Terrestria, Mod Menu, Architectury, Go Fish, KubeJS, Illuminations, Where Is It, Konkrete, FancyMenu, Biome Locator, Crimson Moon, Cloth Config API, Transfer Chest, Xaero's.
+- Updated REI, Terrestria, Mod Menu, Architectury, Go Fish, KubeJS, Illuminations, Where Is It, Konkrete, FancyMenu, Biome Locator, Crimson Moon, Cloth Config API, Transfer Chest, Xaero's, BetterEnd, Oh The Biomes You'll Go, The Bumblezone.
 - Added WTHIT - fork of HWYLA with bug fixes.
 - Added Player Events.
 - Added FlytreLib.
+- Added Mechanical Tech - basically a mini-create for Fabric.
 - Removed HWYLA - deprecated.
 - Removed Join Messages.
 
