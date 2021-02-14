@@ -2,7 +2,7 @@
   "type": "origins:modify_damage_taken",
   "modifier": {
     "name": "Frail",
-    "value": -0.25,
+    "value": 0.25,
     "operation": "multiply_total"
   },
 	"name": "Frail",

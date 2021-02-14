@@ -9,7 +9,15 @@
       "firstMax": 0.25,
       "secondMin": 0.0,
       "secondMax": 0.0,
-      "stat": "all_attributes",
+      "stat": "intellgience",
+      "type": "flat"
+    },
+    {
+      "firstMin": 0.15,
+      "firstMax": 0.25,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "wisdom",
       "type": "flat"
     },
     {

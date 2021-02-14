@@ -14,9 +14,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added over 40 new uniques!
 - Find new materials during Crimson Moons and craft new weapons! The latest Crimson Moon update makes mobs more difficult based on your game progression.
 - Introducing Mechanical Tech! It's basically a new, very low-tech mod that introduces the possibility of ore doubling and wood doubling.
+- Lowered Magic Find from Call to Arms.
+- Runewords and uniques that provided all attributes have been changed a bit.
+- New level up rewards at 5, 10, 15, 20, 30, 40, and 50. They're not amazing.
 
 ### Mod Updates
-- Updated REI, Terrestria, Mod Menu, Architectury, Go Fish, KubeJS, Illuminations, Where Is It, Konkrete, FancyMenu, Biome Locator, Crimson Moon, Cloth Config API, Transfer Chest, Xaero's, BetterEnd, Oh The Biomes You'll Go, The Bumblezone.
+- Updated REI, Terrestria, Mod Menu, Architectury, Go Fish, KubeJS, Illuminations, Where Is It, Konkrete, FancyMenu, Biome Locator, Crimson Moon, Cloth Config API, Transfer Chest, Xaero's, BetterEnd, Oh The Biomes You'll Go, The Bumblezone, Phosphor, Age of Exile.
 - Added WTHIT - fork of HWYLA with bug fixes.
 - Added Player Events.
 - Added FlytreLib.
@@ -25,6 +28,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Removed Join Messages.
 
 ### Fixes
+- Fixed a really bad bug where Ascendancies increasing damage taken were actually reducing damage taken, and vice versa...
+- Nether and The End being super difficult and not scaling properly have been fixed.
 - Fixed some weird copper recipe.
 - Fixed an uncompletable crystalite quest.
 - Mac users crashing upon start up has been fixed.

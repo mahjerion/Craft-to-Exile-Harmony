@@ -2,7 +2,7 @@
   "type": "origins:modify_damage_taken",
   "modifier": {
     "name": "Thin skin",
-    "value": -0.20,
+    "value": 0.20,
     "operation": "multiply_total"
   },
 	"name": "Thin Skinned",

@@ -2,7 +2,7 @@
   "type": "origins:modify_damage_taken",
   "modifier": {
     "name": "Soft",
-    "value": -0.05,
+    "value": 0.05,
     "operation": "multiply_total"
   },
 	"name": "Soft",

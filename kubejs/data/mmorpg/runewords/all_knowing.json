@@ -6,7 +6,23 @@
       "first_max": 0.5,
       "second_min": 0.0,
       "second_max": 0.0,
-      "stat": "all_attributes",
+      "stat": "dexterity",
+      "type": "FLAT"
+    },
+    {
+      "first_min": 0.3,
+      "first_max": 0.5,
+      "second_min": 0.0,
+      "second_max": 0.0,
+      "stat": "strength",
+      "type": "FLAT"
+    },
+    {
+      "first_min": 0.3,
+      "first_max": 0.5,
+      "second_min": 0.0,
+      "second_max": 0.0,
+      "stat": "intelligence",
       "type": "FLAT"
     }
   ],

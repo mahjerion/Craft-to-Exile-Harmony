@@ -5,8 +5,8 @@
   "tier": 0,
   "unique_stats": [
     {
-      "firstMin": 6.0,
-      "firstMax": 8.0,
+      "firstMin": 8.0,
+      "firstMax": 10.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "health",
@@ -17,7 +17,15 @@
       "firstMax": 0.6,
       "secondMin": 0.0,
       "secondMax": 0.0,
-      "stat": "all_attributes",
+      "stat": "vitality",
+      "type": "flat"
+    },
+    {
+      "firstMin": 0.4,
+      "firstMax": 0.6,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "strength",
       "type": "flat"
     },
     {
