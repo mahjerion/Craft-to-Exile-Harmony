@@ -19,7 +19,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - New level up rewards at 5, 10, 15, 20, 30, 40, and 50. They're not amazing.
 
 ### Mod Updates
-- Updated REI, Terrestria, Mod Menu, Architectury, Go Fish, KubeJS, Illuminations, Where Is It, Konkrete, FancyMenu, Biome Locator, Crimson Moon, Cloth Config API, Transfer Chest, Xaero's, BetterEnd, Oh The Biomes You'll Go, The Bumblezone, Phosphor, Age of Exile, VanillaDeathChest, Farbic API, Origins, Patchouli.
+- Updated REI, Terrestria, Mod Menu, Architectury, Go Fish, KubeJS, Illuminations, Where Is It, Konkrete, FancyMenu, Biome Locator, Crimson Moon, Cloth Config API, Transfer Chest, Xaero's, BetterEnd, Oh The Biomes You'll Go, The Bumblezone, Phosphor, Age of Exile, VanillaDeathChest, Farbic API, Origins, Patchouli, Campanion.
 - Added WTHIT - fork of HWYLA with bug fixes.
 - Added Player Events.
 - Added FlytreLib.

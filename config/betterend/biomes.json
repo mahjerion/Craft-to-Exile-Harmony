@@ -155,55 +155,92 @@
       "enabled [default: true]": true,
       "fog_density [default: 1.0]": 1.0,
       "generation_chance [default: 1.0]": 1.0,
-      "has_caves [default: true]": true
+      "has_caves [default: true]": true,
+      "edge_size [default: 32]": 32
     },
     "nightshade_forest": {
       "enabled [default: true]": true,
       "fog_density [default: 1.0]": 1.0,
       "generation_chance [default: 1.0]": 1.0,
-      "has_caves [default: true]": true
+      "has_caves [default: true]": true,
+      "edge_size [default: 32]": 32
     },
     "ethereal_islands": {
       "enabled [default: true]": true,
       "fog_density [default: 1.0]": 1.0,
       "generation_chance [default: 1.0]": 1.0,
-      "has_caves [default: true]": true
+      "has_caves [default: true]": true,
+      "edge_size [default: 32]": 32
     },
     "viscal_isles": {
       "enabled [default: true]": true,
       "fog_density [default: 1.0]": 1.0,
       "generation_chance [default: 1.0]": 1.0,
-      "has_caves [default: true]": true
+      "has_caves [default: true]": true,
+      "edge_size [default: 32]": 32
     },
     "bulbis_gardens": {
       "enabled [default: true]": true,
       "fog_density [default: 1.0]": 1.0,
       "generation_chance [default: 1.0]": 1.0,
-      "has_caves [default: true]": true
+      "has_caves [default: true]": true,
+      "edge_size [default: 32]": 32
     },
     "shattered_desert": {
       "enabled [default: true]": true,
       "fog_density [default: 1.0]": 1.0,
       "generation_chance [default: 1.0]": 1.0,
-      "has_caves [default: true]": true
+      "has_caves [default: true]": true,
+      "edge_size [default: 32]": 32
     },
     "shulkren_forest": {
       "enabled [default: true]": true,
       "fog_density [default: 1.0]": 1.0,
       "generation_chance [default: 1.0]": 1.0,
-      "has_caves [default: true]": true
+      "has_caves [default: true]": true,
+      "edge_size [default: 32]": 32
     },
     "purpur_peaks": {
       "enabled [default: true]": true,
       "fog_density [default: 1.0]": 1.0,
       "generation_chance [default: 1.0]": 1.0,
-      "has_caves [default: true]": true
+      "has_caves [default: true]": true,
+      "edge_size [default: 32]": 32
     },
     "cryptic_wastes": {
       "enabled [default: true]": true,
       "fog_density [default: 1.0]": 1.0,
       "generation_chance [default: 1.0]": 1.0,
-      "has_caves [default: true]": true
+      "has_caves [default: true]": true,
+      "edge_size [default: 32]": 32
+    },
+    "bulbis_gardens_edge": {
+      "enabled [default: true]": true,
+      "fog_density [default: 1.0]": 1.0,
+      "generation_chance [default: 1.0]": 1.0,
+      "has_caves [default: true]": true,
+      "edge_size [default: 32]": 32
+    },
+    "shattered_viscal_isles": {
+      "enabled [default: true]": true,
+      "fog_density [default: 1.0]": 1.0,
+      "generation_chance [default: 1.0]": 1.0,
+      "has_caves [default: true]": true,
+      "edge_size [default: 32]": 32
+    },
+    "ethereal_forest": {
+      "enabled [default: true]": true,
+      "fog_density [default: 1.0]": 1.0,
+      "generation_chance [default: 1.0]": 1.0,
+      "has_caves [default: true]": true,
+      "edge_size [default: 32]": 32
+    },
+    "ethereal_clearing": {
+      "enabled [default: true]": true,
+      "fog_density [default: 1.0]": 1.0,
+      "generation_chance [default: 1.0]": 1.0,
+      "has_caves [default: true]": true,
+      "edge_size [default: 32]": 32
     }
   }
 }
