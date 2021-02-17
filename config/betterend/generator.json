@@ -22,5 +22,6 @@
     "noRingVoid [default: false]": false,
     "generateCentralIsland [default: false]": false,
     "endCityFailChance [default: 5]": 5
-  }
+  },
+  "generateObsidianPlatform [default: true]": true
 }

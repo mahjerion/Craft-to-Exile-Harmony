@@ -1,44 +1,43 @@
-{ 
-	"basics": { 
-		"favorites": [ 
-],
+{
+	"basics": {
+		"favorites": [],
 		// Declares whether cheating mode is on.
 		"cheating": false,
 		"favoritesEnabled": true,
-		"keyBindings": { 
-			"recipeKeybind": { 
+		"keyBindings": {
+			"recipeKeybind": {
 				"keyCode": "key.keyboard.r",
 				"modifier": 0
 			},
-			"usageKeybind": { 
+			"usageKeybind": {
 				"keyCode": "key.keyboard.u",
 				"modifier": 0
 			},
-			"hideKeybind": { 
+			"hideKeybind": {
 				"keyCode": "key.keyboard.o",
 				"modifier": 2
 			},
-			"previousPageKeybind": { 
+			"previousPageKeybind": {
 				"keyCode": "key.keyboard.unknown",
 				"modifier": 0
 			},
-			"nextPageKeybind": { 
+			"nextPageKeybind": {
 				"keyCode": "key.keyboard.unknown",
 				"modifier": 0
 			},
-			"focusSearchFieldKeybind": { 
+			"focusSearchFieldKeybind": {
 				"keyCode": "key.keyboard.unknown",
 				"modifier": 0
 			},
-			"copyRecipeIdentifierKeybind": { 
+			"copyRecipeIdentifierKeybind": {
 				"keyCode": "key.keyboard.unknown",
 				"modifier": 0
 			},
-			"favoriteKeybind": { 
+			"favoriteKeybind": {
 				"keyCode": "key.keyboard.a",
 				"modifier": 0
 			},
-			"exportImageKeybind": { 
+			"exportImageKeybind": {
 				"keyCode": "key.keyboard.unknown",
 				"modifier": 0
 			}
@@ -48,21 +47,20 @@
 		"cheatingStyle": "GRAB",
 		"reducedMotion": false
 	},
-	"advanced": { 
-		"filtering": { 
-			"filteringRules": [ 
+	"advanced": {
+		"filtering": {
+			"filteringRules": [
 				"{rule:{},id:\"roughlyenoughitems:manual\"}"
 			],
-			"filteredStacks": [ 
-]
+			"filteredStacks": []
 		},
-		"tooltips": { 
+		"tooltips": {
 			// Declares whether REI should append mod names to entries.
 			"appendModNames": true,
 			// Declares whether favorites tooltip should be displayed.
 			"displayFavoritesTooltip": false
 		},
-		"layout": { 
+		"layout": {
 			// The ordering of the items on the entry panel.
 			"entryPanelOrdering": "REGISTRY_ASCENDING",
 			// Declares the maximum amount of recipes displayed in a page if possible.
@@ -70,7 +68,7 @@
 			// Declares whether entry rendering time should be debugged.
 			"debugRenderTimeRequired": false
 		},
-		"accessibility": { 
+		"accessibility": {
 			"entrySize": 1.0,
 			// Declares the position of the entry panel.
 			"displayPanelLocation": "RIGHT",
@@ -82,7 +80,7 @@
 			// Declares whether REI should use compact tabs for categories.
 			"useCompactTabs": true
 		},
-		"search": { 
+		"search": {
 			// Declares whether search time should be debugged.
 			"debugSearchTimeRequired": false,
 			// Declares whether REI should search async.
@@ -90,7 +88,7 @@
 			// Declares how many entries should be grouped one async search.
 			"asyncSearchPartitionSize": 100
 		},
-		"commands": { 
+		"commands": {
 			// Declares the command used to change gamemode.
 			"gamemodeCommand": "/gamemode {gamemode}",
 			// Declares the command used in servers to cheat items.
@@ -98,18 +96,18 @@
 			// Declares the command used to change weather.
 			"weatherCommand": "/weather {weather}"
 		},
-		"miscellaneous": { 
+		"miscellaneous": {
 			// Declares whether arrows in containers should be clickable.
 			"clickableRecipeArrows": true,
 			"registerRecipesInAnotherThread": true,
 			"newFastEntryRendering": true
 		}
 	},
-	"appearance": { 
+	"appearance": {
 		"recipeScreenType": "ORIGINAL",
 		// Declares the appearance of REI windows.
 		"theme": "LIGHT",
-		"layout": { 
+		"layout": {
 			// Declares the position of the search field.
 			"searchFieldLocation": "CENTER",
 			// Declares the position of the config button.
@@ -127,7 +125,7 @@
 		"verticalEntriesBoundaries": 1.0,
 		"syntaxHighlightingMode": "COLORFUL"
 	},
-	"functionality": { 
+	"functionality": {
 		// Declares whether REI should remove the recipe book.
 		"disableRecipeBook": true,
 		// Declares whether subsets is enabled.

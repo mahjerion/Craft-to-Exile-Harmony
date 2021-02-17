@@ -34,6 +34,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fixed an uncompletable crystalite quest.
 - Mac users crashing upon start up has been fixed.
 - Crimson Moon not happening bug should be fixed.
+- Fixed some penetration affixes not appearing properly.
 
 ## [2.0.2e] - 2021-02-04
 

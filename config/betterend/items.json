@@ -38,7 +38,25 @@
     "aeternium_hoe_head [default: true]": true,
     "aeternium_hammer_head [default: true]": true,
     "aeternium_sword_blade [default: true]": true,
-    "aeternium_sword_handle [default: true]": true
+    "aeternium_sword_handle [default: true]": true,
+    "silk_fiber [default: true]": true,
+    "lumecorn_rod [default: true]": true,
+    "spawn_egg_silk_moth [default: true]": true,
+    "thallasium_nugget [default: true]": true,
+    "thallasium_ingot [default: true]": true,
+    "thallasium_shovel_head [default: true]": true,
+    "thallasium_pickaxe_head [default: true]": true,
+    "thallasium_axe_head [default: true]": true,
+    "thallasium_hoe_head [default: true]": true,
+    "thallasium_sword_blade [default: true]": true,
+    "thallasium_sword_handle [default: true]": true,
+    "terminite_nugget [default: true]": true,
+    "terminite_shovel_head [default: true]": true,
+    "terminite_pickaxe_head [default: true]": true,
+    "terminite_axe_head [default: true]": true,
+    "terminite_hoe_head [default: true]": true,
+    "terminite_sword_blade [default: true]": true,
+    "terminite_sword_handle [default: true]": true
   },
   "armor": {
     "terminite_helmet [default: true]": true,
@@ -52,7 +70,11 @@
     "crystalite_helmet [default: true]": true,
     "crystalite_chestplate [default: true]": true,
     "crystalite_leggings [default: true]": true,
-    "crystalite_boots [default: true]": true
+    "crystalite_boots [default: true]": true,
+    "thallasium_helmet [default: true]": true,
+    "thallasium_chestplate [default: true]": true,
+    "thallasium_leggings [default: true]": true,
+    "thallasium_boots [default: true]": true
   },
   "tools": {
     "terminite_shovel [default: true]": true,
@@ -70,6 +92,12 @@
     "iron_hammer [default: true]": true,
     "golden_hammer [default: true]": true,
     "diamond_hammer [default: true]": true,
-    "netherite_hammer [default: true]": true
+    "netherite_hammer [default: true]": true,
+    "thallasium_shovel [default: true]": true,
+    "thallasium_sword [default: true]": true,
+    "thallasium_pickaxe [default: true]": true,
+    "thallasium_axe [default: true]": true,
+    "thallasium_hoe [default: true]": true,
+    "thallasium_hammer [default: true]": true
   }
 }

@@ -167,6 +167,10 @@
 	},
 	"BZModCompatibilityConfig": { 
 		/* 
+		   Allow Bee Better compat which adds more blocks to Bumblezone's worldgen!
+		*/
+		"allowBeeBetterCompat": true,
+		/* 
 		   Allow Potion of Bees item to turn Empty Honeycomb Brood blocks 
 		    back into Honeycomb Brood Blocks with a larva in it. (affects Dispenser too)
 		*/

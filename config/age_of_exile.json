@@ -51,6 +51,38 @@
     "ENABLE_FAVOR_SYSTEM": true,
     "FAVOR_GAIN_PER_CHEST_LOOTED": 25.0
   },
+  "LevelRewards": {
+    "levelRewards": [
+      {
+        "loot_table_id": "mmorpg:level_rewards/5",
+        "for_level": 5
+      },
+      {
+        "loot_table_id": "mmorpg:level_rewards/10",
+        "for_level": 10
+      },
+      {
+        "loot_table_id": "mmorpg:level_rewards/15",
+        "for_level": 15
+      },
+      {
+        "loot_table_id": "mmorpg:level_rewards/20",
+        "for_level": 20
+      },
+      {
+        "loot_table_id": "mmorpg:level_rewards/30",
+        "for_level": 30
+      },
+      {
+        "loot_table_id": "mmorpg:level_rewards/40",
+        "for_level": 40
+      },
+      {
+        "loot_table_id": "mmorpg:level_rewards/50",
+        "for_level": 50
+      }
+    ]
+  },
   "ItemSealing": {
     "ENABLE_SEALING_FEATURE": true,
     "START_AT_LEVEL": 20,
