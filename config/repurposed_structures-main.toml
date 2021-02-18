@@ -41,11 +41,8 @@ oceanDungeonMaxHeight = 255
 blacklistedDimensions = "the_bumblezone:the_bumblezone"
 
 [RSMainConfig.misc]
-addSwampTreeToModdedBiomes = true
 addBoulderToModdedBiomes = false
-blacklistedSwampTreeBiomes = ""
 blacklistedBoulderBiomes = ""
-hornedSwampTree = true
 boulderTiny = true
 boulderGiant = true
 diamondChanceInGiantBoulders = 7000
@@ -69,6 +66,16 @@ addStoneIglooToModdedBiomes = false
 blacklistedRuinedPortalsBiomes = ""
 addRuinedPortalEndToModdedBiomes = true
 ruinedPortalEndMaxChunkDistance = 57
+
+[RSMainConfig.ruins]
+blacklistedRuinsBiomes = ""
+addRuinsNetherToModdedBiomes = true
+ruinsNetherMaxChunkDistance = 35
+
+[RSMainConfig.cities]
+blacklistedCitiesBiomes = ""
+addCityNetherToModdedBiomes = true
+cityNetherMaxChunkDistance = 160
 [RSTemplesConfig.temples]
 blacklistedTempleBiomes = ""
 netherWastelandTempleMaxChunkDistance = 27
@@ -87,6 +94,8 @@ netherPyramidMaxChunkDistance = 37
 addNetherPyramidToModdedBiomes = true
 badlandsPyramidMaxChunkDistance = 20
 addBadlandsPyramidToModdedBiomes = true
+pyramidSnowyMaxChunkDistance = 37
+addPyramidSnowyToModdedBiomes = true
 [RSMineshaftsConfig]
 lootChestsMS = true
 addMineshaftsToModdedBiomes = true
@@ -104,6 +113,8 @@ taigaMineshaftSpawnrate = 40
 swampAndDarkForestMineshaftSpawnrate = 40
 endMineshaftSpawnrate = 40
 netherMineshaftSpawnrate = 40
+crimsonMineshaftSpawnrate = 40
+warpedMineshaftSpawnrate = 40
 
 [RSMineshaftsConfig.minHeight]
 birchMineshaftMinHeight = 8
@@ -117,6 +128,8 @@ taigaMineshaftMinHeight = 8
 swampAndDarkForestMineshaftMinHeight = 8
 endMineshaftMinHeight = 30
 netherMineshaftMinHeight = 8
+crimsonMineshaftMinHeight = 8
+warpedMineshaftMinHeight = 8
 
 [RSMineshaftsConfig.maxHeight]
 birchMineshaftMaxHeight = 45
@@ -130,6 +143,8 @@ taigaMineshaftMaxHeight = 45
 swampAndDarkForestMineshaftMaxHeight = 45
 endMineshaftMaxHeight = 37
 netherMineshaftMaxHeight = 13
+crimsonMineshaftMaxHeight = 13
+warpedMineshaftMaxHeight = 13
 
 [RSMineshaftsConfig.misc]
 barrensIslandsEndMineshafts = false
@@ -164,8 +179,8 @@ warpedOutpostMaxChunkDistance = 34
 addWarpedOutpostToModdedBiomes = true
 crimsonOutpostMaxChunkDistance = 34
 addCrimsonOutpostToModdedBiomes = true
-outpostBirchMaxChunkDistance = 39
 addOutpostBirchToModdedBiomes = true
+outpostBirchMaxChunkDistance = 39
 addOutpostJungleToModdedBiomes = true
 outpostJungleMaxChunkDistance = 39
 addOutpostGiantTreeTaigaToModdedBiomes = true
@@ -178,6 +193,10 @@ addOutpostSnowyToModdedBiomes = true
 outpostSnowyMaxChunkDistance = 39
 addOutpostIcyToModdedBiomes = true
 outpostIcyMaxChunkDistance = 37
+addOutpostTaigaToModdedBiomes = true
+outpostTaigaMaxChunkDistance = 45
+addOutpostOakToModdedBiomes = true
+outpostOakMaxChunkDistance = 45
 [RSVillagesConfig]
 addVillagesToModdedBiomes = true
 blacklistedVillageBiomes = ""
@@ -213,3 +232,33 @@ endShipwreckMaxChunkDistance = 15
 netherBricksShipwreckMaxChunkDistance = 51
 crimsonShipwreckMaxChunkDistance = 41
 warpedShipwreckMaxChunkDistance = 41
+[RSMansionsConfig.blacklist]
+blacklistedMansionBiomes = ""
+addMansionBirchToModdedBiomes = true
+addMansionJungleToModdedBiomes = true
+addMansionOakToModdedBiomes = true
+addMansionSavannaToModdedBiomes = true
+addMansionTaigaToModdedBiomes = true
+addMansionDesertToModdedBiomes = true
+addMansionSnowyToModdedBiomes = true
+[RSMansionsConfig.maxChunkDistance]
+mansionBirchMaxChunkDistance = 140
+mansionJungleMaxChunkDistance = 140
+mansionOakMaxChunkDistance = 140
+mansionSavannaMaxChunkDistance = 140
+mansionTaigaMaxChunkDistance = 140
+mansionDesertMaxChunkDistance = 140
+mansionSnowyMaxChunkDistance = 140
+[RSWitchHutsConfig.blacklist]
+blacklistedWitchHutsBiomes = ""
+addWitchHutsOakToModdedBiomes = true
+addWitchHutsTaigaToModdedBiomes = true
+addWitchHutsBirchToModdedBiomes = true
+addWitchHutsDarkForestToModdedBiomes = true
+addWitchHutsGiantTreeTaigaToModdedBiomes = true
+[RSWitchHutsConfig.maxChunkDistance]
+witchHutsOakMaxChunkDistance = 48
+witchHutsTaigaMaxChunkDistance = 48
+witchHutsBirchMaxChunkDistance = 48
+witchHutsDarkForestMaxChunkDistance = 48
+witchHutsGiantTreeTaigaMaxChunkDistance = 48

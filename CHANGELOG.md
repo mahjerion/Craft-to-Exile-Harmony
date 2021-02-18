@@ -7,19 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [2.0.3] - 2021-02-XX
+## [2.1.0] - 2021-02-18
 
 ### Updates
 - New Patreon-designed unique hammer by Jubban: Warbreaker! Pure, raw, physical damage is embodied in this new unique. Thanks for your support Jubban!
 - Added over 40 new uniques!
 - Find new materials during Crimson Moons and craft new weapons! The latest Crimson Moon update makes mobs more difficult based on your game progression.
 - Introducing Mechanical Tech! It's basically a new, very low-tech mod that introduces the possibility of ore doubling and wood doubling.
-- Lowered Magic Find from Call to Arms.
+- Lowered magic find from Call to Arms.
 - Runewords and uniques that provided all attributes have been changed a bit.
-- New level up rewards at 5, 10, 15, 20, 30, 40, and 50. They're not amazing.
+- New level up rewards at 5, 10, 15, 20, 30, 40, and 50. They're not amazing but will help with getting your feet off the ground.
 
 ### Mod Updates
-- Updated REI, Terrestria, Mod Menu, Architectury, Go Fish, KubeJS, Illuminations, Where Is It, Konkrete, FancyMenu, Biome Locator, Crimson Moon, Cloth Config API, Transfer Chest, Xaero's, BetterEnd, Oh The Biomes You'll Go, The Bumblezone, Phosphor, Age of Exile, VanillaDeathChest, Farbic API, Origins, Patchouli, Campanion.
+- Updated REI, Terrestria, Mod Menu, Architectury, Go Fish, KubeJS, Illuminations, Where Is It, Konkrete, FancyMenu, Biome Locator, Crimson Moon, Cloth Config API, Transfer Chest, Xaero's, BetterEnd, Oh The Biomes You'll Go, The Bumblezone, Phosphor, Age of Exile, VanillaDeathChest, Fabric API, Origins, Patchouli, Campanion, Light Overlay, Repurposed Structures, Monster of the Ocean Depths.
 - Added WTHIT - fork of HWYLA with bug fixes.
 - Added Player Events.
 - Added FlytreLib.
