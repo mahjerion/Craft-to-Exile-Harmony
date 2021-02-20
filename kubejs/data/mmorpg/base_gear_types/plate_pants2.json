@@ -3,7 +3,16 @@
   "weight": 1000,
   "rarity": 0,
   "tier": 0,
-  "implicit_stats": [],
+  "implicit_stats": [
+    {
+      "firstMin": 4.0,
+      "firstMax": 8.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "heal_effect_on_self",
+      "type": "flat"
+    }
+  ],
   "base_stats": [
     {
       "firstMin": 18.0,

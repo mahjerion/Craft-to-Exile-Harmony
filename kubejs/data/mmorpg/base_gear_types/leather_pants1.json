@@ -3,7 +3,16 @@
   "weight": 1000,
   "rarity": 0,
   "tier": 0,
-  "implicit_stats": [],
+  "implicit_stats": [
+    {
+      "firstMin": 0.1,
+      "firstMax": 0.2,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "dexterity",
+      "type": "flat"
+    }
+  ],
   "base_stats": [
     {
       "firstMin": 24.0,

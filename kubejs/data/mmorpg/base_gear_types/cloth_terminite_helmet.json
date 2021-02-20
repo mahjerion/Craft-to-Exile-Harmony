@@ -5,16 +5,7 @@
   "tier": 0,
   "registry": "gear_type",
   "lang_file_string": "mmorpg.gear_type.cloth_terminite_helmet",
-  "implicit_stats": [
-    {
-      "firstMin": 2.0,
-      "firstMax": 6.0,
-      "secondMin": 0.0,
-      "secondMax": 0.0,
-      "stat": "spell_damage",
-      "type": "flat"
-    }
-  ],
+  "implicit_stats": [],
   "base_stats": [
     {
       "firstMin": 2.0,

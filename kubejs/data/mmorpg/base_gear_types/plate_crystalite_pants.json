@@ -8,11 +8,19 @@
   "implicit_stats": [],
   "base_stats": [
     {
-      "firstMin": 16.0,
-      "firstMax": 48.0,
+      "firstMin": 18.0,
+      "firstMax": 72.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "armor",
+      "type": "flat"
+    },
+    {
+      "firstMin": 2.0,
+      "firstMax": 4.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "health",
       "type": "flat"
     }
   ],

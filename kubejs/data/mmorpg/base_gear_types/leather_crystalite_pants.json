@@ -8,11 +8,19 @@
   "implicit_stats": [],
   "base_stats": [
     {
-      "firstMin": 36.0,
-      "firstMax": 64.0,
+      "firstMin": 24.0,
+      "firstMax": 96.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "dodge",
+      "type": "flat"
+    },
+    {
+      "firstMin": 0.9,
+      "firstMax": 2.7,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "health",
       "type": "flat"
     }
   ],

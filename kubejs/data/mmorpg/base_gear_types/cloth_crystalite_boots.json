@@ -8,8 +8,8 @@
   "implicit_stats": [],
   "base_stats": [
     {
-      "firstMin": 1.0,
-      "firstMax": 2.0,
+      "firstMin": 2.0,
+      "firstMax": 4.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "magic_shield",

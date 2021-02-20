@@ -7,6 +7,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.1.0b] - 2021-02-XX
+
+### Updates
+- End gear progression has been slightly reworked with the introduction of Thallasium. Thallasium is now what Aeternium was (level 35-45), and Aeternium level has been increased to 40-50. As a result, I've improved the base stats of Crystalite to be more in line with what AoE gear was before.
+- In addition to the above change, spell damage has been removed off crafted non-AoE cloth helmets (this should never have been there, this is more of a bug fix). To encourage crafting AoE gear when possible, all AoE gear have received new implicit stats! For example, AoE cloth gear will improve mana regen/spell damage, etc., and leather gear will improve critical hit and damage, etc.
+- Updated Crystal of Truth tooltip to better reflect what it does.
+
+### Mod Updates
+- Updated Traverse, Monster of the Ocean Depths, Cloth Config API, FlytreLib.
+
+### Fixes
+- Crash caused by Lurkers should be fixed.
+- Fixed Skull of Spirits giving an unknown stat.
+- Fixed Solar Ring saying it gave damage during night when in fact it gave damage during day.
+
 ## [2.1.0] - 2021-02-18
 
 ### Updates
@@ -19,7 +34,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - New level up rewards at 5, 10, 15, 20, 30, 40, and 50. They're not amazing but will help with getting your feet off the ground.
 
 ### Mod Updates
-- Updated REI, Terrestria, Mod Menu, Architectury, Go Fish, KubeJS, Illuminations, Where Is It, Konkrete, FancyMenu, Biome Locator, Crimson Moon, Cloth Config API, Transfer Chest, Xaero's, BetterEnd, Oh The Biomes You'll Go, The Bumblezone, Phosphor, Age of Exile, VanillaDeathChest, Fabric API, Origins, Patchouli, Campanion, Light Overlay, Repurposed Structures, Monster of the Ocean Depths.
+- Updated REI, Terrestria, Mod Menu, Architectury, Go Fish, KubeJS, Illuminations, Where Is It, Konkrete, FancyMenu, Biome Locator, Crimson Moon, Cloth Config API, Transfer Chest, Xaero's, BetterEnd, Oh The Biomes You'll Go, The Bumblezone, Phosphor, Age of Exile, VanillaDeathChest, Fabric API, Origins, Patchouli, Campanion, Light Overlay, Repurposed Structures, Monster of the Ocean Depths, Cave Biomes.
 - Added WTHIT - fork of HWYLA with bug fixes.
 - Added Player Events.
 - Added FlytreLib.
