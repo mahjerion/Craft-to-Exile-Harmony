@@ -4,6 +4,7 @@
     "colour": 5242703,
     "alternateColour": 16732159,
     "lineWidth": 8,
+    "disableSlotHighlight": false,
     "forceSimpleRender": false
   },
   "serverOptions": {

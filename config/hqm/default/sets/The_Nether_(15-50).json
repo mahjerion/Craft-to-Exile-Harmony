@@ -254,7 +254,8 @@
                 "tag": {
                   "Damage": 0
                 }
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             },
             {
               "item": {
@@ -263,7 +264,8 @@
                 "tag": {
                   "Damage": 0
                 }
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             },
             {
               "item": {
@@ -272,7 +274,8 @@
                 "tag": {
                   "Damage": 0
                 }
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             }
           ]
         }
@@ -589,8 +592,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 1,
-        "hours": 0
+        "days": 0,
+        "hours": 1
       },
       "tasks": [
         {
@@ -774,8 +777,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 1,
-        "hours": 0
+        "days": 0,
+        "hours": 1
       },
       "tasks": [
         {
@@ -878,8 +881,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 1,
-        "hours": 0
+        "days": 0,
+        "hours": 1
       },
       "tasks": [
         {
@@ -1230,8 +1233,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 1,
-        "hours": 0
+        "days": 0,
+        "hours": 1
       },
       "tasks": [
         {
@@ -1404,7 +1407,8 @@
                 "tag": {
                   "Damage": 0
                 }
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             },
             {
               "item": {
@@ -1413,7 +1417,8 @@
                 "tag": {
                   "Damage": 0
                 }
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             },
             {
               "item": {
@@ -1422,7 +1427,8 @@
                 "tag": {
                   "Damage": 0
                 }
-              }
+              },
+              "precision": "TAG_NBT_FUZZY"
             }
           ]
         }
@@ -1456,8 +1462,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 1,
-        "hours": 0
+        "days": 0,
+        "hours": 1
       },
       "tasks": [
         {

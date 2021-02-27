@@ -152,6 +152,7 @@ barrensIslandsEndMineshafts = false
 strongholdSizeSH = 100.0
 allowExtraSpawnersSH = true
 lootChestsSH = true
+turnOffVanillaStrongholds = true
 blacklistedStrongholdBiomes = ""
 
 [RSStrongholdsConfig.stonebrick]

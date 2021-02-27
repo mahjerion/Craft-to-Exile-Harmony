@@ -7,20 +7,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [2.1.0b] - 2021-02-XX
+## [2.1.1] - 2021-02-27
 
 ### Updates
 - End gear progression has been slightly reworked with the introduction of Thallasium. Thallasium is now what Aeternium was (level 35-45), and Aeternium level has been increased to 40-50. As a result, I've improved the base stats of Crystalite to be more in line with what AoE gear was before.
 - In addition to the above change, spell damage has been removed off crafted non-AoE cloth helmets (this should never have been there, this is more of a bug fix). To encourage crafting AoE gear when possible, all AoE gear have received new implicit stats! For example, AoE cloth gear will improve mana regen/spell damage, etc., and leather gear will improve critical hit and damage, etc.
+- Poison Ball, Frost Ball, Fireball, and Thunder Spear have had their damaged buffed, and cooldowns reduced by 0.5s.
+- Lightning Totem now lasts longer (from 6 to 9 seconds), does 10% more damage, and costs ~15% less mana.
+- MobZ introduces over 20 new high-quality mobs!
 - Updated Crystal of Truth tooltip to better reflect what it does.
+- New Crimson Moon weapon has been added.
 
 ### Mod Updates
-- Updated Traverse, Monster of the Ocean Depths, Cloth Config API, FlytreLib.
+- Updated Traverse, Monster of the Ocean Depths, Cloth Config API, FlytreLib, Mod Menu, Crimson Moon, REI, Where Is It, Repurposed Structures, Architectury, Fabric API, Lib Block Attributes, Lithium, Origins, Polymorph.
+- Added MobZ.
 
 ### Fixes
 - Crash caused by Lurkers should be fixed.
 - Fixed Skull of Spirits giving an unknown stat.
 - Fixed Solar Ring saying it gave damage during night when in fact it gave damage during day.
+- Fixed an issue with Nether quests being uncompletable.
 
 ## [2.1.0] - 2021-02-18
 
