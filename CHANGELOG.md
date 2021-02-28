@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.1.1b] - 2021-XX-XX
+
+### Updates
+- New mob introduced: the Orc.
+- lootbeams is now client-side only!
+
+### Mod Updates
+- Updated lootbeams, AdventureZ, WTHIT.
+
 ## [2.1.1] - 2021-02-27
 
 ### Updates
