@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [2.1.1b] - 2021-XX-XX
+## [2.1.1b] - 2021-03-02
 
 ### Updates
 - New mob introduced: the Orc.
