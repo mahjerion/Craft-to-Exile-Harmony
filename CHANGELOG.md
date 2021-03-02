@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.1.1c] - 2021-03-02
+
+### Mod Updates
+- Updated Curios API.
+- Downgraded Crimson Moon, going back to 2.0.0 from 2.0.2.
+
+### Fixes
+- Fixed server crashes with the new Crimson Moon.
+- Disabled Carnage Sword again.
+
 ## [2.1.1b] - 2021-03-02
 
 ### Updates
