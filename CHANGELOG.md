@@ -14,7 +14,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - lootbeams is now client-side only!
 
 ### Mod Updates
-- Updated lootbeams, AdventureZ, WTHIT.
+- Updated lootbeams, AdventureZ, WTHIT, Architectury, Monster of the Ocean Depths, Repurposed Structures, Where Is It, Xaero's, Crimson Moon, Oh The Biomes You'll Go, Inmis.
+
+### Fixes
+- Console spam should be reduced greatly.
+- Carnage Sword crash on servers should be fixed.
 
 ## [2.1.1] - 2021-02-27
 
