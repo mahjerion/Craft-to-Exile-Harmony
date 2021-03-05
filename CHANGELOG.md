@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Mod Updates
+- Updated WTHIT.
+- Added Cardinal Components API.
+
 ## [2.1.1c] - 2021-03-02
 
 ### Mod Updates
