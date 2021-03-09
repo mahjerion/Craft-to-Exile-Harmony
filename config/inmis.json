@@ -48,5 +48,6 @@
       "numberOfRows": 6,
       "isFireImmune": false
     }
-  ]
+  ],
+  "unstackablesOnly": false
 }
