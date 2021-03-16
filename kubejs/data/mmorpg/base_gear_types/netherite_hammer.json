@@ -7,9 +7,9 @@
   "base_stats": [
     {
       "firstMin": 3.0,
-      "firstMax": 5.0,
+      "firstMax": 4.0,
       "secondMin": 6.0,
-      "secondMax": 12.0,
+      "secondMax": 10.0,
       "stat": "physical_weapon_damage",
       "type": "flat"
     }
