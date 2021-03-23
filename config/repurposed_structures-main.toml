@@ -39,6 +39,8 @@ netherDungeonMaxHeight = 255
 oceanDungeonMaxHeight = 255
 [RSMainConfig]
 blacklistedDimensions = "the_bumblezone:the_bumblezone"
+importModdedItems = true
+blacklistedRSLoottablesFromImportingModdedItems = ""
 
 [RSMainConfig.misc]
 addBoulderToModdedBiomes = false

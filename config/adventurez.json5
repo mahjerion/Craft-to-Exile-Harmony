@@ -1,4 +1,4 @@
-{ 
+{
 	"necromancer_spawn_weight": 2,
 	"nightmare_spawn_weight": 4,
 	// Chance for spawning when mining gold ore in nether; 1/Value
@@ -10,7 +10,10 @@
 	"summoner_thunder_spawn_chance": 10,
 	"blaze_guardian_spawn_weight": 2,
 	"fungus_spawn_weight": 10,
-	"ork_spawn_weight": 20,
+	"orc_spawn_weight": 8,
 	"allow_stone_golem_summoning": true,
-	"allow_the_eye_summoning": true
+	"allow_the_eye_summoning": true,
+	"allow_dragon_hatching": true,
+	"display_rareness": true,
+	"disable_armor_bonus": false
 }

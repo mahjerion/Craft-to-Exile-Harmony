@@ -10,9 +10,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Updates
 - I've updated the default GUI. The mini-map is now on the right and we're now using the RPG gui rather than the vanilla GUI. I mainly did this because you get more information out of the RPG HUD (level, EXP bar, area level) which you wouldn't get with the vanilla-style HUD. I've also added Inventory HUD+ which provides some more info. All of these changes are configurable in the mod menu, so feel free to change it back if you don't like it.
 - Reduced the maximum damage of Hammers by about 15%.
+- Creepers now spawn more regularly.
+- A new AdventureZ mob is introduced: the Dragon.
 
 ### Mod Updates
-- Updated WTHIT, Repurposed Structures, Jumploader, Mo' Structures, Blur, Smooth Boot, Architectury, ItemFlexer, Origins, Xaero's, Curios API, FLAN, Fabric API, Gunpowder Teleport (Server), Gunpowder Base (Server), Cloth Config API, WTHIT, Illuminations, BYG.
+- Updated WTHIT, Repurposed Structures, Jumploader, Mo' Structures, Blur, Smooth Boot, Architectury, ItemFlexer, Origins, Xaero's, Curios API, FLAN, Fabric API, Gunpowder Teleport (Server), Gunpowder Base (Server), Cloth Config API, WTHIT, Illuminations, BYG, REI, Architectury, AdventureZ, Creeper Spores, Lib Block Attributes, Player Roles.
 - Added Inventory HUD+.
 - Added Cardinal Components API.
 

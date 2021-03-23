@@ -5,6 +5,7 @@
   "ticksForNextBlock": 600,
   "minClaimsize": 100,
   "defaultClaimDepth": 10,
+  "ignoredBlocks": [],
   "lenientBlockEntityCheck": false,
   "blacklistedWorlds": [],
   "worldWhitelist": false,

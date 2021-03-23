@@ -86,7 +86,10 @@
 			// Declares whether REI should search async.
 			"asyncSearch": true,
 			// Declares how many entries should be grouped one async search.
-			"asyncSearchPartitionSize": 100
+			"asyncSearchPartitionSize": 100,
+			"tooltipSearch": "ALWAYS",
+			"tagSearch": "PREFIX",
+			"modSearch": "PREFIX"
 		},
 		"commands": {
 			// Declares the command used to change gamemode.
