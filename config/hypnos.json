@@ -1,7 +1,7 @@
 {
   "playerPercentage": 50,
-  "notEnoughPlayerMessage": "§9{player} is sleeping! [{sleeping}/{required}]§r",
-  "nightSkipMessage": "§9Enough players are sleeping, skipping night...§r",
-  "wakeUpMessage": "§9{player} is awake!§r",
+  "notEnoughPlayerMessage": "{player} is sleeping! [{sleeping}/{required}]",
+  "nightSkipMessage": "Enough players are sleeping, skipping night...",
+  "wakeUpMessage": "{player} is awake!",
   "enableWakeUp": false
 }

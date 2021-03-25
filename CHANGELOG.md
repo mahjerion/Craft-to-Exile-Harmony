@@ -18,6 +18,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added Inventory HUD+.
 - Added Cardinal Components API.
 
+### Fixes
+- Fixed Hypnos messages appearing funky.
+
 ## [2.1.1c] - 2021-03-02
 
 ### Mod Updates
