@@ -14,7 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - A new AdventureZ mob is introduced: the Dragon.
 
 ### Mod Updates
-- Updated WTHIT, Repurposed Structures, Jumploader, Mo' Structures, Blur, Smooth Boot, Architectury, ItemFlexer, Origins, Xaero's, Curios API, FLAN, Fabric API, Gunpowder Teleport (Server), Gunpowder Base (Server), Cloth Config API, WTHIT, Illuminations, BYG, REI, Architectury, AdventureZ, Creeper Spores, Lib Block Attributes, Player Roles.
+- Updated WTHIT, Repurposed Structures, Jumploader, Mo' Structures, Blur, Smooth Boot, Architectury, ItemFlexer, Origins, Xaero's, Curios API, FLAN, Fabric API, Gunpowder Teleport (Server), Gunpowder Base (Server), Cloth Config API, Illuminations, BYG, REI, Architectury, AdventureZ, Creeper Spores, Lib Block Attributes, Player Roles, Where Is It.
 - Added Inventory HUD+.
 - Added Cardinal Components API.
 
