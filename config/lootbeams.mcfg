@@ -13,3 +13,6 @@ beamOffset=0.2
 //How old the item needs to be before it gets a beam (in ticks)
 minimumAge=10
 
+//If the mod should print caught errors instead of swallowing them
+printErrors=false
+
