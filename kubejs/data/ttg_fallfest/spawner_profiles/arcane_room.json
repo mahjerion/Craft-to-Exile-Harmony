@@ -10,7 +10,7 @@
     },
     {
       "entities": [
-        "mmorpg:arcane_zombie",
+        "mmorpg:arcane_zombie"
       ],
       "minMobCount": 5,
       "maxMobCount": 9
