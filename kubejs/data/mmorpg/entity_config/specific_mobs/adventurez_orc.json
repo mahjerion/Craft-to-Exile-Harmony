@@ -10,6 +10,6 @@
   "min_lvl": 1,
   "max_lvl": 1000000,
   "dmg_multi": 0.7,
-  "hp_multi": 0.9,
+  "hp_multi": 0.7,
   "stat_multi": 1.0
 }
