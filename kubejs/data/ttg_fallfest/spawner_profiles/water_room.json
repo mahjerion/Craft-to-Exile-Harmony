@@ -19,7 +19,6 @@
     {
       "entities": [
         "mmorpg:water_skeleton",
-        "mmorpg:water_slime",
         "mmorpg:water_spider"
       ],
       "minMobCount": 5,
@@ -28,9 +27,8 @@
     {
       "entities": [
         "mmorpg:water_skeleton",
-        "mmorpg:water_slime",
         "mmorpg:water_chicken",
-        "mmorpg:water_mage"
+        "mmorpg:water_zombie"
       ],
       "minMobCount": 7,
       "maxMobCount": 11
@@ -38,7 +36,7 @@
     {
       "entities": [
         "mmorpg:water_skeleton",
-        "mmorpg:water_mage",
+        "mmorpg:water_zombie",
         "mmorpg:water_chicken",
         "mmorpg:healer_mage"
       ],

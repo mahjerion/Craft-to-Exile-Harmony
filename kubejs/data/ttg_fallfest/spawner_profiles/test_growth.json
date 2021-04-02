@@ -4,14 +4,14 @@
   "waves": [
     {
       "entities": [
-        "minecraft:creeper"
+        "minecraft:spider"
       ],
       "minMobCount": 5,
       "maxMobCount": 9
     },
     {
       "entities": [
-        "minecraft:creeper",
+        "minecraft:spider",
         "minecraft:zombie"
       ],
       "minMobCount": 7,
@@ -19,9 +19,9 @@
     },
     {
       "entities": [
-        "minecraft:creeper",
+        "minecraft:cave_spider",
         "minecraft:zombie",
-        "creeperspores:creeperling"
+        "minecraft:spider"
       ],
       "minMobCount": 9,
       "maxMobCount": 13

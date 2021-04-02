@@ -19,7 +19,6 @@
     {
       "entities": [
         "mmorpg:nature_skeleton",
-        "mmorpg:nature_slime",
         "mmorpg:nature_spider"
       ],
       "minMobCount": 5,
@@ -28,9 +27,8 @@
     {
       "entities": [
         "mmorpg:nature_skeleton",
-        "mmorpg:nature_slime",
         "mmorpg:nature_chicken",
-        "mmorpg:nature_mage"
+        "mmorpg:nature_zombie"
       ],
       "minMobCount": 7,
       "maxMobCount": 11
@@ -38,7 +36,7 @@
     {
       "entities": [
         "mmorpg:nature_skeleton",
-        "mmorpg:nature_mage",
+        "mmorpg:nature_zombie",
         "mmorpg:nature_chicken",
         "mmorpg:healer_mage"
       ],

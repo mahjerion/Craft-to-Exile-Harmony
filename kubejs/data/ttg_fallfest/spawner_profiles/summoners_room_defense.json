@@ -20,7 +20,7 @@
       "entities": [
         "adventurez:skeleton_vanguard",
         "minecraft:skeleton",
-        "adventurez:summoner"
+        "adventurez:orc"
       ],
       "minMobCount": 5,
       "maxMobCount": 9
@@ -29,8 +29,7 @@
       "entities": [
         "adventurez:skeleton_vanguard",
         "minecraft:skeleton",
-        "adventurez:summoner",
-        "minecraft:illusioner"
+        "adventurez:orc"
       ],
       "minMobCount": 7,
       "maxMobCount": 11

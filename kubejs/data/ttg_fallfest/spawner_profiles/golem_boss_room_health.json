@@ -10,10 +10,10 @@
     },
     {
       "entities": [
-        "mmorpg:water_slime",
-        "mmorpg:fire_slime",
-        "mmorpg:thunder_slime",
-        "mmorpg:nature_slime"
+        "mmorpg:water_zombie",
+        "mmorpg:fire_zombie",
+        "mmorpg:thunder_zombie",
+        "mmorpg:nature_zombie"
       ],
       "minMobCount": 3,
       "maxMobCount": 7
@@ -50,20 +50,20 @@
     },
     {
       "entities": [
-        "mmorpg:water_mage",
-        "mmorpg:fire_mage",
-        "mmorpg:thunder_mage",
-        "mmorpg:nature_mage"
+        "mmorpg:water_zombie",
+        "mmorpg:fire_zombie",
+        "mmorpg:thunder_zombie",
+        "mmorpg:nature_zombie"
       ],
       "minMobCount": 5,
       "maxMobCount": 9
     },
     {
       "entities": [
-        "mmorpg:water_mage",
-        "mmorpg:fire_mage",
-        "mmorpg:thunder_mage",
-        "mmorpg:nature_mage",
+        "mmorpg:water_zombie",
+        "mmorpg:fire_zombie",
+        "mmorpg:thunder_zombie",
+        "mmorpg:nature_zombie"
         "mmorpg:water_skeleton",
         "mmorpg:fire_skeleton",
         "mmorpg:thunder_skeleton",
