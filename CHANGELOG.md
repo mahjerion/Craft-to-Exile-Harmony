@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [2.1.2] - 2021-04-02
+## [2.1.2] - 2021-04-XX
 
 ### Updates
 - Sorry it's been a month since the last update. This update will act as a stepping stone until the new Age of Exile update is out (which adds a lot of content!). Stay tuned.
@@ -19,7 +19,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Dark Dungeon wave that provides unique loot crates now provides rare loot crates instead.
 
 ### Mod Updates
-- Updated WTHIT, Repurposed Structures, Jumploader, Mo' Structures, Blur, Smooth Boot, Architectury, ItemFlexer, Origins, Xaero's, Curios API, FLAN, Fabric API, Gunpowder Teleport (Server), Gunpowder Base (Server), Cloth Config API, Illuminations, BYG, REI, Architectury, AdventureZ, Creeper Spores, Lib Block Attributes, Player Roles, Where Is It, lootbeams.
+- Updated WTHIT, Repurposed Structures, Jumploader, Mo' Structures, Blur, Smooth Boot, Architectury, ItemFlexer, Origins, Xaero's, Curios API, FLAN, Fabric API, Gunpowder Teleport (Server), Gunpowder Base (Server), Cloth Config API, Illuminations, BYG, REI, Architectury, AdventureZ, Creeper Spores, Lib Block Attributes, Player Roles, Where Is It, lootbeams, Cloth API, Inmis.
 - Added Inventory HUD+.
 - Added Cardinal Components API.
 
