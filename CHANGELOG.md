@@ -7,10 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [2.1.2] - 2021-04-XX
+## [2.1.2] - 2021-04-12
 
 ### Updates
-- Sorry it's been a month since the last update. This update will act as a stepping stone until the new Age of Exile update is out (which adds a lot of content!). Stay tuned.
+- Sorry it's been a while since the last update. This update will act as a stepping stone until the new Age of Exile update is out (which adds a lot of content!). Stay tuned.
 - I've updated the default GUI. The mini-map is now on the right and we're now using the RPG gui rather than the vanilla GUI. I mainly did this because you get more information out of the RPG HUD (level, EXP bar, area level) which you wouldn't get with the vanilla-style HUD. I've also added Inventory HUD+ which provides some more info. All of these changes are configurable in the mod menu, so feel free to change it back if you don't like it.
 - Reduced the maximum damage of Hammers by about 15%.
 - Reduced strength of Ork mobs.
@@ -19,13 +19,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Dark Dungeon wave that provides unique loot crates now provides rare loot crates instead.
 
 ### Mod Updates
-- Updated WTHIT, Repurposed Structures, Jumploader, Mo' Structures, Blur, Smooth Boot, Architectury, ItemFlexer, Origins, Xaero's, Curios API, FLAN, Fabric API, Gunpowder Teleport (Server), Gunpowder Base (Server), Cloth Config API, Illuminations, BYG, REI, Architectury, AdventureZ, Creeper Spores, Lib Block Attributes, Player Roles, Where Is It, lootbeams, Cloth API, Inmis.
+- Updated WTHIT, Repurposed Structures, Jumploader, Mo' Structures, Blur, Smooth Boot, Architectury, ItemFlexer, Origins, Xaero's, Curios API, FLAN, Fabric API, Gunpowder Teleport (Server), Gunpowder Base (Server), Cloth Config API, Illuminations, BYG, REI, Architectury, AdventureZ, Creeper Spores, Lib Block Attributes, Player Roles, Where Is It, lootbeams, Cloth API, Inmis, Mod Menu, Age of Exile.
 - Added Inventory HUD+.
 - Added Cardinal Components API.
 
 ### Fixes
 - Fixed Hypnos messages appearing funky.
 - Replaced mages, slimes, summoners, and creepers in Dark Dungeon wave spawners. This should drastically reduce the chance of "broken" spawners.
+- Small fix for Age of Exile item repair stuff. Only affects newly created items and not already existing items.
 
 ## [2.1.1c] - 2021-03-02
 
