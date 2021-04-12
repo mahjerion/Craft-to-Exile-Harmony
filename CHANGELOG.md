@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.1.2b] - 2021-04-12
+
+### Mod Updates
+- Undo Age of Exile update.
+
+### Fixes
+- Fixed crashes on world creation.
+
 ## [2.1.2] - 2021-04-12
 
 ### Updates
