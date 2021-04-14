@@ -2,13 +2,16 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
-            "item": "adventurez:stone_golem_helmet"
+            "item": "dragonloot:dragon_chestplate"
+        },
+        {
+            "item": "minecraft:elytra"
         },
         {
             "item": "dragonloot:dragon_scale"
         }
     ],
     "result": {
-		"item": "dragonloot:dragon_helmet"
+		"item": "dragonloot:upgraded_dragon_chestplate"
     }
 }

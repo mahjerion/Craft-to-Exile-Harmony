@@ -1,12 +1,14 @@
 {
-  "type": "minecraft:smithing",
-  "base": {
-    "item": "adventurez:stone_golem_chestplate"
-  },
-  "addition": {
-    "item": "dragonloot:dragon_scale"
-  },
-  "result": {
-    "item": "dragonloot:dragon_chestplate"
-  }
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "adventurez:stone_golem_chestplate"
+        },
+        {
+            "item": "dragonloot:dragon_scale"
+        }
+    ],
+    "result": {
+		"item": "dragonloot:dragon_chestplate"
+    }
 }

@@ -1,0 +1,47 @@
+{
+  "id": "dragon_bow",
+  "weight": 1000,
+  "rarity": 0,
+  "tier": 0,
+  "implicit_stats": [],
+  "base_stats": [
+    {
+      "firstMin": 1.0,
+      "firstMax": 3.0,
+      "secondMin": 4.0,
+      "secondMax": 6.5,
+      "stat": "physical_weapon_damage",
+      "type": "flat"
+    },
+    {
+      "firstMin": 4.0,
+      "firstMax": 4.0,
+      "secondMin": 0.0,
+      "secondMax": 0.0,
+      "stat": "critical_hit",
+      "type": "flat"
+    }
+  ],
+  "level_range": {
+    "start": 0.6,
+    "end": 1.0
+  },
+  "tag_list": {
+    "tags": [
+      "dexterity",
+      "ranger_casting_weapon",
+      "ranged_weapon",
+      "weapon_family",
+      "bow"
+    ]
+  },
+  "stat_req": {
+    "dex_req": 0.0,
+    "int_req": 0.0,
+    "str_req": 0.0
+  },
+  "item_id": "dragonloot:dragon_bow",
+  "gear_slot": "bow",
+  "weapon_type": "Bow",
+  "attack_style": "RANGED"
+}

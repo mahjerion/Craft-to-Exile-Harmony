@@ -54,7 +54,7 @@
   "max_rarity": 10,
   "min_lvl": 25,
   "max_lvl": 100,
-  "dmg_multi": 1.0,
+  "dmg_multi": 1.25,
   "hp_multi": 1.5,
   "stat_multi": 1.0
 }

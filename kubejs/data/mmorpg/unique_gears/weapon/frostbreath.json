@@ -41,7 +41,7 @@
       "firstMax": 20,
       "secondMin": 0.0,
       "secondMax": 0.0,
-      "stat": "chance_of_frost",
+      "stat": "chance_of_chill",
       "type": "flat"
     },
     {
@@ -49,7 +49,7 @@
       "firstMax": 50,
       "secondMin": 0.0,
       "secondMax": 0.0,
-      "stat": "frost_bonus_damage",
+      "stat": "chill_bonus_damage",
       "type": "flat"
     }
   ],

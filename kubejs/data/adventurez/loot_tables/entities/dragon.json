@@ -1,0 +1,43 @@
+{
+    "type": "minecraft:entity",
+	"pools": [
+		{
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "mmorpg:loot_crate/rare"
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:killed_by_player"
+                },
+                {
+                    "condition": "minecraft:random_chance_with_looting",
+                    "chance": 0.8,
+                    "looting_multiplier": 0.001
+                }
+            ]
+        },
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "mmorpg:loot_crate/unique"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:killed_by_player"
+				},
+				{
+					"condition": "minecraft:random_chance_with_looting",
+					"chance": 0.4,
+					"looting_multiplier": 0.001
+				}
+			]
+		}
+	]
+}

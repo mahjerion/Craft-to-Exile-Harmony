@@ -1,12 +1,14 @@
 {
-  "type": "minecraft:smithing",
-  "base": {
-    "item": "adventurez:stone_golem_boots"
-  },
-  "addition": {
-    "item": "dragonloot:dragon_scale"
-  },
-  "result": {
-    "item": "dragonloot:dragon_boots"
-  }
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "adventurez:stone_golem_boots"
+        },
+        {
+            "item": "dragonloot:dragon_scale"
+        }
+    ],
+    "result": {
+		"item": "dragonloot:dragon_boots"
+    }
 }

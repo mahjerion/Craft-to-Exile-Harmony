@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:netherite_leggings"
+        },
+        {
+            "item": "adventurez:gilded_netherite_fragment"
+        }
+    ],
+    "result": {
+		"item": "adventurez:stone_golem_leggings"
+    }
+}

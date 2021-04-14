@@ -1,0 +1,14 @@
+{
+  "item_type": "dragon_bow",
+  "item_id": "dragonloot:dragon_bow",
+  "id": "dragonloot:dragon_bow",
+  "rarities": "non_aoe",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": true
+  },
+  "unique": {
+    "chance_to_become_unique": 0.0,
+    "unique_id": ""
+  }
+}

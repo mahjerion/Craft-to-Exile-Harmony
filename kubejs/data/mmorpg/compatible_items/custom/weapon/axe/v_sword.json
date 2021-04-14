@@ -1,0 +1,14 @@
+{
+  "item_type": "v_sword",
+  "item_id": "mobz:v_sword",
+  "id": "mobz:v_sword",
+  "rarities": "non_aoe",
+  "misc": {
+    "weight": 1000,
+    "can_be_salvaged": true
+  },
+  "unique": {
+    "chance_to_become_unique": 0.0,
+    "unique_id": ""
+  }
+}

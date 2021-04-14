@@ -3,14 +3,13 @@
   "waves": [
     {
       "entities": [
-        "minecraft:piglin"
+        "minecraft:zombified_piglin"
       ],
       "minMobCount": 5,
       "maxMobCount": 9
     },
     {
       "entities": [
-        "minecraft:piglin",
         "minecraft:zombified_piglin"
       ],
       "minMobCount": 7,
@@ -18,7 +17,6 @@
     },
     {
       "entities": [
-        "minecraft:piglin",
         "minecraft:zombified_piglin",
         "minecraft:piglin_brute"
       ],
@@ -27,7 +25,6 @@
     },
     {
       "entities": [
-        "minecraft:piglin",
         "minecraft:zombified_piglin",
         "minecraft:piglin_brute",
         "adventurez:piglin_beast"

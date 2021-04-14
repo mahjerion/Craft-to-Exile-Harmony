@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "nnn",
+        "nen",
+        "nnn"
+    ],
+    "key": {
+        "n": {
+            "item": "dragonloot:dragon_scale"
+        },
+        "e": {
+            "item": "minecraft:egg"
+        }
+    },
+    "result": {
+        "item": "minecraft:dragon_egg"
+    }
+}

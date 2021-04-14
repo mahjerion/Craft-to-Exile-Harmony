@@ -2,13 +2,16 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
-            "item": "adventurez:stone_golem_helmet"
+            "item": "minecraft:crossbow"
         },
         {
             "item": "dragonloot:dragon_scale"
+        },
+        {
+            "item": "adventurez:gilded_netherite_fragment"
         }
     ],
     "result": {
-		"item": "dragonloot:dragon_helmet"
+		"item": "dragonloot:dragon_crossbow"
     }
 }

@@ -7,6 +7,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.1.2c] - 2021-04-XX
+
+### Updates
+- Ork can now drop magic loot crates rarely.
+- Blackstone Golem and the AdventureZ Dragon now commonly drop rare loot crates, and less commonly, unique crates.
+- Added a recipe: you can now craft Dragon Eggs using Dragon Scales.
+- Reduced drop rate of Dragon Scales from the Ender Dragon.
+- Increased damage of Blackstone Golem.
+- Added compatibility for the new Dragon Scale weapons and Upgraded Dragon Chestplate (elytra armor).
+- Added compatibility for the MobZ weapons.
+
+### Mod Updates
+- Updated WTHIT, Architectury.
+
+### Fixes
+- Fixed weird text showing up on WTHIT.
+- Fixed crafting recipes for Dragon Scale, Netherite, and Gilded Netherite armor so they'll properly apply stat changes.
+- Replaced Piglin mob in the Dark Dungeon spawners since they would sometimes convert to a Zombie Piglin and bug out the spawner.
+- Fixed Frostbreath unique.
+
 ## [2.1.2b] - 2021-04-12
 
 ### Mod Updates

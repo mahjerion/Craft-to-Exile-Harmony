@@ -1,12 +1,14 @@
 {
-  "type": "minecraft:smithing",
-  "base": {
-    "item": "adventurez:stone_golem_leggings"
-  },
-  "addition": {
-    "item": "dragonloot:dragon_scale"
-  },
-  "result": {
-    "item": "dragonloot:dragon_leggings"
-  }
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "adventurez:stone_golem_leggings"
+        },
+        {
+            "item": "dragonloot:dragon_scale"
+        }
+    ],
+    "result": {
+		"item": "dragonloot:dragon_leggings"
+    }
 }
