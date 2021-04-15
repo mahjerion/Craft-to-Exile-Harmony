@@ -1,29 +1,21 @@
 {
-  "id": "crossbow3",
+  "id": "sbow",
   "weight": 1000,
   "rarity": 0,
   "tier": 0,
   "implicit_stats": [],
   "base_stats": [
     {
-      "firstMin": 50.0,
-      "firstMax": 70.0,
-      "secondMin": 0.0,
-      "secondMax": 0.0,
-      "stat": "armor_penetration",
-      "type": "flat"
-    },
-    {
       "firstMin": 1.0,
-      "firstMax": 2.0,
+      "firstMax": 3.0,
       "secondMin": 4.0,
-      "secondMax": 6.0,
+      "secondMax": 6.5,
       "stat": "physical_weapon_damage",
       "type": "flat"
     },
     {
-      "firstMin": 2.5,
-      "firstMax": 2.5,
+      "firstMin": 4.0,
+      "firstMax": 4.0,
       "secondMin": 0.0,
       "secondMax": 0.0,
       "stat": "critical_hit",
@@ -31,16 +23,16 @@
     }
   ],
   "level_range": {
-    "start": 0.6,
-    "end": 0.8
+    "start": 0.0,
+    "end": 0.5
   },
   "tag_list": {
     "tags": [
       "dexterity",
       "ranger_casting_weapon",
-      "crossbow",
       "ranged_weapon",
-      "weapon_family"
+      "weapon_family",
+      "bow"
     ]
   },
   "stat_req": {
@@ -48,8 +40,8 @@
     "int_req": 0.0,
     "str_req": 0.0
   },
-  "item_id": "minecraft:crossbow",
-  "gear_slot": "crossbow",
-  "weapon_type": "CrossBow",
+  "item_id": "mobz:sbow",
+  "gear_slot": "bow",
+  "weapon_type": "Bow",
   "attack_style": "RANGED"
 }

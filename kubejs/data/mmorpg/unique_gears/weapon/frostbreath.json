@@ -6,9 +6,9 @@
   "unique_stats": [
     {
       "firstMin": 0.5,
-      "firstMax": 1.0,
-      "secondMin": 1.5,
-      "secondMax": 2.0,
+      "firstMax": 0.7,
+      "secondMin": 0.8,
+      "secondMax": 1.0,
       "stat": "physical_weapon_damage",
       "type": "flat"
     },

@@ -21,10 +21,10 @@
       "type": "local_increase"
     },
     {
-      "firstMin": 1.0,
-      "firstMax": 2.0,
+      "firstMin": 0.1,
+      "firstMax": 0.25,
       "secondMin": 4.0,
-      "secondMax": 6.0,
+      "secondMax": 5.0,
       "stat": "thunder_weapon_damage",
       "type": "flat"
     },

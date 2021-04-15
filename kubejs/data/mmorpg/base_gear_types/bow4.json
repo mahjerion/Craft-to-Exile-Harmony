@@ -6,10 +6,10 @@
   "implicit_stats": [],
   "base_stats": [
     {
-      "firstMin": 1.0,
+      "firstMin": 2.0,
       "firstMax": 3.0,
-      "secondMin": 4.0,
-      "secondMax": 6.0,
+      "secondMin": 6.0,
+      "secondMax": 7.0,
       "stat": "physical_weapon_damage",
       "type": "flat"
     },

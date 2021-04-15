@@ -5,10 +5,10 @@
   "tier": 0,
   "unique_stats": [
     {
-      "firstMin": 1.0,
-      "firstMax": 3.0,
-      "secondMin": 5.0,
-      "secondMax": 7.0,
+      "firstMin": 0.1,
+      "firstMax": 0.25,
+      "secondMin": 4.0,
+      "secondMax": 5.0,
       "stat": "physical_weapon_damage",
       "type": "flat"
     },
