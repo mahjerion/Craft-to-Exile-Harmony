@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Mod Updates
+- Updated Architectury, Fabric API, Repurposed Structures, FLAN, Guunpowder, Gunpowder Teleport, Xaero's, The Bumblezone, REI.
+- Removed Better Weather.
+
 ## [2.1.2c] - 2021-04-15
 
 ### Updates
