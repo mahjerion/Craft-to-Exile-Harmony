@@ -4,6 +4,7 @@
     "comparator": true,
     "hide_infestations": true,
     "display_furnace_contents": true,
+    "hide_trapped_chest": true,
     "player_head_name": true,
     "jukebox": true,
     "lever": true,
@@ -12,9 +13,13 @@
     "repeater": true
   },
   "waila": {
-    "show_registry": false,
+    "show_pos": false,
+    "show_blocks": true,
+    "show_mod_name": true,
+    "show_fluids": true,
     "show_entity_hp": false,
     "show_states": false,
-    "show_entities": false
+    "show_item": true,
+    "show_entities": true
   }
 }

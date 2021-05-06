@@ -7,9 +7,30 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.2.0b] - 2021-05-06
+
+### Fixes
+- Fixed Better End generator issue.
+
+## [2.2.0] - 2021-05-06
+
+### Updates
+- Updated to 1.16.5 (finally). Should be able to update most mods to their latest versions. Bugs may occur.
+- Replaced Project: Save the Pets! with configuration from Charm. It's not as good, but we can't use P:StP since it's only for 1.16.4.
+- Set default WTHIT/WAILA to show fluid information.
+- Updated Meowstard Cat's server info.
+
 ### Mod Updates
-- Updated Architectury, Fabric API, Repurposed Structures, FLAN, Guunpowder, Gunpowder Teleport, Xaero's, The Bumblezone, REI.
+- Updated Architectury, Fabric API, Repurposed Structures, FLAN, Gunpowder, Gunpowder Teleport, Xaero's, The Bumblezone, REI, Cardinal Components, Gunpowder SleepVote, BetterEnd, RER, Origins, WTHIT, Phosphor, Better Nether, EditSign, KubeJS, Rhino, XP Storage, CraftPresence, Illuminations.
 - Removed Better Weather.
+- Removed Project: Save the Pets! - replaced by Charm config.
+
+### Fixes
+- Fixed Gunpowder config causing crashes.
+- Fixed weird text in WTHIT.
+- Teleport fixes if you choose to enable them.
+- Some crashes have been resolved (such as Phosphor and Origins crashes).
+- There should be plenty of Better Nether and BetterEnd fixes.
 
 ## [2.1.2c] - 2021-04-15
 

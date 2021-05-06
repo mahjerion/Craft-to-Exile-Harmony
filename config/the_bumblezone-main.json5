@@ -1,5 +1,5 @@
-{ 
-	"BZDungeonsConfig": { 
+{
+	"BZDungeonsConfig": {
 		/* 
 		   How rare Bee Dungeons are. Higher numbers means more rare.
 		   Default rate is 1. Setting to greater than 1000 will disable Bee Dungeons.
@@ -16,7 +16,7 @@
 		*/
 		"spawnerRateSpiderBeeDungeon": 0.25
 	},
-	"BZBeeAggressionConfig": { 
+	"BZBeeAggressionConfig": {
 		/* 
 		   Determines if Wrath of the Hive can be applied to players outside
 		   the Bumblezone dimension when they pick up Honey blocks, take honey
@@ -85,7 +85,7 @@
 		*/
 		"strengthBoostLevel": 3
 	},
-	"BZDimensionConfig": { 
+	"BZDimensionConfig": {
 		/* 
 		   How bright the fog is in the Bumblezone dimension. 
 		   
@@ -149,7 +149,7 @@
 		*/
 		"teleportationMode": 2
 	},
-	"BZBlockMechanicsConfig": { 
+	"BZBlockMechanicsConfig": {
 		/* 
 		   Should Dispensers always drop the Glass Bottle when using specific 
 		   bottle items on certain The Bumblezone blocks? 
@@ -165,7 +165,7 @@
 		*/
 		"broodBlocksBeeSpawnCapacity": 50
 	},
-	"BZModCompatibilityConfig": { 
+	"BZModCompatibilityConfig": {
 		/* 
 		   Allow Bee Better compat which adds more blocks to Bumblezone's worldgen!
 		*/

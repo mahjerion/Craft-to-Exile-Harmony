@@ -14,6 +14,7 @@
   "inspectionItem": "minecraft:stick",
   "claimDisplayTime": 1000,
   "permissionLevel": 2,
+  "defaultGroups": {},
   "globalDefaultPerms": {},
   "enableLogs": false
 }
