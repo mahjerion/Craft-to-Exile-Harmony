@@ -1,11 +1,13 @@
 {
   "__comment": "For help with the config refer to https://github.com/Flemmli97/Flan/wiki/Config",
-  "startingBlocks": 1000,
+  "startingBlocks": 500,
   "maxClaimBlocks": 10000,
   "ticksForNextBlock": 600,
   "minClaimsize": 100,
   "defaultClaimDepth": 10,
-  "ignoredBlocks": [],
+  "ignoredBlocks": [
+	"minecraft:white_shulker_box"
+  ],
   "lenientBlockEntityCheck": false,
   "blacklistedWorlds": [],
   "worldWhitelist": false,
@@ -15,6 +17,10 @@
   "claimDisplayTime": 1000,
   "permissionLevel": 2,
   "defaultGroups": {},
-  "globalDefaultPerms": {},
+  "globalDefaultPerms": {
+    "minecraft:overworld": {
+      "ANIMALINTERACT": true
+    }
+  },
   "enableLogs": false
 }

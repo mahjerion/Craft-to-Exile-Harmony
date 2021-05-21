@@ -7,6 +7,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Updates
+- New mob type: Mimics! Rarely find these creatures in place of chests. Upon interaction, they'll come to life and attack you. Killing them will drop loot! If you kill enough of them, you may be able to have one as a pet... :)
+- New cave, mineshaft, and stronghold generation thanks to YUNG's mods!
+- Improved compatibility of Enchantment Descriptions.
+- Death chest is now a white shulker box instead of the vanilla chest.
+- Animals and villagers should be interactable in claims by default.
+
+### Mod Updates
+- Updated BetterEnd, Origins, Architectury, DragonLoot, Fabric API, Gunpowder, FlytreLib, Cloth Config API, FLAN, KubeJS, Rhino, WTHIT, Xaero's, BYG, Cardinal Components, Enchantment Descriptions, Player Events, The Bumblezone.
+- Added YUNG's mods: Better Caves, Better Mineshafts, Better Strongholds, and API.
+- Added Mimics.
+
+### Fixes
+- Death chests should now be interactable in claims.
+
 ## [2.2.0b] - 2021-05-06
 
 ### Fixes

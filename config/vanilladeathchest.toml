@@ -8,7 +8,7 @@
 	# SINGLE_SHULKER_BOX: Single shulker boxes.
 	# SINGLE_OR_DOUBLE_SHULKER_BOX: Single or double shulker boxes.
 	# Default: "SINGLE_OR_DOUBLE_CHEST"
-	container_type = "SINGLE_OR_DOUBLE_CHEST"
+	container_type = "SINGLE_OR_DOUBLE_SHULKER_BOX"
 	# The color of the shulker box if the container type is a shulker box.
 	# WHITE: White.
 	# ORANGE: Orange.
