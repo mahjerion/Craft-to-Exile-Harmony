@@ -1,13 +1,18 @@
-module = "NONAME"
-margin = 10
+module = "NO_NAME"
 
-[noNameConfig]
+[noName]
+uiOffset = 0
+margin = 10
+squash = false
+effectsPerColumn = 4
 showLevel = true
 levelInArabic = false
-maxEffectsNumber = 4
 
-[onlyNameConfig]
-maxEffectsNumber = 8
+[onlyName]
+uiOffset = 0
+margin = 10
+effectsPerColumn = 8
+squash = false
 permanentColour = 16777215
 wontExpireSoonColour = 45065
 soonToExpireColour = 13946112
@@ -15,5 +20,8 @@ expiringColour = 13893632
 expiringBound = 20
 soonToExpireBound = 60
 
-[noSpriteConfig]
-maxEffectsNumber = 5
+[noSprite]
+uiOffset = 0
+margin = 10
+squash = false
+effectsPerColumn = 5

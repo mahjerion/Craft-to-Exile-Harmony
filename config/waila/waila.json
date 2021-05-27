@@ -1,4 +1,5 @@
 {
+  "configVersion": 1,
   "general": {
     "displayTooltip": true,
     "shiftForDetails": false,
@@ -21,7 +22,7 @@
     },
     "scale": 1.0,
     "color": {
-      "alpha": 100,
+      "alpha": 80,
       "themes": [
         {
           "id": "waila:dark",
@@ -42,10 +43,10 @@
     }
   },
   "formatting": {
-    "modName": "ง9งo%s",
-    "blockName": "งf%s",
-    "fluidName": "งf%s",
-    "entityName": "งf%s",
-    "registryName": "ง8%s"
+    "modName": "ยง9ยงo%s",
+    "blockName": "ยงf%s",
+    "fluidName": "ยงf%s",
+    "entityName": "ยงf%s",
+    "registryName": "ยง8%s"
   }
 }

@@ -120,6 +120,8 @@
   "HURTPLAYER.desc": "Permission to hurt other players",
   "EXPLOSIONS.desc": "Toggle explosions in claim",
   "WITHER.desc": "Toggle wither breaking blocks in claim",
+  "ENDERMAN.desc": "Allow enderman picking and placing blocks",
+  "SNOWGOLEM.desc": "Allow snowgolems snowlayer",
   "FIRESPREAD.desc": "Toggle firespread in claim",
   "WATERBORDER.desc": "Toggle water crossing claim borders",
   "PISTONBORDER.desc": "Toggle piston pull/push across claim borders",

@@ -65,7 +65,14 @@
     "spawn_egg_shadow_walker [default: true]": true,
     "spawn_egg_cubozoa [default: true]": true,
     "spawn_egg_silk_moth [default: true]": true,
-    "guidebook [default: true]": true
+    "guidebook [default: true]": true,
+    "aeternium_forged_plate [default: true]": true,
+    "music_disc_grasping_at_stars [default: true]": true,
+    "music_disc_endseeker [default: true]": true,
+    "music_disc_eo_dracona [default: true]": true,
+    "blossom_berry_jelly [default: true]": true,
+    "thallasium_forged_plate [default: true]": true,
+    "terminite_forged_plate [default: true]": true
   },
   "armor": {
     "aeternium_helmet [default: true]": true,

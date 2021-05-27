@@ -1,4 +1,4 @@
-{ 
+{
 	"scale_minimum_drop_amount": 2,
 	"additional_scales_per_player": 2,
 	// 0.8F = 80%
@@ -6,5 +6,7 @@
 	"dragon_armor_protection_helmet": 7,
 	"dragon_armor_protection_chest": 10,
 	"dragon_armor_protection_leggings": 9,
-	"dragon_armor_protection_boots": 7
+	"dragon_armor_protection_boots": 7,
+	"dragon_armor_durability_multiplier": 37,
+	"dragon_item_durability_multiplier": 37
 }

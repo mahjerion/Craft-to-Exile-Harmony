@@ -76,8 +76,6 @@
 "MapTooltips Enabled" = true
 #Adds decoration and more ores to mineshafts.
 "MineshaftImprovements Enabled" = true
-#Configure how often mob sounds are played.
-"MobSoundCulling Enabled" = true
 #Mooblooms are cow-like mobs that come in a variety of flower types. They spawn flowers where they walk and can be milked for suspicious stew.
 "Mooblooms Enabled" = true
 #Crying obsidian and refined obsidian can be used to construct nether portal frames.
@@ -93,6 +91,8 @@
 "ParrotsStayOnShoulder Enabled" = true
 #Right-clicking on a grass path block with a hoe turns it back into dirt.
 "PathToDirt Enabled" = true
+#Player-only pressure plates.
+"PlayerPressurePlates Enabled" = true
 #Allows crafting from inventory if the player has a crafting table in their inventory.
 "PortableCrafting Enabled" = true
 #Allows access to chest contents if the player has an Ender Chest in their inventory.
@@ -161,10 +161,10 @@
 	"Show item repair cost" = true
 
 [Atlas]
-	#The atlas will create maps of this size (0-4).
-	"Map Size" = 2
 	#Allow opening the atlas while it is in the off hand.
 	"Open in off hand" = false
+	#Map scale used in atlases by default.
+	"Map scale" = 0
 
 [BatBuckets]
 	#Number of seconds that entities will receive the glowing effect.
@@ -251,6 +251,10 @@
 	"Green Dye" = true
 	#If true, adds a recipe for Soul Torches using soul sand/soul soil and sticks.
 	"Soul Torch" = true
+	#If true, adds a shapeless recipe for bread.
+	Bread = true
+	#If true, adds a shapeless recipe for paper.
+	Paper = true
 
 [ExtractEnchantments]
 	#Initial XP cost before adding XP equivalent to the enchantment level(s) of the item.
@@ -282,15 +286,13 @@
 	#If true, loot crates will be added to mineshaft corridors.
 	"Add crates" = true
 
-[MobSoundCulling]
-	#List of mobs to apply the custom sound delay to.
-	"Custom mob types" = ["minecraft:cow", "minecraft:sheep"]
-	#This delay applies to all mobs in the custom mob types list. As a guide, sheep and cows are 120 in vanilla.
-	"Custom mob sound delay" = 400
-
 [MusicImprovements]
 	#If true, the six Creative music tracks may play in survival mode.
 	"Play Creative music" = true
+
+[PlayerPressurePlates]
+	#This module is automatically disabled if Quark is present. Set true to force enable.
+	Override = false
 
 [PlayerState]
 	#Interval (in ticks) on which additional world state will be synchronised to the client.

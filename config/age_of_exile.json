@@ -48,7 +48,7 @@
     "MAX_LEVEL": 50
   },
   "Favor": {
-    "ENABLE_FAVOR_SYSTEM": true,
+    "ENABLE_FAVOR_SYSTEM": false,
     "FAVOR_GAIN_PER_CHEST_LOOTED": 25.0
   },
   "LevelRewards": {

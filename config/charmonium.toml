@@ -20,6 +20,8 @@
 	"Village ambience" = true
 	#If true, plays ambience when the player is in the End dimension.
 	"End ambience" = true
+	#If true, plays ambience when the player is in a badlands biome.
+	"Badlands ambience" = true
 	#If true, plays ambience when the player is in a beach biome.
 	"Beach ambience" = true
 	#If true, plays ambience when the player is in a desert biome.

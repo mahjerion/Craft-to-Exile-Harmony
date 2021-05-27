@@ -7,20 +7,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.2.1] - 2021-05-27
+
 ### Updates
 - New mob type: Mimics! Rarely find these creatures in place of chests. Upon interaction, they'll come to life and attack you. Killing them will drop loot! If you kill enough of them, you may be able to have one as a pet... :)
 - New cave, mineshaft, and stronghold generation thanks to YUNG's mods!
 - Improved compatibility of Enchantment Descriptions.
 - Death chest is now a white shulker box instead of the vanilla chest.
 - Animals and villagers should be interactable in claims by default.
+- Spawner mobs now give 75% of their EXP and drops instead of 50%, but are only active for 5 minutes at a time. The cooldown for spawners is currently 1 hour.
+- The favor system has been disabled.
 
 ### Mod Updates
-- Updated BetterEnd, Origins, Architectury, DragonLoot, Fabric API, Gunpowder, FlytreLib, Cloth Config API, FLAN, KubeJS, Rhino, WTHIT, Xaero's, BYG, Cardinal Components, Enchantment Descriptions, Player Events, The Bumblezone.
+- Updated BetterEnd, Origins, Architectury, DragonLoot, Fabric API, Gunpowder, FlytreLib, Cloth Config API, FLAN, KubeJS, Rhino, WTHIT, Xaero's, BYG, Cardinal Components, Enchantment Descriptions, Player Events, The Bumblezone, Patchouli, Go Fish, Clear Skies, Fast Furnace for Fabric, Adorn, Wolves With Armor, Age of Exile, Balance of Exile, Charm, Charmonium, Compact Status Effects, Dank Storage Fabric, Library of Exile, Dynamic FPS, Illuminations, Light Overlay, MaLiLib, Music Duration Reducer, Pet Owner, RandomPatches.
 - Added YUNG's mods: Better Caves, Better Mineshafts, Better Strongholds, and API.
 - Added Mimics.
+- Removed Disable Custom Worlds Advice - Random Patches now takes care of this.
 
 ### Fixes
 - Death chests should now be interactable in claims.
+- Some Dank issues should be fixed.
 
 ## [2.2.0b] - 2021-05-06
 
