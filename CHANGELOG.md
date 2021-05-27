@@ -27,6 +27,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixes
 - Death chests should now be interactable in claims.
 - Some Dank issues should be fixed.
+- Fixed a bug with no XP gain when a certain amount of favor was reached.
 
 ## [2.2.0b] - 2021-05-06
 
