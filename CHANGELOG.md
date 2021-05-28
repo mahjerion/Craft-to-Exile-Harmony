@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Mod Updates
+- Updated FlytreLib, Player Events, Architectury, REI, Xaero's Minimap.
+
 ## [2.2.1b] - 2021-05-27
 
 ### Mod Updates
