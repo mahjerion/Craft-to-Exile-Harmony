@@ -7,14 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [2.2.1c] - 2021-05-29
-
 ### Mod Updates
 - Updated FlytreLib, Player Events, Architectury, REI, Xaero's Minimap.
-- Downgraded Fabric API, Cardinal Components, Library of Exile.
-
-### Fixes
-- Fixed issue with Age of Exile items for real this time, probably.
 
 ## [2.2.1b] - 2021-05-27
 
