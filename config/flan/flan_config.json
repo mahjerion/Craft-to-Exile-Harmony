@@ -22,5 +22,7 @@
       "ANIMALINTERACT": true
     }
   },
-  "enableLogs": false
+  "enableLogs": false,
+  "sellPrice": -1,
+  "buyPrice": -1
 }

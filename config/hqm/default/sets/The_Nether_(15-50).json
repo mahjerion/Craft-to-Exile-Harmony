@@ -592,8 +592,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 0,
-        "hours": 1
+        "days": 1,
+        "hours": 0
       },
       "tasks": [
         {
@@ -661,7 +661,7 @@
       "x": 117,
       "y": 114,
       "icon": {
-        "id": "adventurez:gilded_stone_item",
+        "id": "adventurez:gilded_stone",
         "Count": 1
       },
       "tasks": [
@@ -670,12 +670,12 @@
           "description": "Killing Task",
           "mobs": [
             {
-              "name": "Blackstone Golem",
+              "name": "Mini Blackstone Golem",
               "icon": {
                 "id": "adventurez:stone_golem_heart",
                 "Count": 1
               },
-              "mob": "adventurez:stone_golem",
+              "mob": "adventurez:small_stone_golem",
               "kills": 1
             }
           ]
@@ -777,8 +777,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 0,
-        "hours": 1
+        "days": 1,
+        "hours": 0
       },
       "tasks": [
         {
@@ -881,8 +881,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 0,
-        "hours": 1
+        "days": 1,
+        "hours": 0
       },
       "tasks": [
         {
@@ -1233,8 +1233,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 0,
-        "hours": 1
+        "days": 1,
+        "hours": 0
       },
       "tasks": [
         {
@@ -1462,8 +1462,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 0,
-        "hours": 1
+        "days": 1,
+        "hours": 0
       },
       "tasks": [
         {
@@ -1498,12 +1498,12 @@
               "kills": 1
             },
             {
-              "name": "Blackstone Golem",
+              "name": "Mini Blackstone Golem",
               "icon": {
                 "id": "adventurez:stone_golem_heart",
                 "Count": 1
               },
-              "mob": "adventurez:stone_golem",
+              "mob": "adventurez:small_stone_golem",
               "kills": 1
             }
           ]
