@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.2.1c] - 2021-06-01
+
 ### Updates
 - New mobs from AdventureZ!
 
@@ -14,6 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Updated FlytreLib, Player Events, Architectury, REI, Xaero's Minimap, AdventureZ, WTHIT, Adorn, Flan.
 
 ### Fixes
+- Fixed some uncompletable quests (hopefully).
 - Several small Flan fixes.
 
 ## [2.2.1b] - 2021-05-27
