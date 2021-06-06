@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#C#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "tag": "mmorpg:currency/reroll_unique_numbers"
+        },
+        "C": {
+            "item": "mimics:mimic_core"
+        }
+    },
+    "result": {
+        "item": "mimics:mimic",
+        "count": 1
+    }
+}

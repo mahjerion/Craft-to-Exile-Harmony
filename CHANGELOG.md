@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.2.1d] - 2021-06-06
+
+### Updates
+- Mimic recipe is now a lot more expensive.
+- Mimic cores now have a 5% drop chance.
+
+### Mod Updates
+- Updated KubeJS, AdventureZ, REI, Repurposed Structures.
+
+### Fixes
+- Thrown rock crash fixed.
+
 ## [2.2.1c] - 2021-06-01
 
 ### Updates
