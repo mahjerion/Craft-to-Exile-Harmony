@@ -8,7 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Mod Updates
-- Updated AdventureZ, Repurposed Structures, The Bumblezone.
+- Updated AdventureZ, Repurposed Structures, The Bumblezone, Roughly Enough Resources, Lithium.
 
 ## [2.2.1d] - 2021-06-06
 
