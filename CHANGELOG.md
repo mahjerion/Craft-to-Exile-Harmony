@@ -8,7 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Mod Updates
-- Updated AdventureZ, Repurposed Structures, The Bumblezone, Roughly Enough Resources, Lithium.
+- Updated AdventureZ, Repurposed Structures, The Bumblezone, Roughly Enough Resources, Lithium, Gunpowder, YUNG's Better Mineshafts, FLAN, Fabric API, Rhino, KubeJS.
 
 ## [2.2.1d] - 2021-06-06
 
