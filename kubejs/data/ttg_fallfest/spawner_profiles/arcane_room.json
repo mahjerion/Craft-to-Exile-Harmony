@@ -26,8 +26,7 @@
     {
       "entities": [
         "mmorpg:arcane_zombie",
-        "mmorpg:arcane_spider",
-        "mmorpg:healer_mage"
+        "mmorpg:arcane_spider"
       ],
       "minMobCount": 7,
       "maxMobCount": 11
@@ -35,8 +34,7 @@
     {
       "entities": [
         "mmorpg:arcane_zombie",
-        "mmorpg:arcane_spider",
-        "mmorpg:healer_mage"
+        "mmorpg:arcane_spider"
       ],
       "minMobCount": 9,
       "maxMobCount": 13

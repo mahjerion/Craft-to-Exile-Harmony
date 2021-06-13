@@ -37,8 +37,7 @@
       "entities": [
         "mmorpg:thunder_skeleton",
         "mmorpg:thunder_zombie",
-        "mmorpg:thunder_chicken",
-        "mmorpg:healer_mage"
+        "mmorpg:thunder_chicken"
       ],
       "minMobCount": 11,
       "maxMobCount": 15

@@ -37,8 +37,7 @@
       "entities": [
         "mmorpg:water_skeleton",
         "mmorpg:water_zombie",
-        "mmorpg:water_chicken",
-        "mmorpg:healer_mage"
+        "mmorpg:water_chicken"
       ],
       "minMobCount": 11,
       "maxMobCount": 15

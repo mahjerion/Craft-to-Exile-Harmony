@@ -326,8 +326,8 @@
       },
       "tasks": [
         {
-          "type": "CRAFT",
-          "description": "Crafting Task",
+          "type": "DETECT",
+          "description": "Detection Task",
           "items": [
             {
               "item": {

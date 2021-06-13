@@ -131,4 +131,5 @@ events.listen('rei.hide.items', function (event) {
   event.hide('campanion:camping_pack')
   event.hide('campanion:hiking_pack')
   event.hide('crimsonmoon:scarlet_tear')
+  event.hide('dankstorage:dock')
 })

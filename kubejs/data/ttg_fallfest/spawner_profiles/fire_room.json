@@ -37,8 +37,7 @@
       "entities": [
         "mmorpg:fire_skeleton",
         "mmorpg:fire_zombie",
-        "mmorpg:fire_chicken",
-        "mmorpg:healer_mage"
+        "mmorpg:fire_chicken"
       ],
       "minMobCount": 11,
       "maxMobCount": 15

@@ -45,18 +45,24 @@
   "adminDeleteAll": "Deleted all claims for following players: %s",
   "setAdminClaim": "Adminclaim of this claim now: %s",
   "readGriefpreventionData": "Reading data from GriefPrevention",
-  "readGriefpreventionDataSuccess": "Successfully read data",
+  "readGriefpreventionClaimDataSuccess": "Successfully read claim data",
+  "readGriefpreventionPlayerDataSuccess": "Successfully read player data",
+  "cantFindData": "No griefprevention data at %s",
   "errorFile": "Error reading file %s",
   "readConflict": "%1$s conflicts with existing claims. Not added to world! Conflicts:",
   "giveClaimBlocks": "Gave following players %2$d claimblocks: %1$s",
   "claimBasicInfo": "Owner: %1$s, from: [x=%2$d,z=%3$d] to [x=%4$d,z=%5$d]; Subclaim-amount: %6$d",
+  "claimBasicInfoNamed": "Claim: %7$s, Owner: %1$s, from: [x=%2$d,z=%3$d] to [x=%4$d,z=%5$d]; Subclaim-amount: %6$d",
   "claimSubHeader": "==SubclaimInfo==",
   "claimBasicInfoSub": "Owner: %1$s, from: [x=%2$d,z=%3$d] to [x=%4$d,z=%5$d]",
+  "claimBasicInfoSubNamed": "Claim: %6$s, Owner: %1$s, from: [x=%2$d,z=%3$d] to [x=%4$d,z=%5$d]",
   "claimInfoPerms": "Permissions: %s",
   "claimGroupInfoHeader": "Groups: ",
   "claimGroupPerms": "    Permissions: %s",
   "claimGroupPlayers": "    Players: %s",
   "helpHeader": "Available subcommands are (page %d):",
+  "helpCmdHeader": "====================",
+  "helpCmdSyntax": "Syntax: %s",
   "screenEnableText": "Enabled: %s",
   "screenUneditable": "Non Editable!",
   "screenClose": "Close",
@@ -85,6 +91,15 @@
   "sellSuccess": "Sold %1$s claimblocks for %2$s",
   "buySuccess": "Bought %1$s claimblocks for %2$s",
   "gunpowderMissing": "Missing gunpowder currency mod",
+  "trappedRescue": "Rescuing. Don't move for 5 seconds",
+  "trappedFail": "Rescue not necessary or already rescuing",
+  "trappedMove": "You moved. Aborting rescue",
+  "unlockDropsCmd": "Your deathitems are protected. Use %s to unlock them for other players",
+  "unlockDrops": "Your deathitems are now unlocked for %s ticks",
+  "unlockDropsMulti": "Unlocked drops for %s",
+  "claimNameSet": "Claims name set to %s",
+  "claimNameUsed": "The owner of the claim already has another claim with the same name",
+  "claimNameUsedSub": "One of the subclaim of this claim already has this name",
   "EDITCLAIM.desc": "Gives permission to edit (resize, delete...) the claim",
   "EDITPERMS.desc": "Gives permission to change the claims permissions",
   "BREAK.desc": "Permission to break blocks in the claim",
@@ -124,6 +139,8 @@
   "BREAKNONLIVING.desc": "Permission to break things like minecarts or armor stands",
   "DROP.desc": "Allow the drop of items",
   "PICKUP.desc": "Allow the pickup of items",
+  "FLIGHT.desc": "Allow non creative flight",
+  "CANSTAY.desc": "Allow player to enter your claim",
   "HURTPLAYER.desc": "Permission to hurt other players",
   "EXPLOSIONS.desc": "Toggle explosions in claim",
   "WITHER.desc": "Toggle wither breaking blocks in claim",
@@ -133,5 +150,108 @@
   "WATERBORDER.desc": "Toggle water crossing claim borders",
   "PISTONBORDER.desc": "Toggle piston pull/push across claim borders",
   "MOBSPAWN.desc": "Prevent mobspawn in claim",
-  "ANIMALSPAWN.desc": "Prevent other spawn in claim"
+  "ANIMALSPAWN.desc": "Prevent other spawn in claim",
+  "commands": {
+    "claimInfo": [
+      "claimInfo",
+      "Prints infos about the claim you're standing in."
+    ],
+    "delete": [
+      "delete",
+      "Deletes the current claim."
+    ],
+    "readGriefPrevention": [
+      "readGriefPreventionData",
+      "Parses data from the GriefPrevention plugin to Flan."
+    ],
+    "deleteAllSubClaims": [
+      "deleteAllSubClaims",
+      "Deletes all subclaim of the current claim."
+    ],
+    "addClaim": [
+      "addClaim <x y z> <x y z>",
+      "Creates a claim with the given positions. Same as using the claim tool."
+    ],
+    "personalGroups": [
+      "personalGroups",
+      "Opens the gui to edit personal groups."
+    ],
+    "reload": [
+      "reload",
+      "Reloads the config ingame."
+    ],
+    "adminDelete": [
+      "adminDelete [all <player>]",
+      "Force deletes the current claim or deletes all claims from the specified player."
+    ],
+    "adminMode": [
+      "adminMode",
+      "Switches to admin mode ignoring all claims."
+    ],
+    "sellBlocks": [
+      "sellBlocks <amount>",
+      "Sells <amount> claimblocks. Needs gunpowder currency installed."
+    ],
+    "group": [
+      "group (add | remove <name>) | (players add | remove <player> [overwrite])",
+      "- Adds/removes the group with that name. Also editable via the claim menu.",
+      "- Adds/remove a player to the group. If overwrite then will overwrite the players current group else does nothing. Also editable via the claim menu."
+    ],
+    "buyBlocks": [
+      "buyBlocks <amount>",
+      "Buys <amount> claimblocks. Needs gunpowder currency installed."
+    ],
+    "trapped": [
+      "trapped",
+      "If in a claim not owned by the player attempts to teleport the player out of it after 5 seconds."
+    ],
+    "deleteAll": [
+      "deleteAll",
+      "Deletes all your claims (you need to double type to confirm it so no accidents)."
+    ],
+    "unlockDrops": [
+      "unlockDrops <players>",
+      "Unlocks dropped items from death so other players can pick them up too. Or all of the given players (needs OP)"
+    ],
+    "permission": [
+      "permission {global | (group <name>) | (personal <name>)} <permission> true | false | default",
+      " Sets global/group/personal permissions. Also editable via the claim menu (for group perm right click on the group in the menu)."
+    ],
+    "menu": [
+      "menu",
+      "When standing in a claim you have permissions for opens the claim menu."
+    ],
+    "list": [
+      "list <player>",
+      "Lists all claims you have. If op also gives ability to list other players claims."
+    ],
+    "listAdminClaims": [
+      "listAdminClaim",
+      "Lists all admin claims in the current world."
+    ],
+    "help": [
+      "help <page> | (cmd <command>)",
+      "Shows all available commands or info for the given command."
+    ],
+    "setAdminClaim": [
+      "setAdminClaim",
+      "Sets a claim to an admin claim."
+    ],
+    "transferClaim": [
+      "transferClaim <player>",
+      "Gives ownership of the claim to the specified player. Only works if you're the claim owner."
+    ],
+    "giveClaimBlocks": [
+      "giveClaimBlocks <amount>",
+      "Gives a player additional claim blocks."
+    ],
+    "deleteSubClaim": [
+      "deleteSubClaim",
+      "Deletes the current subclaim."
+    ],
+    "switchMode": [
+      "switchMode",
+      "Switch between normal and subclaim mode."
+    ]
+  }
 }

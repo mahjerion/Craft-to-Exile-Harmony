@@ -37,8 +37,7 @@
       "entities": [
         "mmorpg:nature_skeleton",
         "mmorpg:nature_zombie",
-        "mmorpg:nature_chicken",
-        "mmorpg:healer_mage"
+        "mmorpg:nature_chicken"
       ],
       "minMobCount": 11,
       "maxMobCount": 15

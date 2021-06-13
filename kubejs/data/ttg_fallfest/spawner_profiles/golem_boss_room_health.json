@@ -67,8 +67,7 @@
         "mmorpg:water_skeleton",
         "mmorpg:fire_skeleton",
         "mmorpg:thunder_skeleton",
-        "mmorpg:nature_skeleton",
-		"mmorpg:healer_mage"
+        "mmorpg:nature_skeleton"
       ],
       "minMobCount": 9,
       "maxMobCount": 13

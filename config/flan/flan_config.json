@@ -9,9 +9,10 @@
     "minecraft:white_shulker_box"
   ],
   "lenientBlockEntityCheck": false,
+  "blockEntityTagIgnore": [],
+  "entityTagIgnore": [],
   "blacklistedWorlds": [],
   "worldWhitelist": false,
-  "allowMobSpawnToggle": false,
   "claimingItem": "minecraft:golden_hoe",
   "inspectionItem": "minecraft:stick",
   "claimDisplayTime": 1000,
@@ -19,10 +20,12 @@
   "defaultGroups": {},
   "globalDefaultPerms": {
     "minecraft:overworld": {
-      "ANIMALINTERACT": true
+      "ANIMALINTERACT": "ALLTRUE"
     }
   },
   "enableLogs": false,
   "sellPrice": -1,
-  "buyPrice": -1
+  "buyPrice": -1,
+  "lockDrops": true,
+  "dropTicks": 6000
 }

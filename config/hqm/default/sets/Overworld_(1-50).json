@@ -390,8 +390,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 7,
-        "hours": 0
+        "days": 0,
+        "hours": 7
       },
       "tasks": [
         {
@@ -610,8 +610,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 1,
-        "hours": 0
+        "days": 0,
+        "hours": 1
       },
       "tasks": [
         {
@@ -922,8 +922,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 1,
-        "hours": 0
+        "days": 0,
+        "hours": 1
       },
       "tasks": [
         {
@@ -992,8 +992,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 1,
-        "hours": 0
+        "days": 0,
+        "hours": 1
       },
       "tasks": [
         {
@@ -1364,7 +1364,7 @@
     {
       "uuid": "776e6acb-8edd-40fc-9b77-2cb07591d60d",
       "name": "Storage Options",
-      "description": "You will quickly find yourself running out of space due to all the loot Age of Exile brings. Iron Chests are one of the more popular storage options available in [Harmony]! Additionally, Dank Storage is an extremely versatile storage option. They can be used as backpacks, and chests, and ignore the standard limit of 64 per stack!",
+      "description": "You will quickly find yourself running out of space due to all the loot Age of Exile brings. Iron Chests are one of the more popular storage options available in [Harmony]! Additionally, Dank Storage is an extremely versatile storage option. They can be used as backpacks and ignore the standard limit of 64 per stack!",
       "x": 85,
       "y": 16,
       "icon": {
@@ -1388,12 +1388,6 @@
                 "Count": 1
               },
               "precision": "TAG_NBT_FUZZY"
-            },
-            {
-              "item": {
-                "id": "dankstorage:dock",
-                "Count": 1
-              }
             },
             {
               "item": {
@@ -1513,8 +1507,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 1,
-        "hours": 0
+        "days": 0,
+        "hours": 1
       },
       "tasks": [
         {
@@ -1827,8 +1821,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 1,
-        "hours": 0
+        "days": 0,
+        "hours": 1
       },
       "tasks": [
         {
@@ -1945,8 +1939,8 @@
       },
       "repeat": {
         "type": "TIME",
-        "days": 1,
-        "hours": 0
+        "days": 0,
+        "hours": 1
       },
       "tasks": [
         {
