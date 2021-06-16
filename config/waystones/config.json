@@ -29,20 +29,20 @@
     "waystone_scroll": {
       "type": "minecraft:crafting_shaped",
       "pattern": [
-		"/P/",
-		"POP",
-		"/P/"
+        "/P/",
+        "POP",
+        "/P/"
       ],
       "key": {
-		"/": {
-		  "item": "minecraft:stick"
-		},
-		"P": {
-		  "item": "minecraft:paper"
-		},
-		"O": {
-		  "item": "mmorpg:mat/salvage/salvage0"
-		}
+        "/": {
+          "item": "minecraft:stick"
+        },
+        "P": {
+          "item": "minecraft:paper"
+        },
+        "O": {
+          "item": "mmorpg:mat/salvage/salvage0"
+        }
       },
       "result": {
         "item": "waystones:waystone_scroll",

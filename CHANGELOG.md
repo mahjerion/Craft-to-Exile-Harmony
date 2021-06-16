@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Waystones had a rewrite and should be a lot more stable (a lot of the previous bugs have been squashed). Still be on the lookout for new bugs though.
 - Disabled the Dank dock recipe. Was not working properly and the author isn't going to fix it for 1.16.
 - Removed Dank dock from quest.
+- FLAN now deletes inactive claims after 30 days. This only applies if you have less than 5000 blocks worth of claims.
 
 ### Mod Updates
 - Updated AdventureZ, Repurposed Structures, The Bumblezone, Roughly Enough Resources, Lithium, Gunpowder, YUNG's Better Mineshafts, FLAN, Fabric API, Rhino, KubeJS, Architectury, WTHIT, Waystones.

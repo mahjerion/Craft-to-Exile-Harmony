@@ -70,10 +70,12 @@
   "screenPrevious": "Prev",
   "screenAdd": "Add",
   "screenBack": "Back",
+  "screenNoPerm": "No Permission",
   "screenMenu": "Claim-Menu",
   "screenMenuSub": "SubClaim-Menu",
   "screenMenuGlobal": "Edit Global Permissions",
   "screenMenuGroup": "Edit Permissiongroups",
+  "screenMenuPotion": "Edit Potioneffects",
   "screenMenuDelete": "Delete Claim",
   "screenConfirm": "Confirm",
   "screenYes": "Yes",
@@ -100,8 +102,12 @@
   "claimNameSet": "Claims name set to %s",
   "claimNameUsed": "The owner of the claim already has another claim with the same name",
   "claimNameUsedSub": "One of the subclaim of this claim already has this name",
+  "setHome": "Claim home set to [x=%s,y=%s,z=%s]",
+  "teleportHome": "Teleporting to claim home. Don't move for 5 seconds",
+  "teleportHomeFail": "Teleport already happening",
   "EDITCLAIM.desc": "Gives permission to edit (resize, delete...) the claim",
   "EDITPERMS.desc": "Gives permission to change the claims permissions",
+  "EDITPOTIONS.desc": "Gives permission to edit the claims potion effect",
   "BREAK.desc": "Permission to break blocks in the claim",
   "PLACE.desc": "Permission to place blocks in the claim",
   "OPENCONTAINER.desc": "Permission to open containers (chest, furnace etc.)",
@@ -141,6 +147,8 @@
   "PICKUP.desc": "Allow the pickup of items",
   "FLIGHT.desc": "Allow non creative flight",
   "CANSTAY.desc": "Allow player to enter your claim",
+  "TELEPORT.desc": "Allow player to teleport to your claim home position",
+  "NOHUNGER.desc": "Disable hunger",
   "HURTPLAYER.desc": "Permission to hurt other players",
   "EXPLOSIONS.desc": "Toggle explosions in claim",
   "WITHER.desc": "Toggle wither breaking blocks in claim",
@@ -152,6 +160,10 @@
   "MOBSPAWN.desc": "Prevent mobspawn in claim",
   "ANIMALSPAWN.desc": "Prevent other spawn in claim",
   "commands": {
+    "teleport": [
+      "teleport self | admin | (other <player>) (<claim name> | <claim uuid>)",
+      "Teleport to the given claims home position. Use admin to teleport to admin claims"
+    ],
     "claimInfo": [
       "claimInfo",
       "Prints infos about the claim you're standing in."
@@ -217,6 +229,10 @@
       "permission {global | (group <name>) | (personal <name>)} <permission> true | false | default",
       " Sets global/group/personal permissions. Also editable via the claim menu (for group perm right click on the group in the menu)."
     ],
+    "setHome": [
+      "setHome",
+      "Standing in a claim with sufficient permission sets that claims home to the players position"
+    ],
     "menu": [
       "menu",
       "When standing in a claim you have permissions for opens the claim menu."
@@ -248,6 +264,10 @@
     "deleteSubClaim": [
       "deleteSubClaim",
       "Deletes the current subclaim."
+    ],
+    "name": [
+      "name self <name>",
+      "Sets the current claims name"
     ],
     "switchMode": [
       "switchMode",
