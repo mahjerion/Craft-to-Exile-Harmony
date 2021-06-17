@@ -7,14 +7,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [2.2.2b] - 2021-06-17
-
-### Mod Updates
-- Downgraded Fabric API, Rhino, KubeJS.
-
-### Fixes
-- Repeated crash should be fixed.
-
 ## [2.2.2] - 2021-06-17
 
 ### Updates
