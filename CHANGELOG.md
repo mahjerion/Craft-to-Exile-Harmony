@@ -11,7 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Small update that should improve preformance a bit.
 
 ### Mod Updates
-- Updated The Bumblezone, FLAN.
+- Updated The Bumblezone, FLAN, BetterEnd.
 - Added Entity Culling.
 - Added FerriteCore.
 
