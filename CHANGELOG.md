@@ -10,7 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [2.2.3] - 2021-06-25
 
 ### Updates
-- Small update that should improve preformance a bit.
+- Small update that should improve performance a bit.
 
 ### Mod Updates
 - Updated The Bumblezone, FLAN, BetterEnd, Patchouli, KubeJS, Architectury.
