@@ -7,8 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.2.4b] - 2021-07-28
+
+### Fixes
+- Set default Fabric loader version to the correct one through Jumploader configs.
+
+## [2.2.4] - 2021-07-28
+
 ### Mod Updates
-- Updated FLAN, Xaero's.
+- Updated FLAN, Xaero's, Art of Alchemy, BCLib, Better Ping Display, Iron Chests, Mod Menu.
 
 ### Fixes
 - Fixed Ender Heart being uncraftable.
