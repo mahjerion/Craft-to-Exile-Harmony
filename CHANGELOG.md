@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.2.5] - 2021-10-12
+
+### Fixes
+- Modpack now uses Fabric loader correctly instead of having to use Jumploader through Forge. This should fix problems when starting the modpack, especially with MultiMC.
+
 ## [2.2.4b] - 2021-07-28
 
 ### Fixes
