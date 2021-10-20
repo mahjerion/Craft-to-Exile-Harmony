@@ -10,10 +10,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [2.3.0] - 2021-10-20
 
 ### Known Issues
+- NOTE: It is HIGHLY recommended that you make a NEW WORLD for this update.
 - Creating a new singleplayer world often results in a crash. To resolve this issue, go into your modpack folder, then your saves folder, then find the new world you just created. Delete the "hqm" folder, then boot up the modpack and try joining the world again. This should fix it.
 
 ### Updates
-- NOTE: It is HIGHLY recommended that you make a NEW WORLD for this update.
 - 3 new bosses have been added through Bosses of Mass Destruction, each with their own very unique mechanics! Find the Night Lich in cold biomes in the Overworld, the Nether Gauntlet in the Nether, and Obsidilith on End islands! These new powerful bosses provide even more loot than other bosses and have new and interesting mechanics!
 - Added new quests for the new bosses.
 - Added a new weekly quest for the new bosses. Kill the bosses every week for unique crates!
