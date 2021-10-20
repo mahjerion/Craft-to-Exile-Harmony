@@ -515,8 +515,8 @@
     },
     {
       "uuid": "ee5aa080-a916-4de6-aadb-72b37034b76f",
-      "name": "The End",
-      "description": "Defeat the Ender Dragon and access the islands of the void!",
+      "name": "The End (Lv. 30)",
+      "description": "Defeat the Ender Dragon and access the islands of the void! The Ender Dragon deals thunder damage and has resistances to thunder. It takes extra damage from nature, however!",
       "x": 21,
       "y": 14,
       "bigicon": true,
@@ -826,6 +826,48 @@
         {
           "id": "mmorpg:mat/salvage/salvage4",
           "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "fa8a190e-fc8c-4ad3-8100-73dbd965c7fb",
+      "name": "The Obsidilith (Lv. 50)",
+      "description": "The Obsidilith is a multi-elemental entity that spawns rarely on End islands. This \"thing\" deals water, thunder, and fire damage, and also has resistances to those elements. This boss has enhanced drops and XP.",
+      "x": 21,
+      "y": 110,
+      "bigicon": true,
+      "icon": {
+        "id": "bosses_of_mass_destruction:obsidian_heart",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "description": "Killing Task",
+          "mobs": [
+            {
+              "name": "Obsidilith",
+              "icon": {
+                "id": "bosses_of_mass_destruction:obsidian_heart",
+                "Count": 1
+              },
+              "mob": "bosses_of_mass_destruction:obsidilith",
+              "kills": 1
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "ee5aa080-a916-4de6-aadb-72b37034b76f",
+        "bfb79a26-0276-4afc-8b2c-e7bef2564d44"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:loot_crate/unique",
+          "Count": 3
         }
       ],
       "rewardchoice": [],

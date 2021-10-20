@@ -2,6 +2,51 @@
   "name": "Overworld (1-50)",
   "quests": [
     {
+      "uuid": "59991383-829c-49a6-a60d-e28f2ccd6b6d",
+      "name": "Eternal Night (Lv. 20)",
+      "description": "Summon the Night Lich by placing the Soul Stars in the pedestals in the tower. Be careful, the Night Lich is a powerful flying creature that deals water and nature damage. It is resistant to those elements as well, but takes extra damage from fire! This boss has enhanced drops and XP.",
+      "x": 145,
+      "y": 174,
+      "bigicon": true,
+      "icon": {
+        "id": "bosses_of_mass_destruction:mob_ward",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "description": "Killing Task",
+          "mobs": [
+            {
+              "name": "Night Lich",
+              "icon": {
+                "id": "bosses_of_mass_destruction:soul_star",
+                "Count": 1
+              },
+              "mob": "bosses_of_mass_destruction:lich",
+              "kills": 1
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "39609e8a-0ce4-4fdd-a03e-957930fad9ea"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "bosses_of_mass_destruction:soul_star",
+          "Count": 5
+        },
+        {
+          "id": "mmorpg:loot_crate/unique",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "35178b05-9dfd-4fee-beab-0c1cf49fcf2a",
       "name": "I Summon Thee!",
       "description": "Summoners are powerful creatures that can be found randomly in the Overworld. They usually spawn where a storm is brewing...",
@@ -46,43 +91,52 @@
       "commandrewards": []
     },
     {
-      "uuid": "75c6970b-2356-463e-8cc9-aa00440042a4",
-      "name": "Next Steps",
-      "description": "Defeat the Wither to access these daily quests.",
-      "x": 201,
-      "y": 45,
-      "bigicon": true,
+      "uuid": "39609e8a-0ce4-4fdd-a03e-957930fad9ea",
+      "name": "Soul Herder",
+      "description": "Every 50 or so mob kills grants you a Soul Star. These Soul Stars can be used to summon the Night Lich, found in towers in cold biomes in the Overworld. Use the Soul Star like you would an Ender Eye to locate a tower.",
+      "x": 116,
+      "y": 177,
       "icon": {
-        "id": "minecraft:wither_rose",
+        "id": "bosses_of_mass_destruction:soul_star",
         "Count": 1
       },
       "tasks": [
         {
-          "type": "KILL",
-          "description": "Killing Task",
-          "mobs": [
+          "type": "DETECT",
+          "description": "Detection Task",
+          "items": [
             {
-              "name": "Wither",
-              "icon": {
-                "id": "minecraft:wither_rose",
+              "item": {
+                "id": "bosses_of_mass_destruction:soul_star",
                 "Count": 1
               },
-              "mob": "minecraft:wither",
-              "kills": 1
+              "required": 30,
+              "precision": "TAG_NBT_FUZZY"
             }
           ]
         }
       ],
-      "prerequisites": [],
+      "prerequisites": [
+        "00f8f61e-1536-4f72-93d9-b947301788a1"
+      ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "mmorpg:loot_crate/rare",
+          "Count": 1
+        },
+        {
+          "id": "mmorpg:mat/salvage/salvage3",
+          "Count": 1
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     },
     {
       "uuid": "653d9478-e9a6-46f6-8133-285c8de5b695",
       "name": "Setting Up Camp",
-      "description": "in [Harmony], invasions occur every few days in the form of blood moons. Trap Expansion is a mod that brings various traps to help you defend against invasions in your home!",
+      "description": "In [Harmony], invasions occur every few days in the form of blood moons. Trap Expansion is a mod that brings various traps to help you defend against invasions in your home. Do note that these traps are less effective past lower levels, as they deal flat damage.",
       "x": 54,
       "y": 48,
       "icon": {
@@ -132,8 +186,8 @@
     },
     {
       "uuid": "00f8f61e-1536-4f72-93d9-b947301788a1",
-      "name": "Despair",
-      "description": "Age of Exile brings its own Overworld boss known as the Corrupted Golem. To learn how to craft the golem, view the Age of Exile guide.",
+      "name": "Despair (Lv. 10)",
+      "description": "Age of Exile brings its own Overworld boss known as the Corrupted Golem. To learn how to craft the golem, view the Age of Exile guide. This boss spawns at a minimum of level 10, as indicated by the level in the title. Other boss quests will have their minimum level at which they spawn indicated in their titles, too.",
       "x": 82,
       "y": 174,
       "bigicon": true,
@@ -305,40 +359,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "36d80ef2-0316-497f-a2a8-e5de92d2f62b",
-      "name": "Epilogue",
-      "description": "Defeat the Ender Dragon to access this weekly quest.",
-      "x": 263,
-      "y": 45,
-      "bigicon": true,
-      "icon": {
-        "id": "minecraft:dragon_head",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "KILL",
-          "description": "Killing Task",
-          "mobs": [
-            {
-              "name": "Ender Dragon",
-              "icon": {
-                "id": "minecraft:dragon_head",
-                "Count": 1
-              },
-              "mob": "minecraft:ender_dragon",
-              "kills": 1
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "dc35dbe5-3f2b-4018-8098-26e15fce5ad8",
       "name": "Tastes Like One Though",
       "description": "Many of the fish in Go Fish are cookable into unique dishes. Check out the REI for more information! Just search \"@gofish\".",
@@ -382,7 +402,7 @@
       "uuid": "8330ae49-0754-4e25-91dc-d5ed15704747",
       "name": "Boss Me Around! (Weekly)",
       "description": "Defeat all the bosses for an awesome reward!",
-      "x": 266,
+      "x": 251,
       "y": 80,
       "icon": {
         "id": "origins:orb_of_origin",
@@ -570,14 +590,6 @@
           "items": [
             {
               "item": {
-                "id": "waystones:empty_scroll",
-                "Count": 4
-              },
-              "required": 4,
-              "precision": "TAG_NBT_FUZZY"
-            },
-            {
-              "item": {
                 "id": "waystones:pocket_wormhole",
                 "Count": 1
               }
@@ -596,80 +608,6 @@
         }
       ],
       "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "cc9a24a8-8176-4fd4-93d6-f202a987ee92",
-      "name": "Thunder Attribute (Daily)",
-      "description": "Kill thunder mobs. Thunder mobs can be found more commonly in mountainous biomes.",
-      "x": 251,
-      "y": 16,
-      "icon": {
-        "id": "mmorpg:gear_mat/essences/thunder",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "TIME",
-        "days": 1,
-        "hours": 0
-      },
-      "tasks": [
-        {
-          "type": "KILL",
-          "description": "Killing Task",
-          "mobs": [
-            {
-              "name": "Spark Zombie",
-              "icon": {
-                "id": "minecraft:zombie_head",
-                "Count": 1
-              },
-              "mob": "mmorpg:thunder_zombie",
-              "kills": 10
-            },
-            {
-              "name": "Spark Skeleton",
-              "icon": {
-                "id": "minecraft:skeleton_skull",
-                "Count": 1
-              },
-              "mob": "mmorpg:thunder_skeleton",
-              "kills": 10
-            },
-            {
-              "name": "Spark Spider",
-              "icon": {
-                "id": "minecraft:spider_eye",
-                "Count": 1
-              },
-              "mob": "mmorpg:thunder_spider",
-              "kills": 10
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "mmorpg:gear_mat/essences/thunder",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [
-        {
-          "id": "minecraft:iron_block",
-          "Count": 3
-        },
-        {
-          "id": "minecraft:diamond_block",
-          "Count": 1
-        },
-        {
-          "id": "minecraft:emerald_block",
-          "Count": 1
-        }
-      ],
       "commandrewards": []
     },
     {
@@ -832,85 +770,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "de27675e-9006-4d74-874d-6c2417d77562",
-      "name": "Just Vanilla",
-      "description": "Like most Minecraft scendarios, one of the first things you do is craft a crafting table. Upon completing this quest, you will be able to choose from 4 starter weapons!",
-      "x": 24,
-      "y": 16,
-      "icon": {
-        "id": "minecraft:crafting_table",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "DETECT",
-          "description": "Detection Task",
-          "items": [
-            {
-              "item": {
-                "id": "minecraft:crafting_table",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "patchouli:guide_book",
-          "Count": 1,
-          "tag": {
-            "patchouli:book": "mmorpg:age_of_exile_guide"
-          }
-        },
-        {
-          "id": "minecraft:apple",
-          "Count": 5
-        },
-        {
-          "id": "minecraft:cooked_porkchop",
-          "Count": 3
-        },
-        {
-          "id": "mmorpg:mat/salvage/salvage0",
-          "Count": 8
-        }
-      ],
-      "rewardchoice": [
-        {
-          "id": "mmorpg:weapon/sword/sword0",
-          "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
-        },
-        {
-          "id": "minecraft:bow",
-          "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
-        },
-        {
-          "id": "mmorpg:weapon/wand/wand0",
-          "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
-        },
-        {
-          "id": "mmorpg:weapon/wand/scepter0",
-          "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
-        }
-      ],
-      "commandrewards": []
-    },
-    {
       "uuid": "8aad9b45-fa38-403d-b197-90c84fe41bc1",
       "name": "Nature Attribute (Daily)",
       "description": "Kill nature mobs. Nature mobs can be found more commonly in forest and jungle biomes.",
@@ -976,6 +835,764 @@
         {
           "id": "mmorpg:identify_tome",
           "Count": 16
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "9a3331e6-b398-4855-85c1-656060ac5a89",
+      "name": "A Hefty Price",
+      "description": "So you want to change your Ascendancy? You can... but at what cost?",
+      "x": 24,
+      "y": 177,
+      "icon": {
+        "id": "origins:orb_of_origin",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Consume Task",
+          "items": [
+            {
+              "item": {
+                "id": "mmorpg:mat/salvage/salvage2",
+                "Count": 8
+              },
+              "required": 8
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "63cc6cfd-2fcd-4917-bf33-b2e3060356e4"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "origins:orb_of_origin",
+          "Count": 1
+        },
+        {
+          "id": "mmorpg:loot_crate/rare",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6bf99482-52b6-4f97-b718-7a9b3434f0f1",
+      "name": "Frozen Crates",
+      "description": "Find these in cold biomes... Their loot is super COOL!",
+      "x": 251,
+      "y": 144,
+      "icon": {
+        "id": "gofish:frosted_crate",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Detection Task",
+          "items": [
+            {
+              "item": {
+                "id": "gofish:frosted_crate",
+                "Count": 1
+              },
+              "precision": "TAG_NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "e8cec9ea-a556-4183-bdef-ff9ac78def51"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:loot_crate/ench_exp_bag",
+          "Count": 1,
+          "tag": {
+            "exp": 250
+          }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "40653f33-9d85-4926-be08-f90d0e5f5b30",
+      "name": "Go Fishing, NOW!",
+      "description": "Go Fish is a fantastic mod that brings about many different fishing rods, fishes, food, and crates! Think Terraria fishing, now in Minecraft. Isn\u0027t that awesome! Try collecting all the fish! There are quests for 90%+ of the fish, so complete the quests to complete your Pokede- I mean fishing journal!",
+      "x": 189,
+      "y": 144,
+      "icon": {
+        "id": "minecraft:fishing_rod",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Crafting Task",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:fishing_rod",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:bucket",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e9e25601-21ec-4fee-b2c3-46ef868a3cd8",
+      "name": "Loot Crates!",
+      "description": "While fishing, you may occasionally find crates! These crates are filled with fish, fishing rods, and occasionally, rare loot. Some crates are bound to certain biomes!",
+      "x": 189,
+      "y": 112,
+      "icon": {
+        "id": "gofish:wooden_crate",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Detection Task",
+          "items": [
+            {
+              "item": {
+                "id": "gofish:wooden_crate",
+                "Count": 1
+              },
+              "precision": "TAG_NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "40653f33-9d85-4926-be08-f90d0e5f5b30"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "gofish:wooden_crate",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "316a6b1a-5bcd-4a05-b4b7-379b44311286",
+      "name": "The Phantom Menace",
+      "description": "Don\u0027t sleep for 3 in-game days, and phantoms will spawn! These undead manta rays will hunt you down at night!",
+      "x": 116,
+      "y": 144,
+      "icon": {
+        "id": "minecraft:phantom_membrane",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "description": "Killing Task",
+          "mobs": [
+            {
+              "name": "Phantom",
+              "icon": {
+                "id": "minecraft:phantom_membrane",
+                "Count": 1
+              },
+              "mob": "minecraft:phantom",
+              "kills": 6
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "21f6ea18-0d47-4b9e-9753-073fd2acec64"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:loot_crate/rare",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:golden_apple",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8d2a72e9-fef5-4d15-8e05-95cad3df8316",
+      "name": "Warding Brush",
+      "description": "Although uncraftable, you will find across the world Ward blocks, which provide bonuses to nearby players when placed and supplied with redstone power!",
+      "x": 116,
+      "y": 48,
+      "icon": {
+        "id": "ward_blocks:health_ward_block",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Detection Task",
+          "items": [
+            {
+              "item": {
+                "id": "ward_blocks:health_ward_block",
+                "Count": 1
+              },
+              "precision": "TAG_NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "c4a504f1-74f5-4c6d-8386-a317ae4b7586"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "ward_blocks:growth_ward_block",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:stone_button",
+          "Count": 1
+        },
+        {
+          "id": "mmorpg:mat/salvage/salvage1",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7ac3735e-6604-44c8-86ef-7f538d1d64de",
+      "name": "Slimey Mobs (Daily)",
+      "description": "Even slimes have alternate attributes!",
+      "x": 220,
+      "y": 80,
+      "icon": {
+        "id": "mmorpg:gear_mat/essences/elemental",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "TIME",
+        "days": 1,
+        "hours": 0
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "description": "Killing Task",
+          "mobs": [
+            {
+              "name": "Flame Slime",
+              "icon": {
+                "id": "minecraft:slime_ball",
+                "Count": 1
+              },
+              "mob": "mmorpg:fire_slime",
+              "kills": 3
+            },
+            {
+              "name": "Icy Slime",
+              "icon": {
+                "id": "minecraft:slime_ball",
+                "Count": 1
+              },
+              "mob": "mmorpg:water_slime",
+              "kills": 3
+            },
+            {
+              "name": "Spark Slime",
+              "icon": {
+                "id": "minecraft:slime_ball",
+                "Count": 1
+              },
+              "mob": "mmorpg:thunder_slime",
+              "kills": 3
+            },
+            {
+              "name": "Tera Slime",
+              "icon": {
+                "id": "minecraft:slime_ball",
+                "Count": 1
+              },
+              "mob": "mmorpg:nature_slime",
+              "kills": 3
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "75c6970b-2356-463e-8cc9-aa00440042a4"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:gear_mat/essences/elemental",
+          "Count": 3
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b283f089-9726-4e76-a691-f0848a6e8695",
+      "name": "X Marks The Spot",
+      "description": "The Biome Locator is an item that allows you to find those pesky, rare biomes!",
+      "x": 148,
+      "y": 112,
+      "icon": {
+        "id": "biome_locator:compass",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Crafting Task",
+          "items": [
+            {
+              "item": {
+                "id": "biome_locator:compass",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "35178b05-9dfd-4fee-beab-0c1cf49fcf2a"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "waystones:waystone",
+          "Count": 1
+        },
+        {
+          "id": "mmorpg:mat/crystallized_essence",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8979693c-0d94-45d9-a289-03b33795cf91",
+      "name": "Crafting More Gear",
+      "description": "Crafting armor is similar to crafting weapons but can be a little unintuitive. Crafting AoE gear will result in the expected type (e.g. cloth will result in cloth armor). Similarly, certain gear from vanilla and other mods can harness a certain type. For example: leather armor will always yield leather type (ranger), and iron will always yield plate type (warrior). View the Wiki for the list of craftables and their types, or just try it out!",
+      "x": 85,
+      "y": 80,
+      "icon": {
+        "id": "minecraft:chainmail_chestplate",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Crafting Task",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:chainmail_chestplate",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "precision": "TAG_NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:chainmail_leggings",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              },
+              "precision": "TAG_NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "231631ab-5a46-4f35-baa5-82c609962541"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:gear_mat/ore/ore1",
+          "Count": 4
+        },
+        {
+          "id": "mmorpg:gear_mat/leather/leather1",
+          "Count": 4
+        },
+        {
+          "id": "mmorpg:gear_mat/cloth/cloth1",
+          "Count": 4
+        },
+        {
+          "id": "mmorpg:mat/salvage/salvage1",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "56b6b7af-6734-4ef6-883f-94160ab09ff4",
+      "name": "Skill Tree",
+      "description": "Skills are obtained by accessing the skill tree through the HUB. In [Harmony], the skill tree was highly configured and has many custom spells. Furthermore, a talent tree is available for you to customize your character! Press \u0027H\u0027 to access your stats and trees! Additionally, ores, leathers, and cloth are used in crafting various Age of Exile equipment. These are valuable resources that can be obtained from crafting dust which can be obtained from breaking down items in a salvage station.",
+      "x": 24,
+      "y": 48,
+      "icon": {
+        "id": "minecraft:enchanted_book",
+        "Count": 1,
+        "tag": {
+          "StoredEnchantments": [
+            {
+              "lvl": 4,
+              "id": "minecraft:protection"
+            }
+          ]
+        }
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "description": "Killing Task",
+          "mobs": [
+            {
+              "name": "Skeleton",
+              "icon": {
+                "id": "minecraft:skeleton_skull",
+                "Count": 1
+              },
+              "mob": "minecraft:skeleton",
+              "kills": 2
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "de27675e-9006-4d74-874d-6c2417d77562"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:mat/salvage/salvage0",
+          "Count": 16
+        },
+        {
+          "id": "mmorpg:loot_crate/common",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ad50a3e9-bcbc-4fc0-a8f4-2750d41f01c6",
+      "name": "Repair Kits",
+      "description": "One of the worst feelings is dungeoneering and finding incredible loot, only to die to a creeper explosion because you didn\u0027t notice your armor breaking. Well, repair kits won\u0027t improve your perception, but they do offer a method of gear repair without needing to go back to a repair station. They are less efficient though...",
+      "x": 54,
+      "y": 112,
+      "icon": {
+        "id": "mmorpg:repair/repair_kit0",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Crafting Task",
+          "items": [
+            {
+              "item": {
+                "id": "mmorpg:repair/repair_kit0",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "742fee6b-7d8a-4250-acd7-cf15f06dff3a"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:repair/repair_kit1",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "mmorpg:mat/salvage/salvage1",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "75c6970b-2356-463e-8cc9-aa00440042a4",
+      "name": "Next Steps",
+      "description": "Defeat the Wither to access these daily quests.",
+      "x": 201,
+      "y": 45,
+      "bigicon": true,
+      "icon": {
+        "id": "minecraft:wither_rose",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "description": "Killing Task",
+          "mobs": [
+            {
+              "name": "Wither",
+              "icon": {
+                "id": "minecraft:wither_rose",
+                "Count": 1
+              },
+              "mob": "minecraft:wither",
+              "kills": 1
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "36d80ef2-0316-497f-a2a8-e5de92d2f62b",
+      "name": "Epilogue",
+      "description": "Defeat the Ender Dragon to access this weekly quest.",
+      "x": 263,
+      "y": 45,
+      "bigicon": true,
+      "icon": {
+        "id": "minecraft:dragon_head",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "description": "Killing Task",
+          "mobs": [
+            {
+              "name": "Ender Dragon",
+              "icon": {
+                "id": "minecraft:dragon_head",
+                "Count": 1
+              },
+              "mob": "minecraft:ender_dragon",
+              "kills": 1
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "cc9a24a8-8176-4fd4-93d6-f202a987ee92",
+      "name": "Thunder Attribute (Daily)",
+      "description": "Kill thunder mobs. Thunder mobs can be found more commonly in mountainous biomes.",
+      "x": 251,
+      "y": 16,
+      "icon": {
+        "id": "mmorpg:gear_mat/essences/thunder",
+        "Count": 1
+      },
+      "repeat": {
+        "type": "TIME",
+        "days": 1,
+        "hours": 0
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "description": "Killing Task",
+          "mobs": [
+            {
+              "name": "Spark Zombie",
+              "icon": {
+                "id": "minecraft:zombie_head",
+                "Count": 1
+              },
+              "mob": "mmorpg:thunder_zombie",
+              "kills": 10
+            },
+            {
+              "name": "Spark Skeleton",
+              "icon": {
+                "id": "minecraft:skeleton_skull",
+                "Count": 1
+              },
+              "mob": "mmorpg:thunder_skeleton",
+              "kills": 10
+            },
+            {
+              "name": "Spark Spider",
+              "icon": {
+                "id": "minecraft:spider_eye",
+                "Count": 1
+              },
+              "mob": "mmorpg:thunder_spider",
+              "kills": 10
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:gear_mat/essences/thunder",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:iron_block",
+          "Count": 3
+        },
+        {
+          "id": "minecraft:diamond_block",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:emerald_block",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "de27675e-9006-4d74-874d-6c2417d77562",
+      "name": "Just Vanilla",
+      "description": "Like most Minecraft scendarios, one of the first things you do is craft a crafting table. Upon completing this quest, you will be able to choose from 4 starter weapons! Additionally, use the Orb of Ascendancy to reset your Ascendancy. You can get more by purchasing them from \"The Exchange\", found in the quest book.",
+      "x": 24,
+      "y": 16,
+      "icon": {
+        "id": "minecraft:crafting_table",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Detection Task",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:crafting_table",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "patchouli:guide_book",
+          "Count": 1,
+          "tag": {
+            "patchouli:book": "mmorpg:age_of_exile_guide"
+          }
+        },
+        {
+          "id": "minecraft:apple",
+          "Count": 5
+        },
+        {
+          "id": "minecraft:cooked_porkchop",
+          "Count": 3
+        },
+        {
+          "id": "mmorpg:mat/salvage/salvage0",
+          "Count": 8
+        },
+        {
+          "id": "origins:orb_of_origin",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "mmorpg:weapon/sword/sword0",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "minecraft:bow",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "mmorpg:weapon/wand/wand0",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        },
+        {
+          "id": "mmorpg:weapon/wand/scepter0",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
         }
       ],
       "commandrewards": []
@@ -1235,89 +1852,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "9a3331e6-b398-4855-85c1-656060ac5a89",
-      "name": "A Hefty Price",
-      "description": "So you want to change your Ascendancy? You can... but at what cost?",
-      "x": 24,
-      "y": 177,
-      "icon": {
-        "id": "origins:orb_of_origin",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "description": "Consume Task",
-          "items": [
-            {
-              "item": {
-                "id": "mmorpg:mat/salvage/salvage2",
-                "Count": 8
-              },
-              "required": 8
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "63cc6cfd-2fcd-4917-bf33-b2e3060356e4"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "origins:orb_of_origin",
-          "Count": 1
-        },
-        {
-          "id": "mmorpg:loot_crate/rare",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "6bf99482-52b6-4f97-b718-7a9b3434f0f1",
-      "name": "Frozen Crates",
-      "description": "Find these in cold biomes... Their loot is super COOL!",
-      "x": 251,
-      "y": 144,
-      "icon": {
-        "id": "gofish:frosted_crate",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "DETECT",
-          "description": "Detection Task",
-          "items": [
-            {
-              "item": {
-                "id": "gofish:frosted_crate",
-                "Count": 1
-              },
-              "precision": "TAG_NBT_FUZZY"
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "e8cec9ea-a556-4183-bdef-ff9ac78def51"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "mmorpg:loot_crate/ench_exp_bag",
-          "Count": 1,
-          "tag": {
-            "exp": 250
-          }
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "691932b9-ab62-4ae3-b3e7-490714a3543c",
       "name": "Runewords",
       "description": "Runewords are a powerful type of equipment that can be used help with the leveling process. In some cases, runewords can even be used in the end game. Find a piece of equipment with sockets, and insert the runes in a specific order. You can refer to the REI for what runewords are available and how to make them. You must insert the runes using a socketing station. Try making the Scholar runeword, which can only be applied to jewelry. Your jewelry must have at LEAST 2 sockets and be at least level 10. Look at the REI for more details!",
@@ -1410,85 +1944,6 @@
         },
         {
           "id": "mmorpg:loot_crate/common",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "40653f33-9d85-4926-be08-f90d0e5f5b30",
-      "name": "Go Fishing, NOW!",
-      "description": "Go Fish is a fantastic mod that brings about many different fishing rods, fishes, food, and crates! Think Terraria fishing, now in Minecraft. Isn\u0027t that awesome! Try collecting all the fish! There are quests for 90%+ of the fish, so complete the quests to complete your Pokede- I mean fishing journal!",
-      "x": 189,
-      "y": 144,
-      "icon": {
-        "id": "minecraft:fishing_rod",
-        "Count": 1,
-        "tag": {
-          "Damage": 0
-        }
-      },
-      "tasks": [
-        {
-          "type": "CRAFT",
-          "description": "Crafting Task",
-          "items": [
-            {
-              "item": {
-                "id": "minecraft:fishing_rod",
-                "Count": 1,
-                "tag": {
-                  "Damage": 0
-                }
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:bucket",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "e9e25601-21ec-4fee-b2c3-46ef868a3cd8",
-      "name": "Loot Crates!",
-      "description": "While fishing, you may occasionally find crates! These crates are filled with fish, fishing rods, and occasionally, rare loot. Some crates are bound to certain biomes!",
-      "x": 189,
-      "y": 112,
-      "icon": {
-        "id": "gofish:wooden_crate",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "DETECT",
-          "description": "Detection Task",
-          "items": [
-            {
-              "item": {
-                "id": "gofish:wooden_crate",
-                "Count": 1
-              },
-              "precision": "TAG_NBT_FUZZY"
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "40653f33-9d85-4926-be08-f90d0e5f5b30"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "gofish:wooden_crate",
           "Count": 1
         }
       ],
@@ -1634,96 +2089,6 @@
           "tag": {
             "exp": 250
           }
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "316a6b1a-5bcd-4a05-b4b7-379b44311286",
-      "name": "The Phantom Menace",
-      "description": "Don\u0027t sleep for 3 in-game days, and phantoms will spawn! These undead manta rays will hunt you down at night!",
-      "x": 116,
-      "y": 144,
-      "icon": {
-        "id": "minecraft:phantom_membrane",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "KILL",
-          "description": "Killing Task",
-          "mobs": [
-            {
-              "name": "Phantom",
-              "icon": {
-                "id": "minecraft:phantom_membrane",
-                "Count": 1
-              },
-              "mob": "minecraft:phantom",
-              "kills": 6
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "21f6ea18-0d47-4b9e-9753-073fd2acec64"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "mmorpg:loot_crate/rare",
-          "Count": 1
-        },
-        {
-          "id": "minecraft:golden_apple",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "8d2a72e9-fef5-4d15-8e05-95cad3df8316",
-      "name": "Warding Brush",
-      "description": "Although uncraftable, you will find across the world Ward blocks, which provide bonuses to nearby players when placed and supplied with redstone power!",
-      "x": 116,
-      "y": 48,
-      "icon": {
-        "id": "ward_blocks:health_ward_block",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "DETECT",
-          "description": "Detection Task",
-          "items": [
-            {
-              "item": {
-                "id": "ward_blocks:health_ward_block",
-                "Count": 1
-              },
-              "precision": "TAG_NBT_FUZZY"
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "c4a504f1-74f5-4c6d-8386-a317ae4b7586"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "ward_blocks:growth_ward_block",
-          "Count": 1
-        },
-        {
-          "id": "minecraft:stone_button",
-          "Count": 1
-        },
-        {
-          "id": "mmorpg:mat/salvage/salvage1",
-          "Count": 8
         }
       ],
       "rewardchoice": [],
@@ -1928,18 +2293,18 @@
       "commandrewards": []
     },
     {
-      "uuid": "7ac3735e-6604-44c8-86ef-7f538d1d64de",
-      "name": "Slimey Mobs (Daily)",
-      "description": "Even slimes have alternate attributes!",
-      "x": 220,
+      "uuid": "c039482f-afdb-432c-b1c0-9e49f9a280a5",
+      "name": "Boss Me Around II! (Weekly)",
+      "description": "Defeat all the bosses for an awesome reward!",
+      "x": 282,
       "y": 80,
       "icon": {
-        "id": "mmorpg:gear_mat/essences/elemental",
+        "id": "bosses_of_mass_destruction:ancient_anima",
         "Count": 1
       },
       "repeat": {
         "type": "TIME",
-        "days": 1,
+        "days": 7,
         "hours": 0
       },
       "tasks": [
@@ -1948,55 +2313,59 @@
           "description": "Killing Task",
           "mobs": [
             {
-              "name": "Flame Slime",
+              "name": "Night Lich",
               "icon": {
-                "id": "minecraft:slime_ball",
+                "id": "bosses_of_mass_destruction:soul_star",
                 "Count": 1
               },
-              "mob": "mmorpg:fire_slime",
-              "kills": 3
+              "mob": "bosses_of_mass_destruction:lich",
+              "kills": 1
             },
             {
-              "name": "Icy Slime",
+              "name": "Nether Gauntlet",
               "icon": {
-                "id": "minecraft:slime_ball",
+                "id": "bosses_of_mass_destruction:blazing_eye",
                 "Count": 1
               },
-              "mob": "mmorpg:water_slime",
-              "kills": 3
+              "mob": "bosses_of_mass_destruction:gauntlet",
+              "kills": 1
             },
             {
-              "name": "Spark Slime",
+              "name": "Obsidilith",
               "icon": {
-                "id": "minecraft:slime_ball",
+                "id": "bosses_of_mass_destruction:obsidian_heart",
                 "Count": 1
               },
-              "mob": "mmorpg:thunder_slime",
-              "kills": 3
-            },
-            {
-              "name": "Tera Slime",
-              "icon": {
-                "id": "minecraft:slime_ball",
-                "Count": 1
-              },
-              "mob": "mmorpg:nature_slime",
-              "kills": 3
+              "mob": "bosses_of_mass_destruction:obsidilith",
+              "kills": 1
             }
           ]
         }
       ],
       "prerequisites": [
-        "75c6970b-2356-463e-8cc9-aa00440042a4"
+        "36d80ef2-0316-497f-a2a8-e5de92d2f62b"
       ],
       "optionlinks": [],
       "reward": [
         {
-          "id": "mmorpg:gear_mat/essences/elemental",
-          "Count": 3
+          "id": "mmorpg:loot_crate/unique",
+          "Count": 2
         }
       ],
-      "rewardchoice": [],
+      "rewardchoice": [
+        {
+          "id": "mmorpg:gear_mat/ore/ore4",
+          "Count": 16
+        },
+        {
+          "id": "mmorpg:gear_mat/leather/leather4",
+          "Count": 16
+        },
+        {
+          "id": "mmorpg:gear_mat/cloth/cloth4",
+          "Count": 16
+        }
+      ],
       "commandrewards": []
     },
     {
@@ -2128,165 +2497,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "b283f089-9726-4e76-a691-f0848a6e8695",
-      "name": "X Marks The Spot",
-      "description": "The Biome Locator is an item that allows you to find those pesky, rare biomes!",
-      "x": 148,
-      "y": 112,
-      "icon": {
-        "id": "biome_locator:compass",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "CRAFT",
-          "description": "Crafting Task",
-          "items": [
-            {
-              "item": {
-                "id": "biome_locator:compass",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "35178b05-9dfd-4fee-beab-0c1cf49fcf2a"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "waystones:waystone",
-          "Count": 1
-        },
-        {
-          "id": "mmorpg:mat/crystallized_essence",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "8979693c-0d94-45d9-a289-03b33795cf91",
-      "name": "Crafting More Gear",
-      "description": "Crafting armor is similar to crafting weapons but can be a little unintuitive. Crafting AoE gear will result in the expected type (e.g. cloth will result in cloth armor). Similarly, certain gear from vanilla and other mods can harness a certain type. For example: leather armor will always yield leather type (ranger), and iron will always yield plate type (warrior). View the Wiki for the list of craftables and their types, or just try it out!",
-      "x": 85,
-      "y": 80,
-      "icon": {
-        "id": "minecraft:chainmail_chestplate",
-        "Count": 1,
-        "tag": {
-          "Damage": 0
-        }
-      },
-      "tasks": [
-        {
-          "type": "CRAFT",
-          "description": "Crafting Task",
-          "items": [
-            {
-              "item": {
-                "id": "minecraft:chainmail_chestplate",
-                "Count": 1,
-                "tag": {
-                  "Damage": 0
-                }
-              },
-              "precision": "TAG_NBT_FUZZY"
-            },
-            {
-              "item": {
-                "id": "minecraft:chainmail_leggings",
-                "Count": 1,
-                "tag": {
-                  "Damage": 0
-                }
-              },
-              "precision": "TAG_NBT_FUZZY"
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "231631ab-5a46-4f35-baa5-82c609962541"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "mmorpg:gear_mat/ore/ore1",
-          "Count": 4
-        },
-        {
-          "id": "mmorpg:gear_mat/leather/leather1",
-          "Count": 4
-        },
-        {
-          "id": "mmorpg:gear_mat/cloth/cloth1",
-          "Count": 4
-        },
-        {
-          "id": "mmorpg:mat/salvage/salvage1",
-          "Count": 8
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "56b6b7af-6734-4ef6-883f-94160ab09ff4",
-      "name": "Skill Tree",
-      "description": "Skills are obtained by accessing the skill tree through the HUB. In [Harmony], the skill tree was highly configured and has many custom spells. Furthermore, a talent tree is available for you to customize your character! Press \u0027H\u0027 to access your stats and trees! Additionally, ores, leathers, and cloth are used in crafting various Age of Exile equipment. These are valuable resources that can be obtained from crafting dust which can be obtained from breaking down items in a salvage station.",
-      "x": 24,
-      "y": 48,
-      "icon": {
-        "id": "minecraft:enchanted_book",
-        "Count": 1,
-        "tag": {
-          "StoredEnchantments": [
-            {
-              "lvl": 4,
-              "id": "minecraft:protection"
-            }
-          ]
-        }
-      },
-      "tasks": [
-        {
-          "type": "KILL",
-          "description": "Killing Task",
-          "mobs": [
-            {
-              "name": "Skeleton",
-              "icon": {
-                "id": "minecraft:skeleton_skull",
-                "Count": 1
-              },
-              "mob": "minecraft:skeleton",
-              "kills": 2
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "de27675e-9006-4d74-874d-6c2417d77562"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "mmorpg:mat/salvage/salvage0",
-          "Count": 16
-        },
-        {
-          "id": "mmorpg:loot_crate/common",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "b59caa17-e666-4e5a-9034-078c711632ee",
       "name": "Lilypad or Fish?",
       "description": "You\u0027ll probably have better luck in swamps...",
@@ -2321,56 +2531,6 @@
           "tag": {
             "exp": 100
           }
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "ad50a3e9-bcbc-4fc0-a8f4-2750d41f01c6",
-      "name": "Repair Kits",
-      "description": "One of the worst feelings is dungeoneering and finding incredible loot, only to die to a creeper explosion because you didn\u0027t notice your armor breaking. Well, repair kits won\u0027t improve your perception, but they do offer a method of gear repair without needing to go back to a repair station. They are less efficient though...",
-      "x": 54,
-      "y": 112,
-      "icon": {
-        "id": "mmorpg:repair/repair_kit0",
-        "Count": 1,
-        "tag": {
-          "Damage": 0
-        }
-      },
-      "tasks": [
-        {
-          "type": "CRAFT",
-          "description": "Crafting Task",
-          "items": [
-            {
-              "item": {
-                "id": "mmorpg:repair/repair_kit0",
-                "Count": 1,
-                "tag": {
-                  "Damage": 0
-                }
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "742fee6b-7d8a-4250-acd7-cf15f06dff3a"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "mmorpg:repair/repair_kit1",
-          "Count": 1,
-          "tag": {
-            "Damage": 0
-          }
-        },
-        {
-          "id": "mmorpg:mat/salvage/salvage1",
-          "Count": 8
         }
       ],
       "rewardchoice": [],

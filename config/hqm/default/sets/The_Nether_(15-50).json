@@ -656,10 +656,11 @@
     },
     {
       "uuid": "4fd917cd-ec6b-4d46-b2bd-859af597ed95",
-      "name": "Blackstone",
-      "description": "Summon a Blackstone Golem -  a powerful boss mob from Adventurez. Place 4 chiseled polished blackstone holders in a cross shape, 5 blocks away from the center. You can obtain blockstone holders by putting chiseled polished blackstone into a stonecutter. Place gilded blackstone shards into these holders to summon the boss. You can find these shards in Nether bastions, or by bartering with piglins.",
-      "x": 117,
-      "y": 114,
+      "name": "Blackstone (Lv. 25)",
+      "description": "Summon a Blackstone Golem -  a powerful boss mob from Adventurez. Place 4 chiseled polished blackstone holders in a cross shape, 5 blocks away from the center. You can obtain blockstone holders by putting chiseled polished blackstone into a stonecutter. Place gilded blackstone shards into these holders to summon the boss. You can find these shards in Nether bastions, or by bartering with piglins. The Golem deals fire damage and has fire resistances, but takes extra damage from water.",
+      "x": 114,
+      "y": 111,
+      "bigicon": true,
       "icon": {
         "id": "adventurez:gilded_stone",
         "Count": 1
@@ -918,10 +919,10 @@
     },
     {
       "uuid": "a4ae0d8b-38fd-491e-a801-0d8fe65664bc",
-      "name": "The Wither",
+      "name": "The Wither (Lv. 25)",
       "description": "Defeat the Wither!",
-      "x": 114,
-      "y": 174,
+      "x": 145,
+      "y": 143,
       "bigicon": true,
       "icon": {
         "id": "minecraft:wither_rose",
@@ -1216,6 +1217,47 @@
           "tag": {
             "exp": 100
           }
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d7913571-8a3b-4f89-9a74-62a05c6b6445",
+      "name": "Gauntlet Of Power (Lv. 35)",
+      "description": "The Nether Gauntlet is a powerful boss found in rare structures in the Nether. It deals fire damage, and has extra resistances to fire and thunder. This powerful entity does have a weakness to water, however... This boss has enhanced drops and XP.",
+      "x": 114,
+      "y": 175,
+      "bigicon": true,
+      "icon": {
+        "id": "bosses_of_mass_destruction:blazing_eye",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "description": "Killing Task",
+          "mobs": [
+            {
+              "name": "Nether Gauntlet",
+              "icon": {
+                "id": "bosses_of_mass_destruction:blazing_eye",
+                "Count": 1
+              },
+              "mob": "bosses_of_mass_destruction:gauntlet",
+              "kills": 1
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a4ae0d8b-38fd-491e-a801-0d8fe65664bc"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mmorpg:loot_crate/unique",
+          "Count": 2
         }
       ],
       "rewardchoice": [],

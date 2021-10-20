@@ -618,6 +618,8 @@
     "multishot_book [default: true]": true,
     "quick_charge_book [default: true]": true,
     "piercing_book [default: true]": true,
-    "mending_book [default: true]": true
+    "mending_book [default: true]": true,
+    "crystalite_elytra [default: true]": true,
+    "enchanted_membrane [default: true]": true
   }
 }

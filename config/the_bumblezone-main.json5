@@ -167,6 +167,14 @@
 	},
 	"BZModCompatibilityConfig": {
 		/* 
+		   Allow Charm compat which adds more blocks to Bumblezone's worldgen!
+		*/
+		"allowCharmCandleCompat": true,
+		/* 
+		   Allow Charm villager trade compat which adds more trades to Charm's Beekeeper!!
+		*/
+		"allowCharmTradeCompat": true,
+		/* 
 		   Allow Bee Better compat which adds more blocks to Bumblezone's worldgen!
 		*/
 		"allowBeeBetterCompat": true,

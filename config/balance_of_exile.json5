@@ -4,7 +4,7 @@
 		"NEGATIVE_EFFECTS_AT_EXPIRATION": true,
 		"ENABLE_SPAWNER_DESTRUCTION": false,
 		"SPAWNER_LIFETIME_MINUTES": 5,
-		"SPAWNER_COOLDOWN_MINUTES": 60
+		"SPAWNER_COOLDOWN_MINUTES": 15
 	},
 	"ANTI_MOB_FARM": { 
 		// This is a simple measure that makes mob farming a lot tougher. In essence, it reduces loot drops every time you kill a mob in the same chunk. The loot drops are regenerated to default over time. This means mob farms would get to 0 loot quickly, while normal player killings would not be affected much or at all.
@@ -42,7 +42,24 @@
 	"AFFECT_PEACEFUL_ANIMALS": false,
 	// Every feature is disabled in these dimensions
 	"DIMENSIONS_EXCLUDED": [ 
-],
+		"mmorpg:dungeon",
+		"mmorpg:dungeon",
+		"mmorpg:dungeon",
+		"mmorpg:dungeon",
+		"mmorpg:dungeon",
+		"mmorpg:dungeon",
+		"mmorpg:dungeon",
+		"mmorpg:dungeon",
+		"mmorpg:dungeon",
+		"mmorpg:dungeon",
+		"mmorpg:dungeon",
+		"mmorpg:dungeon",
+		"mmorpg:dungeon",
+		"mmorpg:dungeon",
+		"mmorpg:dungeon",
+		"mmorpg:dungeon",
+		"mmorpg:dungeon"
+	],
 	"ENTITIES_EXCLUDED": [ 
 ]
 }

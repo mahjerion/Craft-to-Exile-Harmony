@@ -1,5 +1,6 @@
 {
   "__comment": "For help with the config refer to https://github.com/Flemmli97/Flan/wiki/Config",
+  "configVersion": 2,
   "startingBlocks": 500,
   "maxClaimBlocks": 10000,
   "ticksForNextBlock": 600,
@@ -8,6 +9,7 @@
   "ignoredBlocks": [
     "minecraft:white_shulker_box"
   ],
+  "ignoredEntities": [],
   "lenientBlockEntityCheck": false,
   "blockEntityTagIgnore": [
     "IsDeathChest"
@@ -26,6 +28,7 @@
       "BED": true,
       "ENCHANTMENT": true,
       "FENCEGATE": true,
+      "ANIMALINTERACT": true,
       "PRESSUREPLATE": true,
       "ITEMFRAMEROTATE": true,
       "ENDERCHEST": true,
@@ -33,8 +36,7 @@
       "TRADING": true,
       "DOOR": true,
       "TRAPDOOR": true,
-      "PORTAL": true,
-      "ANIMALINTERACT": true
+      "PORTAL": true
     },
     "Co-Owner": {
       "WATERBORDER": true,
@@ -96,6 +98,7 @@
   "globalDefaultPerms": {
     "*": {
       "NOHUNGER": "ALLFALSE",
+      "LOCKITEMS": "ALLFALSE",
       "FLIGHT": "ALLTRUE",
       "MOBSPAWN": "ALLFALSE",
       "EDITPOTIONS": "ALLFALSE",
@@ -105,8 +108,10 @@
   "enableLogs": false,
   "sellPrice": -1,
   "buyPrice": -1,
-  "lockDrops": true,
   "dropTicks": 6000,
   "inactivityTimeDays": 30,
-  "inactivityBlocksMax": 5000
+  "inactivityBlocksMax": 5000,
+  "deletePlayerFile": false,
+  "bannedDeletionTime": 30,
+  "offlineProtectActivation": -1
 }

@@ -7,10 +7,45 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [2.2.5] - 2021-10-12
+## [2.3.0] - 2021-10-20
+
+### Known Issues
+- Creating a new singleplayer world often results in a crash. To resolve this issue, go into your modpack folder, then your saves folder, then find the new world you just created. Delete the "hqm" folder, then boot up the modpack and try joining the world again. This should fix it.
+
+### Updates
+- NOTE: It is HIGHLY recommended that you make a NEW WORLD for this update.
+- 3 new bosses have been added through Bosses of Mass Destruction, each with their own very unique mechanics! Find the Night Lich in cold biomes in the Overworld, the Nether Gauntlet in the Nether, and Obsidilith on End islands! These new powerful bosses provide even more loot than other bosses and have new and interesting mechanics!
+- Added new quests for the new bosses.
+- Added a new weekly quest for the new bosses. Kill the bosses every week for unique crates!
+- Enhanced Celestials is replacing Crimson Moon which had a slew of bugs. Enhanced Celestials has more to offer such as Blood Moons, Harvest Moons, AND Blue Moons!!! Blood Moons increase mob spawns and prevent sleeping, Harvest Moons increase crop growth rate and crop drop rate, and Blue Moons applies the luck effect to all NON monster entities (chests!).
+- A few new structures have been added by Mo' Structures!
+- New dungeons from YUNG's Better Dungeons have been added!
+- Opening chests reduces the XP penalty in the same chunk. Before, killing many mobs in a tower would reduce the XP gained even though players were "honestly" climbing the tower. This should alleviate those issues.
+- Mob spawners now have a shorter cooldown of 15 minutes after triggering, down from 60 minutes.
+- Sodium compatibility has been improved.
+- Players now receive an Orb of Ascendancy from the first quest. The first quest also briefly explains what it does and how to get them.
+- Boss kill quests now have a level indicator in the title, letting you know what the minimum level spawn is for the boss.
+- Improved quest description for "Setting Up Camp".
+
+### Mod Updates
+- Updated Fabric Loader version to 0.11.7.
+- Updated Adorn, Anti Mob Cheese (formerly Balance of Exile), AppleSkin, Architectury API, Cinderscapes, Cloth API, CraftPresence, Enchantment Descriptions, Fabric Language Kotlin, Fabric Waystones, FancyMenu, FerriteCore, Flan, Hardcore Questing Mode, Inventory HUD+, Konkrete, KubeJS, Mo' Structures, Mod Menu, Oh The Biomes You'll Go, Polymorph, Repurposed Structures, Rhino, The Bumblezone, Traverse, Wild World, WTHIT, Xaero's, YUNG's API, YUNG's Better Strongholds, Library of Exile.
+- Added YUNG's Better Dungeons.
+- Added Bosses of Mass Destruction.
+- Added GeckoLib.
+- Added Enhanced Celestials.
+- Removed lootbeams.
+- Removed Crimson Moon.
 
 ### Fixes
 - Modpack now uses Fabric loader correctly instead of having to use Jumploader through Forge. This should fix problems when starting the modpack, especially with MultiMC.
+- Trade station dupe bug has been fixed.
+- Fixed some waystone crashes.
+- Various questing bugs have been fixed, including repeatable quests messing up.
+- Some biome fixes from BYG update.
+- Polymorph fixes.
+- Some structure fixes from Repurposed Structures.
+- Fir Planks are burnable.
 
 ## [2.2.4b] - 2021-07-28
 
