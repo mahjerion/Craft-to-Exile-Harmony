@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Updates
+- Tons of new dungeons to explore thanks to When Dungeons Arise!
+
+### Mod Updates
+- Added When Dungeons Arise.
+
 ## [2.3.0] - 2021-10-20
 
 ### Known Issues
