@@ -7,8 +7,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [2.3.1] - 2021-XX-XX
-
 ### Updates
 - Tons of new dungeons to explore thanks to When Dungeons Arise!
 - Piglin Beasts now have a 3% chance to spawn from gold ores instead of 1%
