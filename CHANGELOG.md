@@ -7,13 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.3.1] - 2021-11-03
+
 ### Updates
+- Xaero's Update Alert: back up your Xaero's Waypoints and WorldMap folders!
 - Tons of new dungeons to explore thanks to When Dungeons Arise!
 - Piglin Beasts now have a 3% chance to spawn from gold ores instead of 1%
 - Piglin Beasts now have a 5% chance to spawn when killing too many piglins instead of 3%.
 
 ### Mod Updates
+- Updated Xaero's.
 - Added When Dungeons Arise.
+- Added Better Third Person.
 
 ## [2.3.0] - 2021-10-20
 
