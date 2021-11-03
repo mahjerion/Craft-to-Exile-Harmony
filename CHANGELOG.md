@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [2.3.1] - 2021-11-03
 
+### Known Issues
+- Creating a new singleplayer world often results in a crash. To resolve this issue, go into your modpack folder, then your saves folder, then find the new world you just created. Delete the "hqm" folder, then boot up the modpack and try joining the world again. This should fix it.
+
 ### Updates
 - Xaero's Update Alert: back up your Xaero's Waypoints and WorldMap folders!
 - Tons of new dungeons to explore thanks to When Dungeons Arise!
