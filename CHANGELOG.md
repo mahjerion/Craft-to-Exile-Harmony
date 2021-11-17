@@ -8,9 +8,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Updates
+- Xaero's Update Alert: back up your Xaero's Waypoints and WorldMap folders!
 - Disabled temporary spawners setting.
 
 ### Mod Updates
+- Updated Chat Heads, FancyMenu, FLAN, GeckoLib, KubeJS, Xaero's.
 - Replaced Inventory Profiles with Inventory Profiles Next.
 
 ## [2.3.1] - 2021-11-03
