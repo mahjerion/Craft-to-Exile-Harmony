@@ -1,28 +1,42 @@
 {
   "__comment": "For help with the config refer to https://github.com/Flemmli97/Flan/wiki/Config",
-  "configVersion": 2,
+  "configVersion": 3,
   "startingBlocks": 500,
   "maxClaimBlocks": 10000,
   "ticksForNextBlock": 600,
   "minClaimsize": 100,
   "defaultClaimDepth": 10,
-  "ignoredBlocks": [
-    "minecraft:white_shulker_box"
-  ],
-  "ignoredEntities": [],
-  "lenientBlockEntityCheck": false,
-  "blockEntityTagIgnore": [
-    "IsDeathChest"
-  ],
-  "entityTagIgnore": [
-    "graves.marker"
-  ],
+  "maxClaims": -1,
   "blacklistedWorlds": [],
   "worldWhitelist": false,
   "claimingItem": "minecraft:golden_hoe",
   "inspectionItem": "minecraft:stick",
   "claimDisplayTime": 1000,
   "permissionLevel": 2,
+  "sellPrice": -1,
+  "buyPrice": -1,
+  "lenientBlockEntityCheck": false,
+  "breakBlockBlacklist": [
+    "minecraft:white_shulker_box"
+  ],
+  "interactBlockBlacklist": [
+    "minecraft:white_shulker_box"
+  ],
+  "breakBlockEntityTagBlacklist": [],
+  "interactBlockEntityTagBlacklist": [
+    "IsDeathChest"
+  ],
+  "ignoredEntities": [],
+  "entityTagIgnore": [
+    "graves.marker"
+  ],
+  "dropTicks": 6000,
+  "inactivityTimeDays": 30,
+  "inactivityBlocksMax": 5000,
+  "deletePlayerFile": false,
+  "bannedDeletionTime": 30,
+  "offlineProtectActivation": -1,
+  "enableLogs": false,
   "defaultGroups": {
     "Visitor": {
       "BED": true,
@@ -104,14 +118,5 @@
       "EDITPOTIONS": "ALLFALSE",
       "TELEPORT": "ALLFALSE"
     }
-  },
-  "enableLogs": false,
-  "sellPrice": -1,
-  "buyPrice": -1,
-  "dropTicks": 6000,
-  "inactivityTimeDays": 30,
-  "inactivityBlocksMax": 5000,
-  "deletePlayerFile": false,
-  "bannedDeletionTime": 30,
-  "offlineProtectActivation": -1
+  }
 }
