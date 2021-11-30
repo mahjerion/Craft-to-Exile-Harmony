@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.3.1b] - 2021-11-30
+
 ### Updates
 - Xaero's Update Alert: back up your Xaero's Waypoints and WorldMap folders!
 - Disabled temporary spawners setting.
