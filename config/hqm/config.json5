@@ -16,8 +16,6 @@
 		"AUTO_HARDCORE": false,
 		// If set to true, new worlds will automatically activate Questing mode
 		"AUTO_QUESTING": true,
-		// Set to true to enable the sending of quests from the server to all clients that connect to it
-		"SERVER_SYNC": false,
 	},
 	// Settings related to loot bags and loot tiers
 	"Loot": {

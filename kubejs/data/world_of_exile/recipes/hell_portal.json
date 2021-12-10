@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    " A ",
+    " C "
+  ],
+  "key": {  
+	"C": {
+      "item": "minecraft:ender_pearl"
+    }, 
+	"A": {
+      "item": "dragonloot:dragon_scale"
+    } , 
+	"B": {
+      "item": "minecraft:netherrack"
+    } 
+  },
+  "result": {
+    "item": "world_of_exile:hell_portal"
+  }
+}

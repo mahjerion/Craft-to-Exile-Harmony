@@ -1,3 +1,14 @@
 //Cooldown before /flex can be used again, in ticks
 cooldown=0
 
+//The string that will be used in chat
+//Use %player:displayname% for the player name, and %itemflexer:item% for the item
+chatMessage=%player:displayname% is flexing their %itemflexer:item%
+
+//The string for trying to flex nothing
+failureNoItem=Can't flex empty item
+
+//The message for trying to flex on cooldown
+//Use %itemflexer:cooldown% for the cooldown
+failureOnCooldown=On Cooldown: %itemflexer:cooldown% seconds left
+

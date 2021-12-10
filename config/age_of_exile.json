@@ -1,85 +1,180 @@
 {
   "client": {
     "dmgParticleConfig": {
-      "ENABLE_CHAT_EXP_MSG": true,
-      "ENABLE_FLOATING_DMG": true,
-      "GRAVITY": 0.15,
-      "START_SIZE": 0.5,
-      "MAX_SIZE": 2.0,
-      "LIFESPAN": 20.0,
-      "SPEED": 0.003,
-      "GROWS": true
+      "ENABLE_FLOATING_DMG": true
+    },
+    "OVERLAY_BARS": {
+      "parts": [
+        {
+          "type": "HEALTH",
+          "position": "BOTTOM_CENTER",
+          "position_offset": {
+            "x": -91,
+            "y": -39
+          },
+          "enabled": true,
+          "icon_renderer": "LEFT"
+        },
+        {
+          "type": "MANA",
+          "position": "BOTTOM_CENTER",
+          "position_offset": {
+            "x": -91,
+            "y": -49
+          },
+          "enabled": true,
+          "icon_renderer": "LEFT"
+        },
+        {
+          "type": "SHIELD",
+          "position": "BOTTOM_CENTER",
+          "position_offset": {
+            "x": -91,
+            "y": -59
+          },
+          "enabled": true,
+          "icon_renderer": "LEFT"
+        },
+        {
+          "type": "BLOCK",
+          "position": "BOTTOM_CENTER",
+          "position_offset": {
+            "x": -91,
+            "y": -79
+          },
+          "enabled": true,
+          "icon_renderer": "LEFT"
+        },
+        {
+          "type": "EXP",
+          "position": "BOTTOM_CENTER",
+          "position_offset": {
+            "x": 9,
+            "y": -39
+          },
+          "enabled": true,
+          "icon_renderer": "RIGHT"
+        },
+        {
+          "type": "HUNGER",
+          "position": "BOTTOM_CENTER",
+          "position_offset": {
+            "x": 9,
+            "y": -49
+          },
+          "enabled": true,
+          "icon_renderer": "RIGHT"
+        },
+        {
+          "type": "AIR",
+          "position": "BOTTOM_CENTER",
+          "position_offset": {
+            "x": 9,
+            "y": -59
+          },
+          "enabled": true,
+          "icon_renderer": "RIGHT"
+        }
+      ]
+    },
+    "AREA_LVL_OVERLAY": {
+      "type": "NONE",
+      "position": "BOTTOM_CENTER",
+      "position_offset": {
+        "x": 160,
+        "y": -25
+      },
+      "enabled": true,
+      "icon_renderer": "NONE"
     },
     "RENDER_MOB_HEALTH_GUI": true,
     "ONLY_RENDER_MOB_LOOKED_AT": false,
     "SHOW_LOW_ENERGY_MANA_WARNING": true,
-    "USE_RIGHT_CLICK_FOR_SPELL_CASTING": false,
+    "ALWAYS_RENDER_LEVEL_OVERLAY": false,
     "RENDER_SIMPLE_MOB_BAR": true,
-    "RENDER_AREA_INDICATOR": true,
+    "RENDER_DEATH_STATISTICS": true,
+    "RENDER_ITEM_RARITY_BACKGROUND": true,
+    "SHOW_DURABILITY": false,
+    "ITEM_RARITY_BACKGROUND_TYPE": "BORDER",
+    "ITEM_RARITY_OPACITY": 0.5,
     "REMOVE_EMPTY_TOOLTIP_LINES_IF_MORE_THAN_X_LINES": 32,
-    "LEFT_VANILLA_LIKE_BARS_Y__POS_ADJUST": 0,
-    "RIGHT_VANILLA_LIKE_BARS_Y__POS_ADJUST": 0,
     "PLAYER_GUI_TYPE": "RPG"
   },
   "Server": {
     "ALL_PLAYERS_ARE_TEAMED_PVE_MODE": false,
-    "LOG_REGISTRY_ENTRIES": false,
     "GET_STARTER_ITEMS": false,
     "ALWAYS_SCALE_MOB_LEVEL_TO_PLAYER": true,
-    "SAVE_GEAR_AND_HOTBAR_ON_DEATH": true,
     "ENABLE_LOOT_ANNOUNCEMENTS": true,
-    "SCALE_ENVIRO_DMG_TO_LEVEL": false,
+    "SAVE_GEAR_TO_CHARACTERS": true,
+    "REQUIRE_TEAM_FOR_TEAM_DUNGEONS": true,
+    "DONT_SYNC_DATA_OF_AMBIENT_MOBS": true,
     "REGEN_HUNGER_COST": 5.0,
     "EXP_LOSS_ON_DEATH": 0.25,
+    "EXP_GAIN_MULTI": 1.0,
+    "PARTY_RADIUS": 200.0,
+    "RANDOM_SKILL_GEM_SALVAGE_CHANCE": 30.0,
+    "CHANCE_TO_CORRUPT_ITEM_AT_MAX_LEVEL": 20.0,
+    "START_CORRUPT_AT_LVL": 30.0,
     "LEVEL_DISTANCE_PENALTY_PER_LVL": 0.019999999552965164,
-    "LEVEL_DISTANCE_PENALTY_MAX": 0.949999988079071,
+    "LEVEL_DISTANCE_PENALTY_MIN_MULTI": 0.009999999776482582,
+    "DUNGEON_RANDOM_ITEM_CHANCE": 10.0,
+    "CHANCE_TO_SPAWN_RIFT_PER_MIN": 1.0,
     "LEVELS_NEEDED_TO_START_LVL_PENALTY": 5,
+    "SWITCHING_LOADOUT_COOLDOWN_TICKS": 6000,
+    "RIFT_LIVES": 10,
+    "MIN_PLAYER_LVL_FOR_RIFTS_TO_SPAWN": 25,
+    "MAX_RUNEWORD_GEARS_WORN": 1,
+    "MAX_UNIQUE_GEARS_WORN": 99,
+    "MAX_LOADOUTS": 3,
     "EXTRA_MOB_STATS_PER_LEVEL": 0.02,
-    "STAT_POINTS_PER_LVL": 1.0,
-    "TALENT_POINTS_AT_MAX_LEVEL": 98.0,
-    "STARTING_TALENT_POINTS": 2.0,
-    "SPELL_POINTS_AT_MAX_LEVEL": 18.0,
-    "STARTING_SPELL_POINTS": 2.0,
     "VANILLA_MOB_DMG_AS_EXILE_DMG": 0.5,
+    "VANILLA_MOB_DMG_AS_EXILE_DMG_AT_MAX_LVL": 1.0,
     "PVP_DMG_MULTI": 0.2,
-    "IGNORED_ENTITIES": [
-      "minecraft:bat"
-    ],
-    "MAX_LEVEL": 50
+    "BLACKLIST_SPELLS_IN_DIMENSIONS": [
+      "modid:testdim"
+    ]
   },
   "Favor": {
-    "ENABLE_FAVOR_SYSTEM": false,
-    "FAVOR_GAIN_PER_CHEST_LOOTED": 25.0
+    "ENABLE_FAVOR_SYSTEM": true,
+    "FAVOR_GAIN_PER_CHEST_LOOTED": 25.0,
+    "STARTING_FAVOR": 100
   },
   "LevelRewards": {
     "levelRewards": [
       {
         "loot_table_id": "mmorpg:level_rewards/5",
-        "for_level": 5
+        "for_level": 5,
+        "exec_command": ""
       },
       {
         "loot_table_id": "mmorpg:level_rewards/10",
-        "for_level": 10
+        "for_level": 10,
+        "exec_command": ""
       },
       {
         "loot_table_id": "mmorpg:level_rewards/15",
-        "for_level": 15
+        "for_level": 15,
+        "exec_command": ""
       },
       {
         "loot_table_id": "mmorpg:level_rewards/20",
-        "for_level": 20
+        "for_level": 20,
+        "exec_command": ""
       },
       {
         "loot_table_id": "mmorpg:level_rewards/30",
-        "for_level": 30
+        "for_level": 30,
+        "exec_command": ""
       },
       {
         "loot_table_id": "mmorpg:level_rewards/40",
-        "for_level": 40
+        "for_level": 40,
+        "exec_command": ""
       },
       {
         "loot_table_id": "mmorpg:level_rewards/50",
-        "for_level": 50
+        "for_level": 50,
+        "exec_command": ""
       }
     ]
   },
@@ -87,130 +182,94 @@
     "ENABLE_SEALING_FEATURE": true,
     "START_AT_LEVEL": 20,
     "BASE_INSTABILITY_MULTI": 0.1,
-    "ALWAYS_SEAL_AT_X_INSTABILITY": 2500.0,
+    "MAX_INSTABILITY": 2500.0,
     "EXTRA_INSTABILITY_MULTI_AT_MAX_LEVEL": 1.0
   },
   "DropRates": {
-    "GEAR_DROPRATE": 12.0,
+    "GEAR_DROPRATE": 8.0,
     "GEM_DROPRATE": 1.0,
     "RUNE_DROPRATE": 0.25,
+    "SKILL_GEM_DROPRATE": 1.0,
     "CURRENCY_DROPRATE": 2.0,
-    "LVLING_REWARD_DROPRATE": 0.1
+    "LVLING_REWARD_DROPRATE": 0.1,
+    "DUNGEON_KEY_DROPRATE": 0.01
   },
   "autoCompatibleItems": {
     "ENABLE_AUTOMATIC_COMPATIBLE_ITEMS": true,
     "BLACKLISTED_MODS_FROM_AUTO_CONFIG": [],
     "BLACKLISTED_ITEMS_FROM_AUTO_CONFIG": [],
+    "WHITELISTED_MODS_FROM_AUTO_CONFIG": [],
+    "REQUIRE_WHITELIST": false,
+    "ENABLE_MANUAL_TWEAKS": true,
     "MAX_SINGLE_STAT_VALUE": 50,
     "MAX_TOTAL_STATS": 200,
+    "WOOD": {
+      "MIN_LEVEL": 1,
+      "MAX_LEVEL": 3,
+      "POWER_REQ_MIN": 0.0,
+      "POWER_REQ_MAX": 1.0,
+      "CAN_BE_SALVAGED": false
+    },
+    "STONE": {
+      "MIN_LEVEL": 1,
+      "MAX_LEVEL": 5,
+      "POWER_REQ_MIN": 0.0,
+      "POWER_REQ_MAX": 1.0,
+      "CAN_BE_SALVAGED": false
+    },
+    "LEATHER": {
+      "MIN_LEVEL": 1,
+      "MAX_LEVEL": 15,
+      "POWER_REQ_MIN": 0.0,
+      "POWER_REQ_MAX": 1.0,
+      "CAN_BE_SALVAGED": false
+    },
     "TIER_0": {
+      "MIN_LEVEL": 0,
       "MAX_LEVEL": 10,
       "POWER_REQ_MIN": 0.0,
       "POWER_REQ_MAX": 0.15000000596046448,
       "CAN_BE_SALVAGED": false
     },
     "TIER_1": {
+      "MIN_LEVEL": 0,
       "MAX_LEVEL": 20,
       "POWER_REQ_MIN": 0.15000000596046448,
       "POWER_REQ_MAX": 0.25,
       "CAN_BE_SALVAGED": false
     },
     "TIER_2": {
+      "MIN_LEVEL": 0,
       "MAX_LEVEL": 40,
       "POWER_REQ_MIN": 0.25,
       "POWER_REQ_MAX": 0.5,
       "CAN_BE_SALVAGED": true
     },
     "TIER_3": {
+      "MIN_LEVEL": 0,
       "MAX_LEVEL": 60,
       "POWER_REQ_MIN": 0.5,
       "POWER_REQ_MAX": 0.800000011920929,
       "CAN_BE_SALVAGED": true
     },
     "TIER_4": {
+      "MIN_LEVEL": 0,
       "MAX_LEVEL": 80,
       "POWER_REQ_MIN": 0.800000011920929,
       "POWER_REQ_MAX": 0.8999999761581421,
       "CAN_BE_SALVAGED": true
     },
     "TIER_5": {
+      "MIN_LEVEL": 0,
       "MAX_LEVEL": 100,
       "POWER_REQ_MIN": 0.8999999761581421,
       "POWER_REQ_MAX": 1.0,
       "CAN_BE_SALVAGED": true
     }
   },
-  "statScalings": {
-    "NORMAL_STAT_SCALING": {
-      "LEVEL_AND_STAT_GROWTH": [
-        {
-          "min_lvl": 0.0,
-          "max_lvl": 0.2,
-          "stat_growth_min": 1.1,
-          "stat_growth_max": 2.0
-        },
-        {
-          "min_lvl": 0.2,
-          "max_lvl": 0.4,
-          "stat_growth_min": 2.0,
-          "stat_growth_max": 10.0
-        },
-        {
-          "min_lvl": 0.4,
-          "max_lvl": 0.8,
-          "stat_growth_min": 10.0,
-          "stat_growth_max": 40.0
-        },
-        {
-          "min_lvl": 0.8,
-          "max_lvl": 1.0,
-          "stat_growth_min": 40.0,
-          "stat_growth_max": 100.0
-        }
-      ]
-    },
-    "SLOW_STAT_SCALING": {
-      "LEVEL_AND_STAT_GROWTH": [
-        {
-          "min_lvl": 0.0,
-          "max_lvl": 1.0,
-          "stat_growth_min": 1.0,
-          "stat_growth_max": 2.0
-        }
-      ]
-    },
-    "KILLS_NEEDED_PER_LEVEL": {
-      "LEVEL_AND_STAT_GROWTH": [
-        {
-          "min_lvl": 0.0,
-          "max_lvl": 0.2,
-          "stat_growth_min": 2.0,
-          "stat_growth_max": 20.0
-        },
-        {
-          "min_lvl": 0.2,
-          "max_lvl": 0.4,
-          "stat_growth_min": 20.0,
-          "stat_growth_max": 60.0
-        },
-        {
-          "min_lvl": 0.4,
-          "max_lvl": 0.8,
-          "stat_growth_min": 60.0,
-          "stat_growth_max": 200.0
-        },
-        {
-          "min_lvl": 0.8,
-          "max_lvl": 1.0,
-          "stat_growth_min": 200.0,
-          "stat_growth_max": 5000.0
-        }
-      ]
-    }
-  },
   "foodEffects": {
     "ENABLE_FOOD_EFFECTS": true,
-    "ENABLE_AUTO_FOOD_COMPATIBILITY": true,
+    "ENABLE_AUTO_FOOD_COMPAT": true,
     "FOOD_IS_ALWAYS_EDIBLE": true
   }
 }

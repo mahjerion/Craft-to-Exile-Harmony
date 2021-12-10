@@ -1,0 +1,52 @@
+{ 
+	"ANTI_MOB_FARM": { 
+		// This is a simple measure that makes mob farming a lot tougher. In essence, it reduces loot drops every time you kill a mob in the same chunk. The loot drops are regenerated to default over time. This means mob farms would get to 0 loot quickly, while normal player killings would not be affected much or at all.
+		"ENABLE_ANTI_MOB_FARM": true,
+		"AFFECTS_WHAT": { 
+			"AFFECT_VANILLA_LOOT_TABLES": false,
+			"AFFECT_AGE_OF_EXILE_LOOT": true,
+			"AFFECT_AGE_OF_EXILE_EXP": true
+		},
+		// Decreases loot drops by 2% by default every time a mob is killed
+		"ON_MOB_KILLED_DECREASE_BY": 0.01,
+		"ON_MINUTE_PASSED_INCREASE_BY": 0.05,
+		"FREE_MOB_KILLS_BEFORE_PENALTY_STARTS": 15,
+		"ADD_FREE_KILLS_ON_CHEST_LOOT": 5
+	},
+	"ANTI_SPAWNER": { 
+		// Enables anti mob spawner module.
+		"ENABLE_ANTI_SPAWNER": true,
+		// 0 to 1. By default 0, meaning absolutely no loot or exp from spawners. 1 means normal.
+		"AGE_OF_EXILE_LOOT_MULTI": 0.75,
+		"AGE_OF_EXILE_EXP_MULTI": 0.75
+	},
+	"ANTI_ENVIRO_DMG": { 
+		// This stops players cheesing mobs with lava for example. Pretty good way to fight mob farms unless mods have fake player damage traps.
+		"MIN_PLAYER_DMG_TO_GET_LOOT": 0.33,
+		"AFFECTS_WHAT": { 
+			"AFFECT_VANILLA_LOOT_TABLES": false,
+			"AFFECT_AGE_OF_EXILE_LOOT": true,
+			"AFFECT_AGE_OF_EXILE_EXP": true
+		}
+	},
+	"GLOBAL_AFFECTS_WHAT": { 
+		"AFFECT_VANILLA_LOOT_TABLES": false,
+		"AFFECT_AGE_OF_EXILE_LOOT": true,
+		"AFFECT_AGE_OF_EXILE_EXP": true
+	},
+	"AFFECT_PEACEFUL_ANIMALS": false,
+	// Every feature is disabled in these dimensions
+	"DIMENSIONS_EXCLUDED": [ 
+		"mmorpg:dungeon",
+		"mmorpg:dungeon",
+		"mmorpg:dungeon",
+		"mmorpg:dungeon",
+		"mmorpg:dungeon",
+		"mmorpg:dungeon",
+		"mmorpg:dungeon",
+		"mmorpg:dungeon",
+		"mmorpg:dungeon"
+	],
+	"ENTITIES_EXCLUDED": [ 
+]
+}

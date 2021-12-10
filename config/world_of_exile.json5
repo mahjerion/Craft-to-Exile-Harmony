@@ -1,0 +1,151 @@
+{ 
+	"ENABLE_MOD": true,
+	"ENABLE_DUNGEON": true,
+	"AUTO_DESTROY_TOWERS": false,
+	"ENABLE_BLOCK_BREAK_GOLEM_SPAWNS": false,
+	"DUNGEON": { 
+		"PER_DIM": { 
+			"blackOrWhiteList": "WHITELIST",
+			"dimensions": [ 
+				"minecraft:overworld"
+			]
+		},
+		"PER_BIOME": { 
+			"blackOrWhiteList": "BLACKLIST",
+			"biomes": [ 
+]
+		},
+		"PER_BIOME_CATEGORY": { 
+			"blackOrWhiteList": "BLACKLIST",
+			"categories": [ 
+				"ocean",
+				"none",
+				"river"
+			]
+		},
+		"config": { 
+			"spacing": 22,
+			"separation": 15,
+			"salt": 378235
+		}
+	},
+	"BLACKSTONE_TOWER": { 
+		"PER_DIM": { 
+			"blackOrWhiteList": "WHITELIST",
+			"dimensions": [ 
+				"world_of_exile:hell1"
+			]
+		},
+		"PER_BIOME": { 
+			"blackOrWhiteList": "BLACKLIST",
+			"biomes": [ 
+]
+		},
+		"PER_BIOME_CATEGORY": { 
+			"blackOrWhiteList": "BLACKLIST",
+			"categories": [ 
+				"ocean",
+				"none",
+				"river"
+			]
+		},
+		"config": { 
+			"spacing": 15,
+			"separation": 6,
+			"salt": 2058146
+		}
+	},
+	"STONE_BRICK_TOWER": { 
+		"PER_DIM": { 
+			"blackOrWhiteList": "WHITELIST",
+			"dimensions": [ 
+				"minecraft:overworld",
+				"world_of_exile:hell1"
+			]
+		},
+		"PER_BIOME": { 
+			"blackOrWhiteList": "BLACKLIST",
+			"biomes": [ 
+]
+		},
+		"PER_BIOME_CATEGORY": { 
+			"blackOrWhiteList": "BLACKLIST",
+			"categories": [ 
+				"ocean",
+				"none",
+				"river"
+			]
+		},
+		"config": { 
+			"spacing": 15,
+			"separation": 5,
+			"salt": 270951955
+		}
+	},
+	"ONE_PIECE_SURFACE": { 
+		"PER_DIM": { 
+			"blackOrWhiteList": "WHITELIST",
+			"dimensions": [ 
+				"world_of_exile:hell1"
+			]
+		},
+		"PER_BIOME": { 
+			"blackOrWhiteList": "BLACKLIST",
+			"biomes": [ 
+]
+		},
+		"PER_BIOME_CATEGORY": { 
+			"blackOrWhiteList": "BLACKLIST",
+			"categories": [ 
+				"ocean",
+				"none",
+				"river"
+			]
+		},
+		"config": { 
+			"spacing": 20,
+			"separation": 15,
+			"salt": 447023887
+		}
+	},
+	"LADDER_TOWER": { 
+		"PER_DIM": { 
+			"blackOrWhiteList": "WHITELIST",
+			"dimensions": [ 
+				"minecraft:overworld",
+				"world_of_exile:hell1"
+			]
+		},
+		"PER_BIOME": { 
+			"blackOrWhiteList": "BLACKLIST",
+			"biomes": [ 
+]
+		},
+		"PER_BIOME_CATEGORY": { 
+			"blackOrWhiteList": "BLACKLIST",
+			"categories": [ 
+				"ocean",
+				"none",
+				"river"
+			]
+		},
+		"config": { 
+			"spacing": 25,
+			"separation": 15,
+			"salt": 1092515512
+		}
+	},
+	"ALLOWED_MOBS_FOR_SPAWNERS": [ 
+		"minecraft:cave_spider",
+		"minecraft:skeleton",
+		"minecraft:spider",
+		"minecraft:zombie",
+		"minecraft:zombie_villager",
+		"minecraft:husk",
+		"minecraft:witch"
+	],
+	"ALLOWED_BOSSES": [ 
+		"world_of_exile:snow_golem",
+		"world_of_exile:obsidian_golem"
+	]
+}

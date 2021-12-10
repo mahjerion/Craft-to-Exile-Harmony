@@ -12,6 +12,7 @@
         "cancel": true
       }
     },
+    "keyEventAllowRepeat": true,
     "openGuiConfigs": {
       "keys": "A,C",
       "settings": {
