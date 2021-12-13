@@ -7,6 +7,28 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Updates
+- Introducing Harmony 3.0... Age of Exile has been completely revamped! With a new end-game system and a totally new system for spells and talents, Harmony has never been so ARPG-focused before! See the general changes below!
+- A completely new skill system. Instead of leveling skills to learn them, you can find skill GEMS and support gems. Just like in POE!
+- Instanced Dungeons... AND TEAM DUNGEONS! Maps rewamped like never before...
+- A profession system such as Blacksmith, Cook, Alchemist, and more! All from Age of Exile.
+- A brand new Talent Tree with new interesting stats!
+- We now also have loadouts! Save multiple characters per account and easily switch between them!
+- A new dimension arrives! Visit the Hell dimension thanks to World of Exile. You can enter this dimension after defeating the Ender Dragon.
+- Mob level scales with distance now instead of to player in the Overworld.
+- New dimension progression: Overworld (1-15), Bumble (5-20), Nether (15-25), End (25-30), Hell (30-40).
+- Boss mobs now have a static level.
+- With the inclusion of loadouts, reset potions are slightly more expensive.
+- XX Fix quests.
+- XX Add quests for dungeons + skill gems + hell.
+- XX Fix datapacks for AOE.
+
+### Mod Updates
+- Updated Fabric API, Cloth Config API, Architectuary, WTHIT, MaLiLib, KubeJS, Konkrete, Item Scroller, Inventory HUD+, Hardcore Questing Mode, GeckoLib, FancyMenu, Fabric Language Kotlin, Auth Me, Enhanced Celestials, Compact Status Effects, AppleSkin, ItemFlexer, Age of Exile, Anti Mob Cheese, Library of Exile, World of Exile, Xaero's.
+
+### Fixes
+- Crash from HQM should be resolved when making a new world.
+
 ## [2.3.2] - 2021-12-10
 
 ### Known Issues
