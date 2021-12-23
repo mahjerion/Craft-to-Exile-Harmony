@@ -24,7 +24,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - XX Fix datapacks for AOE.
 
 ### Mod Updates
-- Updated Fabric API, Cloth Config API, Architectuary, WTHIT, MaLiLib, KubeJS, Konkrete, Item Scroller, Inventory HUD+, Hardcore Questing Mode, GeckoLib, FancyMenu, Fabric Language Kotlin, Auth Me, Enhanced Celestials, Compact Status Effects, AppleSkin, ItemFlexer, Age of Exile, Anti Mob Cheese, Library of Exile, World of Exile, Xaero's, Chat Heads.
+- Updated Fabric API, Cloth Config API, Architectuary, WTHIT, MaLiLib, KubeJS, Konkrete, Item Scroller, Inventory HUD+, Hardcore Questing Mode, GeckoLib, FancyMenu, Fabric Language Kotlin, Auth Me, Enhanced Celestials, Compact Status Effects, AppleSkin, ItemFlexer, Age of Exile, Anti Mob Cheese, Library of Exile, World of Exile, Xaero's, Chat Heads, Polymorph, FLAN.
 
 ### Fixes
 - Crash from HQM should be resolved when making a new world.
